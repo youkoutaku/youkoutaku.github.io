@@ -16,7 +16,7 @@ timezone: Asia/Tokyo
 
 title: Youkoutaku # the main title
 
-tagline: A student who learning control theory and robotics. # it will display as the sub-title
+tagline: A student, learning control theory and robotics. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   I will share articles about life, technology, and learning.
