@@ -8,7 +8,7 @@ order: 4
 
 #### ME
 -  George Young/ You Koutaku(JP)/ Guangze Yang(CN) 
-- 🎓 I'm a learning student in [Ibaraki University](https://www.ibaraki.ac.jp/).  My major is [Mechanical Systems Engineering](http://nyushi.eng.ibaraki.ac.jp/department_intro/)
+- 🎓 I'm a learning student in [Ibaraki University](https://www.ibaraki.ac.jp).  My major is [Mechanical Systems Engineering](http://nyushi.eng.ibaraki.ac.jp/department_intro).
 - 🔥 Interested in working with Control System & Embedded Development & AI & Robot & Computer Vision, and want to try new things. 
 - ⭐ I'm keen to share some of my learning notes and learn from those who are outstanding.
 - 🔭 I’m currently working on my graduation research about multi-agent system.
