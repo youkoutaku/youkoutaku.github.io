@@ -3,7 +3,7 @@
 ```YAML
 ---
 title: TITLE
-date: YYYY-MM-DD HH:MM:SS +/-TTTT
+date: YYYY-MM-DD HH:MM:SS +0900 #Tokyo
 categories: [TOP_CATEGORIE, SUB_CATEGORIE]
 tags: [TAG]     # TAG names should always be lowercase
 author: <author_id>
