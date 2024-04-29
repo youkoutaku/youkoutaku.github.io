@@ -1,0 +1,207 @@
+{
+  "recentFiles": [
+    {
+      "basename": "高階不確定な非線形システムに対する合意追従制御ための有限時間指令状態推定器",
+      "path": "Lab/卒論/高階不確定な非線形システムに対する合意追従制御ための有限時間指令状態推定器/高階不確定な非線形システムに対する合意追従制御ための有限時間指令状態推定器.md"
+    },
+    {
+      "basename": "2次非線形マルチエージェントシステムに対するスライディングモード編隊制御",
+      "path": "Lab/卒論/2次非線形マルチエージェントシステムに対するスライディングモード編隊制/2次非線形マルチエージェントシステムに対するスライディングモード編隊制御.md"
+    },
+    {
+      "basename": "9.LMIに基づくコントローラ設計",
+      "path": "制御工学/現代制御入門MATLAB&Simulink/9.LMIに基づくコントローラ設計.md"
+    },
+    {
+      "basename": "8.最適レギュレータ",
+      "path": "制御工学/現代制御入門MATLAB&Simulink/8.最適レギュレータ.md"
+    },
+    {
+      "basename": "6.オブザーバと出力フィードバック",
+      "path": "制御工学/現代制御入門MATLAB&Simulink/6.オブザーバと出力フィードバック.md"
+    },
+    {
+      "basename": "2.2グラフ理論",
+      "path": "Multi-Agent System/2.2グラフ理論.md"
+    },
+    {
+      "basename": "2.1線形代数の基礎",
+      "path": "Multi-Agent System/2.1線形代数の基礎.md"
+    },
+    {
+      "basename": "1. 序論",
+      "path": "Multi-Agent System/1. 序論.md"
+    },
+    {
+      "basename": "Index",
+      "path": "Lab/論文/model/Index.md"
+    },
+    {
+      "basename": "sgn",
+      "path": "Excalidraw/sgn.md"
+    },
+    {
+      "basename": "関数近似RBFネットワーク",
+      "path": "Lab/シミュレーション/RBFNN/関数近似RBFネットワーク.md"
+    },
+    {
+      "basename": "SMFCメモ",
+      "path": "Lab/シミュレーション/SMFC/SMFCメモ.md"
+    },
+    {
+      "basename": "SFMCブロック線図",
+      "path": "Excalidraw/SFMCブロック線図.md"
+    },
+    {
+      "basename": "SFMCブロック線図",
+      "path": "Lab/シミュレーション/SMFC/SFMCブロック線図.png"
+    },
+    {
+      "basename": "公称制御入力 と 等価制御入力",
+      "path": "Lab/卒論/知識/公称制御入力 と 等価制御入力.md"
+    },
+    {
+      "basename": "リアプノフ候補関数",
+      "path": "Lab/卒論/知識/リアプノフ候補関数.md"
+    },
+    {
+      "basename": "スライディングモード",
+      "path": "Lab/卒論/知識/スライディングモード.md"
+    },
+    {
+      "basename": "コンパクト集合",
+      "path": "Lab/卒論/知識/コンパクト集合.md"
+    },
+    {
+      "basename": "ガウス基底関数",
+      "path": "Lab/卒論/知識/ガウス基底関数.md"
+    },
+    {
+      "basename": "SGUUB",
+      "path": "Lab/卒論/知識/SGUUB.md"
+    },
+    {
+      "basename": "RBFネットワーク",
+      "path": "Lab/卒論/知識/RBFネットワーク.md"
+    },
+    {
+      "basename": "Finite-time stable",
+      "path": "Lab/卒論/知識/Finite-time stable.md"
+    },
+    {
+      "basename": "Hurwitz equation",
+      "path": "Lab/卒論/知識/Hurwitz equation.md"
+    },
+    {
+      "basename": "Index",
+      "path": "Lab/論文/Formulas for Data-Driven Contol/Index.md"
+    },
+    {
+      "basename": "8. Frequency Control Design",
+      "path": "制御工学/古典制御入門MATLAB&Simulink/8. Frequency Control Design.md"
+    },
+    {
+      "basename": "2.サンプリングとz変換",
+      "path": "システム同定/2.サンプリングとz変換.md"
+    },
+    {
+      "basename": "7. Frequency Characteristic",
+      "path": "制御工学/古典制御入門MATLAB&Simulink/7. Frequency Characteristic.md"
+    },
+    {
+      "basename": "宿題 PID制御器のシミュレーション",
+      "path": "システム同定/宿題/宿題 PID制御器のシミュレーション.md"
+    },
+    {
+      "basename": "3.線形システムのパラメータ推定",
+      "path": "システム同定/3.線形システムのパラメータ推定.md"
+    },
+    {
+      "basename": "1.線形連続時間モデル",
+      "path": "システム同定/1.線形連続時間モデル.md"
+    },
+    {
+      "basename": "6. PID Control",
+      "path": "制御工学/古典制御入門MATLAB&Simulink/6. PID Control.md"
+    },
+    {
+      "basename": "5. S Control Design",
+      "path": "制御工学/古典制御入門MATLAB&Simulink/5. S Control Design.md"
+    },
+    {
+      "basename": "Index-multi-agent system",
+      "path": "Multi-Agent System/Index-multi-agent system.md"
+    },
+    {
+      "basename": "正定値",
+      "path": "Multi-Agent System/正定値.md"
+    },
+    {
+      "basename": "ROS控制Tello",
+      "path": "Lab/RoboMaster TT/5/ROS控制Tello.pdf"
+    },
+    {
+      "basename": "决赛发布",
+      "path": "Lab/RoboMaster TT/6/决赛发布.pdf"
+    },
+    {
+      "basename": "系统集成与初赛环境使用",
+      "path": "Lab/RoboMaster TT/4/系统集成与初赛环境使用.pdf"
+    },
+    {
+      "basename": "图像处理介绍",
+      "path": "Lab/RoboMaster TT/3/图像处理介绍.pdf"
+    },
+    {
+      "basename": "ROS基础",
+      "path": "Lab/RoboMaster TT/2/ROS基础.pdf"
+    },
+    {
+      "basename": "Ubuntu&ROS安装",
+      "path": "Lab/RoboMaster TT/1/Ubuntu&ROS安装.pdf"
+    },
+    {
+      "basename": "hw_2",
+      "path": "Lab/RoboMaster TT/2/hw_2.md"
+    },
+    {
+      "basename": "README",
+      "path": "Lab/RoboMaster TT/2/README.md"
+    },
+    {
+      "basename": "README",
+      "path": "Lab/RoboMaster TT/1/README.md"
+    },
+    {
+      "basename": "hw_1",
+      "path": "Lab/RoboMaster TT/1/hw_1.md"
+    },
+    {
+      "basename": "2.基礎数学",
+      "path": "Multi-Agent System/2.基礎数学.md"
+    },
+    {
+      "basename": "3.合意制御",
+      "path": "Multi-Agent System/3.合意制御.md"
+    },
+    {
+      "basename": "4.被覆制御",
+      "path": "Multi-Agent System/4.被覆制御.md"
+    },
+    {
+      "basename": "5.分散最適化",
+      "path": "Multi-Agent System/5.分散最適化.md"
+    },
+    {
+      "basename": "ユークリッド空間",
+      "path": "線形代数/線形代数入門/ユークリッド空間.md"
+    },
+    {
+      "basename": "Index",
+      "path": "Lab/論文/分散型の情報フィードバックを介したロボット群の移動編隊制御/Index.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}

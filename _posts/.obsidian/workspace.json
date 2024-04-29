@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "3a5df287af5d4869",
+    "type": "split",
+    "children": [
+      {
+        "id": "58d603fd280935b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74acc67635b1984d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-04-29-My Blog.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8e64c67332b8024f",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3b1d557a53250a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3f44bdea1c280c1",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "b8894aa598e36e66",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bc654ee4e0eeb600",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:TAG",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "44a6290bc13bfe04",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "a60c3979bb47ba31",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9c661c0dc982f4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c014e9284f483942",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2024-04-29-My Blog.md"
+              }
+            }
+          },
+          {
+            "id": "16affb378c172491",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "0465c7f5601521fc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2024-04-29-My Blog.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "860f8ac2508edf2d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2024-04-29-My Blog.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5c0c18ade32ffaad",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "065b64303df1b9e3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "74acc67635b1984d",
+  "lastOpenFiles": [
+    "Temp/Post Temple.md",
+    "2024-04-29-My Blog.md",
+    "Temp",
+    "願書/国際交流活動等の実績.md",
+    "願書/学会発表.md",
+    "願書/学習・研究計画.md",
+    "願書/進路の希望.md",
+    "日中友好協会/元宵节2024年2月24日(土曜日).md",
+    "Blog/模板.md",
+    "Obsidian/基础",
+    "Blog",
+    "HAO中国語授業/研修/额外研修/1.md",
+    "HAO中国語授業/研修/额外研修/2.md",
+    "HAO中国語授業/研修/本部研修/1/1-会社規則・服装・行動規則・学校勤務注意点など.md",
+    "HAO中国語授業/HAO中国语/出発！中国語.pdf",
+    "HAO中国語授業/自習コンテンツ/漢語発音/声調位置ルール.md",
+    "HAO中国語授業/自習コンテンツ/漢語発音/表記変更.md",
+    "HAO中国語授業/自習コンテンツ/漢語発音/1.声調.md",
+    "HAO中国語授業/自習コンテンツ/基準/文法の教え方.md",
+    "HAO中国語授業/自習コンテンツ/文法解説/出発!中国語.md",
+    "HAO中国語授業/自習コンテンツ/基準/単語の教え方.md",
+    "HAO中国語授業/自習コンテンツ/基準/例文の教え方.md",
+    "HAO中国語授業/自習コンテンツ/基準/会話の教え方.md",
+    "HAO中国語授業/自習コンテンツ/基準/ピンインの教え方.md",
+    "HAO中国語授業/自習コンテンツ/基準/アドバイス.md",
+    "HAO中国語授業/研修/本部研修/3/拼音 教案.md",
+    "HAO中国語授業/自習コンテンツ/デモレッスン/出発-第七课.md",
+    "HAO中国語授業/研修/本部研修/3/3-拼音教法.md",
+    "HAO中国語授業/研修/本部研修/2/デモレッスン準備.md",
+    "HAO中国語授業/研修/基础台本.md",
+    "HAO中国語授業/授業準備/5上/HSK5-sample.pdf",
+    "HAO中国語授業/授業準備/4下/attachments/Pasted image 20240327122002.png",
+    "HAO中国語授業/授業準備/4下/attachments/Pasted image 20240327121946.png",
+    "HAO中国語授業/授業準備/4下/attachments/Pasted image 20240327121911.png",
+    "HAO中国語授業/授業準備/4下/attachments",
+    "中国語授業/授業準備/Untitled 1",
+    "HAO中国語授業/授業準備/無料体験",
+    "日中友好協会",
+    "HAO中国語授業/授業準備/渡部さん",
+    "HAO中国語授業/授業準備/5上/attachments/Pasted image 20240124124954.png",
+    "AI/Reinforcement Learning/Easy_RL/attachments/Pasted image 20231120124931.png",
+    "AI/Reinforcement Learning/Easy_RL/attachments/Pasted image 20231120124506.png",
+    "AI/Reinforcement Learning/Easy_RL/attachments/Pasted image 20231120113007.png",
+    "Excalidraw/System.png",
+    "ROS/Programming Robots with ROS/attachments/Pasted image 20231116140052.png",
+    "0_Control Engineering/attachments/v2-bb750f7f542357da325e11079791679c_1440w.png"
+  ]
+}

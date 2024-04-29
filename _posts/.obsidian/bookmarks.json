@@ -1,0 +1,71 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1683673924736,
+      "items": [],
+      "title": ""
+    },
+    {
+      "type": "group",
+      "ctime": 1683673958287,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1683673989215,
+          "path": "0_Control Engineering/古典制御入門MATLAB&Simulink/Index-Classical Control Theory.md",
+          "title": "古典制御理論ゼミ"
+        },
+        {
+          "type": "file",
+          "ctime": 1683674192119,
+          "path": "0_Control Engineering/FEEDBACK_CONTROL_OF_DYNAMIC_SYSTEMS/Index-FEEDBACK CONTROL OF DYNAMIC SYSTEMS.md",
+          "title": "FEEDBACK CONTROL OF DYNAMIC SYSTEMS"
+        }
+      ],
+      "title": "Classical Control"
+    },
+    {
+      "type": "group",
+      "ctime": 1683674018176,
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1684366097945,
+          "path": "数学基礎/Essence_of_Liner_algebra_线性代数本质"
+        },
+        {
+          "type": "file",
+          "ctime": 1684395471723,
+          "path": "数学基礎/Essence_of_Liner_algebra_线性代数本质/e的矩阵指数.md"
+        }
+      ],
+      "title": "3Blue1Brown"
+    },
+    {
+      "type": "group",
+      "ctime": 1683674044888,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1683674157399,
+          "path": "0_Control Engineering/現代制御入門MATLAB&Simulink/Index-Modern Control Theory.md",
+          "title": "現代制御理論ゼミ"
+        }
+      ],
+      "title": "Modern Control"
+    },
+    {
+      "type": "group",
+      "ctime": 1684366123890,
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1684366149953,
+          "path": "Multi-Agent Systems"
+        }
+      ],
+      "title": "MAS Control"
+    }
+  ]
+}

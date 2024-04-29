@@ -1,0 +1,207 @@
+{
+  "recentFiles": [
+    {
+      "basename": "A survey of multi-agent formation control",
+      "path": "Lab/論文/A survey of multi-agent formation control.md"
+    },
+    {
+      "basename": "A Survey of Multi-Agent Systems on Distributed Formation Control",
+      "path": "Lab/論文/A Survey of Multi-Agent Systems on Distributed Formation Control.md"
+    },
+    {
+      "basename": "Kronecker product",
+      "path": "Lab/知識/Kronecker product.md"
+    },
+    {
+      "basename": "Index",
+      "path": "Lab/論文/Index.md"
+    },
+    {
+      "basename": "離散時間システム",
+      "path": "デジタル信号処理/知識/離散時間システム.md"
+    },
+    {
+      "basename": "8. Frequency Control Design",
+      "path": "制御工学/古典制御入門MATLAB&Simulink/8. Frequency Control Design.md"
+    },
+    {
+      "basename": "2.サンプリングとz変換",
+      "path": "システム同定/2.サンプリングとz変換.md"
+    },
+    {
+      "basename": "1.線形連続時間モデル",
+      "path": "システム同定/1.線形連続時間モデル.md"
+    },
+    {
+      "basename": "MAS",
+      "path": "Lab/シミュレーション/MAS/MAS.md"
+    },
+    {
+      "basename": "5.サーボシステムの制御",
+      "path": "制御工学/現代制御入門MATLAB&Simulink/5.サーボシステムの制御.md"
+    },
+    {
+      "basename": "4.状態フィードバックによる制御",
+      "path": "制御工学/現代制御入門MATLAB&Simulink/4.状態フィードバックによる制御.md"
+    },
+    {
+      "basename": "7. Frequency Characteristic",
+      "path": "制御工学/古典制御入門MATLAB&Simulink/7. Frequency Characteristic.md"
+    },
+    {
+      "basename": "6. PID Control",
+      "path": "制御工学/古典制御入門MATLAB&Simulink/6. PID Control.md"
+    },
+    {
+      "basename": "5. S Control Design",
+      "path": "制御工学/古典制御入門MATLAB&Simulink/5. S Control Design.md"
+    },
+    {
+      "basename": "4. 1st & 2nd order lay System",
+      "path": "制御工学/古典制御入門MATLAB&Simulink/4. 1st & 2nd order lay System.md"
+    },
+    {
+      "basename": "3. System Stability & Transition Characteristic",
+      "path": "制御工学/古典制御入門MATLAB&Simulink/3. System Stability & Transition Characteristic.md"
+    },
+    {
+      "basename": "2.System Time Response",
+      "path": "制御工学/古典制御入門MATLAB&Simulink/2.System Time Response.md"
+    },
+    {
+      "basename": "1.System",
+      "path": "制御工学/古典制御入門MATLAB&Simulink/1.System.md"
+    },
+    {
+      "basename": "問題点",
+      "path": "Lab/卒論/問題点.md"
+    },
+    {
+      "basename": "推定可能性について",
+      "path": "Lab/卒論/推定可能性について.md"
+    },
+    {
+      "basename": "編隊パターンベクトルについて",
+      "path": "Lab/卒論/編隊パターンベクトルについて.md"
+    },
+    {
+      "basename": "SMFCメモ",
+      "path": "Lab/シミュレーション/SMFC/SMFCメモ.md"
+    },
+    {
+      "basename": "2次非線形マルチエージェントシステムに対するスライディングモード編隊制御",
+      "path": "Lab/卒論/2次非線形マルチエージェントシステムに対するスライディングモード編隊制/2次非線形マルチエージェントシステムに対するスライディングモード編隊制御.md"
+    },
+    {
+      "basename": "1. 序論",
+      "path": "Multi-Agent System/1. 序論.md"
+    },
+    {
+      "basename": "高次の不確実な非線形システムに対するロバスト合意追従制御：カスケード有限時間指令状態推定器",
+      "path": "Lab/卒論/高階不確定な非線形システムに対する合意追従制御ための有限時間指令状態推定器/高次の不確実な非線形システムに対するロバスト合意追従制御：カスケード有限時間指令状態推定器.md"
+    },
+    {
+      "basename": "EOR",
+      "path": "Lab/シミュレーション/EOR/EOR.md"
+    },
+    {
+      "basename": "Pasted image 20230912152111",
+      "path": "Lab/シミュレーション/MAS/attachments/Pasted image 20230912152111.png"
+    },
+    {
+      "basename": "スライディングモード",
+      "path": "Lab/知識/スライディングモード.md"
+    },
+    {
+      "basename": "Pasted image 20230627164816",
+      "path": "Lab/卒論/attachments/Pasted image 20230627164816.png"
+    },
+    {
+      "basename": "SFMCブロック線図",
+      "path": "Lab/シミュレーション/SMFC/SFMCブロック線図.png"
+    },
+    {
+      "basename": "3.線形システムのパラメータ推定",
+      "path": "システム同定/3.線形システムのパラメータ推定.md"
+    },
+    {
+      "basename": "4.連続時間システムの同定",
+      "path": "システム同定/4.連続時間システムの同定.md"
+    },
+    {
+      "basename": "宿題 PID制御器のシミュレーション",
+      "path": "システム同定/宿題/宿題 PID制御器のシミュレーション.md"
+    },
+    {
+      "basename": "2.2グラフ理論",
+      "path": "Multi-Agent System/2.2グラフ理論.md"
+    },
+    {
+      "basename": "2.基礎数学",
+      "path": "Multi-Agent System/2.基礎数学.md"
+    },
+    {
+      "basename": "3.合意制御",
+      "path": "Multi-Agent System/3.合意制御.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "9.LMIに基づくコントローラ設計",
+      "path": "制御工学/現代制御入門MATLAB&Simulink/9.LMIに基づくコントローラ設計.md"
+    },
+    {
+      "basename": "1.古典制御理論から現代制御理論",
+      "path": "制御工学/現代制御入門MATLAB&Simulink/1.古典制御理論から現代制御理論.md"
+    },
+    {
+      "basename": "8.最適レギュレータ",
+      "path": "制御工学/現代制御入門MATLAB&Simulink/8.最適レギュレータ.md"
+    },
+    {
+      "basename": "Sliding Mode Control",
+      "path": "制御工学/Sliding Mode Control.md"
+    },
+    {
+      "basename": "制御工学ノート",
+      "path": "制御工学/制御工学ノート.md"
+    },
+    {
+      "basename": "An Overview and Brief Hitstory of Feedback Control",
+      "path": "制御工学/FEEDBACK_CONTROL_OF_DYNAMIC_SYSTEMS/An Overview and Brief Hitstory of Feedback Control.md"
+    },
+    {
+      "basename": "Index-FEEDBACK CONTROL OF DYNAMIC SYSTEMS",
+      "path": "制御工学/FEEDBACK_CONTROL_OF_DYNAMIC_SYSTEMS/Index-FEEDBACK CONTROL OF DYNAMIC SYSTEMS.md"
+    },
+    {
+      "basename": "11.2nd order System Unit Step Response",
+      "path": "制御工学/Dynamic System Modeling/11.2nd order System Unit Step Response.md"
+    },
+    {
+      "basename": "Index-Dynamic System Modeling",
+      "path": "制御工学/Dynamic System Modeling/Index-Dynamic System Modeling.md"
+    },
+    {
+      "basename": "正定行列",
+      "path": "制御工学/現代制御入門MATLAB&Simulink/subpages/正定行列.md"
+    },
+    {
+      "basename": "正定値",
+      "path": "Multi-Agent System/正定値.md"
+    },
+    {
+      "basename": "2.1線形代数の基礎",
+      "path": "Multi-Agent System/2.1線形代数の基礎.md"
+    },
+    {
+      "basename": "半正定関数",
+      "path": "制御工学/現代制御入門MATLAB&Simulink/subpages/半正定関数.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}

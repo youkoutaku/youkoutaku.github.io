@@ -1,0 +1,18 @@
+{
+  "showLineNumber": true,
+  "attachmentFolderPath": "./attachments",
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true,
+  "strictLineBreaks": true,
+  "spellcheckLanguages": null,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "readableLineLength": true,
+  "vimMode": false,
+  "spellcheck": false
+}

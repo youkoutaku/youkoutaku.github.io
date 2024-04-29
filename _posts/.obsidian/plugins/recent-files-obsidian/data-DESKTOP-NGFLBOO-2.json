@@ -1,0 +1,207 @@
+{
+  "recentFiles": [
+    {
+      "basename": "4.状態フィードバックによる制御",
+      "path": "制御工学/現代制御入門MATLAB&Simulink/4.状態フィードバックによる制御.md"
+    },
+    {
+      "basename": "3.線形システムのパラメータ推定",
+      "path": "システム同定/3.線形システムのパラメータ推定.md"
+    },
+    {
+      "basename": "4.連続時間システムの同定",
+      "path": "システム同定/4.連続時間システムの同定.md"
+    },
+    {
+      "basename": "3.合意制御",
+      "path": "Multi-Agent System/3.合意制御.md"
+    },
+    {
+      "basename": "合意",
+      "path": "Multi-Agent System/subpage/合意.md"
+    },
+    {
+      "basename": "Index-multi-agent system",
+      "path": "Multi-Agent System/Index-multi-agent system.md"
+    },
+    {
+      "basename": "3.線形システムの時間応答",
+      "path": "制御工学/現代制御入門MATLAB&Simulink/3.線形システムの時間応答.md"
+    },
+    {
+      "basename": "Index-System Identification",
+      "path": "システム同定/Index-System Identification.md"
+    },
+    {
+      "basename": "2.2グラフ理論",
+      "path": "Multi-Agent System/2.2グラフ理論.md"
+    },
+    {
+      "basename": "2.1線形代数の基礎",
+      "path": "Multi-Agent System/2.1線形代数の基礎.md"
+    },
+    {
+      "basename": "2.基礎数学",
+      "path": "Multi-Agent System/2.基礎数学.md"
+    },
+    {
+      "basename": "1. 序論",
+      "path": "Multi-Agent System/1. 序論.md"
+    },
+    {
+      "basename": "宿題 逐次最小二乗法によるパラメータ推定",
+      "path": "システム同定/宿題/宿題 逐次最小二乗法によるパラメータ推定.md"
+    },
+    {
+      "basename": "04.矩阵乘法与线性变换复合",
+      "path": "Essence_of_Liner_algebra_线性代数本质/04.矩阵乘法与线性变换复合.md"
+    },
+    {
+      "basename": "04.补充三维空间中的线性变换",
+      "path": "Essence_of_Liner_algebra_线性代数本质/04.补充三维空间中的线性变换.md"
+    },
+    {
+      "basename": "05.行列式",
+      "path": "Essence_of_Liner_algebra_线性代数本质/05.行列式.md"
+    },
+    {
+      "basename": "確率行列",
+      "path": "Multi-Agent System/subpage/確率行列.md"
+    },
+    {
+      "basename": "全域木",
+      "path": "Multi-Agent System/subpage/全域木.md"
+    },
+    {
+      "basename": "Index-FEEDBACK CONTROL OF DYNAMIC SYSTEMS",
+      "path": "FEEDBACK_CONTROL_OF_DYNAMIC_SYSTEMS/Index-FEEDBACK CONTROL OF DYNAMIC SYSTEMS.md"
+    },
+    {
+      "basename": "An Overview and Brief Hitstory of Feedback Control",
+      "path": "FEEDBACK_CONTROL_OF_DYNAMIC_SYSTEMS/An Overview and Brief Hitstory of Feedback Control.md"
+    },
+    {
+      "basename": "強連結",
+      "path": "Multi-Agent System/subpage/強連結.md"
+    },
+    {
+      "basename": "デカルト積",
+      "path": "Multi-Agent System/subpage/デカルト積.md"
+    },
+    {
+      "basename": "ペロン行列",
+      "path": "Multi-Agent System/subpage/ペロン行列.md"
+    },
+    {
+      "basename": "全域木2.13",
+      "path": "Excalidraw/全域木2.13.md"
+    },
+    {
+      "basename": "全域部分グラフ",
+      "path": "Multi-Agent System/subpage/全域部分グラフ.md"
+    },
+    {
+      "basename": "半単純",
+      "path": "Multi-Agent System/subpage/半単純.md"
+    },
+    {
+      "basename": "固有ベクトル",
+      "path": "線形代数/線形代数入門/固有値と固有ベクトル/固有ベクトル.md"
+    },
+    {
+      "basename": "最大次数",
+      "path": "Multi-Agent System/subpage/最大次数.md"
+    },
+    {
+      "basename": "行列指数関数",
+      "path": "Multi-Agent System/subpage/行列指数関数.md"
+    },
+    {
+      "basename": "正行列",
+      "path": "Multi-Agent System/subpage/正行列.md"
+    },
+    {
+      "basename": "ペロンの定理",
+      "path": "Multi-Agent System/subpage/ペロンの定理.md"
+    },
+    {
+      "basename": "既約",
+      "path": "制御工学/現代制御入門MATLAB&Simulink/subpages/既約.md"
+    },
+    {
+      "basename": "可約",
+      "path": "Multi-Agent System/subpage/可約.md"
+    },
+    {
+      "basename": "スペクトル半径",
+      "path": "Multi-Agent System/subpage/スペクトル半径.md"
+    },
+    {
+      "basename": "08.第一部分叉积的标准介绍",
+      "path": "Essence_of_Liner_algebra_线性代数本质/08.第一部分叉积的标准介绍.md"
+    },
+    {
+      "basename": "07.点积与对偶性",
+      "path": "Essence_of_Liner_algebra_线性代数本质/07.点积与对偶性.md"
+    },
+    {
+      "basename": "制御対象",
+      "path": "制御工学/現代制御入門MATLAB&Simulink/subpages/制御対象.md"
+    },
+    {
+      "basename": "Index-Classical Control Theory",
+      "path": "制御工学/古典制御入門MATLAB&Simulink/Index-Classical Control Theory.md"
+    },
+    {
+      "basename": "4. 1st & 2nd order lay System",
+      "path": "制御工学/古典制御入門MATLAB&Simulink/4. 1st & 2nd order lay System.md"
+    },
+    {
+      "basename": "3. System Stability & Transition Characteristic",
+      "path": "制御工学/古典制御入門MATLAB&Simulink/3. System Stability & Transition Characteristic.md"
+    },
+    {
+      "basename": "7.LTI System Unit Step Response",
+      "path": "Dynamic System Modeling/7.LTI System Unit Step Response.md"
+    },
+    {
+      "basename": "1.System",
+      "path": "制御工学/古典制御入門MATLAB&Simulink/1.System.md"
+    },
+    {
+      "basename": "2.System Time Response",
+      "path": "制御工学/古典制御入門MATLAB&Simulink/2.System Time Response.md"
+    },
+    {
+      "basename": "伍德伯里矩阵恒等式",
+      "path": "システム同定/子ページ/伍德伯里矩阵恒等式.md"
+    },
+    {
+      "basename": "宿題 PID制御器のシミュレーション",
+      "path": "システム同定/宿題/宿題 PID制御器のシミュレーション.md"
+    },
+    {
+      "basename": "熱力学ノート",
+      "path": "熱力学/熱力学ノート.md"
+    },
+    {
+      "basename": "宿題 離散時間システムの出力計算",
+      "path": "システム同定/宿題/宿題 離散時間システムの出力計算.md"
+    },
+    {
+      "basename": "Index-Modern Control Theory",
+      "path": "制御工学/現代制御入門MATLAB&Simulink/Index-Modern Control Theory.md"
+    },
+    {
+      "basename": "1.線形連続時間モデル",
+      "path": "システム同定/1.線形連続時間モデル.md"
+    },
+    {
+      "basename": "e的矩阵指数",
+      "path": "Essence_of_Liner_algebra_线性代数本质/e的矩阵指数.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}
