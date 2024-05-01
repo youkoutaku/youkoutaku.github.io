@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "微分演算子",
+      "path": "System Identification/子ページ/微分演算子.md"
+    },
+    {
+      "basename": "2023-05-25-SystemIdentification",
+      "path": "System Identification/2023-05-25-SystemIdentification.md"
+    },
+    {
+      "basename": "2023-05-02-PID",
+      "path": "2023-05-02-PID.md"
+    },
+    {
+      "basename": "2024-04-29-NewBlog",
+      "path": "2024-04-29-NewBlog.md"
+    },
+    {
+      "basename": "離散インパルス信号",
+      "path": "System Identification/子ページ/離散インパルス信号.md"
+    },
+    {
       "basename": "2024-05-02-PID",
       "path": "2024-05-02-PID.md"
     },
@@ -139,66 +159,6 @@
     {
       "basename": "Penalty function",
       "path": "Lab/Paper/Conllison-free/Penalty function.md"
-    },
-    {
-      "basename": "A hierarchical design framework for distributed control of multi-agent systems",
-      "path": "Lab/Paper/A hieratchical design framework for distributed control of multi-agent systems/A hierarchical design framework for distributed control of multi-agent systems.md"
-    },
-    {
-      "basename": "Index",
-      "path": "Lab/Paper/分散型の情報フィードバックを介したロボット群の移動編隊制御/Index.md"
-    },
-    {
-      "basename": "分類",
-      "path": "Lab/Paper/0_Format/分類.md"
-    },
-    {
-      "basename": "A Survey of Multi-Agent Systems on Distributed Formation Control",
-      "path": "Lab/Paper/Survey of MAS Formation Control/A Survey of Multi-Agent Systems on Distributed Formation Control.md"
-    },
-    {
-      "basename": "Algorithms for collision-free navigation of mobile robots in complex cluttered environments_a survey",
-      "path": "Lab/Paper/Survey of collisio-free/Algorithms for collision-free navigation of mobile robots in complex cluttered environments_a survey.md"
-    },
-    {
-      "basename": "A survey of multi-agent formation control",
-      "path": "Lab/Paper/Survey of MAS Formation Control/A survey of multi-agent formation control.md"
-    },
-    {
-      "basename": "2次非線形マルチエージェントシステムに対するスライディングモード編隊制御",
-      "path": "Lab/Paper/SMFC/2次非線形マルチエージェントシステムに対するスライディングモード編隊制御.md"
-    },
-    {
-      "basename": "2. 確率変数と確率分布",
-      "path": "Math/Statistics/数理統計学/数理統計入門特論/2. 確率変数と確率分布.md"
-    },
-    {
-      "basename": "3.1 Sample Spaces, Events, and Their Probability",
-      "path": "Math/Statistics/INTRODUCTORY STATISTICS/3.1 Sample Spaces, Events, and Their Probability.md"
-    },
-    {
-      "basename": "4.3 The Binomial Distribution",
-      "path": "Math/Statistics/INTRODUCTORY STATISTICS/4.3 The Binomial Distribution.md"
-    },
-    {
-      "basename": "4.2 Probability Distributions for Discrete Random Variables",
-      "path": "Math/Statistics/INTRODUCTORY STATISTICS/4.2 Probability Distributions for Discrete Random Variables.md"
-    },
-    {
-      "basename": "variance",
-      "path": "Math/Statistics/INTRODUCTORY STATISTICS/variance.md"
-    },
-    {
-      "basename": "random variable",
-      "path": "Math/Statistics/INTRODUCTORY STATISTICS/random variable.md"
-    },
-    {
-      "basename": "standard deviation",
-      "path": "Math/Statistics/INTRODUCTORY STATISTICS/standard deviation.md"
-    },
-    {
-      "basename": "mean",
-      "path": "Math/Statistics/INTRODUCTORY STATISTICS/mean.md"
     }
   ],
   "omittedPaths": [],

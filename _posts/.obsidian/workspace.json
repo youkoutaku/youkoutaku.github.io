@@ -8,15 +8,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "565b05030063d6b1",
+            "id": "ae8e07982160d207",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-05-02-PID.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,9 +89,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2024-05-02-PID.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,7 +117,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-05-02-PID.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +133,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-05-02-PID.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,54 +179,54 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "565b05030063d6b1",
+  "active": "ae8e07982160d207",
   "lastOpenFiles": [
-    "src/2024-05-02-PID.png",
-    "Control Engineering/System Identification/attachments/Pasted image 20230421184254.png",
-    "Control Engineering/System Identification/宿題/宿題 PID制御器のシミュレーション.md",
-    "Control Engineering/System Identification/宿題/宿題 PID制御器のシミュレーション 1.md",
-    "Control Engineering/System Identification/1.線形連続時間モデル.md",
+    "Post Temple.md",
+    "SystemIdentification/宿題/2023-05-02-3.md",
+    "SystemIdentification/宿題/2023-05-09-4.md",
+    "SystemIdentification/宿題/2023-04-29-2.md",
+    "SystemIdentification/宿題/2023-04-27-1.md",
+    "SystemIdentification/子ページ/離散ステップ信号.md",
+    "SystemIdentification/子ページ/後退差分.md",
+    "SystemIdentification/子ページ/周期関数.md",
+    "SystemIdentification/子ページ/伍德伯里矩阵恒等式.md",
+    "SystemIdentification/子ページ/前進差分.md",
+    "SystemIdentification/子ページ/ヘビサイドの公式.md",
+    "SystemIdentification/子ページ/デルタ関数のフーリエ変換.md",
+    "SystemIdentification/子ページ/インパルス応答.md",
+    "SystemIdentification/子ページ/semi262-PID.pdf",
+    "SystemIdentification/子ページ/サンプリング関数.md",
+    "SystemIdentification/宿題",
+    "SystemIdentification/子ページ",
+    "SystemIdentification/3.線形システムのパラメータ推定.md",
+    "SystemIdentification/2.サンプリングとz変換.md",
+    "SystemIdentification/2023-05-01-Linear Continuous-time Model.md",
+    "SystemIdentification",
+    "System Identification/2023-05-01-Linear Continuous-time Model.md",
+    "System Identification/2023-05-01-1.md",
+    "System Identification/宿題/2023-04-27-1.md",
+    "System Identification/宿題/2023-04-29-2.md",
+    "System Identification/宿題/2023-04-23-Step response of electrical circuits.md",
+    "System Identification/宿題/2023-04-23-1.md",
+    "System Identification/宿題/2023-04-27-2.md",
+    "System Identification/宿題/2023-05-02-3.md",
+    "System Identification/宿題/2023-05-09-4.md",
+    "System Identification/src/20230407124106.png",
+    "System Identification/子ページ/semi262-PID.pdf",
+    "System Identification/宿題",
+    "System Identification/子ページ",
+    "System Identification/src/20230529165242.png",
+    "System Identification/src/20230529164150.png",
+    "System Identification/src/20230529145655.png",
+    "System Identification/src/20230526101850.png",
+    "System Identification/src/20230519160027.png",
+    "System Identification/src/20230421184254.png",
+    "System Identification/src/20230421140751.png",
+    "System Identification/src/20230421135821.png",
+    "System Identification/src/20230421135456.jpg",
+    "System Identification/src",
+    "System Identification",
     "Control Engineering/Modeling/Kinematic Bicycle Model — Algorithms for Automated Driving.pdf",
-    "Control Engineering/Modeling/Kinematic bicycle model.md",
-    "Control Engineering/Model Predict Control/MPC from DR_CAN.md",
-    "Control Engineering/Modeling",
-    "Control Engineering/Model Predict Control/Beauty of Control Systems 2",
-    "Math/Statistics/数理統計学/数理統計入門特論/3. 期待値.md",
-    "AI/Reinforcement Learning/Reinforcement Learning An Introduction/Index_RL Richard S.Sutton.md",
-    "AI/Reinforcement Learning/平均からはじめる強化学習アルゴリズム入門.md",
-    "Lab/Paper/Prescribed performance/Summary.md",
-    "Lab/Paper/Prescribed performance/Perscribed performance for 2nd-order MAS with connectivity and collision constraints.md",
-    "Prescribed performance control.md",
-    "Lab/Paper/Prescribed performance/The dynamics of model tansformation error.md",
-    "Calender-ToDo/2024-04-24.md",
-    "Lab/問題点メモ/衝突防止Surray.md",
-    "Calender-ToDo/2024-04-23.md",
-    "Calender-ToDo/2024-04-22.md",
-    "Calender-ToDo/2024-04-17.md",
-    "Math/Statistics/数理統計学/数理統計入門特論/3..md",
-    "Math/Statistics/数理統計学/数理統計入門特論/Untitled.md",
-    "Lab/問題点メモ/src/Collision.png",
-    "Lab/問題点メモ/src/衝突防止.png",
-    "Lab/問題点メモ/src",
-    "Math/Liner Algebra/線形代数入門/行列/逆行列.md",
-    "Control Engineering/Multi-Agent Systems/2.1線形代数の基礎.md",
-    "Lab/Paper/Prescribed performance/src/New.png",
-    "Lab/Paper/Prescribed performance/src/MPC-CBF.png",
-    "Lab/Paper/Prescribed performance/Infinty norm.md",
-    "Control Engineering/Multi-Agent Systems/2.2グラフ理論.md",
-    "Lab/Paper/Prescribed performance/src/Bmatrix.png",
-    "Lab/Paper/Prescribed performance/src",
-    "Control Engineering/Multi-Agent Systems/subpage/グラフラプラシアン.md",
-    "Math/Liner Algebra/Essence_of_Liner_algebra_线性代数本质/11.抽象向量空间.md",
-    "Math/Statistics/INTRODUCTORY STATISTICS/src/4.2.1.png",
-    "Untitled.canvas",
-    "Math/Statistics/数理統計学/数理統計入門特論/subpage",
-    "Math/Statistics/INTRODUCTORY STATISTICS/Full.pdf",
-    "Math/Statistics/INTRODUCTORY STATISTICS/src/union of events.png",
-    "Math/Statistics/INTRODUCTORY STATISTICS/src",
-    "Math/Liner Algebra",
-    "Math/Statistics",
-    "Lab/Paper/Prescribed performance/src/Pasted image 20240418103117.png",
-    "Math/Statistics/数理統計学/src/intersection of events.png"
+    "Untitled.canvas"
   ]
 }
