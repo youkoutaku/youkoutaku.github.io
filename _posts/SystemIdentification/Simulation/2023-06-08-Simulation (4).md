@@ -3,7 +3,7 @@ title: SI:Simulation_4 System Identification
 date: 2023-06-08 15:33:00 +0900
 categories: [System Identification, Simulation]
 tags: [System Identification, Matlab, Contol]
-author: <author_id>
+author: Youkoutaku
 math: true
 ---
 
