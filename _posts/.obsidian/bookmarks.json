@@ -13,13 +13,13 @@
         {
           "type": "file",
           "ctime": 1683673989215,
-          "path": "0_Control Engineering/古典制御入門MATLAB&Simulink/Index-Classical Control Theory.md",
+          "path": "Control Engineering/Classical Control/古典制御入門MATLAB&Simulink/Index-Classical Control Theory.md",
           "title": "古典制御理論ゼミ"
         },
         {
           "type": "file",
           "ctime": 1683674192119,
-          "path": "0_Control Engineering/FEEDBACK_CONTROL_OF_DYNAMIC_SYSTEMS/Index-FEEDBACK CONTROL OF DYNAMIC SYSTEMS.md",
+          "path": "Control Engineering/Classical Control/FEEDBACK_CONTROL_OF_DYNAMIC_SYSTEMS/Index-FEEDBACK CONTROL OF DYNAMIC SYSTEMS.md",
           "title": "FEEDBACK CONTROL OF DYNAMIC SYSTEMS"
         }
       ],
@@ -32,12 +32,12 @@
         {
           "type": "folder",
           "ctime": 1684366097945,
-          "path": "数学基礎/Essence_of_Liner_algebra_线性代数本质"
+          "path": "Math/Liner Algebra/Essence_of_Liner_algebra_线性代数本质"
         },
         {
           "type": "file",
           "ctime": 1684395471723,
-          "path": "数学基礎/Essence_of_Liner_algebra_线性代数本质/e的矩阵指数.md"
+          "path": "Math/Liner Algebra/Essence_of_Liner_algebra_线性代数本质/e的矩阵指数.md"
         }
       ],
       "title": "3Blue1Brown"
@@ -49,7 +49,7 @@
         {
           "type": "file",
           "ctime": 1683674157399,
-          "path": "0_Control Engineering/現代制御入門MATLAB&Simulink/Index-Modern Control Theory.md",
+          "path": "Control Engineering/Modern Control/現代制御入門MATLAB&Simulink/Index-Modern Control Theory.md",
           "title": "現代制御理論ゼミ"
         }
       ],
@@ -62,7 +62,7 @@
         {
           "type": "folder",
           "ctime": 1684366149953,
-          "path": "Multi-Agent Systems"
+          "path": "Control Engineering/Multi-Agent Systems"
         }
       ],
       "title": "MAS Control"

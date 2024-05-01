@@ -1,21 +1,21 @@
 {
   "main": {
-    "id": "3a5df287af5d4869",
+    "id": "c62e599a04601b4d",
     "type": "split",
     "children": [
       {
-        "id": "58d603fd280935b1",
+        "id": "2ded25ac7279f695",
         "type": "tabs",
         "children": [
           {
-            "id": "74acc67635b1984d",
+            "id": "565b05030063d6b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-05-01 PID_Simulation.md",
+                "file": "2024-05-02-PID.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "8e64c67332b8024f",
+    "id": "699873e72a36232f",
     "type": "split",
     "children": [
       {
-        "id": "f3b1d557a53250a5",
+        "id": "95e2c06c5fb4ec9e",
         "type": "tabs",
         "children": [
           {
-            "id": "e3f44bdea1c280c1",
+            "id": "193004c8919e2383",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -41,7 +41,7 @@
             }
           },
           {
-            "id": "b8894aa598e36e66",
+            "id": "7a96a7b6ca269dce",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -51,12 +51,12 @@
             }
           },
           {
-            "id": "bc654ee4e0eeb600",
+            "id": "47175694c91b20be",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:TAG",
+                "query": "逆行列",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,7 @@
             }
           },
           {
-            "id": "44a6290bc13bfe04",
+            "id": "4e2bd817cc223591",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,65 +78,28 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 335.5
   },
   "right": {
-    "id": "a60c3979bb47ba31",
+    "id": "c28fa44957b113d7",
     "type": "split",
     "children": [
       {
-        "id": "d9c661c0dc982f4f",
+        "id": "06f2c44063a449fa",
         "type": "tabs",
         "children": [
           {
-            "id": "c014e9284f483942",
+            "id": "c00359485fd6c205",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-05-01 PID_Simulation.md"
+                "file": "2024-05-02-PID.md"
               }
             }
           },
           {
-            "id": "16affb378c172491",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "0465c7f5601521fc",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "2024-05-01 PID_Simulation.md",
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "860f8ac2508edf2d",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "2024-05-01 PID_Simulation.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "5c0c18ade32ffaad",
+            "id": "d299e6c63c1dc844",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -147,7 +110,44 @@
             }
           },
           {
-            "id": "065b64303df1b9e3",
+            "id": "3ad40938a2f29454",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "c86536808d07252c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2024-05-02-PID.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "769cb969e7defa3e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2024-05-02-PID.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b1e4ca80afc3a8d6",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -157,72 +157,84 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "ee8a446b5ec9d86b",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 408.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "webpage-html-export:Export Vault to HTML": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "74acc67635b1984d",
+  "active": "565b05030063d6b1",
   "lastOpenFiles": [
-    "Temp/Post Temple.md",
-    "2024-05-01 PID_Simulation.md",
-    "2024-04-29-My Blog.md",
-    "Temp",
-    "願書/国際交流活動等の実績.md",
-    "願書/学会発表.md",
-    "願書/学習・研究計画.md",
-    "願書/進路の希望.md",
-    "日中友好協会/元宵节2024年2月24日(土曜日).md",
-    "Blog/模板.md",
-    "Obsidian/基础",
-    "Blog",
-    "HAO中国語授業/研修/额外研修/1.md",
-    "HAO中国語授業/研修/额外研修/2.md",
-    "HAO中国語授業/研修/本部研修/1/1-会社規則・服装・行動規則・学校勤務注意点など.md",
-    "HAO中国語授業/HAO中国语/出発！中国語.pdf",
-    "HAO中国語授業/自習コンテンツ/漢語発音/声調位置ルール.md",
-    "HAO中国語授業/自習コンテンツ/漢語発音/表記変更.md",
-    "HAO中国語授業/自習コンテンツ/漢語発音/1.声調.md",
-    "HAO中国語授業/自習コンテンツ/基準/文法の教え方.md",
-    "HAO中国語授業/自習コンテンツ/文法解説/出発!中国語.md",
-    "HAO中国語授業/自習コンテンツ/基準/単語の教え方.md",
-    "HAO中国語授業/自習コンテンツ/基準/例文の教え方.md",
-    "HAO中国語授業/自習コンテンツ/基準/会話の教え方.md",
-    "HAO中国語授業/自習コンテンツ/基準/ピンインの教え方.md",
-    "HAO中国語授業/自習コンテンツ/基準/アドバイス.md",
-    "HAO中国語授業/研修/本部研修/3/拼音 教案.md",
-    "HAO中国語授業/自習コンテンツ/デモレッスン/出発-第七课.md",
-    "HAO中国語授業/研修/本部研修/3/3-拼音教法.md",
-    "HAO中国語授業/研修/本部研修/2/デモレッスン準備.md",
-    "HAO中国語授業/授業準備/5上/HSK5-sample.pdf",
-    "HAO中国語授業/授業準備/4下/attachments/Pasted image 20240327122002.png",
-    "HAO中国語授業/授業準備/4下/attachments/Pasted image 20240327121946.png",
-    "HAO中国語授業/授業準備/4下/attachments/Pasted image 20240327121911.png",
-    "HAO中国語授業/授業準備/4下/attachments",
-    "中国語授業/授業準備/Untitled 1",
-    "HAO中国語授業/授業準備/無料体験",
-    "日中友好協会",
-    "HAO中国語授業/授業準備/渡部さん",
-    "HAO中国語授業/授業準備/5上/attachments/Pasted image 20240124124954.png",
-    "AI/Reinforcement Learning/Easy_RL/attachments/Pasted image 20231120124931.png",
-    "AI/Reinforcement Learning/Easy_RL/attachments/Pasted image 20231120124506.png",
-    "AI/Reinforcement Learning/Easy_RL/attachments/Pasted image 20231120113007.png",
-    "Excalidraw/System.png",
-    "ROS/Programming Robots with ROS/attachments/Pasted image 20231116140052.png",
-    "0_Control Engineering/attachments/v2-bb750f7f542357da325e11079791679c_1440w.png"
+    "src/2024-05-02-PID.png",
+    "Control Engineering/System Identification/attachments/Pasted image 20230421184254.png",
+    "Control Engineering/System Identification/宿題/宿題 PID制御器のシミュレーション.md",
+    "Control Engineering/System Identification/宿題/宿題 PID制御器のシミュレーション 1.md",
+    "Control Engineering/System Identification/1.線形連続時間モデル.md",
+    "Control Engineering/Modeling/Kinematic Bicycle Model — Algorithms for Automated Driving.pdf",
+    "Control Engineering/Modeling/Kinematic bicycle model.md",
+    "Control Engineering/Model Predict Control/MPC from DR_CAN.md",
+    "Control Engineering/Modeling",
+    "Control Engineering/Model Predict Control/Beauty of Control Systems 2",
+    "Math/Statistics/数理統計学/数理統計入門特論/3. 期待値.md",
+    "AI/Reinforcement Learning/Reinforcement Learning An Introduction/Index_RL Richard S.Sutton.md",
+    "AI/Reinforcement Learning/平均からはじめる強化学習アルゴリズム入門.md",
+    "Lab/Paper/Prescribed performance/Summary.md",
+    "Lab/Paper/Prescribed performance/Perscribed performance for 2nd-order MAS with connectivity and collision constraints.md",
+    "Prescribed performance control.md",
+    "Lab/Paper/Prescribed performance/The dynamics of model tansformation error.md",
+    "Calender-ToDo/2024-04-24.md",
+    "Lab/問題点メモ/衝突防止Surray.md",
+    "Calender-ToDo/2024-04-23.md",
+    "Calender-ToDo/2024-04-22.md",
+    "Calender-ToDo/2024-04-17.md",
+    "Math/Statistics/数理統計学/数理統計入門特論/3..md",
+    "Math/Statistics/数理統計学/数理統計入門特論/Untitled.md",
+    "Lab/問題点メモ/src/Collision.png",
+    "Lab/問題点メモ/src/衝突防止.png",
+    "Lab/問題点メモ/src",
+    "Math/Liner Algebra/線形代数入門/行列/逆行列.md",
+    "Control Engineering/Multi-Agent Systems/2.1線形代数の基礎.md",
+    "Lab/Paper/Prescribed performance/src/New.png",
+    "Lab/Paper/Prescribed performance/src/MPC-CBF.png",
+    "Lab/Paper/Prescribed performance/Infinty norm.md",
+    "Control Engineering/Multi-Agent Systems/2.2グラフ理論.md",
+    "Lab/Paper/Prescribed performance/src/Bmatrix.png",
+    "Lab/Paper/Prescribed performance/src",
+    "Control Engineering/Multi-Agent Systems/subpage/グラフラプラシアン.md",
+    "Math/Liner Algebra/Essence_of_Liner_algebra_线性代数本质/11.抽象向量空间.md",
+    "Math/Statistics/INTRODUCTORY STATISTICS/src/4.2.1.png",
+    "Untitled.canvas",
+    "Math/Statistics/数理統計学/数理統計入門特論/subpage",
+    "Math/Statistics/INTRODUCTORY STATISTICS/Full.pdf",
+    "Math/Statistics/INTRODUCTORY STATISTICS/src/union of events.png",
+    "Math/Statistics/INTRODUCTORY STATISTICS/src",
+    "Math/Liner Algebra",
+    "Math/Statistics",
+    "Lab/Paper/Prescribed performance/src/Pasted image 20240418103117.png",
+    "Math/Statistics/数理統計学/src/intersection of events.png"
   ]
 }

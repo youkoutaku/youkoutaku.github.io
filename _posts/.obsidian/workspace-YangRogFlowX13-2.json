@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "ea10997dbd17dd0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0a06130422e885d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9eb142111a7fec98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "制御工学/現代制御入門MATLAB&Simulink/6.オブザーバと出力フィードバック.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ceff8b895f0cbd14",
+    "type": "split",
+    "children": [
+      {
+        "id": "1869a877498f91c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f18eda2436155f1a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4689ca49df7503f3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "10c03878de56ca88",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "31b60ca75497f171",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "d60756bdecd791be",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "89217997b40fd541",
+    "type": "split",
+    "children": [
+      {
+        "id": "1dc16d531691b19a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55d1007f23f212d3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "制御工学/現代制御入門MATLAB&Simulink/6.オブザーバと出力フィードバック.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7481c4b9a0496993",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "制御工学/現代制御入門MATLAB&Simulink/6.オブザーバと出力フィードバック.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ef75123fd776896a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f2d0d24769f1cd3a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "制御工学/現代制御入門MATLAB&Simulink/6.オブザーバと出力フィードバック.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "webpage-html-export:Export Vault to HTML": false
+    }
+  },
+  "active": "9eb142111a7fec98",
+  "lastOpenFiles": [
+    "制御工学/現代制御入門MATLAB&Simulink/Index-Modern Control Theory.md",
+    "制御工学/現代制御入門MATLAB&Simulink/6.オブザーバと出力フィードバック.md",
+    "制御工学/現代制御入門MATLAB&Simulink/5.サーボシステムの制御.md",
+    "制御工学/現代制御入門MATLAB&Simulink/attachments/Pasted image 20230609162856.png",
+    "制御工学/現代制御入門MATLAB&Simulink/attachments/Pasted image 20230609162759.png",
+    "README.md",
+    "Multi-Agent System/3.合意制御.md",
+    "システム同定/3.線形システムのパラメータ推定.md",
+    "システム同定/4.連続時間システムの同定.md",
+    "システム同定/Index-System Identification.md",
+    "Multi-Agent System/Index-multi-agent system.md",
+    "Multi-Agent System/4.被覆制御.md",
+    "Multi-Agent System/5.分散最適化.md",
+    "Multi-Agent System/attachments/Pasted image 20230609104501.png",
+    "制御工学/現代制御入門MATLAB&Simulink/attachments/Pasted image 20230608154534.png",
+    "制御工学/現代制御入門MATLAB&Simulink/attachments/Pasted image 20230608153947.png",
+    "Dynamic System Modeling/Index-Dynamic System Modeling.md",
+    "制御工学/現代制御入門MATLAB&Simulink/attachments/Pasted image 20230608153710.png",
+    "Multi-Agent System/2.2グラフ理論.md",
+    "制御工学/現代制御入門MATLAB&Simulink/4.状態フィードバックによる制御.md",
+    "Multi-Agent System/attachments/Pasted image 20230608111941.png",
+    "Multi-Agent System/attachments/Pasted image 20230608111012.png",
+    "Multi-Agent System/attachments/Pasted image 20230608110917.png",
+    "Multi-Agent System/attachments/Pasted image 20230608110702.png",
+    "Multi-Agent System/subpage/平衡グラフ.md",
+    "Multi-Agent System/2.基礎数学.md",
+    "Multi-Agent System/subpage/全域木.md",
+    "Multi-Agent System/subpage/有向木.md",
+    "デジタル信号処理/数学準備/ラプラス変換.md",
+    "デジタル信号処理/数学準備/逆ラプラス変換.md",
+    "Excalidraw/sの二乗分の一.md",
+    "Multi-Agent System/2.1線形代数の基礎.md",
+    "Multi-Agent System/subpage/隣接行列.md",
+    "Multi-Agent System/subpage/グラフラプラシアン.md",
+    "Multi-Agent System/subpage/合意集合.md",
+    "制御工学/古典制御入門MATLAB&Simulink/4. 1st & 2nd order lay System.md",
+    "Essence_of_Liner_algebra_线性代数本质/attachments/20230504-0935-35.0123624.mp4",
+    "Multi-Agent System/subpage",
+    "Multi-Agent System/attachments",
+    "Multi-Agent System",
+    "予定/数理統計学/attachments",
+    "線形代数/信号処理のための線形代数",
+    "線形代数/線形代数入門/連立方程式/attachments",
+    "線形代数/線形代数入門/連立方程式",
+    "線形代数/線形代数入門/行列式/attachments",
+    "線形代数/線形代数入門/行列式"
+  ]
+}

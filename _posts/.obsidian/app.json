@@ -1,6 +1,6 @@
 {
   "showLineNumber": true,
-  "attachmentFolderPath": "./attachments",
+  "attachmentFolderPath": "./src",
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
   "strictLineBreaks": true,
@@ -14,5 +14,9 @@
   },
   "readableLineLength": true,
   "vimMode": false,
-  "spellcheck": false
+  "spellcheck": false,
+  "rightToLeft": false,
+  "newLinkFormat": "relative",
+  "showUnsupportedFiles": true,
+  "tabSize": 4
 }

@@ -1,5 +1,5 @@
 {
-  "strategy": "default",
+  "strategy": "english-only",
   "cedictPath": "./cedict_ts.u8",
   "matchStrategy": "prefix",
   "fuzzyMatch": true,
@@ -29,7 +29,8 @@
     "select": [
       {
         "modifiers": [],
-        "key": "Enter"
+        "key": "Tab",
+        "hideHotkeyGuide": false
       }
     ],
     "up": [

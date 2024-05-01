@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "ea10997dbd17dd0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0e83266b962ac69",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d96767eeb242962",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "制御工学/現代制御入門MATLAB&Simulink/4.状態フィードバックによる制御.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ceff8b895f0cbd14",
+    "type": "split",
+    "children": [
+      {
+        "id": "1869a877498f91c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f18eda2436155f1a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4689ca49df7503f3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "2.15",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "10c03878de56ca88",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "31b60ca75497f171",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "d60756bdecd791be",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "89217997b40fd541",
+    "type": "split",
+    "children": [
+      {
+        "id": "1dc16d531691b19a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55d1007f23f212d3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "制御工学/現代制御入門MATLAB&Simulink/4.状態フィードバックによる制御.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7481c4b9a0496993",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "制御工学/現代制御入門MATLAB&Simulink/4.状態フィードバックによる制御.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ef75123fd776896a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f2d0d24769f1cd3a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "制御工学/現代制御入門MATLAB&Simulink/4.状態フィードバックによる制御.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "webpage-html-export:Export Vault to HTML": false
+    }
+  },
+  "active": "f18eda2436155f1a",
+  "lastOpenFiles": [
+    "システム同定/3.線形システムのパラメータ推定.md",
+    "システム同定/4.連続時間システムの同定.md",
+    "Multi-Agent System/3.合意制御.md",
+    "Multi-Agent System/subpage/合意.md",
+    "Multi-Agent System/Index-multi-agent system.md",
+    "制御工学/現代制御入門MATLAB&Simulink/3.線形システムの時間応答.md",
+    "制御工学/現代制御入門MATLAB&Simulink/4.状態フィードバックによる制御.md",
+    "システム同定/Index-System Identification.md",
+    "Multi-Agent System/attachments/Pasted image 20230602111120.png",
+    "Multi-Agent System/attachments/Pasted image 20230602111116.png",
+    "Multi-Agent System/2.2グラフ理論.md",
+    "Multi-Agent System/2.1線形代数の基礎.md",
+    "Multi-Agent System/2.基礎数学.md",
+    "Multi-Agent System/1. 序論.md",
+    "システム同定/宿題/宿題 逐次最小二乗法によるパラメータ推定.md",
+    "制御工学/現代制御入門MATLAB&Simulink/attachments/Pasted image 20230531150547.png",
+    "制御工学/現代制御入門MATLAB&Simulink/attachments/Pasted image 20230531145005.png",
+    "制御工学/現代制御入門MATLAB&Simulink/attachments/Pasted image 20230531144648.png",
+    "Essence_of_Liner_algebra_线性代数本质/04.矩阵乘法与线性变换复合.md",
+    "Essence_of_Liner_algebra_线性代数本质/04.补充三维空间中的线性变换.md",
+    "Essence_of_Liner_algebra_线性代数本质/05.行列式.md",
+    "制御工学/現代制御入門MATLAB&Simulink/attachments/Pasted image 20230531142207.png",
+    "制御工学/現代制御入門MATLAB&Simulink/attachments/Pasted image 20230531141259.png",
+    "Multi-Agent System/subpage/確率行列.md",
+    "Multi-Agent System/attachments/Pasted image 20230531103129.png",
+    "Multi-Agent System/subpage/全域木.md",
+    "FEEDBACK_CONTROL_OF_DYNAMIC_SYSTEMS/Index-FEEDBACK CONTROL OF DYNAMIC SYSTEMS.md",
+    "FEEDBACK_CONTROL_OF_DYNAMIC_SYSTEMS/An Overview and Brief Hitstory of Feedback Control.md",
+    "Multi-Agent System/subpage/強連結.md",
+    "Multi-Agent System/subpage/デカルト積.md",
+    "Multi-Agent System/attachments/Pasted image 20230530123959.png",
+    "Multi-Agent System/subpage/ペロン行列.md",
+    "Excalidraw/全域木2.13.md",
+    "Multi-Agent System/subpage/全域部分グラフ.md",
+    "Multi-Agent System/subpage/半単純.md",
+    "システム同定/attachments/Pasted image 20230529165242.png",
+    "Essence_of_Liner_algebra_线性代数本质/attachments/20230504-0935-35.0123624.mp4",
+    "Multi-Agent System/subpage",
+    "Multi-Agent System/attachments",
+    "Multi-Agent System",
+    "予定/数理統計学/attachments",
+    "線形代数/信号処理のための線形代数",
+    "線形代数/線形代数入門/連立方程式/attachments",
+    "線形代数/線形代数入門/連立方程式",
+    "線形代数/線形代数入門/行列式/attachments",
+    "線形代数/線形代数入門/行列式"
+  ]
+}

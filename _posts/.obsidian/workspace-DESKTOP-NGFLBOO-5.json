@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "3a5df287af5d4869",
+    "type": "split",
+    "children": [
+      {
+        "id": "5dc386ebaacad9e0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d1eb6a8434cf7c1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project/GaoFei/UAV System/1.导论-Framework.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8e64c67332b8024f",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3b1d557a53250a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3f44bdea1c280c1",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "b8894aa598e36e66",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bc654ee4e0eeb600",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "微分",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "44a6290bc13bfe04",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 287.5085258483887
+  },
+  "right": {
+    "id": "a60c3979bb47ba31",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9c661c0dc982f4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c014e9284f483942",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Project/GaoFei/UAV System/1.导论-Framework.md"
+              }
+            }
+          },
+          {
+            "id": "065b64303df1b9e3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "9a158249fb7ac450",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "5c0c18ade32ffaad",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0465c7f5601521fc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Project/GaoFei/UAV System/1.导论-Framework.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "860f8ac2508edf2d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Project/GaoFei/UAV System/1.导论-Framework.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 376.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "d1eb6a8434cf7c1e",
+  "lastOpenFiles": [
+    "Project/GaoFei/UAV System/3.Control algo.md",
+    "Project/GaoFei/UAV System/4.MATLAB.md",
+    "Project/GaoFei/UAV System/5.Perception algo.md",
+    "Project/GaoFei/UAV System/6.Planning algo.md",
+    "ROS/Note/0.Ubuntu&ROS安装.pdf",
+    "ROS/Note/Rviz and tf.md",
+    "ROS/Note/ROS setup.md",
+    "ROS/Note/1.ROS基础.pdf",
+    "Project/GaoFei/UAV System/1.导论-Framework.md",
+    "Project/RoboMaster TT/清华大学课程",
+    "Project/GaoFei/UAV System/attachments/Pasted image 20231219153027.png",
+    "Project/GaoFei/UAV System/attachments/Pasted image 20231219153011.png",
+    "Project/GaoFei/UAV System/attachments/Pasted image 20231219152927.png",
+    "Project/GaoFei/UAV System/attachments/Pasted image 20231219152710.png",
+    "Project/GaoFei/UAV System/attachments/Pasted image 20231219152532.png",
+    "Project/GaoFei/UAV System/attachments/Pasted image 20231219152407.png",
+    "Project/GaoFei/UAV System/attachments/Pasted image 20231219152313.png",
+    "Project/GaoFei/UAV System/attachments/Pasted image 20231219151858.png",
+    "Project/GaoFei/UAV System/attachments/Pasted image 20231219151638.png",
+    "Project/GaoFei/UAV System/attachments/Pasted image 20231219151439.png",
+    "Project/GaoFei/UAV System/attachments",
+    "AI/Reinforcement Learning/EasyRL/Index_EasyRL.md",
+    "Project/GaoFei/UAV System",
+    "Project/GaoFei",
+    "Project",
+    "Control Engineering/Robust Control/Sliding mode control/Sliding Mode Control.md",
+    "Control Engineering/Adaptive Control/CLF.md",
+    "Control Engineering/Adaptive Control/CBF.md",
+    "Control Engineering/Classical Control/Dynamic System Modeling/9. LTI System Response & Filter.md",
+    "Control Engineering/Classical Control/Dynamic System Modeling/11.2nd order System Unit Step Response.md",
+    "Control Engineering/Classical Control/古典制御入門MATLAB&Simulink/0.Control.md",
+    "Control Engineering/Classical Control/古典制御入門MATLAB&Simulink/1.System.md",
+    "Control Engineering/Optimal Control/Optimal Control from DR_CAN.md",
+    "Control Engineering/Modern Control/MPC/MPC from DR_CAN.md",
+    "Control Engineering/控制理论 Index.md",
+    "Simulation/衝突防止/AP.md",
+    "AI/Reinforcement Learning/EasyRL/subpages/Q-function.md",
+    "AI/Reinforcement Learning/EasyRL/pages/2.Markov decision process.md",
+    "Math/Matrix/行列の微分.md",
+    "Math/Matrix",
+    "Lab/論文/卒論/SMFC/2次非線形マルチエージェントシステムに対するスライディングモード編隊制御.md",
+    "AI/Reinforcement Learning/EasyRL/pages/3.Tabular method.md",
+    "Simulation/MAS/Problem 1.md",
+    "Control Engineering/Optimal Control/attachments",
+    "Control Engineering/Modern Control/MPC/attachments"
+  ]
+}

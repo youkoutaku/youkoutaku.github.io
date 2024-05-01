@@ -4,70 +4,56 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": false,
-  "collapse-color-groups": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"00 Index\"",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "path:デジタル信号処理",
+      "query": "path:\"Digital Signal Processing\"  ",
       "color": {
         "a": 1,
         "rgb": 1179392
       }
     },
     {
-      "query": "path:\"線形代数\"",
+      "query": "path:AI  ",
       "color": {
         "a": 1,
-        "rgb": 10153721
+        "rgb": 5984992
       }
     },
     {
-      "query": "path:\"Essence of Liner algebra 线性代数本质\"",
+      "query": "path:\"Multi-Agent Systems\"  ",
       "color": {
         "a": 1,
-        "rgb": 1904614
+        "rgb": 29936
       }
     },
     {
-      "query": "path:システム同定",
+      "query": "path:\"System Identification\"  ",
       "color": {
         "a": 1,
-        "rgb": 16774912
+        "rgb": 11752160
       }
     },
     {
-      "query": "path:マルチエージェントシステム",
+      "query": "path:ROS  ",
       "color": {
         "a": 1,
-        "rgb": 10425554
+        "rgb": 14713938
       }
     },
     {
-      "query": "path:制御工学/古典制御入門MATLAB&Simulink",
+      "query": "path:\"0_Control Engineering\"  ",
       "color": {
         "a": 1,
-        "rgb": 680274
+        "rgb": 9163252
       }
     },
     {
-      "query": "path:制御工学/現代制御入門MATLAB&Simulink",
+      "query": "path:Math  ",
       "color": {
         "a": 1,
-        "rgb": 4324267
-      }
-    },
-    {
-      "query": "path:\"Multi-Agent System\"",
-      "color": {
-        "a": 1,
-        "rgb": 7426784
+        "rgb": 15539485
       }
     }
   ],
@@ -81,6 +67,6 @@
   "repelStrength": 14.4444444444444,
   "linkStrength": 0.628472222222222,
   "linkDistance": 30,
-  "scale": 0.16348370567220724,
+  "scale": 0.16348370567220674,
   "close": true
 }
