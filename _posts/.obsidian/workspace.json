@@ -11,8 +11,12 @@
             "id": "ae8e07982160d207",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Post Temple.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -89,7 +93,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Post Temple.md"
+              }
             }
           },
           {
@@ -117,6 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Post Temple.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,6 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Post Temple.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,8 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5,
-    "collapsed": true
+    "width": 408.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,7 +188,32 @@
   },
   "active": "ae8e07982160d207",
   "lastOpenFiles": [
+    "Temp/2024-04-29-NewBlog.md",
+    "SystemIdentification/宿題/2023-04-13-Simulation (1).md",
+    "SystemIdentification/宿題/2023-04-21-Simulation (2).md",
+    "SystemIdentification/宿題/2023-05-26-Simulation (3)PID.md",
+    "SystemIdentification/宿題/2023-06-08-Simulation (4).md",
+    "SystemIdentification/2023-04-10-1.Linear Continuous-time Model.md",
+    "SystemIdentification/2023-04-20-2.Sampling.md",
+    "SystemIdentification/2023-05-10-3.Paramater Estimation for Linear Systems.md",
     "Post Temple.md",
+    "SystemIdentification/src/20230529165242.png",
+    "SystemIdentification/src/20230529164150.png",
+    "SystemIdentification/src/20230529145655.png",
+    "SystemIdentification/src/20230526101850.png",
+    "SystemIdentification/src/20230519160027.png",
+    "SystemIdentification/src/20230421184254.png",
+    "SystemIdentification/src/20230421140751.png",
+    "SystemIdentification/src/20230421135821.png",
+    "SystemIdentification/src/20230421135456.jpg",
+    "SystemIdentification/src/20230421131409.png",
+    "SystemIdentification/src",
+    "SystemIdentification/宿題/2023-04-13-linear discrete-time system models.md",
+    "SystemIdentification/宿題/2023-04-13-.md",
+    "SystemIdentification/宿題/2023-04-21-2.md",
+    "SystemIdentification/宿題/2023-05-26-3.md",
+    "SystemIdentification/宿題/2023-06-08-4.md",
+    "SystemIdentification/宿題/2023-04-13-1.md",
     "SystemIdentification/宿題/2023-05-02-3.md",
     "SystemIdentification/宿題/2023-05-09-4.md",
     "SystemIdentification/宿題/2023-04-29-2.md",
@@ -193,40 +225,15 @@
     "SystemIdentification/子ページ/前進差分.md",
     "SystemIdentification/子ページ/ヘビサイドの公式.md",
     "SystemIdentification/子ページ/デルタ関数のフーリエ変換.md",
-    "SystemIdentification/子ページ/インパルス応答.md",
     "SystemIdentification/子ページ/semi262-PID.pdf",
-    "SystemIdentification/子ページ/サンプリング関数.md",
     "SystemIdentification/宿題",
     "SystemIdentification/子ページ",
-    "SystemIdentification/3.線形システムのパラメータ推定.md",
-    "SystemIdentification/2.サンプリングとz変換.md",
-    "SystemIdentification/2023-05-01-Linear Continuous-time Model.md",
     "SystemIdentification",
-    "System Identification/2023-05-01-Linear Continuous-time Model.md",
-    "System Identification/2023-05-01-1.md",
-    "System Identification/宿題/2023-04-27-1.md",
-    "System Identification/宿題/2023-04-29-2.md",
-    "System Identification/宿題/2023-04-23-Step response of electrical circuits.md",
-    "System Identification/宿題/2023-04-23-1.md",
-    "System Identification/宿題/2023-04-27-2.md",
-    "System Identification/宿題/2023-05-02-3.md",
-    "System Identification/宿題/2023-05-09-4.md",
-    "System Identification/src/20230407124106.png",
     "System Identification/子ページ/semi262-PID.pdf",
     "System Identification/宿題",
     "System Identification/子ページ",
-    "System Identification/src/20230529165242.png",
-    "System Identification/src/20230529164150.png",
-    "System Identification/src/20230529145655.png",
-    "System Identification/src/20230526101850.png",
-    "System Identification/src/20230519160027.png",
-    "System Identification/src/20230421184254.png",
-    "System Identification/src/20230421140751.png",
-    "System Identification/src/20230421135821.png",
-    "System Identification/src/20230421135456.jpg",
     "System Identification/src",
     "System Identification",
-    "Control Engineering/Modeling/Kinematic Bicycle Model — Algorithms for Automated Driving.pdf",
     "Untitled.canvas"
   ]
 }

@@ -1,10 +1,11 @@
 ---
-title: Simulation (1):linear discrete-time system models
-date: 2023-04-27 15:33:00 +0900
-categories: [System Identification]
+title: SI:Simulation_1 linear discrete-time system models
+date: 2023-04-13 15:33:00 +0900
+categories: [System Identification, Simulation]
 tags: [Matlab, Contol]
 author: <author_id>
 math: true
+img_path: /_posts/SystemIdentification/src/
 ---
 
 ## 前頭:
