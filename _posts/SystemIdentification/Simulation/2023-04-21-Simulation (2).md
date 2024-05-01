@@ -3,7 +3,7 @@ title: SI:Simulation_2 Forward differential, backward differential, bilinear tra
 date: 2023-04-21 15:33:00 +0900
 categories: [System Identification, Simulation]
 tags: [Matlab, Contol]
-author: <author_id>
+author: Youkoutaku
 math: true
 ---
 
