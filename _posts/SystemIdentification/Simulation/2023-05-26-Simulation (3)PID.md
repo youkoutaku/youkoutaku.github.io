@@ -3,7 +3,7 @@ title: SI:Simulation_3 PID
 date: 2023-05-26 15:33:00 +0900
 categories: [System Identification, Simulation]
 tags: [PID, Matlab, Contol]
-author: <author_id>
+author: Youkoutaku
 math: true
 ---
 
