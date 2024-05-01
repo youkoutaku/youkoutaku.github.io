@@ -5,7 +5,6 @@ categories: [System Identification, Simulation]
 tags: [PID, Matlab, Contol]
 author: <author_id>
 math: true
-img_path: /_posts/SystemIdentification/
 ---
 
 ## 制御対象
@@ -191,7 +190,7 @@ eye() %単位行列I
 > 理由は，コードの数式が読みずらい．
 > 解決策：
 >
-> 1.  コードを LaTex 公式に入れて，確認する[在线 LaTeX 公式编辑器-编辑器 (latexlive.com)](https://www.latexlive.com/)
+> 1.  コードを LaTex 公式に入れて，確認する.
 > 2.  目と手でもう一回計算して確認する
 
 > - font 字のサイズ

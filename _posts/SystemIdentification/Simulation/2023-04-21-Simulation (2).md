@@ -5,7 +5,6 @@ categories: [System Identification, Simulation]
 tags: [Matlab, Contol]
 author: <author_id>
 math: true
-img_path: /_posts/SystemIdentification/
 ---
 
 前進差分，後退差分，双一次変換をそれぞれ用いて，例題 1.2.1 の電気回路のステップ応答を数値計算で求め，数値計算の結果と真の応答をプロットし，比較せよ。
