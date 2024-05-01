@@ -5,7 +5,7 @@ categories: [System Identification, Simulation]
 tags: [System Identification, Matlab, Contol]
 author: <author_id>
 math: true
-img_path: /_posts/SystemIdentification/src/
+img_path: /_posts/SystemIdentification/
 ---
 
 ## 3.5.1 同定対象

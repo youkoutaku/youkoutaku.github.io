@@ -5,7 +5,7 @@ categories: [System Identification, Simulation]
 tags: [PID, Matlab, Contol]
 author: <author_id>
 math: true
-img_path: /_posts/SystemIdentification/src/
+img_path: /_posts/SystemIdentification/
 ---
 
 ## 制御対象
