@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "about",
+      "path": "_tabs/about.md"
+    },
+    {
       "basename": "YAML",
       "path": "_posts/Temp/YAML.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "archives",
       "path": "_tabs/archives.md"
-    },
-    {
-      "basename": "about",
-      "path": "_tabs/about.md"
     },
     {
       "basename": "README",

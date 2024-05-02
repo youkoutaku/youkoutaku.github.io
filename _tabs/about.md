@@ -3,10 +3,11 @@
 icon: fas fa-info-circle
 order: 4
 ---
+![ME](https://pbs.twimg.com/profile_images/1785875029793935361/mMTCqYTp_400x400.jpg)
 
 ## Hi there 👋
 
-### ME
+### You Koutaku
 -  George Young/ You Koutaku(JP)/ Guangze Yang(CN) 
 - 🎓 I'm a learning student in [Ibaraki University](https://www.ibaraki.ac.jp).  My major is Mechanical Systems Engineering.
 - 🔥 Interested in working with Control System, Robotics, Code and want to try new things. 
