@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Post Temple.md",
+                "file": "_posts/Temp/YAML.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Post Temple.md"
+                "file": "_posts/Temp/YAML.md"
               }
             }
           },
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Post Temple.md",
+                "file": "_posts/Temp/YAML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Post Temple.md",
+                "file": "_posts/Temp/YAML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,46 +157,54 @@
                 "searchQuery": ""
               }
             }
-          },
-          {
-            "id": "ee8a446b5ec9d86b",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 408.5
+    "width": 408.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false,
-      "webpage-html-export:Export Vault to HTML": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-day-planner:Timeline": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "ae8e07982160d207",
   "lastOpenFiles": [
+    "_posts/Blog/2024-05-02-Writing.md",
+    "_posts/Blog/2024-04-29-NewBlog.md",
+    "_posts/Blog/Writing a New Post.md",
+    "_posts/Temp/YAML.md",
+    "_posts/Temp/matlab.md",
+    "_posts/SystemIdentification/Main/2023-04-20-2.Sampling.md",
+    "_posts/SystemIdentification/Main/2023-04-10-1.Linear Continuous-time Model.md",
+    "_posts/Temp/Math.md",
+    "_posts/SystemIdentification/Simulation/2023-04-13-Simulation (1).md",
+    "_posts/Blog",
+    "_tabs/tags.md",
+    "_tabs/categories.md",
+    "_tabs/archives.md",
+    "_tabs/about.md",
+    "README.md",
+    "SystemIdentification/Main/2023-04-10-1.Linear Continuous-time Model.md",
+    "SystemIdentification/Simulation/2023-04-21-Simulation (2).md",
+    "SystemIdentification/Simulation/2023-05-26-Simulation (3)PID.md",
+    "SystemIdentification/Simulation/2023-06-08-Simulation (4).md",
+    "SystemIdentification/Simulation/2023-04-13-Simulation (1).md",
     "Temp/2024-04-29-NewBlog.md",
+    "Post Temple.md",
     "SystemIdentification/宿題/2023-04-13-Simulation (1).md",
     "SystemIdentification/宿題/2023-04-21-Simulation (2).md",
     "SystemIdentification/宿題/2023-05-26-Simulation (3)PID.md",
     "SystemIdentification/宿題/2023-06-08-Simulation (4).md",
     "SystemIdentification/2023-04-10-1.Linear Continuous-time Model.md",
-    "SystemIdentification/2023-04-20-2.Sampling.md",
-    "SystemIdentification/2023-05-10-3.Paramater Estimation for Linear Systems.md",
-    "Post Temple.md",
     "SystemIdentification/src/20230529165242.png",
     "SystemIdentification/src/20230529164150.png",
     "SystemIdentification/src/20230529145655.png",
@@ -208,23 +216,6 @@
     "SystemIdentification/src/20230421135456.jpg",
     "SystemIdentification/src/20230421131409.png",
     "SystemIdentification/src",
-    "SystemIdentification/宿題/2023-04-13-linear discrete-time system models.md",
-    "SystemIdentification/宿題/2023-04-13-.md",
-    "SystemIdentification/宿題/2023-04-21-2.md",
-    "SystemIdentification/宿題/2023-05-26-3.md",
-    "SystemIdentification/宿題/2023-06-08-4.md",
-    "SystemIdentification/宿題/2023-04-13-1.md",
-    "SystemIdentification/宿題/2023-05-02-3.md",
-    "SystemIdentification/宿題/2023-05-09-4.md",
-    "SystemIdentification/宿題/2023-04-29-2.md",
-    "SystemIdentification/宿題/2023-04-27-1.md",
-    "SystemIdentification/子ページ/離散ステップ信号.md",
-    "SystemIdentification/子ページ/後退差分.md",
-    "SystemIdentification/子ページ/周期関数.md",
-    "SystemIdentification/子ページ/伍德伯里矩阵恒等式.md",
-    "SystemIdentification/子ページ/前進差分.md",
-    "SystemIdentification/子ページ/ヘビサイドの公式.md",
-    "SystemIdentification/子ページ/デルタ関数のフーリエ変換.md",
     "SystemIdentification/子ページ/semi262-PID.pdf",
     "SystemIdentification/宿題",
     "SystemIdentification/子ページ",
@@ -233,7 +224,6 @@
     "System Identification/宿題",
     "System Identification/子ページ",
     "System Identification/src",
-    "System Identification",
     "Untitled.canvas"
   ]
 }

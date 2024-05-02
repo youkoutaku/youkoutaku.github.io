@@ -28,18 +28,27 @@ sysg=tf(num, den); %伝達関数
 ## PID
 ![](https://controlabo.com/wp-content/uploads/2022/11/pid_block_blue.png)
 
-$k \to n$ とすると， 
-$$e(n)=r(n)-y(n-1)$$
+$k \to n$ とすると，
+
+$$
+e(n)=r(n)-y(n-1)
+$$
+
 > 偏差 = 目標値 - **一個前の制御量**
 
-$$U(z)=E(z)C(z)$$
+$$
+U(z)=E(z)C(z)
+$$
 
 > z[操作量] = z[偏差]・z[制御器]
 
 ---
 
 PID 制御器伝達関数：
-$$C(s)=c_p+c_i\frac{1}{s}+c_d\frac{s}{\gamma s+1}, \quad \gamma=4\times T$$
+
+$$
+C(s)=c_p+c_i\frac{1}{s}+c_d\frac{s}{\gamma s+1}, \quad \gamma=4\times T
+$$
 
 ```matlab
 gamma=4*T; %γ
@@ -55,17 +64,23 @@ cd=7; %微分
 ### 方法 1
 
 - すごく面倒くさい方法：（諦めよう！）
-  > 前進差分による PID 制御器の z 変換:
-  > $$C(z)=c_p+c_i\frac{Tz^{-1}}{1-z^{-1}}+c_d\frac{1-z^{-1}}{\gamma+(T-\gamma)z^{-1}}  $$
->$$U(z)=E(z)C(z)$$
->逆z変換(徐々に):
->$$u(n)=c_pe(n)+c_i\frac{Te(n-1)}{1-z^{(-1)}}+c_d\frac{e(n)-e(n-1)}{\gamma+(T-\gamma)z^{-1}}$$
-  >
-  > 1.  両辺を$1-z^{-1}$を掛けると，
-  >     $$\begin{equation}u(n)-u(n-1)=&c_pe(n)-c_pe(n-1)\\ &+c_iTe(n-1)\\ &+\frac{c_d}{\gamma+(T-\gamma)z^{-1}}\left( (e(n)-e(n-1))-(e(n-1)-e(n-2))   \right)\end{equation}$$
-  > 2.  両辺を$\gamma+(T-\gamma)z^{-1}$を掛けると，
-  >     $$\begin{equation}\gamma u(n)+(T-\gamma)u(n-1)\\-\gamma u(n-1)-(T-\gamma)u(n-2)=&c_p\gamma \left(e(n)-e(n-1)\right)\\&+(T-\gamma)c_p(e(n-1)-e(n-2))\\&+ c_iT\gamma e(n-1)+c_iT(T-\gamma)e(n-2)\\ &+c_d(e(n)-e(n-1)-e(n-1)+e(n-2))\end{equation}$$
-  > 3.  操作量$u(n)$ $$\begin{equation}u(n)=&\frac{1}{\gamma}[c_p\gamma \left(e(n)-e(n-1)\right)\\&+(T-\gamma)c_p(e(n-1)-e(n-2))\\&+ c_iT\gamma e(n-1)+c_iT(T-\gamma)e(n-2)\\&+c_d(e(n)-2e(n-1)+e(n-2)) \\&+(2\gamma-T)u(n-1)+(T-\gamma)u(n-2) ]\\=&( (c_p\gamma + c_d )e(n) \\&+ ( c_p( T- 2\gamma) + c_iT\gamma - 2c_d )e(k-1) \\&+(c_p(\gamma-T)+c_iT(T-\gamma)+c_d )e(k-2) \\&+ (2\gamma-T)u(k-1) + (T-\gamma)u(k-2) ) / \gamma\end{equation}$$
+前進差分による PID 制御器の z 変換:
+
+$$
+C(z)=c_p+c_i\frac{Tz^{-1}}{1-z^{-1}}+c_d\frac{1-z^{-1}}{\gamma+(T-\gamma)z^{-1}} 
+$$
+
+$$
+U(z)=E(z)C(z)
+$$
+
+逆z変換(徐々に):
+$$
+u(n)=c_pe(n)+c_i\frac{Te(n-1)}{1-z^{(-1)}}+c_d\frac{e(n)-e(n-1)}{\gamma+(T-\gamma)z^{-1}}
+$$
+  > 1.  両辺を $1-z^{-1}$ を掛けると，$$\begin{equation}\begin{aligned}u(n)-u(n-1)=&c_pe(n)-c_pe(n-1)\\ &+c_iTe(n-1)\\ &+\frac{c_d}{\gamma+(T-\gamma)z^{-1}}\left( (e(n)-e(n-1))-(e(n-1)-e(n-2))\right)\end{aligned}\end{equation}$$
+  > 2.  両辺を $\gamma+(T-\gamma)z^{-1}$ を掛けると，$$\begin{equation}\begin{aligned}\gamma u(n)+(T-\gamma)u(n-1)\\-\gamma u(n-1)-(T-\gamma)u(n-2)=&c_p\gamma \left(e(n)-e(n-1)\right)\\&+(T-\gamma)c_p(e(n-1)-e(n-2))\\&+ c_iT\gamma e(n-1)+c_iT(T-\gamma)e(n-2)\\ &+c_d(e(n)-e(n-1)-e(n-1)+e(n-2))\end{aligned}\end{equation}$$
+  > 3.  操作量 $u(n)$ $$\begin{equation}\begin{aligned}u(n)=&\frac{1}{\gamma}[c_p\gamma \left(e(n)-e(n-1)\right)\\&+(T-\gamma)c_p(e(n-1)-e(n-2))\\&+ c_iT\gamma e(n-1)+c_iT(T-\gamma)e(n-2)\\&+c_d(e(n)-2e(n-1)+e(n-2)) \\&+(2\gamma-T)u(n-1)+(T-\gamma)u(n-2) ]\\=&( (c_p\gamma + c_d )e(n) \\&+ ( c_p( T- 2\gamma) + c_iT\gamma - 2c_d )e(k-1) \\&+(c_p(\gamma-T)+c_iT(T-\gamma)+c_d )e(k-2) \\&+ (2\gamma-T)u(k-1) + (T-\gamma)u(k-2) ) / \gamma\end{aligned}\end{equation}$$s
 
 
 ```matlab
@@ -80,19 +95,33 @@ u(k)= ( (cp*gamma + cd )*e(k) + ( cp*( T- 2*gamma) + ci*T*gamma - 2*cd )*e(k-1)
 
 **P-I-D**を分解して，シミュレーションを行うと，
 P:
-$$u_p(n)=c_pe(n)$$
+
+$$
+u_p(n)=c_pe(n)
+$$
 
 > 偏差を比例したもので制御する
 
 I:
-$$u_i(n)=c_i\frac{Tz^{-1}}{1-z^{-1}}e(n)$$
-$$\begin{equation}u(n)-u_i(n-1)=c_iTe(n-1)\\\to u_i(n)=u(n-1)+c_iTe(n-1)\end{equation}$$
+
+$$
+u_i(n)=c_i\frac{Tz^{-1}}{1-z^{-1}}e(n)
+$$
+
+$$
+\begin{equation}u(n)-u_i(n-1)=c_iTe(n-1)\\\to u_i(n)=u(n-1)+c_iTe(n-1)\end{equation}
+$$
 
 > 偏差の累積で制御する
 
 D:
-$$u_d(n)=c_d\frac{1-z^{-1}}{\gamma+(T-\gamma)z^{-1}}e(n)$$
-$$\begin{equation}\gamma u_d(n)+(T-\gamma)u_d(n-1)=c_d(e(n)-e(n-1)\\\to u_d(n)=\frac{c_d}{\gamma}\left(e(n)-e(n-1)-\frac{T-\gamma}{\gamma}u_d(n-1)\right)\end{equation}$$
+$$
+u_d(n)=c_d\frac{1-z^{-1}}{\gamma+(T-\gamma)z^{-1}}e(n)
+$$
+
+$$
+\begin{equation}\gamma u_d(n)+(T-\gamma)u_d(n-1)=c_d(e(n)-e(n-1)\\\to u_d(n)=\frac{c_d}{\gamma}\left(e(n)-e(n-1)-\frac{T-\gamma}{\gamma}u_d(n-1)\right)\end{equation}
+$$
 
 > 偏差の変化で制御するつもりだが，初期状態には変化がない．
 > 微分の s× ローパスフィルタ 1/(γs+1)
@@ -103,7 +132,9 @@ $$
 x(n+1)=x(n)+T(Ax(n)+bu(n))
 $$
 
-$$y(n)=Cx(n)+Du(n)$$
+$$
+y(n)=Cx(n)+Du(n)
+$$
 
 > 状態空間表現において，行列計算を行う．そのためにプログラミングにおける行列の Index を考えなければいけない．
 
@@ -116,26 +147,44 @@ x(:,k)= x(:,k-1) + T*(Ao*x(:,k-1) + Bo*u(k-1));
 y(k)= Co*x(:,k)+Do*u(k);
 ```
 
-> `x(;,k)`というように，x の第 k 列のすべて要素で計算を行う
+> `x(;,k)` というように，x の第 k 列のすべて要素で計算を行う
 
 ---
 
 ## 後退差分
 
 後退差分による PID 制御器のz変換:
-$$C(z)=c_p+c_i\frac{T}{1-z^{-1}}+c_d\frac{1-z^{-1}}{T(\frac{\gamma}{T}(1-z^{-1})+1)}=c_p+c_i\frac{T}{1-z^{-1}}+c_d\frac{1-z^{-1}}{\gamma(1-z^{-1})+T}$$
+
+$$
+C(z)=c_p+c_i\frac{T}{1-z^{-1}}+c_d\frac{1-z^{-1}}{T(\frac{\gamma}{T}(1-z^{-1})+1)}=c_p+c_i\frac{T}{1-z^{-1}}+c_d\frac{1-z^{-1}}{\gamma(1-z^{-1})+T}
+$$
 
 PID 分解して，シミュレーションを行うと，
 P:
-$$u_p(n)=c_pe(n)$$
+
+$$
+u_p(n)=c_pe(n)
+$$
 
 I:
-$$u_i(n)=c_i\frac{T}{1-z^{-1}}e(n)$$
-$$\begin{equation}u(n)-u_i(n-1)=c_iTe(n)\\\to u_i(n)=c_iTe(n)+u_i(n-1)\end{equation}$$
+
+$$
+u_i(n)=c_i\frac{T}{1-z^{-1}}e(n)
+$$
+
+$$
+\begin{equation}u(n)-u_i(n-1)=c_iTe(n)\\\to u_i(n)=c_iTe(n)+u_i(n-1)\end{equation}
+$$
 
 D:
-$$u_d(n)=c_d\frac{1-z^{-1}}{\gamma(1-z^{-1})+T}e(n)$$
-$$\begin{equation} (\gamma+T)u_d(n)-\gamma u_d(n-1))=c_d(e(n)-e(n-1)) \\\to u_d(n)=\left( c_d(e(n)-e(n-1)) +\gamma u_d(n-1) \right)/(\gamma+T)\end{equation}$$
+
+$$
+u_d(n)=c_d\frac{1-z^{-1}}{\gamma(1-z^{-1})+T}e(n)
+$$
+
+$$
+\begin{equation} (\gamma+T)u_d(n)-\gamma u_d(n-1))=c_d(e(n)-e(n-1)) \\\to u_d(n)=\left( c_d(e(n)-e(n-1)) +\gamma u_d(n-1) \right)/(\gamma+T)\end{equation}
+$$
 
 後退差分による状態空間表現：
 
@@ -143,20 +192,37 @@ $$
 x(n)-x(n-1)=T(Ax(n)+bu(n)) \to x(n)=(I-TA)^{-1}\:(x(n-1)+Tbu(n))
 $$
 
-$$y(n)=Cx(n)+Du(n)$$
+$$
+y(n)=Cx(n)+Du(n)
+$$
 
 ---
 
 ## 双1次変換法
 
 双一次変換法による PID 制御器の z 変換:
-$$\begin{equation}C(z)&=c_p+c_i\frac{T}{2}\frac{1+z^{-1}}{1-z^{-1}}+c_d\frac{1}{\gamma+\frac{T(1+z^{-1})}{2(1-z^{-1})}}\\&=c_p+\frac{Tc_i}{2}\frac{1+z^{-1}}{1-z^{-1}}+2c_d\frac{1-z^{-1}}{2\gamma+T+(T-2\gamma)z^{-1}}\end{equation}$$
+
+$$
+\begin{equation}
+\begin{aligned}
+    C(z)&=c_p+c_i\frac{T}{2}\frac{1+z^{-1}}{1-z^{-1}}+c_d\frac{1}{\gamma+\frac{T(1+z^{-1})}{2(1-z^{-1})}}\\&=c_p+\frac{Tc_i}{2}\frac{1+z^{-1}}{1-z^{-1}}+2c_d\frac{1-z^{-1}}{2\gamma+T+(T-2\gamma)z^{-1}}
+\end{aligned}
+\end{equation}
+$$
 
 PID 分解して，シミュレーションを行うと，
 P:
-$$u_p(n)=c_pe(n)$$
+
+$$
+u_p(n)=c_pe(n)
+$$
+
 I:
-$$\begin{equation}u_i(n)-u_i(n-1)=\frac{c_iT}{2}(e(n)+e(n-1))\\\to u_i(n)=\frac{c_iT}{2}(e(n)+e(n-1))+u_i(n-1)\end{equation}$$
+
+$$
+\begin{equation}u_i(n)-u_i(n-1)=\frac{c_iT}{2}(e(n)+e(n-1))\\\to u_i(n)=\frac{c_iT}{2}(e(n)+e(n-1))+u_i(n-1)\end{equation}
+$$
+
 D:
 
 $$
@@ -167,12 +233,17 @@ $$
 双一次変換法による状態空間表現：
 
 $$
-\begin{equation}\frac{2}{T}(x(n)-x(n-1))=A(x(n)+x(n-1))+b(u(n)+u(n-1)) \\\to (2I-AT)x(n)=(2I+AT)x(n-1)+bT(u(n)+u(n-1))\\
+\begin{equation}
+\begin{aligned}
+\frac{2}{T}(x(n)-x(n-1))=A(x(n)+x(n-1))+b(u(n)+u(n-1)) \\\to (2I-AT)x(n)=(2I+AT)x(n-1)+bT(u(n)+u(n-1))\\
 \to x(n)=(2I-TA)^{-1}[(2I+AT)x(n-1)+bT(u(n)+u(n-1))]
+\end{aligned}
 \end{equation}
 $$
 
-$$y(n)=Cx(n)+Du(n)$$
+$$
+y(n)=Cx(n)+Du(n)
+$$
 
 ---
 
@@ -214,8 +285,8 @@ end
 ```
 
 > 1.  実際の場合，センサからの観測値をもらうので，y(t)が先の方である．
-> 2.  しかし，y(t)を先にすると，$y=Cx+Du$における$u$がずっと 0 で計算している．普通に$D=0$ので影響がない．
-> 3.  また，現在の入力 $u(t)$ を求めたい．$u(t)$を求めるために，現在の出力（観察値）$y(t)$が必要である．出力を得るために，現在まだ求めていない入力を使うべきではない．
+> 2.  しかし，y(t)を先にすると，$y=Cx+Du$ における $u$ がずっと 0 で計算している．普通に $D=0$ ので影響がない．
+> 3.  また，現在の入力 $u(t)$ を求めたい． $u(t)$ を求めるために，現在の出力（観察値）$y(t)$ が必要である．出力を得るために，現在まだ求めていない入力を使うべきではない．
 
 ## Simulation
 ### PID
