@@ -5,6 +5,9 @@ categories: [System Identification, Simulation]
 tags: [PID, Matlab, Contol]
 author: Youkoutaku
 math: true
+image:
+  path: https://controlabo.com/wp-content/uploads/2022/11/pid_block_blue.png
+  alt: PID
 ---
 
 ## 制御対象

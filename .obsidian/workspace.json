@@ -11,12 +11,8 @@
             "id": "ae8e07982160d207",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_tabs/about.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5
+    "width": 200
   },
   "right": {
     "id": "c28fa44957b113d7",
@@ -93,9 +89,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_tabs/about.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,7 +117,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_tabs/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +133,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_tabs/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,44 +159,52 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "workspaces:管理工作区布局": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "ae8e07982160d207",
   "lastOpenFiles": [
+    "_site/assets/css/jekyll-theme-chirpy.css.map",
+    "_posts/Temp/python.md",
+    "_posts/Temp/matlab.md",
+    "_posts/Probability/2024-05-03-Probability Distributions.md",
     "_posts/Temp/YAML.md",
+    "_site/tags/python/index.html",
+    "_site/tags/python",
+    "_site/tags/probability/index.html",
+    "_site/tags/probability",
+    "_site/categories/probability/index.html",
+    "_site/categories/probability",
+    "_site/posts/Probability-Distributions/index.html",
+    "_site/posts/Probability-Distributions",
+    "_site/categories/sub-categorie/index.html",
+    "_posts/SystemIdentification/Main/2023-04-10-1.Linear Continuous-time Model.md",
+    "_posts/SystemIdentification/Main/2023-05-10-3.Paramater Estimation for Linear Systems.md",
+    "_posts/SystemIdentification/Main/2023-04-20-2.Sampling.md",
+    "_posts/SystemIdentification/Simulation/2023-04-13-Simulation (1).md",
+    "_posts/SystemIdentification/Simulation/2023-04-21-Simulation (2).md",
+    "_posts/SystemIdentification/Simulation/2023-05-26-Simulation (3)PID.md",
+    "_posts/SystemIdentification/Simulation/2023-06-08-Simulation (4).md",
     "_posts/Blog/2024-05-02-Writing.md",
     "_posts/Blog/2024-04-29-NewBlog.md",
-    "_posts/Blog/Writing a New Post.md",
-    "_posts/Temp/matlab.md",
-    "_posts/SystemIdentification/Main/2023-04-20-2.Sampling.md",
-    "_posts/SystemIdentification/Main/2023-04-10-1.Linear Continuous-time Model.md",
+    "README.md",
     "_posts/Temp/Math.md",
-    "_posts/SystemIdentification/Simulation/2023-04-13-Simulation (1).md",
-    "_posts/Blog",
+    "_tabs/about.md",
+    "_posts/Blog/Writing a New Post.md",
     "_tabs/tags.md",
     "_tabs/categories.md",
     "_tabs/archives.md",
-    "_tabs/about.md",
-    "README.md",
     "SystemIdentification/Main/2023-04-10-1.Linear Continuous-time Model.md",
     "SystemIdentification/Simulation/2023-04-21-Simulation (2).md",
     "SystemIdentification/Simulation/2023-05-26-Simulation (3)PID.md",
     "SystemIdentification/Simulation/2023-06-08-Simulation (4).md",
     "SystemIdentification/Simulation/2023-04-13-Simulation (1).md",
-    "Temp/2024-04-29-NewBlog.md",
-    "Post Temple.md",
-    "SystemIdentification/宿題/2023-04-13-Simulation (1).md",
-    "SystemIdentification/宿題/2023-04-21-Simulation (2).md",
-    "SystemIdentification/宿題/2023-05-26-Simulation (3)PID.md",
-    "SystemIdentification/宿題/2023-06-08-Simulation (4).md",
-    "SystemIdentification/2023-04-10-1.Linear Continuous-time Model.md",
     "SystemIdentification/src/20230529165242.png",
     "SystemIdentification/src/20230529164150.png",
     "SystemIdentification/src/20230529145655.png",
@@ -215,15 +215,6 @@
     "SystemIdentification/src/20230421135821.png",
     "SystemIdentification/src/20230421135456.jpg",
     "SystemIdentification/src/20230421131409.png",
-    "SystemIdentification/src",
-    "SystemIdentification/子ページ/semi262-PID.pdf",
-    "SystemIdentification/宿題",
-    "SystemIdentification/子ページ",
-    "SystemIdentification",
-    "System Identification/子ページ/semi262-PID.pdf",
-    "System Identification/宿題",
-    "System Identification/子ページ",
-    "System Identification/src",
     "Untitled.canvas"
   ]
 }
