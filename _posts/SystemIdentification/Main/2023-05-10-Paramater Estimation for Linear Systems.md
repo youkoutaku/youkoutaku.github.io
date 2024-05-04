@@ -1,5 +1,5 @@
 ---
-title: SI:3.Paramater Estimation for Linear Systems
+title: SI_3:Paramater Estimation for Linear Systems
 date: 2023-05-10 15:33:00 +0900
 categories: [System Identification]
 tags: [System Identification, Contol]
@@ -298,7 +298,7 @@ $$
 ## 3.5 宿題 逐次最小二乗法によるパラメータ推定
 
 ## 3.6 逐次最小二乗法の導出
-[[2023-05-10-3.Paramater Estimation for Linear Systems#3.2 **最小二乗法**の導出 least squares method|最小二乗法 ]]による二乗誤差評価$\partial J/\partial{\theta}=0$のとき，最小二乗法推定値 $\widehat{\theta}$ ）により，
+[[2023-05-10-Paramater Estimation for Linear Systems#3.2 **最小二乗法**の導出 least squares method|最小二乗法 ]]による二乗誤差評価$\partial J/\partial{\theta}=0$のとき，最小二乗法推定値 $\widehat{\theta}$ ）により，
 
 $$
 \widehat{\theta}=\left(\sum_{t=1}^N\rho^{N-t}z_t z_t^T\right)^{-1}\sum_{t=1}^N\rho^{N-t}z_t y_t

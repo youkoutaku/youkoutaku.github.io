@@ -16,10 +16,13 @@
   "vimMode": false,
   "spellcheck": false,
   "rightToLeft": false,
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "shortest",
   "showUnsupportedFiles": true,
   "tabSize": 4,
   "foldHeading": false,
-  "foldIndent": false,
-  "newFileFolderPath": "_posts"
+  "foldIndent": true,
+  "newFileFolderPath": "_posts",
+  "livePreview": false,
+  "propertiesInDocument": "source",
+  "useMarkdownLinks": false
 }

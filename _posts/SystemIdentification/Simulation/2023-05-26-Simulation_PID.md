@@ -1,5 +1,5 @@
 ---
-title: SI:Simulation_3 PID
+title: Simulation_PID
 date: 2023-05-26 15:33:00 +0900
 categories: [System Identification, Simulation]
 tags: [PID, Matlab, Contol]

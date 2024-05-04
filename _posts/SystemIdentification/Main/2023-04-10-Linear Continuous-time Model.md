@@ -1,11 +1,10 @@
 ---
-title: SI:1.Linear Continuous-time Model
+title: SI_1:Linear Continuous-time Model
 date: 2023-04-10 18:55:00 +0900 #Tokyo
 categories: [System Identification]
 tags: [Linear System, Contol]
 author: Youkoutaku
 math: true #Mathematical
-
 ---
 
 [システム同定ゼミ]http://yoh.ise.ibaraki.ac.jp/

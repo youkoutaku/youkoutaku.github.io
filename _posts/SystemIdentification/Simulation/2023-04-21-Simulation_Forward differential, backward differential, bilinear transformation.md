@@ -1,5 +1,5 @@
 ---
-title: SI:Simulation_2 Forward differential, backward differential, bilinear transformation
+title: Simulation_Forward differential, backward differential, bilinear transformation
 date: 2023-04-21 15:33:00 +0900
 categories: [System Identification, Simulation]
 tags: [Matlab, Contol]
@@ -75,7 +75,7 @@ L=1;
 
 %数列
 t  = zeros(1, n+1);
-i  = zeros(1, n+1);%真の信号 
+i  = zeros(1, n+1); %真の信号
 i1 = zeros(1, n+1); %前進差分
 i2 = zeros(1, n+1); %後退差分
 i3 = zeros(1, n+1); %双一次変換

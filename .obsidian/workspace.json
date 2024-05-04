@@ -8,11 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ae8e07982160d207",
+            "id": "c15ca8b08b6f374b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/Temple/YAML.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cfd0e6f7a490fe43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6edc043feccc3041",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/SystemIdentification/Main/2023-04-10-Linear Continuous-time Model.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
         ]
@@ -89,7 +111,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/Temple/YAML.md"
+              }
             }
           },
           {
@@ -117,6 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/Temple/YAML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,6 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/Temple/YAML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,17 +185,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ae8e07982160d207",
+  "active": "c15ca8b08b6f374b",
   "lastOpenFiles": [
+    "_posts/SystemIdentification/Main/2023-04-10-Linear Continuous-time Model.md",
+    "_posts/SystemIdentification/Main/2023-04-20-Continuous time signal sampling.md",
+    "_posts/SystemIdentification/Main/2023-05-10-Paramater Estimation for Linear Systems.md",
+    "_posts/SystemIdentification/Simulation/2023-04-13-Simulation_Linear discrete-time system model.md",
+    "_posts/SystemIdentification/Simulation/2023-04-21-Simulation_Forward differential, backward differential, bilinear transformation.md",
+    "_posts/SystemIdentification/Simulation/2023-06-08-Simulation_System Identification.md",
+    "_posts/SystemIdentification/Simulation/2023-05-26-Simulation_PID.md",
+    "_posts/Blog/2024-04-29-NewBlog.md",
+    "_posts/Probability/2024-04-26-Central limit theorem.md",
     "_site/assets/css/jekyll-theme-chirpy.css.map",
     "_posts/Temp/python.md",
     "_posts/Temp/matlab.md",
@@ -184,15 +219,9 @@
     "_site/posts/Probability-Distributions/index.html",
     "_site/posts/Probability-Distributions",
     "_site/categories/sub-categorie/index.html",
-    "_posts/SystemIdentification/Main/2023-04-10-1.Linear Continuous-time Model.md",
-    "_posts/SystemIdentification/Main/2023-05-10-3.Paramater Estimation for Linear Systems.md",
-    "_posts/SystemIdentification/Main/2023-04-20-2.Sampling.md",
-    "_posts/SystemIdentification/Simulation/2023-04-13-Simulation (1).md",
     "_posts/SystemIdentification/Simulation/2023-04-21-Simulation (2).md",
     "_posts/SystemIdentification/Simulation/2023-05-26-Simulation (3)PID.md",
-    "_posts/SystemIdentification/Simulation/2023-06-08-Simulation (4).md",
     "_posts/Blog/2024-05-02-Writing.md",
-    "_posts/Blog/2024-04-29-NewBlog.md",
     "README.md",
     "_posts/Temp/Math.md",
     "_tabs/about.md",
@@ -203,8 +232,6 @@
     "SystemIdentification/Main/2023-04-10-1.Linear Continuous-time Model.md",
     "SystemIdentification/Simulation/2023-04-21-Simulation (2).md",
     "SystemIdentification/Simulation/2023-05-26-Simulation (3)PID.md",
-    "SystemIdentification/Simulation/2023-06-08-Simulation (4).md",
-    "SystemIdentification/Simulation/2023-04-13-Simulation (1).md",
     "SystemIdentification/src/20230529165242.png",
     "SystemIdentification/src/20230529164150.png",
     "SystemIdentification/src/20230529145655.png",
