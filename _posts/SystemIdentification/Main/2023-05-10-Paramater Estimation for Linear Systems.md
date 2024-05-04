@@ -1,5 +1,5 @@
 ---
-title: SI_3:Paramater Estimation for Linear Systems
+title: Paramater Estimation for Linear Systems
 date: 2023-05-10 15:33:00 +0900
 categories: [System Identification]
 tags: [System Identification, Contol]

@@ -1,5 +1,5 @@
 ---
-title: SI_2:Continuous-time signal sampling
+title: Continuous-time signal sampling
 date: 2023-04-21 15:33:00 +0900
 categories: [System Identification]
 tags: [Linear System, Contol]
