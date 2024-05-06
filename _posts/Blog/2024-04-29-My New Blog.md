@@ -1,8 +1,8 @@
 ---
-title: My New Blog
+title: ToDo List for My New Blog
 date: 2024-04-29 15:33:00 +0900
 categories: [Blog]
-tags: [Blog]
+tags: [Blog, ToDo]
 author: Youkoutaku
 math: true
 image:
@@ -15,13 +15,44 @@ This new blog is built today!
 
 I'm working on uploading my previous study notes here.
 
+
 ## ToDo
-- [x] System Identification
+> Updated May 6, 2024
+{: .prompt-info }
+
+### Project
 - [x] [Machine Learning](https://github.com/youkoutaku/Machine-Learning)
 - [ ] [old_blog](https://github.com/youkoutaku/youkoutaku_ole_blog)
 - [ ] [OpenGL Robotics](https://github.com/youkoutaku/my-learning)
-- [ ] [Digtal single](https://github.com/youkoutaku/my-learning)
-- [ ] [Python Notes](https://github.com/youkoutaku/my-learning)
+- [ ] [Python](https://github.com/youkoutaku/my-learning)
 - [ ] [mobile robot](https://github.com/youkoutaku/my-learning)
 - [ ] [C](https://github.com/youkoutaku/C-prg)
 - [ ] [Algorithm](https://github.com/youkoutaku/C-Algorithm-and-Data)
+- [ ] Robomaster TT
+- [ ] Programming Robots with ROS
+
+### Notes
+#### Control
+- [x] Digtal Signal Processing
+- [x] System Identification
+- [ ] Classical Control
+- [ ] Modern Control
+- [ ] Multi-Agent Systems
+- [ ] Robust Control
+- [ ] Optimal Control
+- [ ] MPC
+- [ ] Kalman Filter
+- [ ] Control Barrier Function
+
+#### Math
+- [ ] Liner algebra
+- [ ] Statistics
+
+#### AI
+- [ ] Reinforcement Learning
+- [ ] Deep Learning
+
+#### Paper
+- [ ] Formation control for MAS
+- [ ] States estimation for MAS
+- [ ] Prescribed performance
