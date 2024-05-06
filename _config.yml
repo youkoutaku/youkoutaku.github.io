@@ -80,7 +80,7 @@ avatar: "https://avatars.githubusercontent.com/u/87299911?v=4"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: "/assets/me.jpg" # string, local or CORS resources
+social_preview_image: "https://avatars.githubusercontent.com/u/87299911?v=4" # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
