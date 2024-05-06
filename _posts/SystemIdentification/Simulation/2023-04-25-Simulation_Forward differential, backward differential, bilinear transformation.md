@@ -1,8 +1,8 @@
 ---
-title: Simulation_Forward differential, backward differential, bilinear transformation
-date: 2023-04-21 15:33:00 +0900
+title: Simulation_Forward difference, Backward difference, bilinear transform
+date: 2023-04-25 15:33:00 +0900
 categories: [System Identification, Simulation]
-tags: [Matlab, Contol]
+tags: [Matlab, Control, Bilinear transform, Forward difference, Backward difference]
 author: Youkoutaku
 math: true
 ---

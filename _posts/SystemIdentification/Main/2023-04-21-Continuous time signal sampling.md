@@ -2,15 +2,16 @@
 title: Continuous-time signal sampling
 date: 2023-04-21 15:33:00 +0900
 categories: [System Identification]
-tags: [Linear System, Contol]
+tags: [Linear System, Control, Nyquist–Shannon sampling theorem, Dirac delta function, Fourier transform, Fourier series, Z-transform, Impulse response, Bilinear transform, Forward difference, Backward difference, Discrete-time]
 author: Youkoutaku
 math: true
 ---
+
 ## 2.1 連続時間信号のサンプリングとサンプリング定理
 - $T:$ サンプリング周期
 - $\omega:$ サンプリング角周波数
 
-### 1.連続時間信号のサンプリング(サンプル値信号)=離散時間信号
+### 1.連続時間信号のサンプリング(サンプル値信号)離散時間信号
 
 $$
 x_{p}(t)=x(t)p(t)=\sum_{n=-\infty}^{\infty}x(nT)\delta(t-nT)
@@ -80,6 +81,7 @@ $$
 (サンプルされた関数のフーリエ変換は，周期関数になった)
 
 ![](src/SI/20230420172705.png)
+
 >周波数領域で信号を観察する．横軸が周波数，縦軸が振幅．
 >  $|X(\omega)|^2=信号のエネルギー$
 >各周波数の成分の信号の強さがわかる．
@@ -87,6 +89,7 @@ $$
 ![](src/SI/20230420172721.png)
 
 #### フーリエ変換の畳み込み積分の性質
+
 ![](src/SI/20230420173526.png)
 
 ### サンプリング定理
@@ -103,6 +106,7 @@ H(\omega)=\begin{cases} T&|\omega|\le\frac{\omega_s}{2}\\0&otherwise \end{cases}
 $$
 
 ![](src/SI/20230421131136.png)
+
 逆フーリエ変換すると，
 
 $$
@@ -115,6 +119,7 @@ X(\omega)=X_P(\omega)H(\omega)
 $$
 
 ![](src/SI/20230421131357.png)
+
 回復の公式：(フーリエ変換の畳み込み積分で回復)
 
 $$
@@ -204,7 +209,7 @@ $$
 y(n)+\sum_{k=1}^{N}a_ky(n-k)=\sum_{k=0}^{M}b_ku(n-k)
 $$
 
-### 2.3.2 宿題/2023-04-27-Simulation of linear discrete-time system models]]
+### 2.3.2 宿題2023-04-27-Simulation of linear discrete-time system models
 
 ## 2.4 離散時間モデルの伝達関数
 ### 差分方程式のz変換

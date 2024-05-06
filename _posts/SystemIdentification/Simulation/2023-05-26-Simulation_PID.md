@@ -2,7 +2,7 @@
 title: Simulation_PID
 date: 2023-05-26 15:33:00 +0900
 categories: [System Identification, Simulation]
-tags: [PID, Matlab, Contol]
+tags: [PID, Matlab, Control, Z-transform, Bilinear transform, Forward difference, Backward difference, Transfer function]
 author: Youkoutaku
 math: true
 image:

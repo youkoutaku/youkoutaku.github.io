@@ -2,7 +2,7 @@
 title: Linear Continuous-time Model
 date: 2023-04-10 18:55:00 +0900 #Tokyo
 categories: [System Identification]
-tags: [Linear System, Contol]
+tags: [Linear System, Control, Transfer function, Fourier transform, Impulse response, Convolution]
 author: Youkoutaku
 math: true #Mathematical
 ---
@@ -109,7 +109,7 @@ $$
 \end{equation}
 $$
 
-つまり，伝達関数に$s=j\omega$に代入することと同じである．
+つまり，伝達関数に $s=j\omega$ に代入することと同じである．
 
 ### (2) **交流起電力** 
 

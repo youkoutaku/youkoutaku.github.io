@@ -185,16 +185,16 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "workspaces:管理工作区布局": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c15ca8b08b6f374b",
+  "active": "7a96a7b6ca269dce",
   "lastOpenFiles": [
     "_posts/SystemIdentification/Main/2023-04-10-Linear Continuous-time Model.md",
     "_posts/SystemIdentification/Main/2023-04-20-Continuous time signal sampling.md",

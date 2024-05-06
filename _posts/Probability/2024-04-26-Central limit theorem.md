@@ -2,7 +2,7 @@
 title: Central Limit Theorem
 date: 2024-04-26 14:03 +0900
 categories: [Probability Theory]
-tags: [Probability, Python]
+tags: [Probability, Python, Central Limit Theorem]
 author: Youkoutaku
 math: true
 img_path: /src/Probability2/
@@ -91,7 +91,7 @@ plt.show()
     
 
 
-よって，$X_1+X_2$は$N(m,σ^2)$に従うことを確認できた
+よって，$X_1+X_2$ は $N(m,σ^2)$ に従うことを確認できた
 
 # (2)Central limit theorem
 指数分布と幾何分布により，中心極限定理の考察を行う．
@@ -176,4 +176,4 @@ function_centrol_theory_geom(100)
     
 
 
-お互いに独立な確率変数の数$N$が高いほど，正規分布に近いことを確認し，中心極限定理をわかった．
+お互いに独立な確率変数の数 $N$ が高いほど，正規分布に近いことを確認し，中心極限定理をわかった．
