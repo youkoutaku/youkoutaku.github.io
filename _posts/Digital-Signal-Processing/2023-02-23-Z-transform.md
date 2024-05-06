@@ -68,7 +68,7 @@ $$
 \int\_{-\infty}^{\infty} f(t)\delta (t)dt = f(0)
 $$
 
-![image](/src/Signal-Processing//20230211105627.png)
+![image](20230211105627.png)
 
 サンプル値信号( 離散時間信号 )：
 
@@ -78,7 +78,7 @@ $$
 
 ready/Laplace Transforms すると，
 
-![image](/src/Signal-Processing/20230211110143.png)
+![image](20230211110143.png)
 
 が得られる．
 
@@ -126,7 +126,7 @@ z 変換の例:
 
   漸化式 の求め方により，
 
-![image](/src/Signal-Processing/20230211112248.png)
+![image](20230211112248.png)
 
 - 関数 $x(n)=cos(n\omega T)$ の z 変換
 - 関数 $x(n)=sin(n\omega T)$ の z 変換
@@ -224,4 +224,4 @@ $$
 
 ### 4.4 ★z 変換表
 
-![image](/src/Signal-Processing/20230211112315.png)
+![image](20230211112315.png)

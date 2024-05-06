@@ -54,7 +54,7 @@ img_path: /src/Signal-Processing/
 - **多値信号**
   振幅成分のみが離散化される．
 
-![image](/assets/img/2024-05-06-Signal-Processing/attachments/20230222113629.png)
+![image](20230222113629.png)
 
 ## 1.3 アナログ信号処理 と デジタル信号処理
 
