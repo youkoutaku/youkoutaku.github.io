@@ -12,9 +12,9 @@ order: 4
 - 🎓 I'm a learning student in [Ibaraki University](https://www.ibaraki.ac.jp).  My major is Mechanical Systems Engineering.
 - 🔥 Interested in working with Control System, Robotics, Code and want to try new things. 
 - ⭐ I'm keen to share some of my learning notes and learn from those who are outstanding.
-- 🔭 I’m currently working on my graduation research about Collison-free problem for multi-agent system.
+- 🔭 I’m currently working on my graduation research about Collision-free problem for multi-agent system.
 - 🌱 I’m currently learning Formation Control and MPC.
-- 😄 Hobby: 
+- 😄 Hobby:
   - 💪 Training or running 2~3 times a week
   - 🏀 Basketball once a week
   - 📚 Reading with Kindle (Biography, History, Philosophy, Time Management, Study Skills, etc.)
@@ -24,35 +24,32 @@ order: 4
 ---
 ## Languages
 - MATLAB
-- C/C++
 - Python
-- Java
+- C/C++
 - HTML5&CSS3
 - JavaScript
-- LaTex 
+- Java
+- LaTex
 - Markdown
 
 ## Tools
-- Github
+- Git
+- Simulink
 - ROS1&2
-- Dorker
-- DJI Tello
+- Docker
 - Gym
 - AirSim
 - CARLA Simulator
-- CarSim
-- Vue
-- SOLIDWORKS
+- SolidWorks
 - Arduino
 
-## Software
-- Readwise/ Reader
-- Notion
-- Obsidian
+## Favorite
+
+- [VScode](https://code.visualstudio.com/)
+- [Readwise](https://readwise.io/)
+- [Notion](https://www.notion.so/)
+- [Obsidian](https://obsidian.md/)
 - Kindle
-- Zotero
-- Adobe
-- Calibre
-- VScode
-- Overleaf
-- OBS
+- [Zotero](https://www.zotero.org/)
+- [Overleaf](https://www.overleaf.com/)
+- [calibre](https://calibre-ebook.com/ja/download)
