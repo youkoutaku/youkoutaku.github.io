@@ -13,14 +13,11 @@ mermaid: true
 #  alt: Graphical representation of constraint boundary
 ---
 
-> [Prescribed performance control approaches, applications and challenges: A comprehensive survey - Bu - 2023 - Asian Journal of Control - Wiley Online Library](https://onlinelibrary.wiley.com/doi/10.1002/asjc.2765) : As to control systems, transient performance is as important as steady-state performance. For some special dynamic systems, transient performance is a more prior index in comparison with the steady-state one. Prescribed performance control (PPC) has been proved to be a powerful tool that guarantees control system outputs/errors with desired transient performance as well as steady-state performance.
+> As to control systems, transient performance is as important as steady-state performance. For some special dynamic systems, transient performance is a more prior index in comparison with the steady-state one. Prescribed performance control (PPC) has been proved to be a powerful tool that guarantees control system outputs/errors with desired transient performance as well as steady-state performance.[^1]
 
 ---
 
-A new control methodology namely prescribed performance control (PPC) was proposed for the first time by Bechlioulis in 2008 for the purpose of satisfying prescribed performance.
-
-- [Robust Adaptive Control of Feedback Linearizable MIMO Nonlinear Systems With Prescribed Performance \| IEEE Journals & Magazine \| IEEE Xplore](https://ieeexplore.ieee.org/document/4639441)
-- [Prescribed performance adaptive control of SISO feedback linearizable systems with disturbances \| IEEE Conference Publication \| IEEE Xplore](https://ieeexplore.ieee.org/document/4601971)
+A new control methodology namely prescribed performance control (PPC) was proposed for the first time by Bechlioulis [^2] [^3] in 2008 for the purpose of satisfying prescribed performance.
 
 ## A brief introduction of PPC
 
@@ -113,3 +110,8 @@ Then, a transformed error
 $$\xi=E^{-1}\left(\frac{e(t)}{P(t)}\right)=\frac12\ln\left( \frac{e(t)/P(t)+\sigma_L}{\sigma_R-e(t)/P(t)} \right)$$
 
 $$\Delta_\xi=\frac{1}{2P(t)\left(e(t)/P(t)+\sigma_L\right)}-\frac{1}{2P(t)\left(e(t)/P(t)-\sigma_R\right)}>0$$
+
+---
+[^1]: [Prescribed performance control approaches, applications and challenges: A comprehensive survey - Bu - 2023 - Asian Journal of Control - Wiley Online Library](https://onlinelibrary.wiley.com/doi/10.1002/asjc.2765)
+[^2]: [Robust Adaptive Control of Feedback Linearizable MIMO Nonlinear Systems With Prescribed Performance \| IEEE Journals & Magazine \| IEEE Xplore](https://ieeexplore.ieee.org/document/4639441)
+[^3]: [Prescribed performance adaptive control of SISO feedback linearizable systems with disturbances \| IEEE Conference Publication \| IEEE Xplore](https://ieeexplore.ieee.org/document/4601971)
