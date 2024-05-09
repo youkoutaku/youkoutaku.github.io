@@ -1,7 +1,7 @@
 ---
 title: Writing a New Post
 date: 2024-05-02 12:10 +0900
-categories: [Blog]
+categories: [Blog, Make a Blog]
 tags: [Blog]
 author: Youkoutaku
 math: true

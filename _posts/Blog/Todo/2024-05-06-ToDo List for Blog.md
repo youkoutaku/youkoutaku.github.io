@@ -1,8 +1,8 @@
 ---
-title: ToDo List for My New Blog
-date: 2024-04-29 15:33:00 +0900
-categories: [Blog]
-tags: [Blog, ToDo]
+title: ToDo List for Blog
+date: 2024-05-06 15:33:00 +0900
+categories: [Blog, Todo List]
+tags: [Blog]
 author: Youkoutaku
 math: true
 image:
@@ -10,11 +10,6 @@ image:
   alt: Chirpy Jekyll Theme
 pin: true
 ---
-
-This new blog is built today!
-
-I'm working on uploading my previous study notes here.
-
 
 ## ToDo
 > Updated May 6, 2024
