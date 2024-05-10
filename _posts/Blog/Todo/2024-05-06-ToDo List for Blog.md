@@ -12,7 +12,15 @@ pin: true
 ---
 
 ## ToDo
-> Updated May 6, 2024
+
+### Blog
+
+- [ ] Lab
+- [ ] Journal
+- [ ] Job Search
+- [ ] Study
+
+> Updated May 10, 2024
 {: .prompt-info }
 
 ### Project
@@ -24,20 +32,16 @@ pin: true
 - [ ] [C](https://github.com/youkoutaku/C-prg)
 - [ ] [Algorithm](https://github.com/youkoutaku/C-Algorithm-and-Data)
 - [ ] Robomaster TT
-- [ ] Programming Robots with ROS
 
 ### Notes
 #### Control
-- [x] Digtal Signal Processing
+- [x] Digital Signal Processing
 - [x] System Identification
 - [ ] Classical Control
 - [ ] Modern Control
 - [ ] Multi-Agent Systems
 - [ ] Robust Control
 - [ ] Optimal Control
-- [ ] MPC
-- [ ] Kalman Filter
-- [ ] Control Barrier Function
 
 #### Math
 - [ ] Liner algebra
@@ -45,9 +49,8 @@ pin: true
 
 #### AI
 - [ ] Reinforcement Learning
-- [ ] Deep Learning
 
-#### Paper
+#### Paper Reading
 - [ ] Formation control for MAS
 - [ ] States estimation for MAS
-- [ ] Prescribed performance
+- [ ] Prescribed performance for MAS
