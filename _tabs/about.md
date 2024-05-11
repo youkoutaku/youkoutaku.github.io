@@ -53,3 +53,8 @@ order: 4
 - [Zotero](https://www.zotero.org/)
 - [Overleaf](https://www.overleaf.com/)
 - [calibre](https://calibre-ebook.com/ja/download)
+
+---
+Total <span id="busuanzi_value_site_pv"></span> views.
+You're the <span id="busuanzi_value_site_uv"></span>th visitor.
+<span id="busuanzi_value_page_pv"></span> Hits
