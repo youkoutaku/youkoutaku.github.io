@@ -4,9 +4,12 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-![ME](/assets/me.jpg){: .right }{: w="250" h="250" }
+![](https://youkoutaku.goatcounter.com/counter//.png)
 
 ## Hi there 👋
+
+![ME](/assets/me.jpg){: .right }{: w="250" h="250" }
+
 ### This is You Koutaku!
 -  George Young/ You Koutaku(JP)/ Guangze Yang(CN) 
 - 🎓 I'm a learning student in [Ibaraki University](https://www.ibaraki.ac.jp).  My major is Mechanical Systems Engineering.
@@ -55,5 +58,3 @@ order: 4
 - [calibre](https://calibre-ebook.com/ja/download)
 
 ---
-
-![](https://youkoutaku.goatcounter.com/counter//.png)
