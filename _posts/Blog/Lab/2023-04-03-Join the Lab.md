@@ -5,7 +5,7 @@ categories: [Blog, Lab]
 tags: [Blog]
 author: Youkoutaku
 math: true #Mathematical
-img_path:
+#img_path:
 image:
   path: https://github.com/youkoutaku/youkoutaku_ole_blog/blob/main/image/2023/4-7.jpg?raw=true
   alt: Workspace
