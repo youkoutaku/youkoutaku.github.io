@@ -112,6 +112,8 @@ $$\xi=E^{-1}\left(\frac{e(t)}{P(t)}\right)=\frac12\ln\left( \frac{e(t)/P(t)+\sig
 $$\Delta_\xi=\frac{1}{2P(t)\left(e(t)/P(t)+\sigma_L\right)}-\frac{1}{2P(t)\left(e(t)/P(t)-\sigma_R\right)}>0$$
 
 ---
+## References
+
 [^1]: [Prescribed performance control approaches, applications and challenges: A comprehensive survey - Bu - 2023 - Asian Journal of Control - Wiley Online Library](https://onlinelibrary.wiley.com/doi/10.1002/asjc.2765)
 [^2]: [Robust Adaptive Control of Feedback Linearizable MIMO Nonlinear Systems With Prescribed Performance \| IEEE Journals & Magazine \| IEEE Xplore](https://ieeexplore.ieee.org/document/4639441)
 [^3]: [Prescribed performance adaptive control of SISO feedback linearizable systems with disturbances \| IEEE Conference Publication \| IEEE Xplore](https://ieeexplore.ieee.org/document/4601971)
