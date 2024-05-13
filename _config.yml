@@ -72,6 +72,12 @@ analytics:
   cloudflare:
     id: # fill in your Cloudflare Web Analytics token
 
+google_analytics:
+  id: G-G83CSKH387
+
+goatcounter:
+  id: youkoutaku
+
 # Pageviews settings
 pageviews:
   provider: goatcounter # now only supports 'goatcounter'
