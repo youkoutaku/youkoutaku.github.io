@@ -44,16 +44,36 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: 9vd_GzNZ0in29PTGoMtRufHYEEgO0QB54_mbGL3SMyg # fill in to your verification string
+# Site Verification Settings
+webmaster_verifications:
+  google: 9vd_GzNZ0in29PTGoMtRufHYEEgO0QB54_mbGL3SMyg # fill in your Google verification code
+  bing: # fill in your Bing verification code
+  alexa: # fill in your Alexa verification code
+  yandex: # fill in your Yandex verification code
+  baidu: # fill in your Baidu verification code
+  facebook: # fill in your Facebook verification code
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-google_analytics:
-  id: G-G83CSKH387 # fill in your Google Analytics ID
+# Web Analytics Settings
+analytics:
+  google:
+    id: G-G83CSKH387 # fill in your Google Analytics ID
+  goatcounter:
+    id: youkoutaku # fill in your GoatCounter ID
+  umami:
+    id: # fill in your Umami ID
+    domain: # fill in your Umami domain
+  matomo:
+    id: # fill in your Matomo ID
+    domain: # fill in your Matomo domain
+  cloudflare:
+    id: # fill in your Cloudflare Web Analytics token
 
-goatcounter:
-  id: youkoutaku # fill in your Goatcounter ID
+# Pageviews settings
+pageviews:
+  provider: goatcounter # now only supports 'goatcounter'
 
 # Prefer color scheme setting.
 #
