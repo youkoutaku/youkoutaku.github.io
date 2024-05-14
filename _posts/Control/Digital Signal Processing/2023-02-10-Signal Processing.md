@@ -2,7 +2,7 @@
 title: Signal Processing
 date: 2023-02-10 11:00:00 +0900 #Tokyo
 categories: [Digital Signal Processing]
-tags: []
+tags: [JP]
 author: Youkoutaku
 math: true #Mathematical
 mermaid: true

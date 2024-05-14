@@ -2,12 +2,13 @@
 title: Simulation_Linear discrete-time system models
 date: 2023-04-13 15:33:00 +0900
 categories: [System Identification, Simulation]
-tags: [Matlab, Control, Discrete-time, Linear System]
+tags: [Matlab, Control, Discrete-time, Linear System, JP]
 author: Youkoutaku
 math: true
 ---
 
 ## 前頭:
+
 ```matlab
 close all % 全てのグラフfigureを閉じる
 
@@ -23,7 +24,7 @@ $$
 $$
 
 $$
-(1+a_1z^{-1}+a_2z^{-2})X(z)=(b_1z^{-1}+b_2z^{-2})U(z) 
+(1+a_1z^{-1}+a_2z^{-2})X(z)=(b_1z^{-1}+b_2z^{-2})U(z)
 $$
 
 $$
@@ -34,7 +35,7 @@ $$
     H(z)=\frac{ z^{-1}(1+0.5z^{-1}) }{ (1-\frac{1.5+j\sqrt{0.55}}{2}z^{-1})(1-\frac{1.5-j\sqrt{0.55}}{2}z^{-1})}
 $$
 
->MATLABでディジタル信号を扱う時に，そのまま差分方程式を使える．z変換などが要らない．
+> MATLAB でディジタル信号を扱う時に，そのまま差分方程式を使える．z 変換などが要らない．
 
 ```matlab
 clear
@@ -48,13 +49,13 @@ set(0,'DefaultAxesFontSize',12)
 %---------------------------------------------------------------------
 
 %初期パラメータ
-Tmax=10; 
+Tmax=10;
 samp=0.01;
 n=Tmax/samp;
 u=rand(1,n+1); %入力
 
-NSR = 0.0; 
-%NSR 0, 0.1 0.2 
+NSR = 0.0;
+%NSR 0, 0.1 0.2
 
 a1=-1.5;
 a2=0.7;

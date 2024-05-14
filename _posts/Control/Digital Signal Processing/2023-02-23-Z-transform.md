@@ -2,7 +2,7 @@
 title: Z-transform
 date: 2023-02-23 13:00:00 +0900 #Tokyo
 categories: [Digital Signal Processing]
-tags: [Z-transform, Laplace transform, Dirac delta function]
+tags: [Z-transform, Laplace transform, Dirac delta function, JP]
 author: Youkoutaku
 math: true #Mathematical
 mermaid: true
@@ -193,12 +193,14 @@ $$
 * (6) 初期値定理
 
   $$
-  x(0)=\lim_{x\to\infty} X(z)$$
+  x(0)=\lim_{x\to\infty} X(z)
+  $$
 
 * (7) 最終値定理
 
   $$
-  \lim_{x\to\infty} x(nT) = \lim_{z\to 1} (1-z^{-1})X(z)$$
+  \lim_{x\to\infty} x(nT) = \lim_{z\to 1} (1-z^{-1})X(z)
+  $$
 
 ### 4.3 ★ 逆 Z 変換
 

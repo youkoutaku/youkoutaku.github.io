@@ -2,7 +2,15 @@
 title: Simulation_Forward difference, Backward difference, bilinear transform
 date: 2023-04-25 15:33:00 +0900
 categories: [System Identification, Simulation]
-tags: [Matlab, Control, Bilinear transform, Forward difference, Backward difference]
+tags:
+  [
+    Matlab,
+    Control,
+    Bilinear transform,
+    Forward difference,
+    Backward difference,
+    JP,
+  ]
 author: Youkoutaku
 math: true
 ---
@@ -22,7 +30,7 @@ $$
 $$
 
 $$
-    \to i(n)=\frac{1}{L}(Tu(n-1)+(L-RT)i(n-1)) 
+    \to i(n)=\frac{1}{L}(Tu(n-1)+(L-RT)i(n-1))
 $$
 
 ## 後退差分
@@ -64,7 +72,7 @@ set(0,'DefaultAxesFontSize',12)
 %                                                4/21 by YANG
 %---------------------------------------------------------------------
 
-Tmax= 10; 
+Tmax= 10;
 samp=0.5; %サンプリング周期
 T=samp;
 n=Tmax/samp;
@@ -81,7 +89,7 @@ i2 = zeros(1, n+1); %後退差分
 i3 = zeros(1, n+1); %双一次変換
 
 %真の信号
-for k=2:n+1 
+for k=2:n+1
     t(k)=(k-1)*samp;
     i(k) =(1 - exp((-t(k)*R)/L) )/R;
 end
@@ -93,13 +101,13 @@ for k=2:n+1
 end
 
 %後退差分
-for k=2:n+1 
+for k=2:n+1
     t(k)=(k-1)*samp;
     i2(k)=( T*u(k) + L*i(k-1) )/(R*samp+L);
 end
 
 %双一次変換
-for k=2:n+1 
+for k=2:n+1
     t(k)=(k-1)*samp;
     i3(k)=(T*u(k) + T*u(k-1) + (2*L-R*T)*i3(k-1) )/(2*L+R*samp);
 end

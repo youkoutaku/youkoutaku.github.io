@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-01-15-Confidence is extremely important",
+      "path": "_posts/Blog/Journal/2023-01-15-Confidence is extremely important.md"
+    },
+    {
+      "basename": "2023-04-13-My study experience since I came to Japan",
+      "path": "_posts/Blog/Journal/2023-04-13-My study experience since I came to Japan.md"
+    },
+    {
       "basename": "YAML",
       "path": "_posts/Temple/YAML.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "1.線形連続時間モデル",
       "path": "Control Engineering/System Identification/1.線形連続時間モデル.md"
-    },
-    {
-      "basename": "Kinematic Bicycle Model — Algorithms for Automated Driving",
-      "path": "Control Engineering/Modeling/Kinematic Bicycle Model — Algorithms for Automated Driving.pdf"
-    },
-    {
-      "basename": "Kinematic bicycle model",
-      "path": "Control Engineering/Modeling/Kinematic bicycle model.md"
     }
   ],
   "omittedPaths": [],

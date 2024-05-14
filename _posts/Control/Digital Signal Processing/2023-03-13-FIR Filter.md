@@ -2,7 +2,7 @@
 title: FIR Filter
 date: 2023-03-13 10:00:00 +0900 #Tokyo
 categories: [Digital Signal Processing]
-tags: [Filter, FIR]
+tags: [Filter, FIR, JP]
 author: Youkoutaku
 math: true #Mathematical
 mermaid: true
@@ -25,8 +25,9 @@ img_path: /src/Signal-Processing/
 (3)ひずみのない位相特性，つまり， **直線位相特性** を容易に実現できる.
 
 比較：
+
 - FIR フィルタ は（直線）位相特性を重視フィルタ.
-- IIR Filterは振幅（急峻な減衰）特性を重視したフィルタ．
+- IIR Filter は振幅（急峻な減衰）特性を重視したフィルタ．
 
 $$
 \frac {Y(z)}{X(z)}=H(Z)=b_0+b_1z^{-1}+\dots+b_Jz^{-J}=\sum_{i=0}^{J} b_iz^{-i}
@@ -121,7 +122,7 @@ $$
 $$
 
 - 振幅特性
-  
+
   $$
   \mid
   h(\frac {N-1}{2})+
@@ -130,15 +131,15 @@ $$
   $$
 
 - 位相特性
-  
+
   $$
   \theta(\omega)=-\omega\frac {N-1}{2}T\dots(直線位相)
   $$
 
 - ★ Blog/Digital Signal Processing/subpages/群遅延
-  
+
   $$
   \tau(\omega)=-\frac {\partial\theta}{\partial\omega}=\frac {N-1}{2}T\dots(群遅延)
   $$
-  
+
   (意味：波形全体の遅れを表している)

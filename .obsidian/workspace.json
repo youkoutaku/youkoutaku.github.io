@@ -13,24 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Temple/YAML.md",
+                "file": "_posts/Blog/Journal/2023-01-15-Confidence is extremely important.md",
                 "mode": "source",
                 "source": true
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "cfd0e6f7a490fe43",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6edc043feccc3041",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -108,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/Temple/YAML.md"
+                "file": "_posts/Blog/Journal/2023-01-15-Confidence is extremely important.md"
               }
             }
           },
@@ -124,20 +110,12 @@
             }
           },
           {
-            "id": "3ad40938a2f29454",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "c86536808d07252c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/Temple/YAML.md",
+                "file": "_posts/Blog/Journal/2023-01-15-Confidence is extremely important.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/Temple/YAML.md",
+                "file": "_posts/Blog/Journal/2023-01-15-Confidence is extremely important.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,12 +164,15 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7a96a7b6ca269dce",
+  "active": "c15ca8b08b6f374b",
   "lastOpenFiles": [
+    "_posts/Blog/Journal/2023-04-13-My study experience since I came to Japan.md",
+    "_posts/Blog/Journal/2023-01-15-Confidence is extremely important.md",
+    "_posts/Temple/YAML.md",
     "_posts/SystemIdentification/Main/2023-04-10-Linear Continuous-time Model.md",
     "_posts/SystemIdentification/Main/2023-04-20-Continuous time signal sampling.md",
     "_posts/SystemIdentification/Main/2023-05-10-Paramater Estimation for Linear Systems.md",
@@ -225,9 +206,6 @@
     "_tabs/tags.md",
     "_tabs/categories.md",
     "_tabs/archives.md",
-    "SystemIdentification/Main/2023-04-10-1.Linear Continuous-time Model.md",
-    "SystemIdentification/Simulation/2023-04-21-Simulation (2).md",
-    "SystemIdentification/Simulation/2023-05-26-Simulation (3)PID.md",
     "SystemIdentification/src/20230529165242.png",
     "SystemIdentification/src/20230529164150.png",
     "SystemIdentification/src/20230529145655.png",

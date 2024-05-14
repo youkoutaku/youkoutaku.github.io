@@ -2,12 +2,28 @@
 title: Continuous-time signal sampling
 date: 2023-04-21 15:33:00 +0900
 categories: [System Identification]
-tags: [Linear System, Control, Nyquist–Shannon sampling theorem, Dirac delta function, Fourier transform, Fourier series, Z-transform, Impulse response, Bilinear transform, Forward difference, Backward difference, Discrete-time]
+tags:
+  [
+    Linear System,
+    Control,
+    Nyquist–Shannon sampling theorem,
+    Dirac delta function,
+    Fourier transform,
+    Fourier series,
+    Z-transform,
+    Impulse response,
+    Bilinear transform,
+    Forward difference,
+    Backward difference,
+    Discrete-time,
+    JP,
+  ]
 author: Youkoutaku
 math: true
 ---
 
 ## 2.1 連続時間信号のサンプリングとサンプリング定理
+
 - $T:$ サンプリング周期
 - $\omega:$ サンプリング角周波数
 
@@ -59,7 +75,7 @@ $$
 X_p(\omega)=\mathcal{F}[x_p(t)]=\frac{1}{2\pi}[X(\omega)*P(\omega)]
 $$
 
->$[X(\omega)*P(\omega)]$：畳み込み
+> $[X(\omega)*P(\omega)]$：畳み込み
 
 $$
 \begin{equation}
@@ -71,7 +87,7 @@ $$
 \end{equation}
 $$
 
-$\tau=\omega-\omega_s$ のとき，デルタ関数が1である．よって，
+$\tau=\omega-\omega_s$ のとき，デルタ関数が 1 である．よって，
 
 $$
 X_p(\omega)=\frac{1}{t}\sum_{k=-\infty}^{\infty}X(\omega-k\omega_s)
@@ -82,9 +98,9 @@ $$
 
 ![](src/SI/20230420172705.png)
 
->周波数領域で信号を観察する．横軸が周波数，縦軸が振幅．
->  $|X(\omega)|^2=信号のエネルギー$
->各周波数の成分の信号の強さがわかる．
+> 周波数領域で信号を観察する．横軸が周波数，縦軸が振幅．
+> $|X(\omega)|^2=信号のエネルギー$
+> 各周波数の成分の信号の強さがわかる．
 
 ![](src/SI/20230420172721.png)
 
@@ -93,17 +109,20 @@ $$
 ![](src/SI/20230420173526.png)
 
 ### サンプリング定理
-**信号の最大周波数成分 $\omega_M<\omega_s/2$ のとき，$x(t)$ は $x(nt)$ から完全に回復できる．**　
+
+**信号の最大周波数成分 $\omega_M<\omega_s/2$ のとき，$x(t)$ は $x(nt)$ から完全に回復できる．**
+
 - $\omega_M:$ 信号成分の最大角周波数
->周期関数がお互いに干渉にないことを確保する．サンプリング定理の条件を満たさない場合，周期関数がお互いに干渉，その干渉を**エイリアシング**という.
+  > 周期関数がお互いに干渉にないことを確保する．サンプリング定理の条件を満たさない場合，周期関数がお互いに干渉，その干渉を**エイリアシング**という.
 
 ![](src/SI/20230421125115.png)
 
 ### 3.信号の回復（補間）
+
 - ゲート関数
-$$
-H(\omega)=\begin{cases} T&|\omega|\le\frac{\omega_s}{2}\\0&otherwise \end{cases}
-$$
+  $$
+  H(\omega)=\begin{cases} T&|\omega|\le\frac{\omega_s}{2}\\0&otherwise \end{cases}
+  $$
 
 ![](src/SI/20230421131136.png)
 
@@ -114,6 +133,7 @@ h(t)=\frac{\sin{(\frac{\omega_s}{2}t)}}{(\frac{\omega_s}{2}t)}
 $$
 
 ただし，$\omega_s/2=\pi/T$
+
 $$
 X(\omega)=X_P(\omega)H(\omega)
 $$
@@ -131,29 +151,35 @@ $$
 &=\sum_{n=-\infty}^{\infty}x(nT)\frac{\sin{(\frac{\omega_s}{2}(t-nT))}}{(\frac{\omega_s}{2}(t-nT))}\\
 &=\sum_{n=-\infty}^{\infty}x(nT)\frac{\sin{(\frac{\pi}{T}(t-nT))}}{(\frac{\pi}{T}(t-nT))}
 \end{aligned}
-\end{equation}$$
+\end{equation}
+$$
 
 ![](src/SI/20230421131409.png)
 
-## 2.2 z変換
+## 2.2 z 変換
+
 ### 2.2.1 離散時間信号
+
 #### 離散時間信号
 
 $$
 x(n)=\sum_{k=-\infty}^{\infty}x(k)\delta(n-k)
 $$
+
 (離散インパルス信号で表す)
 
 #### 離散インパルス信号
 
-$$\delta(n)=
+$$
+\delta(n)=
 	\begin{cases}
 	1 &(n=0)\\
 	0 &(n\neq0)
 	\end{cases}
 $$
 
-####  離散ステップ信号
+#### 離散ステップ信号
+
 $$
 u(n)=\sum_{k=0}^{\infty}\delta(n-k)=\begin{cases}1&n\ge0 \\0&n<0\end{cases}
 $$
@@ -164,10 +190,11 @@ $$
 \delta(n)=u(n)-u(n-1)
 $$
 
-### 2.2.2 z変換
->離散時間信号に対して，ラプラス変換すると，$z=e^{sT}$
+### 2.2.2 z 変換
 
-#### 片側z変換
+> 離散時間信号に対して，ラプラス変換すると，$z=e^{sT}$
+
+#### 片側 z 変換
 
 $$
 X(z)=\sum_{n=0}^{\infty}x(n)z^{-n}
@@ -190,7 +217,7 @@ $$
 - $r>1:$ $$\lim_{n \to \infty}r^{-n}\to 0$$
 - $r<1$と，$$\lim_{n \to \infty}r^{-n}\to\infty$$
 
-#### 逆z変換
+#### 逆 z 変換
 
 $$
 x(n)=\frac{1}{2\pi j}\int_{C}X(z)z^{n-1}dz
@@ -203,16 +230,18 @@ $$
 - 畳み込み和
 
 ## 2.3 線形定係数差分方程式による時間システムの表現
+
 ### 2.3.1 差分方程式
 
 $$
 y(n)+\sum_{k=1}^{N}a_ky(n-k)=\sum_{k=0}^{M}b_ku(n-k)
 $$
 
-### 2.3.2 宿題2023-04-27-Simulation of linear discrete-time system models
+### 2.3.2 宿題 2023-04-27-Simulation of linear discrete-time system models
 
 ## 2.4 離散時間モデルの伝達関数
-### 差分方程式のz変換
+
+### 差分方程式の z 変換
 
 $$
 Y(z)+\sum_{k=1}^{N}a_kY(z)z^{-k}=\sum_{k=0}^{M}b_kU(z)z^{-k}
@@ -227,20 +256,25 @@ $$
 ### インパルス応答(畳み込み表現)
 
 $$
-y(n)=\sum_{k=0}^{n}u(k)h(n-k)=\sum_{k=0}^{n}u(n-k)h(k)\approx\sum_{k=0}^{N}u(n-k)h(k) 
+y(n)=\sum_{k=0}^{n}u(k)h(n-k)=\sum_{k=0}^{n}u(n-k)h(k)\approx\sum_{k=0}^{N}u(n-k)h(k)
 $$
 
 安定なシステムなら，時間が十分たつと，$h(k)$が減衰することに注意.$h(k)\approx0,k>N$
 
-**インパルス応答のz変換は，離散時間システムの伝達関数．**
+**インパルス応答の z 変換は，離散時間システムの伝達関数．**
 
 ## 2.5 離散時間モデルの安定性と周波数応答
+
 ### 2.5.1 離散時間モデルの安定性
-伝達関数 $H(z)$ の極が**半径1の円(単位円)** にあれば，円周上にある単根は安定限界，単位円の外にあれば不安定．
-$$\frac{1}{1-\alpha z^{-1}}:|\alpha|<1
+
+伝達関数 $H(z)$ の極が**半径 1 の円(単位円)** にあれば，円周上にある単根は安定限界，単位円の外にあれば不安定．
+
+$$
+\frac{1}{1-\alpha z^{-1}}:|\alpha|<1
 $$
 
 ### 2.5.2 離散時間モデルの周波数応答
+
 $H(z)$ について，
 
 $$
@@ -252,6 +286,7 @@ $$
 #### 離散時間システム周波数特性：
 
 ## 2.6 連続時間モデルから離散時間モデルの導出
+
 ### 2.6.1 インパルス不変の方法
 
 $$
@@ -263,6 +298,7 @@ $$
 ![](src/SI/20230421135456.jpg)
 
 #### 前進差分（前進矩形微分）
+
 $$
 s=\frac{z-1}{T}, \quad s^{-1}=\frac{T}{z-1}
 $$
@@ -281,7 +317,7 @@ $$
 sf(n)=\frac{f(n)-f(n-1)}{T},\quad s^{-1}f(n)=s^{-1}f(n-1)+Tf(n)
 $$
 
-#### 双1次変換法（台形積分）
+#### 双 1 次変換法（台形積分）
 
 $$
 s=\frac{2}{T}\frac{1-z^{-1}}{1+z^{-1}}, \quad s^{-1}=\frac{T}{2}\frac{1+z^{-1}}{1+z^{-1}}
@@ -291,66 +327,80 @@ $$
 \frac{sf(n)+sf(n-1)}{2}=\frac{f(n)-f(n-1)}{T},\quad s^{-1}f(n)=s^{-1}f(n-1)+\frac{T}{2}[f(n)+f(n-1)]
 $$
 
-### 2.6.3 宿題1
+### 2.6.3 宿題 1
 
-## 2.6.4 宿題2 PID制御器のシミュレーション
+## 2.6.4 宿題 2 PID 制御器のシミュレーション
 
-## 2.7 フーリエ級数，フーリエ変換とz変換の関係
+## 2.7 フーリエ級数，フーリエ変換と z 変換の関係
+
 ### 2.7.1 フーリエ級数
-周期関数の周期信号を扱う．複数の三角関数で信号関数を表す．
->ベクトルの内積の視線から見ると，ベクトルを二つ基底ベクトルの線形結合で表される．よって，ある関数を正弦波と余弦波の線形結合で表される．
 
-$$x(t)=x(t+T),\;f_0=\frac{1}{P},\;\omega_0=\frac{2\pi}{P}
+周期関数の周期信号を扱う．複数の三角関数で信号関数を表す．
+
+> ベクトルの内積の視線から見ると，ベクトルを二つ基底ベクトルの線形結合で表される．よって，ある関数を正弦波と余弦波の線形結合で表される．
+
+$$
+x(t)=x(t+T),\;f_0=\frac{1}{P},\;\omega_0=\frac{2\pi}{P}
 $$
 
 フーリエ級数：
 
 $$
-x(t)=\frac{a_0}{2}+\sum_{n=1}^{\infty}\left( a_n\cos{n\omega_0t}+b_n\sin{n\omega_0t}\right)$$
+x(t)=\frac{a_0}{2}+\sum_{n=1}^{\infty}\left( a_n\cos{n\omega_0t}+b_n\sin{n\omega_0t}\right)
+$$
 
->関数の内積：
+> 関数の内積：
 > $a_n$ は余弦波成分の係数である．関数と余弦関数の内積で求める．
 > $b_n$ は正弦波成分の係数である．関数と正弦関数の内積で求める．
 
 $$
-a_n=\frac{2}{P}\int_{0}^{P}x(t)\cos{n\omega_0t}\;dt,\quad b_n=\frac{2}{P}\int_{0}^{P}x(t)\sin{n\omega_0t}\;dt$$
+a_n=\frac{2}{P}\int_{0}^{P}x(t)\cos{n\omega_0t}\;dt,\quad b_n=\frac{2}{P}\int_{0}^{P}x(t)\sin{n\omega_0t}\;dt
+$$
 
-直交性：(関数の内積の特性：自分自身の写像が1)
+直交性：(関数の内積の特性：自分自身の写像が 1)
 
 $$
-\frac{2}{P}\int_{0}^{P}\cos{m\omega_0t}\cos{n\omega_0t}\;dt=\delta_{mn}$$
+\frac{2}{P}\int_{0}^{P}\cos{m\omega_0t}\cos{n\omega_0t}\;dt=\delta_{mn}
+$$
 
 $$
-\frac{2}{P}\int_{0}^{P}\sin{m\omega_0t}\sin{n\omega_0t}\;dt=\delta_{mn}$$
+\frac{2}{P}\int_{0}^{P}\sin{m\omega_0t}\sin{n\omega_0t}\;dt=\delta_{mn}
+$$
 
 $$
-\frac{2}{P}\int_{0}^{P}\sin{m\omega_0t}\cos{n\omega_0t}\;dt=0$$
+\frac{2}{P}\int_{0}^{P}\sin{m\omega_0t}\cos{n\omega_0t}\;dt=0
+$$
 
 クロネッカのデルタ：
 
 $$
-\delta_{mn}=\begin{cases}1\quad m=n\\0\quad m\ne n\end{cases}$$
+\delta_{mn}=\begin{cases}1\quad m=n\\0\quad m\ne n\end{cases}
+$$
 
 パーセバルの等式：
 
 $$
-\frac{2}{P}\int_{0}^{P}x^2(t)dt=\frac{a_0^2}{2}+\sum_{n=1}^{\infty}(a_n^2+b_n^2)$$
->信号の平均パワー
+\frac{2}{P}\int_{0}^{P}x^2(t)dt=\frac{a_0^2}{2}+\sum_{n=1}^{\infty}(a_n^2+b_n^2)
+$$
+
+> 信号の平均パワー
 
 複素数表現：
 
 $$
-e^{j\omega_0t}=\cos{\omega_0t}+\sin{\omega_0t}$$
+e^{j\omega_0t}=\cos{\omega_0t}+\sin{\omega_0t}
+$$
 
 オイラーの公式により，
 
 $$
-\cos{\omega_0t}=\frac{e^{j\omega_0t}+e^{-j\omega_0t}}{2},\quad \sin{\omega_0t}=\frac{e^{j\omega_0t}-e^{-j\omega_0t}}{2j}$$
+\cos{\omega_0t}=\frac{e^{j\omega_0t}+e^{-j\omega_0t}}{2},\quad \sin{\omega_0t}=\frac{e^{j\omega_0t}-e^{-j\omega_0t}}{2j}
+$$
 
 $$
 \begin{equation}
 \begin{aligned}
-	a_n\cos{n\omega_0t}+b_n\sin{n\omega_0t}&=a_n\frac{e^{jn\omega_0t}+e^{-jn\omega_0t}}{2}+b_n\frac{e^{jn\omega_0t}-e^{-jn\omega_0t}}{2j}\\&=\frac{a_n-jb_n}{2}e^{jn\omega_0t}+ \frac{a_n+jb_n}{2}e^{-jn\omega_0t} 
+	a_n\cos{n\omega_0t}+b_n\sin{n\omega_0t}&=a_n\frac{e^{jn\omega_0t}+e^{-jn\omega_0t}}{2}+b_n\frac{e^{jn\omega_0t}-e^{-jn\omega_0t}}{2j}\\&=\frac{a_n-jb_n}{2}e^{jn\omega_0t}+ \frac{a_n+jb_n}{2}e^{-jn\omega_0t}
 \end{aligned}
 \end{equation}
 $$
@@ -370,9 +420,9 @@ c_n=\frac{1}{P}\int_{0}^{P}x(t)e^{-jn\omega_0t}dt
 $$
 
 - 複素数の内積
-$$
-\frac{1}{P}\int_{0}^{P}e^{jm\omega_0t}e^{-jn\omega_0t}dt=\delta_{mn}
-$$
+  $$
+  \frac{1}{P}\int_{0}^{P}e^{jm\omega_0t}e^{-jn\omega_0t}dt=\delta_{mn}
+  $$
 
 パーセバルの等式]]
 
@@ -381,19 +431,26 @@ $$
 $$
 
 ### 2.7.2 連続時間フーリエ変換
+
 独立波を扱うとき，$p\to\infty$
->独立波を周期無限大の周期関数として扱い，フーリエ級数を行うと，**フーリエ変換**である．時間領域から周波数領域へ変換できる．
+
+> 独立波を周期無限大の周期関数として扱い，フーリエ級数を行うと，**フーリエ変換**である．時間領域から周波数領域へ変換できる．
 
 $$
-X(\omega)=\int_{-\infty}^{\infty}x(t)e^{-j\omega t}dt$$
+X(\omega)=\int_{-\infty}^{\infty}x(t)e^{-j\omega t}dt
 $$
 
-x(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty}X(\omega)e^{j\omega t}dt$$
+$$
+
+x(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty}X(\omega)e^{j\omega t}dt
+$$
+
 フーリエ変換が発散するとき($X(\omega)=\infty$)，ラプラス変換を導入する．$j\omega$を$s=\sigma+j\omega$で置き換えると取り扱う．($\sigma>0$)
 
 ### 2.7.3 離散フーリエ変換#5.1 離散時間フーリエ変換の導出|離散時間フーリエ変換
+
 時間だけを離散化する．
 
 ### 2.7.4 離散フーリエ変換
-時間と周波数を離散化する
 
+時間と周波数を離散化する

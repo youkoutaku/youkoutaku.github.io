@@ -2,18 +2,19 @@
 title: Simulation_System Identification
 date: 2023-06-08 15:33:00 +0900
 categories: [System Identification, Simulation]
-tags: [System Identification, Matlab, Control, Least squares method, RLS]
+tags: [System Identification, Matlab, Control, Least squares method, RLS, JP]
 author: Youkoutaku
 math: true
 ---
 
 ## 3.5.1 同定対象
-2次のシステムを考える．
+
+2 次のシステムを考える．
 
 $$
 \begin{aligned}
 x_{t} &=-a_1x_{t-1}-a_2x_{t-2}+b_1u_{t-1}+b_2u_{t-2}  \\
-y_t &=x_t+v_t 
+y_t &=x_t+v_t
 \end{aligned}
 $$
 
@@ -24,9 +25,10 @@ a_1=-1.5,\quad a_2=0.7,\quad b_1=1.0, \quad b_2=0.5
 $$
 
 ここで，入力信号を $[0,1]$ の範囲で**一様分布する乱数**とする．観測雑音は**ゼロ平均**のガウス分布乱数で，**入力信号と無相関**である．
- 雑音のレベルは一般に雑音信号比（Noise Signal Ratio, $NSR$ ）で評価される．ここで, **$NSR$ は雑音 $v_t$ の標準偏差と真の出力信号 $x_t$ の標準偏差との比である.** 
+雑音のレベルは一般に雑音信号比（Noise Signal Ratio, $NSR$ ）で評価される．ここで, **$NSR$ は雑音 $v_t$ の標準偏差と真の出力信号 $x_t$ の標準偏差との比である.**
 
 ## 3.5.2 逐次最小二乗法によるパラメータ推定
+
 同じ入力信号に対して，出力の雑音信号比 $NSR$ をそれぞれ **0%，10%，20%** とし，入出力信号の観測値 $\{u_t , y_t\}(t = 1, 2, · · · , N)$ を用いて，パラメータを逐次最小二乗法で推定せよ。ただし，$N$ は**十分大きな整数（2000 ∼ 3000**）とする。時刻を横軸として，各推定パラメータの挙動を，パラメータの真値とあわせて図示せよ。観測雑音によるパラメータ 推定値への影響を考察せよ。
 
 $$
@@ -255,21 +257,26 @@ grid on
 ```
 
 ## 3.5.3 逐次最小二乗法による時変系のパラメータ推定
-2次の時変システム：
 
-$$\begin{aligned}
+2 次の時変システム：
+
+$$
+\begin{aligned}
 &x_t {=}{-a_{1,t}x_{t-1}-a_{2,t}x_{t-2}+b_{1,t}u_{t-1}+b_{2,t}u_{t-2}}  \\
-&y_t =x_t+v_t 
-\end{aligned}$$
+&y_t =x_t+v_t
+\end{aligned}
+$$
 
 ただし，係数：
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 a_{1,t}&= -1.0+0.5\sin(2\pi t/2000)  \\
 a_{2,t}& =0.7  \\
 b_{1,t}& =1.0  \\
-b_{2,t}& =0.5+0.4\cos(2\pi t/2000) 
-\end{aligned}$$
+b_{2,t}& =0.5+0.4\cos(2\pi t/2000)
+\end{aligned}
+$$
 
 同じ入力信号に対して，出力の雑音信号比 $NSR$ をそれぞれ **0%，5%，10%** とした場合， 逐次最小二乗法で上記のシステムの時変パラメータを推定せよ。時刻を横軸として，各推定パラメータの挙動を，パラメータの真値とあわせて図示せよ。忘却係数及び観測雑音によるパラメータ推定値への影響を考察せよ。
 
@@ -494,6 +501,7 @@ grid on
 ## 3.5.4 逐次補助変数法によるパラメータ推定
 
 ### 遅延された入力
+
 ```matlab
 clear
 close all
@@ -597,7 +605,7 @@ for NSR = 0:+0.1:0.2
     if NSR == 0
         for k=3:N+1
             z(:,k) = [-y(k-1),-y(k-2),u(k-1),u(k-2)].';
-            z_t(k,:) = z(:,k).'; 
+            z_t(k,:) = z(:,k).';
             %phi (^T)
             phi(:,k) = z(:,k);
             %psi
@@ -707,6 +715,7 @@ grid on
 ```
 
 ### 遅延された出力
+
 ```matlab
 clear
 close all
@@ -795,7 +804,7 @@ for NSR = 0:+0.1:0.2
     C=corrcoef(u,v);
     disp('v(t)-u(t) Corrcoef')
     disp(C)
-    
+
     y = x + v;
 
     if NSR == 0
@@ -809,7 +818,7 @@ for NSR = 0:+0.1:0.2
         end
         for k=3:N+1
             z(:,k) = [-y(k-1),-y(k-2),u(k-1),u(k-2)].';
-            z_t(k,:) = z(:,k).'; 
+            z_t(k,:) = z(:,k).';
             %phi (^T)
             phi_t(k,:) = z_t(k,:);
             %psi
@@ -837,7 +846,7 @@ for NSR = 0:+0.1:0.2
         end
         for k=3:N+1
             z(:,k) = [-y(k-1),-y(k-2),u(k-1),u(k-2)].';
-            z_t(k,:) = z(:,k).'; 
+            z_t(k,:) = z(:,k).';
             %phi (^T)
             phi_t(k,:) = z_t(k,:);
             %psi
@@ -865,7 +874,7 @@ for NSR = 0:+0.1:0.2
         end
         for k=3:N+1
             z(:,k) = [-y(k-1),-y(k-2),u(k-1),u(k-2)].';
-            z_t(k,:) = z(:,k).'; 
+            z_t(k,:) = z(:,k).';
             %phi (^T)
             phi_t(k,:) = z_t(k,:);
             %psi
@@ -943,6 +952,7 @@ grid on
 ```
 
 ### 定された出力
+
 ```matlab
 clear
 close all
@@ -1060,7 +1070,7 @@ for NSR = 0:+0.1:0.2
     y = x + v;
     for k=3:N+1
         z(:,k) = [-y(k-1),-y(k-2),u(k-1),u(k-2)].';
-        z_t(k,:) = z(:,k).'; 
+        z_t(k,:) = z(:,k).';
     end
     if NSR == 0
         for k=3:N+1
@@ -1126,7 +1136,7 @@ for NSR = 0:+0.1:0.2
     y = x + v;
     for k=3:50
         z(:,k) = [-y(k-1); -y(k-2); u(k-1); u(k-2)];
-        z_t(k,:) = z(:,k).'; 
+        z_t(k,:) = z(:,k).';
     end
     if NSR == 0
         for k = 3:50
@@ -1147,7 +1157,7 @@ for NSR = 0:+0.1:0.2
     if NSR == 0.1
         for k = 3:50
             z(:,k) = [-y(k-1),-y(k-2),u(k-1),u(k-2)].';
-            z_t(k,:) = z(:,k).'; 
+            z_t(k,:) = z(:,k).';
             rho(k) = (1-0.01)*rho(k-1)+0.01;
             %Ps
             P(:,:,k) = ( P(:,:,k-1)) - ( P(:,:,k-1)* psi(:,k) * (phi(:,k).') *P(:,:,k-1 ) / (rho(k) + (phi(:,k).') *P(:,:,k-1)* psi(:,k) ) ) / rho(k);
@@ -1163,7 +1173,7 @@ for NSR = 0:+0.1:0.2
     if NSR == 0.2
         for k = 3:50
             z(:,k) = [-y(k-1),-y(k-2),u(k-1),u(k-2)].';
-            z_t(k,:) = z(:,k).'; 
+            z_t(k,:) = z(:,k).';
             rho(k) = (1-0.01)*rho(k-1)+0.01;
             %Ps
             P(:,:,k) = ( P(:,:,k-1)) - ( P(:,:,k-1)* psi(:,k) * (phi(:,k).') *P(:,:,k-1 ) / (rho(k) + (phi(:,k).') *P(:,:,k-1)* psi(:,k) ) ) / rho(k);
@@ -1184,13 +1194,13 @@ for NSR = 0:+0.1:0.2
     y = x + v;
     for k=51:N+1
         z(:,k) = [-y(k-1); -y(k-2); u(k-1); u(k-2)];
-        z_t(k,:) = z(:,k).'; 
+        z_t(k,:) = z(:,k).';
     end
     if NSR == 0
         for k=51:N+1
             p(:,:,k) = [1 theta4_hat(1,k-1) theta4_hat(2,k-1)];
             s(:,k) = roots(p(:,:,k));
-            if abs(s(1,k)) < 1 &&  abs(s(2,k)) < 1 
+            if abs(s(1,k)) < 1 &&  abs(s(2,k)) < 1
                 bar_a1(k-1) = theta4_hat(1,k-1);
                 bar_a2(k-1) = theta4_hat(2,k-1);
             else
@@ -1200,7 +1210,7 @@ for NSR = 0:+0.1:0.2
             while 1
                 p(:,:,k) = [1 bar_a1(1,k-1) bar_a2(1,k-1)];
                 s(:,k) = roots(p(:,:,k));
-                if abs(s(1,k)) < 1 &&  abs(s(2,k)) < 1 
+                if abs(s(1,k)) < 1 &&  abs(s(2,k)) < 1
                     break;
                 else
                     bar_a1(k-1) = bar_a1(k-2) + 0.5*( bar_a1(k-1) - bar_a1(k-2) );
@@ -1230,7 +1240,7 @@ for NSR = 0:+0.1:0.2
         for k=51:N+1
             p(:,:,k) = [1 theta5_hat(1,k-1) theta5_hat(2,k-1)];
             s(:,k) = roots(p(:,:,k));
-            if abs(s(1,k)) < 1 &&  abs(s(2,k)) < 1 
+            if abs(s(1,k)) < 1 &&  abs(s(2,k)) < 1
                 bar_a1(k-1) = theta5_hat(1,k-1);
                 bar_a2(k-1) = theta5_hat(2,k-1);
             else
@@ -1240,7 +1250,7 @@ for NSR = 0:+0.1:0.2
             while 1
                 p(:,:,k) = [1 bar_a1(1,k-1) bar_a2(1,k-1)];
                 s(:,k) = roots(p(:,:,k));
-                if abs(s(1,k)) < 1 &&  abs(s(2,k)) < 1 
+                if abs(s(1,k)) < 1 &&  abs(s(2,k)) < 1
                     break;
                 else
                     bar_a1(k-1) = bar_a1(k-2) + 0.5*( bar_a1(k-1) - bar_a1(k-2) );
@@ -1270,7 +1280,7 @@ for NSR = 0:+0.1:0.2
         for k=51:N+1
             p(:,:,k) = [1 theta6_hat(1,k-1) theta6_hat(2,k-1)];
             s(:,k) = roots(p(:,:,k));
-            if abs(s(1,k)) < 1 &&  abs(s(2,k)) < 1 
+            if abs(s(1,k)) < 1 &&  abs(s(2,k)) < 1
                 bar_a1(k-1) = theta6_hat(1,k-1);
                 bar_a2(k-1) = theta6_hat(2,k-1);
             else
@@ -1280,7 +1290,7 @@ for NSR = 0:+0.1:0.2
             while 1
                 p(:,:,k) = [1 bar_a1(1,k-1) bar_a2(1,k-1)];
                 s(:,k) = roots(p(:,:,k));
-                if abs(s(1,k)) < 1 &&  abs(s(2,k)) < 1 
+                if abs(s(1,k)) < 1 &&  abs(s(2,k)) < 1
                     break;
                 else
                     bar_a1(k-1) = bar_a1(k-2) + 0.5*( bar_a1(k-1) - bar_a1(k-2) );

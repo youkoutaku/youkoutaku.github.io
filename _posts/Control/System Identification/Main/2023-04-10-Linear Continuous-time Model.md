@@ -2,7 +2,16 @@
 title: Linear Continuous-time Model
 date: 2023-04-10 18:55:00 +0900 #Tokyo
 categories: [System Identification]
-tags: [Linear System, Control, Transfer function, Fourier transform, Impulse response, Convolution]
+tags:
+  [
+    Linear System,
+    Control,
+    Transfer function,
+    Fourier transform,
+    Impulse response,
+    Convolution,
+    JP,
+  ]
 author: Youkoutaku
 math: true #Mathematical
 ---
@@ -10,6 +19,7 @@ math: true #Mathematical
 [システム同定ゼミ]http://yoh.ise.ibaraki.ac.jp/
 
 ## 1.1 モデルの表現
+
 ### 1.1.1 線形定係数常微分方程式
 
 $$
@@ -26,16 +36,17 @@ $$
 - 最終値の定理
 
 $$
-	\lim_{ t\to \infty} f(t) = \lim_{ s\to 0} sF(s) 
+	\lim_{ t\to \infty} f(t) = \lim_{ s\to 0} sF(s)
 $$
 
 - 初期値の定理 (あまり使わない)
 
 $$
-	\lim_{ t\to 0} f(t) = \lim_{ s\to \infty} sF(s) 
+	\lim_{ t\to 0} f(t) = \lim_{ s\to \infty} sF(s)
 $$
 
 ### 1.1.3 フーリエ変換
+
 - フーリエ変換
 - パーセバルの等式
 
@@ -44,8 +55,8 @@ $$
 $$
 
 信号のエネルギーが周波数領域と時間領域で等しいことを表す等式である．
-左: 時間領域における信号の2乗=power.
-右: 周波数領域における信号の2乗=power.
+左: 時間領域における信号の 2 乗=power.
+右: 周波数領域における信号の 2 乗=power.
 
 ### 1.1.4 インパルス応答と伝達関数
 
@@ -59,7 +70,8 @@ $$
 
 #### 離散インパルス信号
 
-$$\delta(n)=
+$$
+\delta(n)=
 	\begin{cases}
 	1 &(n=0)\\
 	0 &(n\neq0)
@@ -67,9 +79,11 @@ $$\delta(n)=
 $$
 
 #### 伝達関数の周波数表現
+
 $s=j\omega$
 
 ## 1.2 モデルの実例
+
 微分方程式：
 
 $$
@@ -93,6 +107,7 @@ $$
 $$
 
 #### 意味：
+
 マイナスの実数根であるので，安定性である．
 
 インパルス応答のフーリエ変換は，周波数応答になり，
@@ -111,7 +126,7 @@ $$
 
 つまり，伝達関数に $s=j\omega$ に代入することと同じである．
 
-### (2) **交流起電力** 
+### (2) **交流起電力**
 
 $u(t)=E_0\sin{\omega t}$
 
@@ -143,16 +158,16 @@ $$
 \end{equation}
 $$
 
-$s^2:$ 
+$s^2:$
 
 $$
 a+bL=0 \to b=-\frac{a}{L}
 $$
 
 $s:$ $
-$bR+cL=0 \to -\frac{a}{L}R+cL=0 \to c=a\frac{R}{L^2}$$ 
+$bR+cL=0 \to -\frac{a}{L}R+cL=0 \to c=a\frac{R}{L^2}$$
 
-$s^0:$ 
+$s^0:$
 
 $$
 a\omega^2+cR=1 \to a\omega^2+a\frac{R^2}{L^2}=1 \to a=\frac{L^2}{R^2+\omega^2L^2}
@@ -161,7 +176,7 @@ $$
 そして，
 
 $$
-	b=-\frac{L}{R^2+\omega^2L^2},\: c=\frac{R}{R^2+\omega^2L^2}	
+	b=-\frac{L}{R^2+\omega^2L^2},\: c=\frac{R}{R^2+\omega^2L^2}
 $$
 
 よって，
@@ -175,10 +190,10 @@ $$
 $$
 \begin{equation}
 	\begin{split}	i(t)&=\frac{E_0\omega}{R^2+\omega^2L^2} \mathcal{L}^{-1}
-	\left[ 
-		\frac{L^2}{Ls+R}-\frac{Ls}{s^2+\omega^2}+\frac{R}{s^2+\omega^2} 
+	\left[
+		\frac{L^2}{Ls+R}-\frac{Ls}{s^2+\omega^2}+\frac{R}{s^2+\omega^2}
 	\right] \\
-	&=\frac{E_0\omega}{R^2+\omega^2L^2}\left( 
+	&=\frac{E_0\omega}{R^2+\omega^2L^2}\left(
 		Le^{-\frac{R}{L}t}-L\cos{\omega t+\frac{R}{\omega}\sin{\omega t}}
 	\right)
 	\end{split}
@@ -192,11 +207,11 @@ $$
 (共役複素根)強制解: $s=(j\omega) \:or (-j\omega)$
 
 **低周波と高周波に対しての評価:**
-$\omega \to \infty:$ $i(t)\to0$ ので，lowpassフィルタである．
+$\omega \to \infty:$ $i(t)\to0$ ので，lowpass フィルタである．
 
-### (3)ステップ入力 
+### (3)ステップ入力
 
-$u(t)=1\:(t\ge0)$ 
+$u(t)=1\:(t\ge0)$
 
 $$
 U(s)=\frac{1}{s}
@@ -205,7 +220,7 @@ $$
 **ステップ応答**：
 
 $$
-\begin{equation}	
+\begin{equation}
 	\begin{split}	i(t)&=\mathcal{L}^{-1}[G(s)U(s)] \\
 	&=\mathcal{L}^{-1}\left[ \frac{1}{s(Ls+R)}
 	\right]
@@ -247,6 +262,6 @@ $$
 
 #### 意味:
 
-$t=\frac{L}{R}$で$i(t)=\frac{1}{R}(1-e^{-1})\thickapprox 0.632\times \frac{1}{R}$   定常値63.3%
+$t=\frac{L}{R}$で$i(t)=\frac{1}{R}(1-e^{-1})\thickapprox 0.632\times \frac{1}{R}$ 定常値 63.3%
 
 この時，$\frac{L}{R}$ が応答の速さを支配するパラメータで，時定数とよばれる．$\frac{L}{R}$ が小さければ，応答が早く，逆に大きければ遅くなる．

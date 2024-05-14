@@ -2,7 +2,18 @@
 title: Simulation_PID
 date: 2023-05-26 15:33:00 +0900
 categories: [System Identification, Simulation]
-tags: [PID, Matlab, Control, Z-transform, Bilinear transform, Forward difference, Backward difference, Transfer function]
+tags:
+  [
+    PID,
+    Matlab,
+    Control,
+    Z-transform,
+    Bilinear transform,
+    Forward difference,
+    Backward difference,
+    Transfer function,
+    JP,
+  ]
 author: Youkoutaku
 math: true
 image:
@@ -11,6 +22,7 @@ image:
 ---
 
 ## 制御対象
+
 $$
 G(s)=\frac{12s+8}{20s^4+112s^3+147s^2+62s+8}
 $$
@@ -28,7 +40,9 @@ sysg=tf(num, den); %伝達関数
 ```
 
 ---
+
 ## PID
+
 ![](https://controlabo.com/wp-content/uploads/2022/11/pid_block_blue.png)
 
 $k \to n$ とすると，
@@ -67,28 +81,29 @@ cd=7; %微分
 ### 方法 1
 
 - すごく面倒くさい方法：（諦めよう！）
-前進差分による PID 制御器の z 変換:
+  前進差分による PID 制御器の z 変換:
 
 $$
-C(z)=c_p+c_i\frac{Tz^{-1}}{1-z^{-1}}+c_d\frac{1-z^{-1}}{\gamma+(T-\gamma)z^{-1}} 
+C(z)=c_p+c_i\frac{Tz^{-1}}{1-z^{-1}}+c_d\frac{1-z^{-1}}{\gamma+(T-\gamma)z^{-1}}
 $$
 
 $$
 U(z)=E(z)C(z)
 $$
 
-逆z変換(徐々に):
+逆 z 変換(徐々に):
+
 $$
 u(n)=c_pe(n)+c_i\frac{Te(n-1)}{1-z^{(-1)}}+c_d\frac{e(n)-e(n-1)}{\gamma+(T-\gamma)z^{-1}}
 $$
-  > 1.  両辺を $1-z^{-1}$ を掛けると，$$\begin{equation}\begin{aligned}u(n)-u(n-1)=&c_pe(n)-c_pe(n-1)\\ &+c_iTe(n-1)\\ &+\frac{c_d}{\gamma+(T-\gamma)z^{-1}}\left( (e(n)-e(n-1))-(e(n-1)-e(n-2))\right)\end{aligned}\end{equation}$$
-  > 2.  両辺を $\gamma+(T-\gamma)z^{-1}$ を掛けると，$$\begin{equation}\begin{aligned}\gamma u(n)+(T-\gamma)u(n-1)\\-\gamma u(n-1)-(T-\gamma)u(n-2)=&c_p\gamma \left(e(n)-e(n-1)\right)\\&+(T-\gamma)c_p(e(n-1)-e(n-2))\\&+ c_iT\gamma e(n-1)+c_iT(T-\gamma)e(n-2)\\ &+c_d(e(n)-e(n-1)-e(n-1)+e(n-2))\end{aligned}\end{equation}$$
-  > 3.  操作量 $u(n)$ $$\begin{equation}\begin{aligned}u(n)=&\frac{1}{\gamma}[c_p\gamma \left(e(n)-e(n-1)\right)\\&+(T-\gamma)c_p(e(n-1)-e(n-2))\\&+ c_iT\gamma e(n-1)+c_iT(T-\gamma)e(n-2)\\&+c_d(e(n)-2e(n-1)+e(n-2)) \\&+(2\gamma-T)u(n-1)+(T-\gamma)u(n-2) ]\\=&( (c_p\gamma + c_d )e(n) \\&+ ( c_p( T- 2\gamma) + c_iT\gamma - 2c_d )e(k-1) \\&+(c_p(\gamma-T)+c_iT(T-\gamma)+c_d )e(k-2) \\&+ (2\gamma-T)u(k-1) + (T-\gamma)u(k-2) ) / \gamma\end{aligned}\end{equation}$$s
 
+> 1.  両辺を $1-z^{-1}$ を掛けると，$$\begin{equation}\begin{aligned}u(n)-u(n-1)=&c_pe(n)-c_pe(n-1)\\ &+c_iTe(n-1)\\ &+\frac{c_d}{\gamma+(T-\gamma)z^{-1}}\left( (e(n)-e(n-1))-(e(n-1)-e(n-2))\right)\end{aligned}\end{equation}$$
+> 2.  両辺を $\gamma+(T-\gamma)z^{-1}$ を掛けると，$$\begin{equation}\begin{aligned}\gamma u(n)+(T-\gamma)u(n-1)\\-\gamma u(n-1)-(T-\gamma)u(n-2)=&c_p\gamma \left(e(n)-e(n-1)\right)\\&+(T-\gamma)c_p(e(n-1)-e(n-2))\\&+ c_iT\gamma e(n-1)+c_iT(T-\gamma)e(n-2)\\ &+c_d(e(n)-e(n-1)-e(n-1)+e(n-2))\end{aligned}\end{equation}$$
+> 3.  操作量 $u(n)$ $$\begin{equation}\begin{aligned}u(n)=&\frac{1}{\gamma}[c_p\gamma \left(e(n)-e(n-1)\right)\\&+(T-\gamma)c_p(e(n-1)-e(n-2))\\&+ c_iT\gamma e(n-1)+c_iT(T-\gamma)e(n-2)\\&+c_d(e(n)-2e(n-1)+e(n-2)) \\&+(2\gamma-T)u(n-1)+(T-\gamma)u(n-2) ]\\=&( (c_p\gamma + c_d )e(n) \\&+ ( c_p( T- 2\gamma) + c_iT\gamma - 2c_d )e(k-1) \\&+(c_p(\gamma-T)+c_iT(T-\gamma)+c_d )e(k-2) \\&+ (2\gamma-T)u(k-1) + (T-\gamma)u(k-2) ) / \gamma\end{aligned}\end{equation}$$s
 
 ```matlab
 u(k)= ( (cp*gamma + cd )*e(k) + ( cp*( T- 2*gamma) + ci*T*gamma - 2*cd )*e(k-1)
- + (cp*(gamma-T)+ci*T*(T-gamma)+cd )*e(k-2) 
+ + (cp*(gamma-T)+ci*T*(T-gamma)+cd )*e(k-2)
  + (2*gamma-T)*u(k-1) + (T-gamma)* u(k-2) ) / gamma;
 ```
 
@@ -118,6 +133,7 @@ $$
 > 偏差の累積で制御する
 
 D:
+
 $$
 u_d(n)=c_d\frac{1-z^{-1}}{\gamma+(T-\gamma)z^{-1}}e(n)
 $$
@@ -156,7 +172,7 @@ y(k)= Co*x(:,k)+Do*u(k);
 
 ## 後退差分
 
-後退差分による PID 制御器のz変換:
+後退差分による PID 制御器の z 変換:
 
 $$
 C(z)=c_p+c_i\frac{T}{1-z^{-1}}+c_d\frac{1-z^{-1}}{T(\frac{\gamma}{T}(1-z^{-1})+1)}=c_p+c_i\frac{T}{1-z^{-1}}+c_d\frac{1-z^{-1}}{\gamma(1-z^{-1})+T}
@@ -201,7 +217,7 @@ $$
 
 ---
 
-## 双1次変換法
+## 双 1 次変換法
 
 双一次変換法による PID 制御器の z 変換:
 
@@ -292,7 +308,9 @@ end
 > 3.  また，現在の入力 $u(t)$ を求めたい． $u(t)$ を求めるために，現在の出力（観察値）$y(t)$ が必要である．出力を得るために，現在まだ求めていない入力を使うべきではない．
 
 ## Simulation
+
 ### PID
+
 ```matlab
 clear
 close all
@@ -341,7 +359,7 @@ for k=2:n+1
     uiF(k) = uiF(k-1)+ci*T*eF(k-1);
     udF(k) = ( cd*(eF(k)-eF(k-1))-(T-gamma)*udF(k-1) )/gamma;
     uF(k) = upF(k) + uiF(k) + udF(k);
-    
+
     xF(:,k+1)= xF(:,k) + T*(Ao*xF(:,k) + Bo*uF(k));
 end
 
@@ -392,6 +410,7 @@ plot(t,yF,t,yB,t,yD,t,r,'--'); title('r(t)&y(t)');legend('FD','BD','BT','r'); yl
 ```
 
 ### P-I-D 個別比較
+
 ```matlab
 clear
 close all
@@ -437,7 +456,7 @@ yF  = zeros(1, n+1);
 ypF = zeros(1, n+1); %output
 yiF = zeros(1, n+1); %output
 ydF = zeros(1, n+1); %output
-eF  = zeros(1, n+1); 
+eF  = zeros(1, n+1);
 epF = zeros(1, n+1); %errer_p
 eiF = zeros(1, n+1); %errer_i
 edF = zeros(1, n+1); %errer_d
@@ -459,19 +478,19 @@ for k=2:n+1
     ydF(k)= Co*xdF(:,k)+Do*ud(k);
     edF(k) = r(k)-ydF(k);
     ud(k) = ( cd*(edF(k)-edF(k-1))-(T-gamma)*ud(k-1) )/gamma;
-    xdF(:,k+1)= xdF(:,k) + T*(Ao*xdF(:,k) + Bo*ud(k)); 
+    xdF(:,k+1)= xdF(:,k) + T*(Ao*xdF(:,k) + Bo*ud(k));
 end
 
 %PDI
 for k=2:n+1
     t(k) = (k-1)*T;
     yF(k)= Co*xF(:,k)+Do*uF(k);
-    eF(k) = r(k)-yF(k); 
+    eF(k) = r(k)-yF(k);
     upF(k) = cp*eF(k);
     uiF(k) = uiF(k-1)+ci*T*eF(k-1);
     udF(k) = ( cd*(eF(k)-eF(k-1))-(T-gamma)*udF(k-1) )/gamma;
     uF(k) = upF(k) + uiF(k) + udF(k);
-    xF(:,k+1)= xF(:,k) + T*(Ao*xF(:,k) + Bo*uF(k)); 
+    xF(:,k+1)= xF(:,k) + T*(Ao*xF(:,k) + Bo*uF(k));
 end
 
 subplot(2,1,1); plot(t,up,t,ui,t,ud,t,uF); title('u(t)');legend('up','ui','ud','upid'); ylabel('u(t)'); xlabel('Time[sec]');  grid on
@@ -481,6 +500,7 @@ subplot(2,1,2); plot(t,ypF,t,yiF,t,ydF,t,yF,t,r,'--'); title('r(t)&y(t)');legend
 ```
 
 ### PD
+
 ```matlab
 clear
 close all
@@ -488,7 +508,7 @@ set(0,'DefaultAxesFontName','Times New Roman')
 set(0,'DefaultAxesFontSize',12)
 
 %--------------------------------------------------------------------
-%  同定ゼミ宿題 PD制御器のシミュレーション 
+%  同定ゼミ宿題 PD制御器のシミュレーション
 %                                                5/26 by YANG
 %                                                   偏差修正済み
 %---------------------------------------------------------------------
@@ -528,7 +548,7 @@ xpF = zeros(4, n+1); %state v
 xiF = zeros(4, n+1); %state v
 xdF = zeros(4, n+1); %state v
 
-xpdF=zeros(4, n+1); 
+xpdF=zeros(4, n+1);
 
 yF  = zeros(1, n+1);
 ypF = zeros(1, n+1); %output
@@ -536,7 +556,7 @@ yiF = zeros(1, n+1); %output
 ydF = zeros(1, n+1); %output
 ypdF = zeros(1, n+1);
 
-eF  = zeros(1, n+1); 
+eF  = zeros(1, n+1);
 epF = zeros(1, n+1); %errer_p
 eiF = zeros(1, n+1); %errer_i
 edF = zeros(1, n+1); %errer_d

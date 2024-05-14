@@ -2,7 +2,16 @@
 title: Discrete-time Systems
 date: 2023-03-02 10:00:00 +0900 #Tokyo
 categories: [Digital Signal Processing]
-tags: [Discrete-time, Transfer function, Nyquist–Shannon sampling theorem, Impulse response, Frequency response, Convolution]
+tags:
+  [
+    Discrete-time,
+    Transfer function,
+    Nyquist–Shannon sampling theorem,
+    Impulse response,
+    Frequency response,
+    Convolution,
+    JP,
+  ]
 author: Youkoutaku
 math: true #Mathematical
 mermaid: true

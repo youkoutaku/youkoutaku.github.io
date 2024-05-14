@@ -2,7 +2,7 @@
 title: Laplace transform
 date: 2023-02-20 11:00:00 +0900 #Tokyo
 categories: [Digital Signal Processing]
-tags: [Laplace transform, Fourier transform, Convolution]
+tags: [Laplace transform, Fourier transform, Convolution, JP]
 author: Youkoutaku
 math: true #Mathematical
 mermaid: true
