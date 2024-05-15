@@ -1156,6 +1156,11 @@ dru
 drk
 dFQ
 danger
+denominator
+defined
+differentiation
+directly
+descent
 reference
 rU
 rd
@@ -2143,6 +2148,9 @@ rtM
 research
 running
 reach
+row
+rule
+regression
 Input
 IHDR
 IDATx
@@ -4531,6 +4539,7 @@ img
 iSDDD
 info
 icon
+invariant
 system
 same
 sRGB
@@ -5733,6 +5742,9 @@ sin
 student
 share
 since
+scale
+sides
+scalar
 New
 NS
 NFu
@@ -6787,6 +6799,7 @@ Noise
 Nintendo
 Notion
 NewBlog
+Naeini
 Problem
 PNG
 PCV
@@ -7897,6 +7910,7 @@ Pages
 Paramater
 Philosophy
 Post
+Powell
 error
 expanded
 exist
@@ -9130,6 +9144,10 @@ eJq
 etc
 experience
 extremely
+expansions
+expansion
+extremum
+easy
 cost
 control
 can
@@ -10297,6 +10315,11 @@ config
 cdn
 currently
 came
+calculate
+column
+chain
+cope
+calculated
 function
 fx
 fc
@@ -11405,6 +11428,7 @@ fFs
 findresource
 fRO
 fas
+funciton
 Untraceable
 Uf
 UBT
@@ -13915,6 +13939,7 @@ thickapprox
 tip
 things
 those
+transform
 large
 lA
 lf
@@ -14911,6 +14936,7 @@ line
 layout
 learn
 limit
+laplace
 may
 maximum
 matrix
@@ -16131,6 +16157,7 @@ mermaid
 markdown
 major
 mail
+multiply
 be
 bk
 btN
@@ -18250,6 +18277,7 @@ nua
 nOSI
 notes
 normal
+numerator
 Cost
 Code
 Constants
@@ -19359,6 +19387,7 @@ Chirpy
 CATEGORIE
 Central
 Confidence
+Convolution
 Function
 FM
 FIR
@@ -20398,6 +20427,7 @@ FfXl
 FFFF
 Forward
 Fire
+Franklin
 overshoot
 output
 order
@@ -27943,6 +27973,7 @@ previous
 posts
 prompt
 page
+properties
 xP
 xv
 xV
@@ -33401,6 +33432,8 @@ vYH
 vUf
 vdots
 vCm
+varibales
+vactor
 yL
 yp
 ya
@@ -39196,6 +39229,8 @@ LXr
 Legend
 Languages
 Limit
+Let
+Least
 YQ
 Yt
 YouTube
@@ -41374,6 +41409,7 @@ Author
 AGA
 Arduino
 AirSim
+Abbas
 MQ
 MF
 MJ
@@ -42758,6 +42794,7 @@ Management
 Monster
 Music
 Made
+Matrix
 HT
 HB
 Hn
@@ -44958,6 +44995,8 @@ Tools
 Tello
 Theme
 ToDo
+Taylor
+Therefor
 uv
 uX
 undirected
@@ -46110,6 +46149,7 @@ ufIxGfYT
 uRy
 uPi
 uploading
+use
 Eg
 Effects
 Electrify
@@ -47455,6 +47495,10 @@ Estimation
 Example
 Embedded
 Emblem
+Exponential
+Equations
+Emami
+Edition
 DM
 Dz
 Delta
@@ -48624,6 +48668,7 @@ Dsicord
 Dorker
 DJI
 Distributions
+David
 GCs
 GM
 Gqy
@@ -49787,6 +49832,8 @@ George
 Guangze
 Github
 Gym
+Gene
+Gredient
 hh
 ha
 hat
@@ -52042,6 +52089,9 @@ SOLIDWORKS
 Simulator
 Software
 SUB
+Solution
+Seventh
+Scalar
 JO
 Jl
 JA
@@ -53132,6 +53182,7 @@ Jekyll
 Java
 JavaScript
 Japan
+Jacobi
 Xm
 XE
 XB

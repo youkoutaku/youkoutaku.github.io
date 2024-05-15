@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Blog/Journal/2023-01-15-Confidence is extremely important.md",
+                "file": "_posts/Control/MPC/2024-05-07-Matrix and Vector.md",
                 "mode": "source",
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/Blog/Journal/2023-01-15-Confidence is extremely important.md"
+                "file": "_posts/Control/MPC/2024-05-07-Matrix and Vector.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/Blog/Journal/2023-01-15-Confidence is extremely important.md",
+                "file": "_posts/Control/MPC/2024-05-07-Matrix and Vector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/Blog/Journal/2023-01-15-Confidence is extremely important.md",
+                "file": "_posts/Control/MPC/2024-05-07-Matrix and Vector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,14 +164,16 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "c15ca8b08b6f374b",
   "lastOpenFiles": [
-    "_posts/Blog/Journal/2023-04-13-My study experience since I came to Japan.md",
+    "_posts/Control/MPC/2024-05-09-Linear-time-invariant-system.md",
+    "_posts/Control/MPC/2024-05-07-Matrix and Vector.md",
     "_posts/Blog/Journal/2023-01-15-Confidence is extremely important.md",
+    "_posts/Blog/Journal/2023-04-13-My study experience since I came to Japan.md",
     "_posts/Temple/YAML.md",
     "_posts/SystemIdentification/Main/2023-04-10-Linear Continuous-time Model.md",
     "_posts/SystemIdentification/Main/2023-04-20-Continuous time signal sampling.md",
@@ -204,8 +206,6 @@
     "_tabs/about.md",
     "_posts/Blog/Writing a New Post.md",
     "_tabs/tags.md",
-    "_tabs/categories.md",
-    "_tabs/archives.md",
     "SystemIdentification/src/20230529165242.png",
     "SystemIdentification/src/20230529164150.png",
     "SystemIdentification/src/20230529145655.png",
