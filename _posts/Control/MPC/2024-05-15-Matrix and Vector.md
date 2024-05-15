@@ -19,7 +19,7 @@ Consider a scalar function by a variable as
 
 $$f(u)=u^2-2u-1$$
 
-where $f,u\in\mathcal{R}$.
+where $f,u\in\mathbb{R}$.
 
 $$\frac{df(u)}{du}=2u-2$$
 
