@@ -5,9 +5,9 @@ categories:
   - Model Predict Control
   - Optimal Control
 tags:
-  - Optimal
+  - Optimal Control
   - Control
-  - Unicycle
+  - Unicycle model
 author: Youkoutaku
 math: true
 mermaid: true

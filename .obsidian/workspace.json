@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Control/MPC/2024-05-21-Optimal control problem.md",
+                "file": "_posts/Blog/Todo/2024-05-06-ToDo.md",
                 "mode": "source",
                 "source": true
               }
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c28fa44957b113d7",
@@ -94,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/Control/MPC/2024-05-21-Optimal control problem.md"
+                "file": "_posts/Blog/Todo/2024-05-06-ToDo.md"
               }
             }
           },
@@ -115,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/Control/MPC/2024-05-21-Optimal control problem.md",
+                "file": "_posts/Blog/Todo/2024-05-06-ToDo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/Control/MPC/2024-05-21-Optimal control problem.md",
+                "file": "_posts/Blog/Todo/2024-05-06-ToDo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
