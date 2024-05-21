@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Control/MPC/2024-05-07-Matrix and Vector.md",
+                "file": "_posts/Control/MPC/2024-05-21-Optimal control problem.md",
                 "mode": "source",
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/Control/MPC/2024-05-07-Matrix and Vector.md"
+                "file": "_posts/Control/MPC/2024-05-21-Optimal control problem.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/Control/MPC/2024-05-07-Matrix and Vector.md",
+                "file": "_posts/Control/MPC/2024-05-21-Optimal control problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/Control/MPC/2024-05-07-Matrix and Vector.md",
+                "file": "_posts/Control/MPC/2024-05-21-Optimal control problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,6 +170,13 @@
   },
   "active": "c15ca8b08b6f374b",
   "lastOpenFiles": [
+    "src/MPC/Trajectory.png",
+    "src/MPC/Avoidence.png",
+    "src/MPC/Parking.png",
+    "src/MPC/Unicycle model.png",
+    "_posts/Control/MPC/2024-05-15-Matrix and Vector.md",
+    "_posts/Control/MPC/2024-05-21-Optimal control problem.md",
+    "src/MPC",
     "_posts/Control/MPC/2024-05-09-Linear-time-invariant-system.md",
     "_posts/Control/MPC/2024-05-07-Matrix and Vector.md",
     "_posts/Blog/Journal/2023-01-15-Confidence is extremely important.md",
@@ -197,15 +204,11 @@
     "_site/categories/probability",
     "_site/posts/Probability-Distributions/index.html",
     "_site/posts/Probability-Distributions",
-    "_site/categories/sub-categorie/index.html",
     "_posts/SystemIdentification/Simulation/2023-04-21-Simulation (2).md",
     "_posts/SystemIdentification/Simulation/2023-05-26-Simulation (3)PID.md",
     "_posts/Blog/2024-05-02-Writing.md",
     "README.md",
     "_posts/Temp/Math.md",
-    "_tabs/about.md",
-    "_posts/Blog/Writing a New Post.md",
-    "_tabs/tags.md",
     "SystemIdentification/src/20230529165242.png",
     "SystemIdentification/src/20230529164150.png",
     "SystemIdentification/src/20230529145655.png",
@@ -213,9 +216,6 @@
     "SystemIdentification/src/20230519160027.png",
     "SystemIdentification/src/20230421184254.png",
     "SystemIdentification/src/20230421140751.png",
-    "SystemIdentification/src/20230421135821.png",
-    "SystemIdentification/src/20230421135456.jpg",
-    "SystemIdentification/src/20230421131409.png",
     "Untitled.canvas"
   ]
 }
