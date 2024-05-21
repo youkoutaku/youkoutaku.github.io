@@ -56,7 +56,7 @@ $$
 - $\alpha(t)$: acceleration
 - $\omega(t)$: angular velocity
 
-### State space Rorm
+### State space
 
 $$
 \dot x(t)=\begin{bmatrix}
@@ -70,7 +70,7 @@ $$
 \end{bmatrix}=f(x(t),u(t))
 $$
 
-> nonliner System
+> nonlinear System
 
 ### Discretization
 
@@ -87,7 +87,10 @@ $$x[k+1]=f_d\left[x[k],u[k]\right]$$
 ![](src/MPC/Parking.png)
 
 - System
-  $$x[k+1]=f_d\left[x[k],u[k]\right]$$
+
+$$
+x[k+1]=f_d\left[x[k],u[k]\right]
+$$
 
 $$
 x(t)=\begin{bmatrix}
@@ -124,13 +127,18 @@ $$
 - $x_d:$ Reference value
 
 $k\to N$: Terminal state $x[N]$
-$$x[N]=f_d[\dots[f_d[x[0],u[0],u[1],\dots,u[N-1]]]]$$
+
+$$
+x[N]=f_d[\dots[f_d[x[0],u[0],u[1],\dots,u[N-1]]]]
+$$
 
 > The final states are only related to the initial states and inputs
 
 ### **Performance function**
 
-$$\begin{align}J&=(x_1[N]-x_{d1})^2+(x_2[N]-x_{d2})^2+(x_3[N]-x_{d3})^2+(x_4[N]-x_{d4})^2\\&=(x[N]-x_d)^T(x[N]-x_d)=\|x[N]-x_d\|^2\\&=e[N]^Te[N]=\|e[N]\|^2\end{align}$$
+$$
+\begin{aligned}J&=(x_1[N]-x_{d1})^2+(x_2[N]-x_{d2})^2+(x_3[N]-x_{d3})^2+(x_4[N]-x_{d4})^2\\&=(x[N]-x_d)^T(x[N]-x_d)=\|x[N]-x_d\|^2\\&=e[N]^Te[N]=\|e[N]\|^2\end{aligned}
+$$
 
 - $e[k]$: error $$e[k]=x[k]-x_d$$
 
@@ -153,9 +161,9 @@ $$J=e[N]^TSe[N]\triangleq\|x[N]-x_d\|^2_S$$
 - $S$: weight matrix
   - Positive Semi-Definite symmetric matrix $x^TSx\ge0\;and\;s_{ij}=s_{ji}$
 
-> In fuct, $S$ is usually a diagonal matrix. $for\;i\ne j \to s_{ij}=0$
+> In fact, $S$ is usually a diagonal matrix. $for\;i\ne j \to s_{ij}=0$
 
-#### Constraits
+#### Constraints
 
 physical constraints
 
@@ -173,14 +181,15 @@ Soft Constraints: The constraint condition isn't strictly satisfied in the syste
 
 $$J=\|x[N]-x_d\|^2_S+\sum_{k=0}^{N-1}\|u[k]\|^2_R$$
 
-> $\|x[N]-x_d\|^2_S=(x[N]-x_d)^TS(x[N]-x_d)$
-
-> $\|u[k]\|^2_R=u[k]^TRu[k]$
+- $\|x[N]-x_d\|^2_S=(x[N]-x_d)^TS(x[N]-x_d)$
+- $\|u[k]\|^2_R=u[k]^TRu[k]$
 
 - $S:$ reference weight matrix
 - $R:$ cost weight matrix
-  > $S>R:$ The control performance is more important!
-  > $R>S:$ The cost of input is more important!
+
+> $S>R:$ The control performance is more important!
+
+> $R>S:$ The cost of input is more important!
 
 ---
 
