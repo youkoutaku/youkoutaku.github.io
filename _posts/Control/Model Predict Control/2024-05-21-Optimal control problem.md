@@ -14,15 +14,13 @@ mermaid: true
 #pin:
 #img_path:
 image:
-  path: src/MPC/Avoidence.png
-  alt:
+  path: src/MPC/Unicycle_model.png
+  alt: Unicycle model
 ---
 
 ## Unicycle Model
 
 ### State Space
-
-![](src/MPC/Unicycle_model.png)
 
 $$
 x(t)=\begin{bmatrix}
