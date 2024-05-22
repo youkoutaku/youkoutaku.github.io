@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Blog/Todo/2024-05-06-ToDo.md",
+                "file": "_posts/Blog/Journal/2023-01-21-Be an essentialist.md",
                 "mode": "source",
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/Blog/Todo/2024-05-06-ToDo.md"
+                "file": "_posts/Blog/Journal/2023-01-21-Be an essentialist.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/Blog/Todo/2024-05-06-ToDo.md",
+                "file": "_posts/Blog/Journal/2023-01-21-Be an essentialist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/Blog/Todo/2024-05-06-ToDo.md",
+                "file": "_posts/Blog/Journal/2023-01-21-Be an essentialist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,6 +170,11 @@
   },
   "active": "c15ca8b08b6f374b",
   "lastOpenFiles": [
+    "_posts/Blog/Journal/2023-04-13-My study experience since I came to Japan.md",
+    "_posts/Blog/Journal/2023-01-21-Be an essentialist.md",
+    "_posts/Blog/Journal/2023-01-16-A day.md",
+    "_posts/Blog/Journal/2023-01-15-Confidence is extremely important.md",
+    "_posts/Blog/Todo/2024-05-06-ToDo.md",
     "src/MPC/Trajectory.png",
     "src/MPC/Avoidence.png",
     "src/MPC/Parking.png",
@@ -179,8 +184,6 @@
     "src/MPC",
     "_posts/Control/MPC/2024-05-09-Linear-time-invariant-system.md",
     "_posts/Control/MPC/2024-05-07-Matrix and Vector.md",
-    "_posts/Blog/Journal/2023-01-15-Confidence is extremely important.md",
-    "_posts/Blog/Journal/2023-04-13-My study experience since I came to Japan.md",
     "_posts/Temple/YAML.md",
     "_posts/SystemIdentification/Main/2023-04-10-Linear Continuous-time Model.md",
     "_posts/SystemIdentification/Main/2023-04-20-Continuous time signal sampling.md",
@@ -207,15 +210,12 @@
     "_posts/SystemIdentification/Simulation/2023-04-21-Simulation (2).md",
     "_posts/SystemIdentification/Simulation/2023-05-26-Simulation (3)PID.md",
     "_posts/Blog/2024-05-02-Writing.md",
-    "README.md",
-    "_posts/Temp/Math.md",
     "SystemIdentification/src/20230529165242.png",
     "SystemIdentification/src/20230529164150.png",
     "SystemIdentification/src/20230529145655.png",
     "SystemIdentification/src/20230526101850.png",
     "SystemIdentification/src/20230519160027.png",
     "SystemIdentification/src/20230421184254.png",
-    "SystemIdentification/src/20230421140751.png",
     "Untitled.canvas"
   ]
 }
