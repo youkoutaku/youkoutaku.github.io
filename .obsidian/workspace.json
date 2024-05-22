@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Blog/Journal/2023-01-21-Be an essentialist.md",
+                "file": "_posts/Blog/Journal/2023-02-03-From Problem Thinking to Goal-Oriented Thinking.md",
                 "mode": "source",
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/Blog/Journal/2023-01-21-Be an essentialist.md"
+                "file": "_posts/Blog/Journal/2023-02-03-From Problem Thinking to Goal-Oriented Thinking.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/Blog/Journal/2023-01-21-Be an essentialist.md",
+                "file": "_posts/Blog/Journal/2023-02-03-From Problem Thinking to Goal-Oriented Thinking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/Blog/Journal/2023-01-21-Be an essentialist.md",
+                "file": "_posts/Blog/Journal/2023-02-03-From Problem Thinking to Goal-Oriented Thinking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,8 +170,11 @@
   },
   "active": "c15ca8b08b6f374b",
   "lastOpenFiles": [
-    "_posts/Blog/Journal/2023-04-13-My study experience since I came to Japan.md",
+    "_posts/Blog/Journal/2023-01-31-The Power of Effort Over Talent.md",
+    "_posts/Blog/Journal/2023-02-03-From Problem Thinking to Goal-Oriented Thinking.md",
     "_posts/Blog/Journal/2023-01-21-Be an essentialist.md",
+    "_posts/Blog/Journal/2023-01-26-Like and dislike.md",
+    "_posts/Blog/Journal/2023-04-13-My study experience since I came to Japan.md",
     "_posts/Blog/Journal/2023-01-16-A day.md",
     "_posts/Blog/Journal/2023-01-15-Confidence is extremely important.md",
     "_posts/Blog/Todo/2024-05-06-ToDo.md",
@@ -207,9 +210,6 @@
     "_site/categories/probability",
     "_site/posts/Probability-Distributions/index.html",
     "_site/posts/Probability-Distributions",
-    "_posts/SystemIdentification/Simulation/2023-04-21-Simulation (2).md",
-    "_posts/SystemIdentification/Simulation/2023-05-26-Simulation (3)PID.md",
-    "_posts/Blog/2024-05-02-Writing.md",
     "SystemIdentification/src/20230529165242.png",
     "SystemIdentification/src/20230529164150.png",
     "SystemIdentification/src/20230529145655.png",

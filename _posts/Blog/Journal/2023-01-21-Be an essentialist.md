@@ -7,7 +7,7 @@ author: Youkoutaku
 math: true #Mathematical
 #img_path:
 image:
-  path: https://img9.doubanio.com/view/subject/s/public/s33839194.jpg
+  path: https://m.media-amazon.com/images/I/5146fiIBZVL._SL1000_.jpg
   alt: 《成为自控者》
 ---
 

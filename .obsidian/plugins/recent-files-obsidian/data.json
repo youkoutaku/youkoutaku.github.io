@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-02-03-From Problem Thinking to Goal-Oriented Thinking",
+      "path": "_posts/Blog/Journal/2023-02-03-From Problem Thinking to Goal-Oriented Thinking.md"
+    },
+    {
+      "basename": "2023-01-31-The Power of Effort Over Talent",
+      "path": "_posts/Blog/Journal/2023-01-31-The Power of Effort Over Talent.md"
+    },
+    {
       "basename": "2023-01-21-Be an essentialist",
       "path": "_posts/Blog/Journal/2023-01-21-Be an essentialist.md"
+    },
+    {
+      "basename": "2023-01-26-Like and dislike",
+      "path": "_posts/Blog/Journal/2023-01-26-Like and dislike.md"
     },
     {
       "basename": "2023-04-13-My study experience since I came to Japan",
@@ -187,18 +199,6 @@
     {
       "basename": "2023-04-20-2.Sampling",
       "path": "SystemIdentification/2023-04-20-2.Sampling.md"
-    },
-    {
-      "basename": "2023-05-10-3.Paramater Estimation for Linear Systems",
-      "path": "SystemIdentification/2023-05-10-3.Paramater Estimation for Linear Systems.md"
-    },
-    {
-      "basename": "微分演算子",
-      "path": "System Identification/子ページ/微分演算子.md"
-    },
-    {
-      "basename": "2023-05-25-SystemIdentification",
-      "path": "System Identification/2023-05-25-SystemIdentification.md"
     }
   ],
   "omittedPaths": [],

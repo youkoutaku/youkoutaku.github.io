@@ -1168,6 +1168,7 @@ disdain
 deprecating
 difficulties
 day
+dislike
 reference
 rU
 rd
@@ -7967,6 +7968,7 @@ Positive
 Publications
 Project
 Processing
+Power
 error
 expanded
 exist
@@ -9209,6 +9211,7 @@ experienced
 effort
 esteem
 experiencing
+essentialist
 cost
 control
 can
@@ -45171,6 +45174,7 @@ ToDo
 Taylor
 Therefor
 Therefore
+Talent
 uv
 uX
 undirected
@@ -47680,6 +47684,7 @@ Equations
 Emami
 Edition
 Each
+Effort
 DM
 Dz
 Delta
@@ -57567,6 +57572,7 @@ OfI
 Overleaf
 Otherwise
 Once
+Over
 Rf
 Receding
 Recommendations
