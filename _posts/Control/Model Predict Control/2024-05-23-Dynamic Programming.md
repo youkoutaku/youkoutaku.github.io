@@ -113,13 +113,9 @@ $$
 u_{[k\to k+1]}=\frac{v_{[k+1]}-v_{[k]}}{\Delta t_{[k\to k+1]}}=\frac{ {x_2^2}_{[k+1]}+{x_2^2}_{[k]}}{2\Delta x_1}$$
 
 ### $5\to6$
-- $k=6:$
+$$k=6: x_{[6]}=[10\;0]^T$$
 
-$$x_{[6]}=[10\;0]^T$$
-
-- $k=5:$ 
-
-$$x_{[5_1]}=[8\;0]^T, x_{[5_2]}=[8\;1]^T, x_{[5_3]}=[8\;2]^T, x_{[5_4]}=[8\;3]^T$$
+$$k=5: x_{[5_1]}=[8\;0]^T, x_{[5_2]}=[8\;1]^T, x_{[5_3]}=[8\;2]^T, x_{[5_4]}=[8\;3]^T$$
 
 $$\Delta t_{[5_1\rightarrow6]}=\frac{2\Delta x_{1}}{x_{2_{[5_1]}}+x_{2_{[6]}}}=\frac{4}{0+0}=\infty
 $$
@@ -195,9 +191,9 @@ $$
 $$
 u_{[4_1\to5_4]}=\frac{x_{2_{[5_4]}}^{2}-x_{2_{[4_1]}}^{2}}{2\Delta x_{1}}=\frac{9-0}{4}=\frac{9}{4}$$
 
-The minimum time (cost) is $\Delta t_{ [4_1 \to 5_4] } = \frac{4}{3}$.
-However, the input $u_{ [4_1\to 5_4] }>2$ is not satisfied constraint condition. 
-Therefor, the minimum cost to go for $x_{[4_1]}$ is 
+The minimum time (cost) is $\Delta t_{ [41 \to 54] } = \frac{4}{3}$.
+However, the input $u_{ [41\to 54] }>2$ is not satisfied constraint condition. 
+Therefor, the minimum cost to go for $x_{[41]}$ is 
 
 $$
 J^*_{[4_1\to5_3\to6]}=\Delta t_{4_1\to5_3}+J^*_{[5_3\to6]}=4$$
@@ -227,9 +223,9 @@ Compared to the brute force method with exponential complexity, the backward mul
 ---
 ### Summary
 The above calculation is the core algorithm of dynamic programming.  
-In the level $k$, it computes all selection for each node but retains only the optimal result $u_{k-node}^*$ by minimum cost to go $J_{[k\to k+1]}^*$. 
-In the level $k-1$, only the cost to go from the level $k$ needs to be considered when computing the cost to go $J_{ [k-1\to k] }^*$.
-Because, whatever happened before, the optimal path from the current node to the end node has already been determined by the $J_{ [k\to k+1] }^*$ from the level $k$.
+In the level $k$, it computes all selection for each node but retains only the optimal result $u^{*}_{k-node}$ by minimum cost to go $J^{*}_{[k\to k+1]}$. 
+In the level $k-1$, only the cost to go from the level $k$ needs to be considered when computing the cost to go $J^{*}_{ [k-1\to k] }$.
+Because, whatever happened before, the optimal path from the current node to the end node has already been determined by the $J^{*}_{ [k\to k+1] }$ from the level $k$.
 
 Additional, the above  calculation can be off-line. Therefor, We can obtain the optimal control for each state, and just look at the table during the real-time control.
 
