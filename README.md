@@ -14,3 +14,17 @@ cd C:\Users\ygz19\OneDrive\Github\youkoutaku.github.io
 ```cmd
 bundle exec jekyll s
 ```
+
+### Images
+```markdown
+![](src/image.png)
+```
+
+### Math
+[MathJax](https://www.mathjax.org/)
+
+```markdown
+Remark error:
+$x_{1_2}$
+$x^*$
+```
