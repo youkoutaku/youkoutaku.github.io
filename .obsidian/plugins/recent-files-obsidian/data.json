@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-05-23-Dynamic Programming",
+      "path": "_posts/Control/Model Predict Control/2024-05-23-Dynamic Programming.md"
+    },
+    {
+      "basename": "2024-05-21-Optimal control problem",
+      "path": "_posts/Control/Model Predict Control/2024-05-21-Optimal control problem.md"
+    },
+    {
       "basename": "2023-02-03-From Problem Thinking to Goal-Oriented Thinking",
       "path": "_posts/Blog/Journal/2023-02-03-From Problem Thinking to Goal-Oriented Thinking.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "2023-06-08-Simulation (4)",
       "path": "SystemIdentification/宿題/2023-06-08-Simulation (4).md"
-    },
-    {
-      "basename": "2023-04-10-1.Linear Continuous-time Model",
-      "path": "SystemIdentification/2023-04-10-1.Linear Continuous-time Model.md"
-    },
-    {
-      "basename": "2023-04-20-2.Sampling",
-      "path": "SystemIdentification/2023-04-20-2.Sampling.md"
     }
   ],
   "omittedPaths": [],

@@ -1169,6 +1169,10 @@ deprecating
 difficulties
 day
 dislike
+decisions
+drone
+discretization
+determined
 reference
 rU
 rd
@@ -2167,6 +2171,14 @@ received
 relatives
 remember
 realized
+remaining
+regard
+remainning
+reverse
+redundant
+retained
+relationship
+retains
 Input
 IHDR
 IDATx
@@ -4566,6 +4578,10 @@ initiative
 impossible
 inner
 insulted
+into
+idea
+improving
+improve
 system
 same
 sRGB
@@ -5795,6 +5811,11 @@ still
 source
 setbacks
 significant
+stages
+storing
+subproblems
+selection
+svg
 New
 NS
 NFu
@@ -6851,6 +6872,7 @@ Notion
 NewBlog
 Naeini
 Now
+Numerical
 Problem
 PNG
 PCV
@@ -7969,6 +7991,8 @@ Publications
 Project
 Processing
 Power
+Programming
+Predict
 error
 expanded
 exist
@@ -9212,6 +9236,8 @@ effort
 esteem
 experiencing
 essentialist
+explained
+efficiency
 cost
 control
 can
@@ -10395,6 +10421,14 @@ classmates
 cry
 chose
 continue
+constitute
+calculations
+consider
+calculation
+core
+computes
+considered
+current
 function
 fx
 fc
@@ -11517,6 +11551,8 @@ finally
 filled
 failure
 forward
+finding
+force
 Untraceable
 Uf
 UBT
@@ -14036,6 +14072,8 @@ toward
 these
 teachers
 tried
+target
+thus
 large
 lA
 lf
@@ -15043,6 +15081,7 @@ lot
 lost
 live
 losing
+look
 may
 maximum
 matrix
@@ -17255,6 +17294,9 @@ become
 believe
 because
 back
+brute
+before
+been
 not
 nk
 nj
@@ -18402,6 +18444,9 @@ normal
 numerator
 nonliner
 need
+nodes
+needed
+needs
 Cost
 Code
 Constants
@@ -19516,6 +19561,9 @@ Constraits
 Constraints
 Constaints
 Common
+Constraint
+Calculate
+Compared
 Function
 FM
 FIR
@@ -20556,6 +20604,7 @@ FFFF
 Forward
 Fire
 Franklin
+Force
 overshoot
 output
 order
@@ -22594,6 +22643,9 @@ Basketball
 Biography
 Breath
 Because
+Bellman
+Brute
+Backward
 We
 Wy
 Ww
@@ -26090,6 +26142,8 @@ way
 would
 wrong
 were
+whatever
+ways
 as
 aU
 adjacent
@@ -27128,6 +27182,8 @@ abilities
 able
 accepted
 after
+among
+already
 pHYs
 pj
 path
@@ -28137,6 +28193,8 @@ perfect
 person
 prove
 putting
+policy
+paths
 xP
 xv
 xV
@@ -31327,6 +31385,7 @@ jqiPaU
 jCkDm
 jBT
 jpg
+just
 Ql
 QZj
 Quadratic
@@ -36004,6 +36063,7 @@ kbDi
 keen
 knew
 kindle
+keeping
 qZl
 qt
 qq
@@ -39402,6 +39462,7 @@ Least
 List
 Lab
 Life
+Less
 YQ
 Yt
 YouTube
@@ -41583,6 +41644,8 @@ AirSim
 Abbas
 Admissible
 Add
+Additional
+Avoidence
 MQ
 MF
 MJ
@@ -42969,6 +43032,8 @@ Music
 Made
 Matrix
 Make
+Methods
+Markov
 HT
 HB
 Hn
@@ -43965,6 +44030,7 @@ How
 HTML
 Hard
 However
+Huge
 Tn
 Tracking
 Terminal
@@ -45175,6 +45241,7 @@ Taylor
 Therefor
 Therefore
 Talent
+Thinking
 uv
 uX
 undirected
@@ -47685,6 +47752,7 @@ Emami
 Edition
 Each
 Effort
+Exhaustive
 DM
 Dz
 Delta
@@ -48859,6 +48927,7 @@ Discretization
 Definite
 Dover
 Digital
+Divide
 GCs
 GM
 Gqy
@@ -50025,6 +50094,7 @@ Gym
 Gene
 Gredient
 Grune
+Goal
 hh
 ha
 hat
@@ -51032,6 +51102,7 @@ here
 hurtful
 hurt
 hope
+happened
 SN
 Sliding
 SMC
@@ -52292,6 +52363,9 @@ Springer
 Search
 Statistics
 States
+Solutions
+Starting
+Same
 JO
 Jl
 JA
@@ -55266,6 +55340,7 @@ zHyByBLR
 zbd
 zGxZ
 zurg
+zones
 KD
 KaU
 KtUl
@@ -57573,6 +57648,7 @@ Overleaf
 Otherwise
 Once
 Over
+Oriented
 Rf
 Receding
 Recommendations

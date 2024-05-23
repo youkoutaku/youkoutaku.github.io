@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Blog/Journal/2023-02-03-From Problem Thinking to Goal-Oriented Thinking.md",
+                "file": "_posts/Control/Model Predict Control/2024-05-23-Dynamic Programming.md",
                 "mode": "source",
                 "source": true
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/Blog/Journal/2023-02-03-From Problem Thinking to Goal-Oriented Thinking.md"
+                "file": "_posts/Control/Model Predict Control/2024-05-23-Dynamic Programming.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/Blog/Journal/2023-02-03-From Problem Thinking to Goal-Oriented Thinking.md",
+                "file": "_posts/Control/Model Predict Control/2024-05-23-Dynamic Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/Blog/Journal/2023-02-03-From Problem Thinking to Goal-Oriented Thinking.md",
+                "file": "_posts/Control/Model Predict Control/2024-05-23-Dynamic Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,10 +168,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c15ca8b08b6f374b",
+  "active": "7a96a7b6ca269dce",
   "lastOpenFiles": [
-    "_posts/Blog/Journal/2023-01-31-The Power of Effort Over Talent.md",
+    "src/MPC/State-space-discretization.png",
+    "src/MPC/fig.png",
+    "src/MPC/drone-table.png",
+    "src/MPC/dronef.png",
+    "src/MPC/drone41.png",
+    "src/MPC/drone1.png",
+    "src/MPC/drone.png",
+    "_posts/Control/Model Predict Control/2024-05-21-Optimal control problem.md",
+    "_posts/Control/Model Predict Control/2024-05-23-Dynamic Programming.md",
     "_posts/Blog/Journal/2023-02-03-From Problem Thinking to Goal-Oriented Thinking.md",
+    "_posts/Blog/Journal/2023-01-31-The Power of Effort Over Talent.md",
     "_posts/Blog/Journal/2023-01-21-Be an essentialist.md",
     "_posts/Blog/Journal/2023-01-26-Like and dislike.md",
     "_posts/Blog/Journal/2023-04-13-My study experience since I came to Japan.md",
@@ -199,9 +208,6 @@
     "_posts/Probability/2024-04-26-Central limit theorem.md",
     "_site/assets/css/jekyll-theme-chirpy.css.map",
     "_posts/Temp/python.md",
-    "_posts/Temp/matlab.md",
-    "_posts/Probability/2024-05-03-Probability Distributions.md",
-    "_posts/Temp/YAML.md",
     "_site/tags/python/index.html",
     "_site/tags/python",
     "_site/tags/probability/index.html",
@@ -210,12 +216,6 @@
     "_site/categories/probability",
     "_site/posts/Probability-Distributions/index.html",
     "_site/posts/Probability-Distributions",
-    "SystemIdentification/src/20230529165242.png",
-    "SystemIdentification/src/20230529164150.png",
-    "SystemIdentification/src/20230529145655.png",
-    "SystemIdentification/src/20230526101850.png",
-    "SystemIdentification/src/20230519160027.png",
-    "SystemIdentification/src/20230421184254.png",
     "Untitled.canvas"
   ]
 }
