@@ -113,8 +113,13 @@ $$
 u_{[k\to k+1]}=\frac{v_{[k+1]}-v_{[k]}}{\Delta t_{[k\to k+1]}}=\frac{ {x_2^2}_{[k+1]}+{x_2^2}_{[k]}}{2\Delta x_1}$$
 
 ### $5\to6$
-- $k=6:x_{[6]}=[10\;0]^T$
-- $k=5: x_{[5_1]}=[8\;0]^T$, $x_{[5_2]}=[8\;1]^T$, $x_{[5_3]}=[8\;2]^T$, $x_{[5_4]}=[8\;3]^T$
+- $k=6:$
+
+$$x_{[6]}=[10\;0]^T$$
+
+- $k=5:$ 
+
+$$x_{[5_1]}=[8\;0]^T, x_{[5_2]}=[8\;1]^T, x_{[5_3]}=[8\;2]^T, x_{[5_4]}=[8\;3]^T$$
 
 $$\Delta t_{[5_1\rightarrow6]}=\frac{2\Delta x_{1}}{x_{2_{[5_1]}}+x_{2_{[6]}}}=\frac{4}{0+0}=\infty
 $$
@@ -161,7 +166,7 @@ u_{[5_4]}^{*}&=u_{[5_4\to6]}=-9/4
 ![](src/MPC/drone1.png)
 
 ### $4\to5$
-- $k=4: x_{[4_1]}=[6\;0]^T$, $x_{[4_2]}=[6\;1]^T$, $x_{[4_3]}=[6\;2]^T$, $x_{[4_4]}=[6\;3]^T$
+$$k=4: x_{[4_1]}=[6\;0]^T, x_{[4_2]}=[6\;1]^T, x_{[4_3]}=[6\;2]^T, x_{[4_4]}=[6\;3]^T$$
 
 For the $x_{[4_1]}$, there are 4 ways $4_1\to5_1,4_1\to5_2,4_1\to5_3,4_1\to5_4$ to select.
 
@@ -204,7 +209,7 @@ u^*_{[4_1]}=u_{[4_1\to5_3]}=1$$
 
 ![](src/MPC/drone41.png)
 
-> We calculated 4 paths for the $x_{ [4_1] }$ , But only one optimal result $\Delta t_{ [t_1\to 5] }$ is retained to the node $x_{ [4_1] }$ which be used by the state for $k<4$.
+> We calculated 4 paths for the $x_{[41]}$ , But only one optimal result $\Delta t_{[41\to5] }$ is retained to the node $x_{[41]}$ which be used by the state for $k<4$.
 
 Same as above , consider the constraint condition, we can calculate the cost to go $J^*$ for the anthor node.
 
@@ -222,7 +227,7 @@ Compared to the brute force method with exponential complexity, the backward mul
 ---
 ### Summary
 The above calculation is the core algorithm of dynamic programming.  
-In the level $k$, it computes all selection for each node but retains only the optimal result $u_{k_{node}}^*$ by minimum cost to go $J_{[k\to k+1]}^*$. 
+In the level $k$, it computes all selection for each node but retains only the optimal result $u_{k-node}^*$ by minimum cost to go $J_{[k\to k+1]}^*$. 
 In the level $k-1$, only the cost to go from the level $k$ needs to be considered when computing the cost to go $J_{ [k-1\to k] }^*$.
 Because, whatever happened before, the optimal path from the current node to the end node has already been determined by the $J_{ [k\to k+1] }^*$ from the level $k$.
 
