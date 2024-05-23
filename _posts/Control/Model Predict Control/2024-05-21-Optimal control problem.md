@@ -284,5 +284,5 @@ $$J=\|x[N]\|_S^2+\sum_{k=0}^{N-1}\left(\|x[k]-x_d[k]\|_{Q[k]}^2+\|u[k]\|_{R[k]}^
 
 1. [Optimal Control by DR_CAN ](https://space.bilibili.com/230105574/channel/collectiondetail?sid=1814750)
 2. 王天威. 控制之美(卷 2). 清华大学出版社,2023.
-3. Grune L. Dynamic programming, optimal contorl and model predictive contorl. Springer, 2018.
+3. Grune L. Dynamic programming, optimal control and model predictive control. Springer, 2018.
 4. Kirk D. Optimal control theory: An introduction. Dover Publications, 2004

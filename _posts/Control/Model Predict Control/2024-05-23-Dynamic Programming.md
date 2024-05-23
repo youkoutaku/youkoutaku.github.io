@@ -158,7 +158,7 @@ u_{[5_3]}^{*}&=u_{[5_3\to6]}=-1\\
 u_{[5_4]}^{*}&=u_{[5_4\to6]}=-9/4
 \end{aligned}$$
 
-![[src/MPC/drone1.png]]
+![](src/MPC/drone1.png)
 
 ### $4\to5$
 - $k=4: x_{[4_1]}=[6\;0]^T, x_{[4_2]}=[6\;1]^T,x_{[4_3]}=[6\;2]^T,x_{[4_4]}=[6\;3]^T$
@@ -341,3 +341,8 @@ ylabel('h(m/s)');
 ## Simulation
 
 ![](src/MPC/fig.png)
+
+## Reference
+1. [Optimal Control by DR_CAN ](https://space.bilibili.com/230105574/channel/collectiondetail?sid=1814750)
+2. 王天威. 控制之美(卷 2). 清华大学出版社,2023.
+3. Dingyu Xue. Solving Optimization Problems with MATLAB. Tsinghua University Press, 2020.
