@@ -105,12 +105,12 @@ $$
 - The time from $k$ to $k+1$
 
 $$
-\Delta t_{[k\to k+1]}=\frac{\Delta x_1}{{v_{avg}}_{[k\to k+1]} }=\frac{2\Delta x_1}{{x_2}_{[k]}+{x_2}_{[k+1]}}$$
+\Delta t_{[k\to k+1]}=\frac{\Delta x_1}{ {v_{avg}}_{[k\to k+1]} }=\frac{2\Delta x_1}{ {x_2}_{[k]}+{x_2}_{[k+1]}}$$
 
 - The input form $k$ to $k+1$
 
 $$
-u_{[k\to k+1]}=\frac{v_{[k+1]}-v_{[k]}}{\Delta t_{[k\to k+1]}}=\frac{{x_2^2}_{[k+1]}+{x_2^2}_{[k]}}{2\Delta x_1}$$
+u_{[k\to k+1]}=\frac{v_{[k+1]}-v_{[k]}}{\Delta t_{[k\to k+1]}}=\frac{ {x_2^2}_{[k+1]}+{x_2^2}_{[k]}}{2\Delta x_1}$$
 
 ### $5\to6$
 - $k=6:x_{[6]}=[10\;0]^T$
@@ -120,27 +120,27 @@ $$\Delta t_{[5_1\rightarrow6]}=\frac{2\Delta x_{1}}{x_{2_{[5_1]}}+x_{2_{[6]}}}=\
 $$
 
 $$
-u_{{[5_1\rightarrow6]}}=\frac{x_{2_{[6]}}^{2}-x_{2_{[5_1]}}^{2}}{2\Delta x_{1}}=\frac{0-0}{4}=0$$
+u_{[5_1\rightarrow6]}=\frac{x_{2_{[6]}}^{2}-x_{2_{[5_1]}}^{2}}{2\Delta x_{1}}=\frac{0-0}{4}=0$$
 
 $$
 \Delta t_{[5_{2}\to6]}= \frac{2\Delta x_{1}}{x_{2_{[5_2]}}+x_{2_{[6]}}}=\frac{4}{1+0}=4$$
 
 $$
-u_{{[5_2\to6]}}= \frac{x_{2_{[6]}}^{2}-x_{2_{[5_2]}}^{2}}{2\Delta x_{1}}=\frac{0-1}{4}=-\frac{1}{4} $$
+u_{[5_2\to6]}= \frac{x_{2_{[6]}}^{2}-x_{2_{[5_2]}}^{2}}{2\Delta x_{1}}=\frac{0-1}{4}=-\frac{1}{4} $$
 
 $$
 \Delta t_{[5_3\to6]}=\frac{2\Delta x_{1}}{x_{2_{[5_3]}}+x_{2_{[6]}}}=\frac{4}{2+0}=2
 $$
 
 $$
-u_{{[5_3\to6]}}= \frac{x_{2_{[6]}}^{2}-x_{2_{[5_3]}}^{2}}{2\Delta x_{1}}=\frac{0-4}{4}=-1
+u_{[5_3\to6]}= \frac{x_{2_{[6]}}^{2}-x_{2_{[5_3]}}^{2}}{2\Delta x_{1}}=\frac{0-4}{4}=-1
 $$
 
 $$
 \Delta t_{[5_4\to6]}=\frac{2\Delta x_{1}}{x_{2_{[5_4]}}+x_{2_{[6]}}}=\frac{4}{3+0}=\frac{4}{3}$$
 
 $$
-u_{{[5_4\to6]}}= \frac{x_{2_{[6]}}^{2}-x_{2_{[5_4]}}^{2}}{2\Delta x_{1}}=\frac{0-9}{4}=- \frac{9}{4} 
+u_{[5_4\to6]}= \frac{x_{2_{[6]}}^{2}-x_{2_{[5_4]}}^{2}}{2\Delta x_{1}}=\frac{0-9}{4}=- \frac{9}{4}
 $$
 
 Then, We obtain the cost ot go $J^*$, means the minimum cost from a node to end node.
@@ -169,26 +169,26 @@ $$
 \Delta t_{[4_1\to5_1]}=\frac{2\Delta x_{1}}{x_{2[4_1]}+x_{2[5_1]}}=\frac{4}{0+0}=\infty$$
 
 $$
-u_{{[4_1\to5_1]}}=\frac{x_{2[5_1]}^{2}-x_{2[4_1]}^{2}}{2\Delta x_{1}}=\frac{0-0}{4}=0$$
+u_{[4_1\to5_1]}=\frac{x_{2[5_1]}^{2}-x_{2[4_1]}^{2}}{2\Delta x_{1}}=\frac{0-0}{4}=0$$
 
 $$
 \Delta t_{[4_1\to5_2]}=\frac{2\Delta x_{1}}{x_{2[4_1]}+x_{2[5_2]}}=\frac{4}{1+0}=4$$
 
 $$
-u_{{[4_1\to5_2]}}=\frac{x_{2[5_2]}^{2}-x_{2[4_1]}^{2}}{2\Delta x_{1}}=\frac{1-0}{4}=\frac{1}{4}$$
+u_{[4_1\to5_2]}=\frac{x_{2[5_2]}^{2}-x_{2[4_1]}^{2}}{2\Delta x_{1}}=\frac{1-0}{4}=\frac{1}{4}$$
 
 $$
 \Delta t_{[4_1\to5_3]}=\frac{2\Delta x_{1}}{x_{2[4_1]}+x_{2[5_3]}}=\frac{4}{0+2}=2$$
 
 $$
-u_{{[4_1\to5_3]}}=\frac{x_{2_{[5,3]}}^{2}-x_{2_{[4_1]}}^{2}}{2\Delta x_{1}}=\frac{4-0}{4}=1
+u_{[4_1\to5_3]}=\frac{x_{2_{[5,3]}}^{2}-x_{2_{[4_1]}}^{2}}{2\Delta x_{1}}=\frac{4-0}{4}=1
 $$
 
 $$
 \Delta t_{[4_1\to5_4]}=\frac{2\Delta x_{1}}{x_{2_{[4_1]}}+x_{2_{[5_4]}}}=\frac{4}{3+0}=\frac{4}{3}$$
 
 $$
-u_{{[4_1\to5_4]}}=\frac{x_{2_{[5_4]}}^{2}-x_{2_{[4_1]}}^{2}}{2\Delta x_{1}}=\frac{9-0}{4}=\frac{9}{4}$$
+u_{[4_1\to5_4]}=\frac{x_{2_{[5_4]}}^{2}-x_{2_{[4_1]}}^{2}}{2\Delta x_{1}}=\frac{9-0}{4}=\frac{9}{4}$$
 
 The minimum time (cost) is $\Delta t_{[4_1\to5_4]}=\frac{4}{3}$. However, the input $u_{[4_1\to5_4]}>2$ is not satisfied constraint condition. Therefor, the minimum cost to go for $x_{[4_1]}$ is 
 
@@ -198,7 +198,7 @@ J^*_{[4_1\to5_3\to6]}=\Delta t_{4_1\to5_3}+J^*_{[5_3\to6]}=4$$
 The optimal control is
 
 $$
-u^*_{[4_1]}=u_{{[4_1\to5_3]}}=1$$
+u^*_{[4_1]}=u_{[4_1\to5_3]}=1$$
 
 ![](src/MPC/drone41.png)
 
