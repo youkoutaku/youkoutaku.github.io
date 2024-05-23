@@ -191,9 +191,9 @@ $$
 $$
 u_{[4_1\to5_4]}=\frac{x_{2_{[5_4]}}^{2}-x_{2_{[4_1]}}^{2}}{2\Delta x_{1}}=\frac{9-0}{4}=\frac{9}{4}$$
 
-The minimum time (cost) is $\Delta t_{ [41 \to 54] } = \frac{4}{3}$.
-However, the input $u_{ [41\to 54] }>2$ is not satisfied constraint condition. 
-Therefor, the minimum cost to go for $x_{[41]}$ is 
+The minimum time (cost) is $$\Delta t_{ [4_1 \to 5_4] } = \frac{4}{3}$$.
+However, the input $$u_{ [4_1\to 5_4] }>2$$ is not satisfied constraint condition. 
+Therefor, the minimum cost to go for $$x_{[4_1]}$$ is 
 
 $$
 J^*_{[4_1\to5_3\to6]}=\Delta t_{4_1\to5_3}+J^*_{[5_3\to6]}=4$$
