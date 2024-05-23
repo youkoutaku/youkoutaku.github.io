@@ -205,9 +205,9 @@ u^*_{[4_1]}=u_{[4_1\to5_3]}=1$$
 
 ![](src/MPC/drone41.png)
 
-> We calculated 4 paths for the $x_{[4_{1}]}$ , But only one optimal result $\Delta t_{[4_{1}\to5] }$ is retained to the node $x_{[4_{1}]}$ which be used by the state for $k<4$.
+> We calculated 4 paths for the $$x_{[4_{1}]}$$ , But only one optimal result $$\Delta t_{[4_{1}\to5]}$$ is retained to the node $$x_{[4_{1}]}$$ which be used by the state for $k<4$.
 
-Same as above , consider the constraint condition, we can calculate the cost to go $J^*$ for the anthor node.
+Same as above , consider the constraint condition, we can calculate the cost to go $J^*$ for the others node.
 
 **The table of cost to go**:
 
@@ -223,9 +223,9 @@ Compared to the brute force method with exponential complexity, the backward mul
 ---
 ### Summary
 The above calculation is the core algorithm of dynamic programming.  
-In the level $k$, it computes all selection for each node but retains only the optimal result $u^{\*}_{k-node}$ by minimum cost to go $J^{\*}_{[k\to k+1]}$. 
-In the level $k-1$, only the cost to go from the level $k$ needs to be considered when computing the cost to go $J^{\*}_{ [k-1\to k] }$.
-Because, whatever happened before, the optimal path from the current node to the end node has already been determined by the $J^{\*}_{ [k\to k+1] }$ from the level $k$.
+In the level $k$, it computes all selection for each node but retains only the optimal result $$u^{*}_{k-node}$$ by minimum cost to go $$J^{*}_{[k\to k+1]}$$. 
+In the level $k-1$, only the cost to go from the level $k$ needs to be considered when computing the cost to go $$J^{*}_{ [k-1\to k] }$$.
+Because, whatever happened before, the optimal path from the current node to the end node has already been determined by the $$J^{*}_{ [k\to k+1] }$$ from the level $k$.
 
 Additional, the above  calculation can be off-line. Therefor, We can obtain the optimal control for each state, and just look at the table during the real-time control.
 
