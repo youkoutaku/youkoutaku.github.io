@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2ded25ac7279f695",
+        "id": "62b80bad2fbc8bbb",
         "type": "tabs",
         "children": [
           {
-            "id": "c15ca8b08b6f374b",
+            "id": "bc281149c23b77f0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/Control/Model Predict Control/2024-05-23-Dynamic Programming.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
