@@ -370,14 +370,15 @@ $$u^*_{[0]},u^*_{[1]},\dots,u^*_{[N-1]}$$
 
 which hold the minimum $J$.
 
+---
 ### Backward multi stages
-#### $k=N\to k=N$
+$k=N\to k=N$:
 
 $$J_{N\to N}(x_{[N]})=h(x_{[N]})$$
 
 - $J_{N\to N}=J^*_{N\to N}:$ The optimal cost to go for $N\to N$ (Terminal cost function)
 
-#### $k=N-1\to k=N$
+$k=N-1\to k=N$:
 
 $$\begin{aligned}
 J_{N-1\to N}(x_{[N]},x_{[N-1]},u_{[N-1]})&=h(x_{[N]})+\sum_{k=N-1}^{N-1}g(x_{[k]},u_{[k]})\\&=J_{N\to N}(x_{[N]})+g(x_{[N-1]},u_{[N-1]})
@@ -400,14 +401,10 @@ $$
 $$
 \frac{\partial J_{N-1\to N}(x_{[N-1]},u_{[N-1]})}{\partial u_{[N-1]}}=0\to u^*_{[N-1]}$$
 
-#### $k=N-2\to k=N-1$
+$k=N-2\to k=N-1$:
 
 $$\begin{aligned}
 &J_{N-2\to N-1}(x_{[N]},x_{[N-1]},x_{[N-2]},u_{[N-1]},u_{[N-2]})\\&=h(x_{[N]})+g(x_{[N-1]},u_{[N-1]})+g(x_{[N-2]},u_{[N-2]})
-\end{aligned}$$
-
-$$\begin{aligned}
-&J_{N-2\to N-1}(x_{[N-2]},u_{[N-1]},u_{[N-2]})\\&=J_{N-1\to N}+g(x_{[N-2]},u_{[N-2]})
 \end{aligned}$$
 
 $$
@@ -427,20 +424,18 @@ $$
 According to $x_{[N-1]}=f(x_{[N-2]},u_{[N-2]})$, We have the following equation relying on $x_{[N-2]},u_{[N-2]}$
 
 $$
-\begin{aligned}
-&J_{N-2\to N-1}^*(x_{[N-2]})\\&=\min_{u_{[N-2]}}\left(J^*_{N-1\to N}(f(x_{[N-2]},u_{[N-2]}))+g(x_{[N-2]},u_{[N-2]})\right)
-\end{aligned}
+J_{N-2\to N-1}^*(x_{[N-2]})=\min_{u_{[N-2]}}\left(J^*_{N-1\to N}(f(x_{[N-2]},u_{[N-2]}))+g(x_{[N-2]},u_{[N-2]})\right)
 $$
 
 $$
 \frac{\partial J_{N-2\to N}(x_{[N-2]},u^*_{[N-1]},u_{[N-2]})}{\partial u_{[N-2]}}=0\to u^*_{[N-2]}$$
 
 #### Summary
-- $N-k\to k$
+$N-k\to k$:
 
-$$\begin{aligned}
-	&J_{N-k\to N}^{*}(x_{[N-k]})\\&=\min_{u_{[N-k]}}(J_{N-(k-1)\to N}^{*}(f(x_{[N-k]},u_{[N-k]}))+g(x_{[N-k]},u_{[N-k]}))
-\end{aligned}$$
+$$
+J_{N-k\to N}^{*}(x_{[N-k]})=\min_{u_{[N-k]}}(J_{N-(k-1)\to N}^{*}(f(x_{[N-k]},u_{[N-k]}))+g(x_{[N-k]},u_{[N-k]}))
+$$
 
 $$
 \frac{\partial J_{N-k\to N}(x_{[N-k]},u^*_{[N-(k-1)]},u_{[N-k]})}{\partial u_{[N-k]}}=0\to u^*_{[N-k]}$$
