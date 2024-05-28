@@ -1,5 +1,5 @@
 ---
-title: Optimal control problem
+title: Optimal Control Problem
 date: 2024-05-21 11:05:21 +0900
 categories:
   - Model Predict Control

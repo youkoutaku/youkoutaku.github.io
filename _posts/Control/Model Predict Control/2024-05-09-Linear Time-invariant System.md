@@ -1,5 +1,5 @@
 ---
-title: Linear time-invariant system
+title: Linear Time-invariant System
 date: 2024-05-09 13:05:09 +0900
 categories: [Model Predict Control, Mathematics]
 tags: [Linear System, State-space equation, Laplace transform]

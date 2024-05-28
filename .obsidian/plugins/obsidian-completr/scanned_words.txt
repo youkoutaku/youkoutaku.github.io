@@ -2180,6 +2180,8 @@ redundant
 retained
 relationship
 retains
+relying
+rewrite
 Input
 IHDR
 IDATx
@@ -10430,6 +10432,7 @@ core
 computes
 considered
 current
+contains
 function
 fx
 fc
@@ -14075,6 +14078,9 @@ teachers
 tried
 target
 thus
+terminal
+terms
+triangleq
 large
 lA
 lf
@@ -20606,6 +20612,7 @@ Forward
 Fire
 Franklin
 Force
+Find
 overshoot
 output
 order
@@ -27185,6 +27192,7 @@ accepted
 after
 among
 already
+anytime
 pHYs
 pj
 path
@@ -28196,6 +28204,7 @@ prove
 putting
 policy
 paths
+partial
 xP
 xv
 xV
@@ -39464,6 +39473,7 @@ List
 Lab
 Life
 Less
+Levine
 YQ
 Yt
 YouTube
@@ -41647,6 +41657,7 @@ Admissible
 Add
 Additional
 Avoidence
+Assuming
 MQ
 MF
 MJ
@@ -44032,6 +44043,9 @@ HTML
 Hard
 However
 Huge
+HJB
+Hamiltonian
+Handbook
 Tn
 Tracking
 Terminal
@@ -58795,6 +58809,7 @@ Rorm
 Regulator
 Robomaster
 Ridicule
+Rakovic
 üY
 üDV
 üx
