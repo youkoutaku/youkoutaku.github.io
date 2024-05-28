@@ -61,7 +61,9 @@ $$
 
 - $J_{t+\Delta t\to t_f}:$ the performance function from $t+\Delta t$ to $t_f$.
 
-For the $J_{t+\Delta t\to t_f}$, by the Bellman optimal theory, we can obtain following equation
+For the $J_{t+\Delta t\to t_f}$, by the Bellman optimal theory , $$J^*_{t+\Delta t\to t_f}\left(x(t+\Delta t)t+\Delta t\right)$$ is the optimal cost for $$J_{t+\Delta t\to t_f}(x(t),t,u(r))$$.
+
+Then, we can obtain following equation
 
 $$
 \begin{aligned}
