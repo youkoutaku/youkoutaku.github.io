@@ -108,7 +108,7 @@ Then, we obtain the **Hamiltonian-Jacobi-Bellman equation** called **HJB** equat
 
 $$\begin{cases}
 0=J_{t}^{*}(x_{(t)},t)+\min_{u_{(t)}}\Big\{J_{x}^{*}\left(x_{(t)},t\right)^{\mathrm{T}}f(x_{(t)},u_{(t)},t)+g\left(x_{(t)},u_{(t)},t\right)\Big\}\\
-J^*_{t_f\to t_f}(x_{(t_f)},t_f)=h(x_{(t_f)},t_f)$ 
+J^*_{t_f\to t_f}(x_{(t_f)},t_f)=h(x_{(t_f)},t_f)
 \end{cases}
 $$
 

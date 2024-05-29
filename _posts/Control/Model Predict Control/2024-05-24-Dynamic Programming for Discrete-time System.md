@@ -69,7 +69,7 @@ J_{N-1\to N}^*(x_{[N-1]})=\min_{u_{[N-1]}}\left(J^*_{N\to N}(f(x_{[N-1]},u_{[N-1
 $$
 
 $$
-\frac{\partial J_{N-1\to N}(x_{[N-1]},u_{[N-1]})}{\partial u_{[N-1]}}=0\to u^*_{[N-1]}$$
+\frac{\partial J_{N-1\to N}(x_{[N-1]},u_{[N-1]})}{\partial u_{[N-1]}}=0\implies u^*_{[N-1]}$$
 
 ### $k=N-2\to k=N-1$
 
@@ -103,7 +103,7 @@ $$
 $$
 
 $$
-\frac{\partial J_{N-2\to N}(x_{[N-2]},u^*_{[N-1]},u_{[N-2]})}{\partial u_{[N-2]}}=0\to u^*_{[N-2]}$$
+\frac{\partial J_{N-2\to N}(x_{[N-2]},u^*_{[N-1]},u_{[N-2]})}{\partial u_{[N-2]}}=0\implies u^*_{[N-2]}$$
 
 ## Summary
 - $N-k\to k$
@@ -113,7 +113,7 @@ $$\begin{aligned}
 \end{aligned}$$
 
 $$
-\frac{\partial J_{N-k\to N}(x_{[N-k]},u^*_{[N-(k-1)]},u_{[N-k]})}{\partial u_{[N-k]}}=0\to u^*_{[N-k]}$$
+\frac{\partial J_{N-k\to N}(x_{[N-k]},u^*_{[N-(k-1)]},u_{[N-k]})}{\partial u_{[N-k]}}=0\implies u^*_{[N-k]}$$
 
 ## Reference
 1. [Optimal Control by DR_CAN ](https://space.bilibili.com/230105574/channel/collectiondetail?sid=1814750)
