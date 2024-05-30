@@ -1,5 +1,5 @@
 ---
-title: 2024-05-30-LQR for Discrete-time System
+title: LQR for Discrete-time System
 date: 2024-05-30 12:20:28 +0900
 categories:
   - Model Predict Control
