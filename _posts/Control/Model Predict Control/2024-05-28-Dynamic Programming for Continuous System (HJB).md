@@ -94,20 +94,20 @@ $$
 
 Therefor, we can rewrite the above equation as 
 
-$$\begin{aligned} J_{t\to t_f}^{*}(x_{(t)},t)&=\min_{u_{(t)}}\Big\{J_{t\to t_f}^{*}(x_{(t)},t)+J_{t}^{*}(x_{(t)},t)\Delta t+\\&J_{x}^{*}\left(x_{(t)},t\right)^{\mathrm{T}}\dot{x}_{(t)}\Delta t+g\left(x_{(t)},u_{(t)},t\right)\Delta t \Big\}\end{aligned}$$
+$$\begin{aligned} J_{t\to t_f}^{*}(x_{(t)},t)&=\min_{u_{(t)}}\Big\{J_{t\to t_f}^{*}(x_{(t)},t)+J_{t}^{*}(x_{(t)},t)\Delta t+\\&J_{x}^{*}\left(x_{(t)},t\right)^T\dot{x}_{(t)}\Delta t+g\left(x_{(t)},u_{(t)},t\right)\Delta t \Big\}\end{aligned}$$
 
 $$
-0=J_{t}^{*}(x_{(t)},t)\Delta t+\min_{u_{(t)}}\Big\{J_{x}^{*}\left(x_{(t)},t\right)^{\mathrm{T}}f(x_{(t)},u_{(t)},t)\Delta t+g\left(x_{(t)},u_{(t)},t\right)\Delta t \Big\}$$
+0=J_{t}^{*}(x_{(t)},t)\Delta t+\min_{u_{(t)}}\Big\{J_{x}^{*}\left(x_{(t)},t\right)^Tf(x_{(t)},u_{(t)},t)\Delta t+g\left(x_{(t)},u_{(t)},t\right)\Delta t \Big\}$$
 
 $$
-0=J_{t}^{*}(x_{(t)},t)+\min_{u_{(t)}}\Big\{J_{x}^{*}\left(x_{(t)},t\right)^{\mathrm{T}}f(x_{(t)},u_{(t)},t)+g\left(x_{(t)},u_{(t)},t\right)\Big\}$$
+0=J_{t}^{*}(x_{(t)},t)+\min_{u_{(t)}}\Big\{J_{x}^{*}\left(x_{(t)},t\right)^Tf(x_{(t)},u_{(t)},t)+g\left(x_{(t)},u_{(t)},t\right)\Big\}$$
 
 > Notes that $$J^*_{t_f\to t_f}(x_{(t_f)},t_f)=h(x_{(t_f)},t_f)$$ for $t=t_f$.
 
 Then, we obtain the **Hamiltonian-Jacobi-Bellman equation** called **HJB** equation as 
 
 $$\begin{cases}
-0=J_{t}^{*}(x_{(t)},t)+\min_{u_{(t)}}\Big\{J_{x}^{*}\left(x_{(t)},t\right)^{\mathrm{T}}f(x_{(t)},u_{(t)},t)+g\left(x_{(t)},u_{(t)},t\right)\Big\}\\
+0=J_{t}^{*}(x_{(t)},t)+\min_{u_{(t)}}\Big\{J_{x}^{*}\left(x_{(t)},t\right)^Tf(x_{(t)},u_{(t)},t)+g\left(x_{(t)},u_{(t)},t\right)\Big\}\\
 J^*_{t_f\to t_f}(x_{(t_f)},t_f)=h(x_{(t_f)},t_f)
 \end{cases}
 $$
@@ -115,7 +115,7 @@ $$
 The solution of the equation is the result of the optimal control strategy. And the **Hamiltonian** as following equation.
 
 $$
-\mathcal{H}(x_{(t)},u_{(t)},J_{x}^{*},t)\triangleq J_{x}^{*}(x_{(t)},t)^{\mathrm{T}}f(x_{(t)},u_{(t)},t)+g(x_{(t)},u_{(t)},t)$$
+\mathcal{H}(x_{(t)},u_{(t)},J_{x}^{*},t)\triangleq J_{x}^{*}(x_{(t)},t)^Tf(x_{(t)},u_{(t)},t)+g(x_{(t)},u_{(t)},t)$$
 
 For the optimal control $$u^*_{(t)}$$, the Hamiltonian is minimum as 
 

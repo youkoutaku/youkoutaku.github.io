@@ -96,7 +96,7 @@ where $u,f\in\mathbb{R}^n$.
 
 $$u^{T}f=\begin{bmatrix}u_1&\cdots&u_n\end{bmatrix}\begin{bmatrix}f_1\\\vdots\\f_n\end{bmatrix}=f_1u_1+\cdots+f_nu_n$$
 
-$$\frac{\partial(u^{\mathrm{T}}f)}{\partial u}=\begin{bmatrix}\frac{\partial u^{\mathrm{T}}f}{\partial u_1}\\ \vdots \\ \frac{\partial u^{\mathrm{T}}f}{\partial u_n} \end{bmatrix}=\begin{bmatrix}\frac{\partial(f_1u_1+f_2u_2+\cdots+f_nu_n)}{\partial u_1}\\\vdots\\\frac{\partial(f_1u_1+f_2u_2+\cdots+f_nu_n)}{\partial u_n}\end{bmatrix}=\begin{bmatrix}f_1\\\vdots\\f_n\end{bmatrix}=f$$
+$$\frac{\partial(u^Tf)}{\partial u}=\begin{bmatrix}\frac{\partial u^Tf}{\partial u_1}\\ \vdots \\ \frac{\partial u^Tf}{\partial u_n} \end{bmatrix}=\begin{bmatrix}\frac{\partial(f_1u_1+f_2u_2+\cdots+f_nu_n)}{\partial u_1}\\\vdots\\\frac{\partial(f_1u_1+f_2u_2+\cdots+f_nu_n)}{\partial u_n}\end{bmatrix}=\begin{bmatrix}f_1\\\vdots\\f_n\end{bmatrix}=f$$
 
 ---
 
@@ -115,7 +115,7 @@ Define a vector $f=[f_1 \; f_2 \; \cdots \; f_n]^T\in\mathbb{R}^n$, satisfied th
 $$f=\begin{bmatrix}f_1\\f_2\\\vdots\\f_n\end{bmatrix}=\begin{bmatrix}a_{11}u_1+a_{12}u_2+\cdots+a_{1n}u_n\\a_{21}u_1+a_{22}u_2+\cdots+a_{2n}u_n\\\vdots\\a_{n1}u_1+a_{n2}u_2+\cdots+a_{nn}u_n\end{bmatrix}=Au$$
 Then, We have the result.
 
-$$\frac{\partial (Au)}{\partial u}=\begin{bmatrix}\frac{\partial Au}{\partial u_1}\\\frac{\partial Au}{\partial u_2}\\\vdots\\\frac{\partial Au}{\partial u_n}\end{bmatrix}=\begin{bmatrix}\frac{\partial f_1}{\partial u_1}&\frac{\partial f_2}{\partial u_1}&\cdots&\frac{\partial f_n}{\partial u_1}\\\frac{\partial f_1}{\partial u_2}&\frac{\partial f_2}{\partial u_2}&\cdots&\frac{\partial f_n}{\partial u_2}\\\vdots&\vdots&\ddots&\vdots\\\frac{\partial f_1}{\partial u_n}&\frac{\partial f_2}{\partial u_n}&\cdots&\frac{\partial f_n}{\partial u_n}\end{bmatrix}=\begin{bmatrix}a_{11}&a_{21}&\cdots&a_{n1}\\a_{12}&a_{22}&\cdots&a_{n2}\\\vdots&\vdots&\ddots&\vdots\\a_{1n}&a_{2n}&\cdots&a_{nn}\end{bmatrix}=A^\mathrm{T}$$
+$$\frac{\partial (Au)}{\partial u}=\begin{bmatrix}\frac{\partial Au}{\partial u_1}\\\frac{\partial Au}{\partial u_2}\\\vdots\\\frac{\partial Au}{\partial u_n}\end{bmatrix}=\begin{bmatrix}\frac{\partial f_1}{\partial u_1}&\frac{\partial f_2}{\partial u_1}&\cdots&\frac{\partial f_n}{\partial u_1}\\\frac{\partial f_1}{\partial u_2}&\frac{\partial f_2}{\partial u_2}&\cdots&\frac{\partial f_n}{\partial u_2}\\\vdots&\vdots&\ddots&\vdots\\\frac{\partial f_1}{\partial u_n}&\frac{\partial f_2}{\partial u_n}&\cdots&\frac{\partial f_n}{\partial u_n}\end{bmatrix}=\begin{bmatrix}a_{11}&a_{21}&\cdots&a_{n1}\\a_{12}&a_{22}&\cdots&a_{n2}\\\vdots&\vdots&\ddots&\vdots\\a_{1n}&a_{2n}&\cdots&a_{nn}\end{bmatrix}=A^T$$
 
 ---
 
@@ -129,20 +129,20 @@ where $u\in\mathbb{R}^n, A\in\mathbb{R}^{n\times n}$. If $A=A^T$, we obtain $\fr
 
 $$
 \begin{aligned}
-u^{\mathrm{T}}Au& =\begin{bmatrix}u_{1}&u_{2}&\cdots&u_{n}\end{bmatrix}\begin{bmatrix}a_{11}&a_{12}&\cdots&a_{1n}\\\\a_{21}&a_{22}&\cdots&a_{2n}\\\vdots&\vdots&\ddots&\vdots\\a_{n1}&a_{n2}&\cdots&a_{nn}\end{bmatrix}\begin{bmatrix}u_{1}\\\\u_{2}\\\vdots\\u_{n}\end{bmatrix} \\
+u^TAu& =\begin{bmatrix}u_{1}&u_{2}&\cdots&u_{n}\end{bmatrix}\begin{bmatrix}a_{11}&a_{12}&\cdots&a_{1n}\\\\a_{21}&a_{22}&\cdots&a_{2n}\\\vdots&\vdots&\ddots&\vdots\\a_{n1}&a_{n2}&\cdots&a_{nn}\end{bmatrix}\begin{bmatrix}u_{1}\\\\u_{2}\\\vdots\\u_{n}\end{bmatrix} \\
 &=(a_{11}u_{1}+a_{12}u_{2}+\cdots+a_{1n}u_{n})u_{1}+\\ &\quad \quad (a_{21}u_{1}+a_{22}u_{2}+\cdots+a_{2n}u_{n})u_{2}+\\
 &\quad \quad \cdots+(a_{n1}u_1+a_{n2}u_2+\cdots+a_{nn}u_n)u_n
 \end{aligned}
 $$
 
-$$\frac{\partial(u^{\mathrm{T}}Au)}{\partial u}=\begin{bmatrix}\frac{\partial(u^{\mathrm{T}}Au)}{\partial u_{1}}\\\\\frac{\partial(u^{\mathrm{T}}Au)}{\partial u_{2}}\\\\\vdots\\\frac{\partial(u^{\mathrm{T}}Au)}{\partial u_{n}}\end{bmatrix}$$
+$$\frac{\partial(u^TAu)}{\partial u}=\begin{bmatrix}\frac{\partial(u^TAu)}{\partial u_{1}}\\\\\frac{\partial(u^TAu)}{\partial u_{2}}\\\\\vdots\\\frac{\partial(u^TAu)}{\partial u_{n}}\end{bmatrix}$$
 $$\begin{aligned}&=\begin{bmatrix}a_{11}u_1+(a_{11}u_1+a_{12}u_2+\cdots+a_{1n}u_n)+a_{21}u_2+\cdots+a_{n1}u_n\\a_{12}u_1+a_{22}u_2+(a_{21}u_1+a_{22}u_2+\cdots+a_{2n}u_n)+\cdots+a_{n2}u_n\\\vdots\\a_{1n}u_1+a_{2n}u_2+\cdots+a_{nn}u_n+(a_{n1}u_1+a_{n2}u_2+\cdots+a_{nn}u_n)\end{bmatrix}\\&=\begin{bmatrix}(a_{11}u_1+a_{12}u_2+\cdots+a_{1n}u_n)+(a_{11}u_1+a_{21}u_2+\cdots+a_{n1}u_n)\\(a_{21}u_1+a_{22}u_2+\cdots+a_{2n}u_n)+(a_{12}u_1+a_{22}u_2+\cdots+a_{n2}u_n)\\\vdots\\(a_{n1}u_1+a_{n2}u_2+\cdots+a_{nn}u_n)+(a_{1n}u_1+a_{2n}u_2+\cdots+a_{nn}u_n)\end{bmatrix}\end{aligned}$$
 
 $$
 \begin{aligned}
 &=\begin{bmatrix}a_{11}u_{1}+a_{12}u_{2}+\cdots+a_{1n}u_{n}\\a_{21}u_{1}+a_{22}u_{2}+\cdots+a_{2n}u_{n}\\\vdots\\a_{n1}u_{1}+a_{n2}u_{2}+\cdots+a_{nn}u_{n}\end{bmatrix}+\begin{bmatrix}a_{11}u_{1}+a_{21}u_{2}+\cdots+a_{n1}u_{n}\\a_{12}u_{1}+a_{22}u_{2}+\cdots+a_{n2}u_{n}\\\vdots\\a_{1n}u_{1}+a_{2n}u_{2}+\cdots+a_{nn}u_{n}\end{bmatrix} \\
 &=\begin{bmatrix}a_{11}&a_{12}&\cdots&a_{1n}\\a_{21}&a_{22}&\cdots&a_{2n}\\\vdots&\vdots&\ddots&\vdots\\a_{n1}&a_{n2}&\cdots&a_{nn}\end{bmatrix}\begin{bmatrix}u_{1}\\\\u_{2}\\\vdots\\u_{n}\end{bmatrix}+\begin{bmatrix}a_{11}&a_{21}&\cdots&a_{n1}\\\\a_{12}&a_{22}&\cdots&a_{n2}\\\vdots&\vdots&\ddots&\vdots\\\\a_{1n}&a_{2n}&\cdots&a_{nn}\end{bmatrix}\begin{bmatrix}u_{1}\\\\u_{2}\\\vdots\\u_{n}\end{bmatrix} \\
-&=Au+A^{\mathrm{T}}u
+&=Au+A^Tu
 \end{aligned}
 $$
 
