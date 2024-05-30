@@ -61,7 +61,7 @@ $$
 
 - $J_{t+\Delta t\to t_f}:$ the performance function from $t+\Delta t$ to $t_f$.
 
-For the $J_{t+\Delta t\to t_f}$, by the Bellman optimal theory , $$J^*_{t+\Delta t\to t_f}\left(x(t+\Delta t)t+\Delta t\right)$$ is the optimal cost for $$J_{t+\Delta t\to t_f}(x(t),t,u(r))$$. Then, we can obtain following equation
+For the $J_{t+\Delta t\to t_f}$, by the Bellman optimal theory , $$J^*_{t+\Delta t\to t_f}\left(x(t+\Delta t) ,t+\Delta t\right)$$ is the optimal cost for $$J_{t+\Delta t\to t_f}(x(t),t,u(r))$$. Then, we can obtain following equation
 
 $$
 \begin{aligned}
@@ -77,20 +77,20 @@ J^*_{t+\Delta t\to t_f}\left(x(t+\Delta t),t+\Delta t\right)&=J^*_{t\to t_f}(x(t
 \end{aligned}
 $$
 
->Notes the
+>Notes 
 >
 >$$\frac{\partial J^*_{t+\Delta t\to t_f}\left(x(t),t\right)}{\partial x}=\begin{bmatrix}\frac{\partial J_{t+\Delta t\to t_f}^{*}(x_{(t)},t)}{\partial x_{1}}\\\vdots\\\frac{\partial J_{t+\Delta t\to t_f}^{*}\left(x(t),t\right)}{\partial x_{n}}\end{bmatrix}$$
 >
->And, 
+>and
 >
 >$$\begin{aligned}
-\lim_{\Delta t\to0}\frac{\partial J_{t+\Delta t\to t_{t}}^{*}(x_{(t)},t)}{\partial t}&=\frac{\partial J_{t\to t_{t}}^{*}(x_{(t)},t)}{\partial t}\triangleq J_{t}^{*}(x_{(t)},t)\\ \lim_{\Delta t\to0}\frac{\partial J_{t+\Delta t\to t_{t}}^{*}(x_{(t)},t)}{\partial x}&=\frac{\partial J_{t\to t_{t}}^{*}(x_{(t)},t)}{\partial x}\triangleq J_{x}^{*}(x_{(t)},t)\\ \text{Higher-order terms} &= 0
+\lim_{\Delta t\to0}\frac{\partial J_{t+\Delta t\to t_{t}}^{*}(x_{(t)},t)}{\partial t}&=\frac{\partial J_{t\to t_{t}}^{*}(x_{(t)},t)}{\partial t}\triangleq J_{t}^{*}(x_{(t)},t)\\ \lim_{\Delta t\to0}\frac{\partial J_{t+\Delta t\to t_{t}}^{*}(x_{(t)},t)}{\partial x}&=\frac{\partial J_{t\to t_{t}}^{*}(x_{(t)},t)}{\partial x}\triangleq J_{x}^{*}(x_{(t)},t)
 \end{aligned}
 $$
 >
 >$$\begin{aligned}
 &\lim_{\Delta t\to0}(x_{(t+\Delta t)}-x_{(t)})=\dot{x}_{(t)}\Delta t\\
-&\lim_{\Delta t\to0}\int_{t}^{t+\Delta t}g\left(x_{(\tau)},u_{(\tau)},\tau\right)\mathrm{d}\tau=g\left(x_{(t)},u_{(t)},t\right)\Delta t\end{aligned}$$
+&\lim_{\Delta t\to0}\int_{t}^{t+\Delta t}g\left(x_{(\tau)},u_{(\tau)},\tau\right)\mathrm{d}\tau=g\left(x_{(t)},u_{(t)},t\right)\Delta t\\ &\lim_{\Delta t\to0}\text{Higher-order terms} = 0\end{aligned}$$
 
 Therefor, we can rewrite the above equation as 
 
@@ -112,7 +112,7 @@ J^*_{t_f\to t_f}(x_{(t_f)},t_f)=h(x_{(t_f)},t_f)
 \end{cases}
 $$
 
-Solving the equation can obtain the optimal control strategy. The **Hamiltonian** as following equation.
+The solution of the equation is the result of the optimal control strategy. And the **Hamiltonian** as following equation.
 
 $$
 \mathcal{H}(x_{(t)},u_{(t)},J_{x}^{*},t)\triangleq J_{x}^{*}(x_{(t)},t)^{\mathrm{T}}f(x_{(t)},u_{(t)},t)+g(x_{(t)},u_{(t)},t)$$
