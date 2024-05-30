@@ -1174,6 +1174,7 @@ drone
 discretization
 determined
 dronef
+discuss
 reference
 rU
 rd
@@ -2182,6 +2183,8 @@ relationship
 retains
 relying
 rewrite
+regulation
+regulators
 Input
 IHDR
 IDATx
@@ -5819,6 +5822,9 @@ storing
 subproblems
 selection
 svg
+stabilize
+simplify
+symmetrically
 New
 NS
 NFu
@@ -9241,6 +9247,7 @@ experiencing
 essentialist
 explained
 efficiency
+equal
 cost
 control
 can
@@ -14082,6 +14089,8 @@ thus
 terminal
 terms
 triangleq
+typical
+taking
 large
 lA
 lf
@@ -16322,6 +16331,8 @@ malicious
 mind
 maintaining
 move
+minimize
+make
 be
 bk
 btN
@@ -33668,6 +33679,7 @@ vCm
 varibales
 vactor
 various
+verify
 yL
 yp
 ya

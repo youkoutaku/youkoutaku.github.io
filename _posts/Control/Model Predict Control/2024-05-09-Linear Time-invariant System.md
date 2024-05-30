@@ -102,7 +102,6 @@ $$
 \implies  x(t)=e^{A(t-t_0)}x(t_0)+\int^{t}_{t_0}e^{A(t-\tau)}Bu(\tau)d\tau$$
 
 ---
-
 ## Reference
 1. 控制之美（卷2）—最优化控制MPC与卡尔曼滤波器, 王天威, 黄军魁, 清华大学出版社
 2. MATLAB/Simulinkによる制御工学入門, 川田昌克, 森北出版

@@ -279,9 +279,7 @@ $$J=\|x[N]\|_S^2+\sum_{k=0}^{N-1}\left(\|x[k]-x_d[k]\|_{Q[k]}^2+\|u[k]\|_{R[k]}^
 > For trajectory problem, We can Introduce error $e[k]=x[k]-x_d[k]$ and state space for error. Then, control task becomes $e[k]\to0$. Therefor, the problem can solution as a regulator problem.
 
 ---
-
 ## Reference
-
 1. [Optimal Control by DR_CAN ](https://space.bilibili.com/230105574/channel/collectiondetail?sid=1814750)
 2. 王天威. 控制之美(卷 2). 清华大学出版社,2023.
 3. Grune L. Dynamic programming, optimal control and model predictive control. Springer, 2018.

@@ -192,8 +192,6 @@ Consider a scalar function $f(K)$ by matrix $K\in\mathbb{R}^{m\times n}$,
 $$\frac{\partial f(K)}{\partial K}\triangleq\begin{bmatrix}\frac{\partial f(K)}{\partial k_{11}}&\frac{\partial f(K)}{\partial k_{12}}&\cdots&\frac{\partial f(K)}{\partial k_{1m}}\\\\\frac{\partial f(K)}{\partial k_{21}}&\frac{\partial f(K)}{\partial k_{22}}&\cdots&\frac{\partial f(K)}{\partial k_{2m}}\\\vdots&\vdots&\ddots&\vdots\\\frac{\partial f(K)}{\partial k_{n1}}&\frac{\partial f(K)}{\partial k_{n2}}&\cdots&\frac{\partial f(K)}{\partial k_{nm}}\end{bmatrix}$$
 
 ---
-
 ## Application: Linear regression
-
 - Least squares method
 - Gredient descent

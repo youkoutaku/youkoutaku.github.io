@@ -127,6 +127,7 @@ $$0=J_{t}^{*}(x_{(t)},t)+\mathcal{H}(x_{(t)},u^{*}(x_{(t)},J_{x}^{*},t),J_{x}^{*
 
 where it contains two terms, the partial derivative of optimal cost  and the minimum Hamiltonian.
 
+---
 ## Reference
 1. [Optimal Control by DR_CAN ](https://space.bilibili.com/230105574/channel/collectiondetail?sid=1814750)
 2. 王天威. 控制之美(卷2). 清华大学出版社. 2023.

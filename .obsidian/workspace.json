@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Control/Model Predict Control/2024-05-28-Dynamic Programming for Continuous System (HJB).md",
+                "file": "_posts/Control/Model Predict Control/2024-05-30-LQR for Discrete-time System.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/Control/Model Predict Control/2024-05-28-Dynamic Programming for Continuous System (HJB).md"
+                "file": "_posts/Control/Model Predict Control/2024-05-30-LQR for Discrete-time System.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/Control/Model Predict Control/2024-05-28-Dynamic Programming for Continuous System (HJB).md",
+                "file": "_posts/Control/Model Predict Control/2024-05-30-LQR for Discrete-time System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/Control/Model Predict Control/2024-05-28-Dynamic Programming for Continuous System (HJB).md",
+                "file": "_posts/Control/Model Predict Control/2024-05-30-LQR for Discrete-time System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,12 +170,13 @@
   },
   "active": "bc281149c23b77f0",
   "lastOpenFiles": [
-    "_posts/Control/Model Predict Control/2024-05-24-Dynamic Programming for Discrete-time System.md",
     "_posts/Control/Model Predict Control/2024-05-28-Dynamic Programming for Continuous System (HJB).md",
-    "_posts/Control/Model Predict Control/2024-05-09-Linear Time-invariant System.md",
-    "_posts/Control/Model Predict Control/2024-05-15-Matrix and Vector.md",
-    "_posts/Control/Model Predict Control/2024-05-21-Optimal Control Problem.md",
+    "_posts/Control/Model Predict Control/2024-05-24-Dynamic Programming for Discrete-time System.md",
     "_posts/Control/Model Predict Control/2024-05-23-Dynamic Programming and Bellman Optimal Theory.md",
+    "_posts/Control/Model Predict Control/2024-05-21-Optimal Control Problem.md",
+    "_posts/Control/Model Predict Control/2024-05-15-Matrix and Vector.md",
+    "_posts/Control/Model Predict Control/2024-05-30-LQR for Discrete-time System.md",
+    "_posts/Control/Model Predict Control/2024-05-09-Linear Time-invariant System.md",
     "_posts/Control/Model Predict Control/2024-05-21-Optimal control problem.md",
     "_posts/Control/Model Predict Control/2024-05-09-Linear-time-invariant-system.md",
     "src/MPC/State-space-discretization.png",
@@ -206,7 +207,6 @@
     "_posts/SystemIdentification/Main/2023-04-20-Continuous time signal sampling.md",
     "_posts/SystemIdentification/Main/2023-05-10-Paramater Estimation for Linear Systems.md",
     "_posts/SystemIdentification/Simulation/2023-04-13-Simulation_Linear discrete-time system model.md",
-    "_posts/SystemIdentification/Simulation/2023-04-21-Simulation_Forward differential, backward differential, bilinear transformation.md",
     "_site/assets/css/jekyll-theme-chirpy.css.map",
     "_site/tags/python/index.html",
     "_site/tags/python",
