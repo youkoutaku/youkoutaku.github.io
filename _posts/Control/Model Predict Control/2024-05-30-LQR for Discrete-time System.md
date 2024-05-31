@@ -202,7 +202,7 @@ $$P_{[k]}\triangleq (A_{[N-k]}-B_{[N-k]}F_{[N-k]})^TP_{[k-1]}(A_{[N-k]}-B_{[N-k]
 
 ---
 
-![](/src/MPC/LQR.svg)
+![](/src/MPC/LQR.png)
 
 
 The LQR controller is a feedback control where the $F_{[N-k]}$ is the feedback gain. In fact, by minimizing the cost function, we obtain the optimal feedback gain to calculate the control input.
