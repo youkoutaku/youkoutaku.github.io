@@ -13,6 +13,11 @@ tags:
 author: Youkoutaku
 math: true
 mermaid: true
+#pin:
+#img_path:
+image:
+  path: /src/MPC/LQR.svg
+  alt: LQR
 ---
 
 We discuss a typical problem: for the linear system, the performance function is in quadratic form, and the control goal is to stabilize the state at 0 (regulation problem). Then, its' controllers are called linear quadratic regulators (LQR).
@@ -195,9 +200,20 @@ where
 
 $$P_{[k]}\triangleq (A_{[N-k]}-B_{[N-k]}F_{[N-k]})^TP_{[k-1]}(A_{[N-k]}-B_{[N-k]}F_{[N-k]})+F_{[N-k]}^TR_{[N-k]}F_{[N-k]}+Q_{[N-k]}.$$
 
->The solving is off-line. 
->
->$$P_{[0]}=S\implies P_{[1]}, u^*_{[N-1]}\implies \cdots P_{[k]}, u^*_{[N-k]} \cdots \implies  P_{[N]}, u^*_{[0]}$$
+---
+
+![](/src/MPC/LQR.svg)
+
+
+The LQR controller is a feedback control where the $F_{[N-k]}$ is the feedback gain. In fact, by minimizing the cost function, we obtain the optimal feedback gain to calculate the control input.
+
+If the system is linear time-invariant and fully controllable, we have a constant feedback gain $F$.
+
+$$N\to\infty\implies F_{[N-k]}\to F$$
+
+Therefor, the solving for optimal control can off-line. 
+
+$$P_{[0]}=S\implies P_{[1]}, u^*_{[N-1]}\implies \cdots P_{[k]}, u^*_{[N-k]} \cdots \implies  P_{[N]}, u^*_{[0]}$$
 
 In real-time system, we use the optimal control input $$u^*_{[0]},\cdots,u^*_{[N-k]},\cdots,u^*_{[N-1]}$$ for the system states $$x_{[0]}\implies \cdots x_{[N-k]} \cdots \implies x_{[N]}$$.
 

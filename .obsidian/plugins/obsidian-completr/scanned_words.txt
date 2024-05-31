@@ -10441,6 +10441,7 @@ considered
 current
 contains
 concise
+controllable
 function
 fx
 fc
@@ -11565,6 +11566,7 @@ failure
 forward
 finding
 force
+fully
 Untraceable
 Uf
 UBT
@@ -16333,6 +16335,7 @@ maintaining
 move
 minimize
 make
+minimizing
 be
 bk
 btN
