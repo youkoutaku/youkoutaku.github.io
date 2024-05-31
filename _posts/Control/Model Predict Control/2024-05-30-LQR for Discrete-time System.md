@@ -218,6 +218,75 @@ $$P_{[0]}=S\implies P_{[1]}, u^*_{[N-1]}\implies \cdots P_{[k]}, u^*_{[N-k]} \cd
 In real-time system, we use the optimal control input $$u^*_{[0]},\cdots,u^*_{[N-k]},\cdots,u^*_{[N-1]}$$ for the system states $$x_{[0]}\implies \cdots x_{[N-k]} \cdots \implies x_{[N]}$$.
 
 ---
+## Code
+### Matlab
+```matlab
+function [F] = LQR(A,B,Q,R,S)
+% P_[0]
+P0 = S;
+% Maximum number of step
+max_iter = 200;
+% Convergence difference
+mini = 1e-3;
+% Initial value
+P_k_min_1 = P0;
+diff = Inf;
+F_N_min_k = Inf;
+k = 1;
+while diff > mini
+	% F_[N-(k-1)]
+	F_N_min_k_pre = F_N_min_k;
+	% F_[N-k]
+	F_N_min_k = (R+B'*P_k_min_1*B)\B'*P_k_min_1*A;
+	% P_[k]
+	P_k = (A-B*F_N_min_k)'*P_k_min_1*(A-B*F_N_min_k)+(F_N_min_k)'*R*(F_N_min_k)+Q;
+	% P_[k-1]
+	P_k_min_1 = P_k;
+	% F_[N-k] - F_[N-(k-1)]
+	diff = abs(max(F_N_min_k - F_N_min_k_pre));
+	k = k + 1;
+	if k > max_iter
+		error('Maximum Number of Iterations Exceeded');
+	end
+end
+fprintf('No. of Interation is %d \n', k);
+F=F_N_min_k;
+end
+```
+
+### Python
+```python
+def lqr(A, B, Q, R, S):
+    # P_[0]
+    P0 = S
+    # Maximum number of steps
+    max_iter = 200
+    # Convergence difference
+    mini = 1e-3
+    # Initial value
+    P_k_min_1 = P0
+    diff = np.inf
+    F_N_min_k = np.inf
+    k = 1
+    while diff > mini:
+        # F_[N-(k-1)]
+        F_N_min_k_pre = F_N_min_k
+        # F_[N-k]
+        F_N_min_k = np.linalg.inv(R + B.T @ P_k_min_1 @ B) @ B.T @ P_k_min_1 @ A
+        # P_[k]
+        P_k = (A - B @ F_N_min_k).T @ P_k_min_1 @ (A - B @ F_N_min_k) + F_N_min_k.T @ R @ F_N_min_k + Q
+        # P_[k-1]
+        P_k_min_1 = P_k
+        # F_[N-k] - F_[N-(k-1)]
+        diff = np.max(np.abs(F_N_min_k - F_N_min_k_pre))
+        k += 1
+        if k > max_iter:
+            raise ValueError('Maximum Number of Iterations Exceeded')
+    print(f'No. of Iterations is {k}')
+    return F_N_min_k
+```
+
+---
 ## Reference
 1. [Optimal Control by DR_CAN ](https://space.bilibili.com/230105574/channel/collectiondetail?sid=1814750)
 2. 王天威. 控制之美(卷2). 清华大学出版社. 2023.
