@@ -16,7 +16,7 @@ mermaid: true
 #pin:
 #img_path:
 image:
-  path: /src/MPC/LQR.svg
+  path: /src/MPC/LQR.png
   alt: LQR
 ---
 
