@@ -79,6 +79,8 @@ $$\frac{\partial J_{N-1\to N}(x_{[N-1]},u_{[N-1]})}{\partial u_{[N-1]}}=0$$
 >
 >$$\frac{\partial \frac{1}{2}y(u_{[N-1]})^TP_{[0]}y(u_{[N-1]})}{\partial y(u_{[N-1]})}=P_{[0]}y(u_{[N-1]})$$
 >
+>$$\frac{\partial \boxed{\frac{1}{2}(x_{[N-1]}^TQ_{[N-1]}x_{[N-1]}+u_{[N-1]}^TR_{[N-1]}u_{[N-1]})}}{\partial  u_{[N-1]}}=R_{[N-1]}u_{[N-1]}$$
+>
 
 Therefor, we have 
 
