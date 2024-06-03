@@ -1175,6 +1175,12 @@ discretization
 determined
 dronef
 discuss
+docker
+desktop
+device
+directory
+display
+dokcer
 reference
 rU
 rd
@@ -2185,6 +2191,8 @@ relying
 rewrite
 regulation
 regulators
+rviz
+restated
 Input
 IHDR
 IDATx
@@ -3387,6 +3395,7 @@ Identification
 Interested
 Initial
 Introduce
+Install
 increase
 iR
 iyH
@@ -4588,6 +4597,8 @@ into
 idea
 improving
 improve
+install
+images
 system
 same
 sRGB
@@ -5825,6 +5836,8 @@ svg
 stabilize
 simplify
 symmetrically
+socket
+server
 New
 NS
 NFu
@@ -9248,6 +9261,7 @@ essentialist
 explained
 efficiency
 equal
+enable
 cost
 control
 can
@@ -10442,6 +10456,10 @@ current
 contains
 concise
 controllable
+code
+container
+connect
+communicate
 function
 fx
 fc
@@ -11567,6 +11585,7 @@ forward
 finding
 force
 fully
+folder
 Untraceable
 Uf
 UBT
@@ -12955,6 +12974,7 @@ UBKe
 UCS
 Unicycle
 Updated
+Unix
 to
 too
 tesk
@@ -14093,6 +14113,7 @@ terms
 triangleq
 typical
 taking
+test
 large
 lA
 lf
@@ -17319,6 +17340,7 @@ back
 brute
 before
 been
+bash
 not
 nk
 nj
@@ -18469,6 +18491,8 @@ need
 nodes
 needed
 needs
+noetic
+name
 Cost
 Code
 Constants
@@ -19586,6 +19610,7 @@ Common
 Constraint
 Calculate
 Compared
+Container
 Function
 FM
 FIR
@@ -24968,6 +24993,8 @@ grow
 grateful
 grew
 gradually
+graphics
+graphical
 which
 wm
 ww
@@ -27208,6 +27235,9 @@ after
 among
 already
 anytime
+apt
+access
+allowing
 pHYs
 pj
 path
@@ -33683,6 +33713,8 @@ varibales
 vactor
 various
 verify
+vscode
+video
 yL
 yp
 ya
@@ -43062,6 +43094,7 @@ Matrix
 Make
 Methods
 Markov
+Maps
 HT
 HB
 Hn
@@ -45274,6 +45307,8 @@ Therefore
 Talent
 Thinking
 Tsinghua
+Test
+Tmux
 uv
 uX
 undirected
@@ -46433,6 +46468,7 @@ undermine
 understand
 unconditionally
 unconditional
+user
 Eg
 Effects
 Electrify
@@ -48961,6 +48997,7 @@ Dover
 Digital
 Divide
 Dingyu
+Docker
 GCs
 GM
 Gqy
@@ -50128,6 +50165,7 @@ Gene
 Gredient
 Grune
 Goal
+Git
 hh
 ha
 hat
@@ -51136,6 +51174,8 @@ hurtful
 hurt
 hope
 happened
+humble
+host
 SN
 Sliding
 SMC
@@ -52399,6 +52439,7 @@ States
 Solutions
 Starting
 Same
+Setting
 JO
 Jl
 JA
