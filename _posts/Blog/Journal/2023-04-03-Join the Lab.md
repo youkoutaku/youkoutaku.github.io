@@ -1,7 +1,7 @@
 ---
 title: Join the Lab
 date: 2023-04-03 17:30:00 +0900
-categories: [Blog, Lab]
+categories: [Blog, Journal]
 tags: [Blog]
 author: Youkoutaku
 math: true #Mathematical
