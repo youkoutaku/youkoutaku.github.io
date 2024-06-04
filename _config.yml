@@ -41,8 +41,10 @@ social:
     - https://twitter.com/You_Koutaku # change to your twitter homepage
     - https://github.com/youkoutaku # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    #- https://www.facebook.com/username
+    - https://www.linkedin.com/in/youkoutaku
+
+google_site_verification: 9vd_GzNZ0in29PTGoMtRufHYEEgO0QB54_mbGL3SMyg # change to your verification string
 
 # Site Verification Settings
 webmaster_verifications:
