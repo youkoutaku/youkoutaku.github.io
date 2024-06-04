@@ -8,8 +8,8 @@ order: 4
 
 ## Hi there 👋
 
-### This is You Koutaku!
--  George Young/ You Koutaku(JP)/ Guangze Yang(CN) 
+### This is Young!
+-  EN: Young / JP:楊広沢(YouKoutaku) / CN:杨广泽(Guang-Ze Yang)
 - 🎓 I'm a learning student in [Ibaraki University](https://www.ibaraki.ac.jp).  My major is Mechanical Systems Engineering.
 - 🔥 Interested in working with Control System, Robotics, Code and want to try new things. 
 - ⭐ I'm keen to share some of my learning notes and learn from those who are outstanding.
