@@ -2193,6 +2193,8 @@ regulation
 regulators
 rviz
 restated
+rename
+repository
 Input
 IHDR
 IDATx
@@ -5838,6 +5840,8 @@ simplify
 symmetrically
 socket
 server
+sudo
+setting
 New
 NS
 NFu
@@ -10460,6 +10464,9 @@ code
 container
 connect
 communicate
+credsStore
+credStore
+commit
 function
 fx
 fc
@@ -11586,6 +11593,7 @@ finding
 force
 fully
 folder
+filer
 Untraceable
 Uf
 UBT
@@ -12975,6 +12983,7 @@ UCS
 Unicycle
 Updated
 Unix
+Ubuntu
 to
 too
 tesk
@@ -15122,6 +15131,7 @@ lost
 live
 losing
 look
+login
 may
 maximum
 matrix
@@ -18493,6 +18503,7 @@ needed
 needs
 noetic
 name
+nano
 Cost
 Code
 Constants
@@ -19611,6 +19622,7 @@ Constraint
 Calculate
 Compared
 Container
+Check
 Function
 FM
 FIR
@@ -31441,6 +31453,7 @@ jCkDm
 jBT
 jpg
 just
+json
 Ql
 QZj
 Quadratic
@@ -33715,6 +33728,7 @@ various
 verify
 vscode
 video
+ver
 yL
 yp
 ya
@@ -46469,6 +46483,8 @@ understand
 unconditionally
 unconditional
 user
+usrname
+username
 Eg
 Effects
 Electrify
@@ -47821,6 +47837,7 @@ Edition
 Each
 Effort
 Exhaustive
+Error
 DM
 Dz
 Delta
@@ -51176,6 +51193,7 @@ hope
 happened
 humble
 host
+hub
 SN
 Sliding
 SMC
@@ -52440,6 +52458,7 @@ Solutions
 Starting
 Same
 Setting
+Start
 JO
 Jl
 JA
@@ -58867,6 +58886,7 @@ Regulator
 Robomaster
 Ridicule
 Rakovic
+Running
 üY
 üDV
 üx
