@@ -9,7 +9,7 @@ order: 4
 ## Hi there 👋
 
 ### This is Young!
--  EN: Young / JP:楊広沢(YouKoutaku) / CN:杨广泽(Guang-Ze Yang)
+-  EN: Young / JP: 楊広沢(YouKoutaku) / CN: 杨广泽(Guang-Ze Yang)
 - 🎓 I'm a learning student in [Ibaraki University](https://www.ibaraki.ac.jp).  My major is Mechanical Systems Engineering.
 - 🔥 Interested in working with Control System, Robotics, Code and want to try new things. 
 - ⭐ I'm keen to share some of my learning notes and learn from those who are outstanding.
@@ -38,9 +38,7 @@ order: 4
 - Simulink
 - ROS1&2
 - Docker
-- Gym
 - AirSim
-- CARLA Simulator
 - SolidWorks
 - Arduino
 
@@ -53,6 +51,22 @@ order: 4
 - Kindle
 - [Zotero](https://www.zotero.org/)
 - [Overleaf](https://www.overleaf.com/)
-- [calibre](https://calibre-ebook.com/ja/download)
+- [Calibre](https://calibre-ebook.com/ja/download)
+
+## Link
+- Github
+- X
+- Linkedin
+- Facebook
+- Discord
+- Quora
+- Stack Overflow
+- Medium
+- 知乎
+- Qiita
+- LeetCode
+- GeeksforGeeks
+- Kaggle
+- AtCoder
 
 ---

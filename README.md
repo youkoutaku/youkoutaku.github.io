@@ -15,6 +15,10 @@ cd C:\Users\ygz19\OneDrive\Github\youkoutaku.github.io
 bundle exec jekyll s
 ```
 
+```cmd
+JEKYLL_ENV=production bundle exec jekyll b
+```
+
 ### Images
 ```markdown
 ![](src/image.png)
