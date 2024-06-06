@@ -6,25 +6,29 @@
 - [My Note](https://youkoutaku.github.io/posts/Writing/)
 
 ### Repository Path
+
 ```cmd
 cd C:\Users\ygz19\OneDrive\Github\youkoutaku.github.io
 ```
 
 ### Running Local Server
+
 ```cmd
 bundle exec jekyll s
 ```
 
 ```cmd
-JEKYLL_ENV=production bundle exec jekyll b
+bundle exec jekyll b
 ```
 
 ### Images
+
 ```markdown
 ![](src/image.png)
 ```
 
 ### Math
+
 [MathJax](https://www.mathjax.org/)
 
 ```markdown
