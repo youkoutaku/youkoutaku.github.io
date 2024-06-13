@@ -1,9 +1,9 @@
 ---
-title: LQR for continuous system
+title: LQR for Continuous Systems
 date: 2024-06-13 12:20:28 +0900
 categories:
   - Model Predict Control
-  - Optimal Control
+  - LQR
 tags:
   - Optimal Control
   - Control
