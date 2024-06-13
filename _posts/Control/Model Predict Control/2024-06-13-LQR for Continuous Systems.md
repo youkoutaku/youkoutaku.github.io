@@ -1,6 +1,6 @@
 ---
 title: LQR for Continuous Systems
-date: 2024-06-13 12:20:28 +0900
+date: 2024-06-13 10:20:28 +0900
 categories:
   - Model Predict Control
   - LQR
@@ -18,8 +18,8 @@ mermaid: true
 #pin:
 #img_path:
 #image:
-  path: 
-  alt: 
+#  path: 
+#  alt: 
 ---
 
 By the HJB equation, we discuss the linear quadratic regulators (LQR) for continuous systems. 
