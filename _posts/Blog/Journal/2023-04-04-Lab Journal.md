@@ -1,6 +1,6 @@
 ---
-title: My study experience since I came to Japan
-date: 2023-04-13 1:30:00 +0900
+title: Lab Journal in Notion
+date: 2023-04-04 9:30:00 +0900
 categories: [Blog, Journal]
 tags: [Blog, JP]
 author: Youkoutaku
