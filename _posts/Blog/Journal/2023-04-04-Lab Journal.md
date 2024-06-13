@@ -12,4 +12,5 @@ pin: true
 #  alt:
 ---
 
-[Lab Journal|Notion](https://youkoutaku.notion.site/Lab-Journal-cde43795142d448ab96cb0233225cf6b?pvs=4)
+
+[Lab Journal-Notion](https://youkoutaku.notion.site/Lab-Journal-cde43795142d448ab96cb0233225cf6b?pvs=4)
