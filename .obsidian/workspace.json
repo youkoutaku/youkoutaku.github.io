@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Ubuntu/Docker/2023-12-05-Start Container.md",
+                "file": "_posts/Control/Model Predict Control/2024-05-30-LQR for Discrete-time System.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "95220819a876847f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/Control/Model Predict Control/LQR for continuous system.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/Ubuntu/Docker/2023-12-05-Start Container.md"
+                "file": "_posts/Control/Model Predict Control/LQR for continuous system.md"
               }
             }
           },
@@ -115,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/Ubuntu/Docker/2023-12-05-Start Container.md",
+                "file": "_posts/Control/Model Predict Control/LQR for continuous system.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/Ubuntu/Docker/2023-12-05-Start Container.md",
+                "file": "_posts/Control/Model Predict Control/LQR for continuous system.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,10 +181,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bc281149c23b77f0",
+  "active": "95220819a876847f",
   "lastOpenFiles": [
-    "_posts/Ubuntu/Docker/2023-12-07-Docker hub.md",
+    "_posts/Control/Model Predict Control/2024-05-30-LQR for Discrete-time System.md",
+    "_posts/Control/Model Predict Control/LQR for continuous system.md",
     "_posts/Ubuntu/Docker/2023-12-05-Start Container.md",
+    "_posts/Ubuntu/Docker/2023-12-07-Docker hub.md",
     "_posts/Ubuntu/Docker/2023-12-20-Docker for ROS.md",
     "_posts/Temple/YAML.md",
     "_site/posts/Docker-for-ROS/index.html",
@@ -185,7 +200,6 @@
     "_site/categories/ubuntu/index.html",
     "_site/categories/ubuntu",
     "_site/src/MPC/LQR.png",
-    "_posts/Control/Model Predict Control/2024-05-30-LQR for Discrete-time System.md",
     "_posts/Control/Model Predict Control/2024-05-28-Dynamic Programming for Continuous System (HJB).md",
     "src/MPC/LQR.svg",
     "_posts/Control/Model Predict Control/2024-05-24-Dynamic Programming for Discrete-time System.md",
@@ -215,7 +229,6 @@
     "_posts/Control/MPC/2024-05-21-Optimal control problem.md",
     "_posts/Control/MPC/2024-05-09-Linear-time-invariant-system.md",
     "_posts/Control/MPC/2024-05-07-Matrix and Vector.md",
-    "_posts/SystemIdentification/Main/2023-04-10-Linear Continuous-time Model.md",
     "Untitled.canvas"
   ]
 }
