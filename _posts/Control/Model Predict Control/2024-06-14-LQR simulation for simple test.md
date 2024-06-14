@@ -64,9 +64,9 @@ $$Q_1=\begin{bmatrix}
 ## Simulation
 ```matlab
 %-----------------------------------------------------------------------%
-% LQR for Inverted Pendulum %
-% Youkoutaku %
-% https://youkoutaku.github.io/ %
+%                            LQR for simple test                        %
+%                                                          Youkoutaku   %
+%                                         https://youkoutaku.github.io/ %
 %-----------------------------------------------------------------------%
 clear;
 close all;
@@ -74,7 +74,7 @@ clc;
 set(0, 'DefaultAxesFontName', 'Times New Roman')
 set(0, 'DefaultAxesFontSize', 14)
 %========================================%
-% System Model
+%           System Model
 %========================================%
 A = [0 1; 0.5 0];
 n= size (A,1);
@@ -84,40 +84,42 @@ C = [1, 0];
 D = 0;
 
 %========================================%
-% Weight matrix
+%           Weight matrix
 %========================================%
 q1 = [100 0;0 1];
 q2 = [1 0;0 100];
 q3 = [1 0;0 1];
 r1 = 1;
 r2 = 1;
-r3 = 10;
+r3 = 100;
 
 %========================================%
-% Initial value
+%           Initial value
 %========================================%
-x0 = [10;5];
+x0 = [10;5]; 
 x = x0;
 
 %========================================%
-% Riccati equation
+%           Riccati equation
 %========================================%
 [P1,L1,G1] = care(A,B,q1,r1);
 K1=inv(r1)*B'*P1;
+
 [P2,L2,G2] = care(A,B,q2,r2);
 K2=inv(r2)*B'*P2;
+
 [P3,L3,G3] = care(A,B,q3,r3);
 K3=inv(r3)*B'*P3;
 
 %========================================%
-% Systems
+%           System 
 %========================================%
 sys_1=ss(A-B*K1,[0;0],C,D);
 sys_2=ss(A-B*K2,[0;0],C,D);
 sys_3=ss(A-B*K3,[0;0],C,D);
 
 %========================================%
-% Simulation
+%           Simulation
 %========================================%
 ts = 0.01;
 t=0:ts:5;
@@ -126,7 +128,7 @@ t=0:ts:5;
 [y3,t,x3]=initial(sys_3,x,t);
 
 %========================================%
-% Plot
+%           Plot
 %========================================%
 figure();
 subplot(3,1,1);
@@ -141,6 +143,7 @@ xlabel("t")
 ylabel("x1")
 grid on;
 hold off;
+
 subplot(3,1,2);
 plot(t,x1(:,2),"linewidth",2);
 hold on;
@@ -153,15 +156,13 @@ xlabel("t")
 ylabel("x2")
 grid on;
 hold off;
+
 subplot(3,1,3);
 plot(t,-K1*x1',"linewidth",2);
-u1_cost = (-K1*x1')*(-K1*x1')'*ts';
 hold on;
 plot(t,-K2*x2','--',"linewidth",2);
-u2_cost = (-K2*x2')*(-K2*x2')'*ts;
 hold on;
 plot(t,-K3*x3','-.',"linewidth",2);
-u3_cost = (-K3*x3')*(-K3*x3')'*ts;
 legend('test1','test2','test3',"FontSize",14);
 xlim([0 5]);
 xlabel("t")
