@@ -11,24 +11,16 @@
             "id": "bc281149c23b77f0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/Control/Model Predict Control/2024-05-30-LQR for Discrete-time System.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "95220819a876847f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/Control/Model Predict Control/LQR for continuous system.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -106,9 +98,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/Control/Model Predict Control/LQR for continuous system.md"
-              }
+              "state": {}
             }
           },
           {
@@ -128,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/Control/Model Predict Control/LQR for continuous system.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/Control/Model Predict Control/LQR for continuous system.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
