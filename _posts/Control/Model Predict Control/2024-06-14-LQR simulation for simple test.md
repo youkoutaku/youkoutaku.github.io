@@ -1,5 +1,5 @@
 ---
-title: 2024-06-14-LQR simulation for simple test
+title: LQR simulation for simple test
 date: 2024-06-14 15:05:28 +0900
 categories:
   - Model Predict Control
@@ -13,10 +13,10 @@ author: Youkoutaku
 math: true
 mermaid: true
 #pin:
-img_path: /src/MPC/
-#image:
-#  path: 
-#  alt: 
+#img_path:
+image:
+  path: /src/MPC/LQR_for_simple_test.png
+  alt: LQR
 ---
 
 ## Problem
@@ -53,7 +53,7 @@ $$Q_1=\begin{bmatrix}
 
 ---
 
-![](LQR_for_simple_test.png)
+![](/src/MPC/LQR_for_simple_test.png)
 
 (1) In the weight matrix, the $x_1$ is most important. Therefore, it is most fast to cover for $x_1$.  
 
