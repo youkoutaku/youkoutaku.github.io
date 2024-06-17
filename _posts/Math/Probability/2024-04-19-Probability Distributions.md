@@ -5,7 +5,7 @@ categories: [Probability Theory]
 tags: [Probability, Python]
 author: Youkoutaku
 math: true
-img_path: /src/Probability1/
+img_path: /src/math/Probability1/
 ---
 
 Made by [Youkoutaku](https://github.com/youkoutaku)

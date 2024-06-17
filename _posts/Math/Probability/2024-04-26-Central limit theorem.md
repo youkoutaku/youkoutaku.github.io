@@ -5,7 +5,7 @@ categories: [Probability Theory]
 tags: [Probability, Python, Central Limit Theorem]
 author: Youkoutaku
 math: true
-img_path: /src/Probability2/
+img_path: /src/math/Probability2/
 ---
 
 Made by [Youkoutaku](https://github.com/youkoutaku)
