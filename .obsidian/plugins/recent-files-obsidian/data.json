@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-07-05-Check if a point is inside a triangle",
+      "path": "_posts/Math/2025-07-05-Check if a point is inside a triangle.md"
+    },
+    {
+      "basename": "2024-04-19-Probability Distributions",
+      "path": "_posts/Math/Probability/2024-04-19-Probability Distributions.md"
+    },
+    {
+      "basename": "2025-07-05-Check if a point is inside a triangle",
+      "path": "src/math/triangle/2025-07-05-Check if a point is inside a triangle.png"
+    },
+    {
+      "basename": "2024-06-17-Regularized minimal-norm solution in multiple linear regression",
+      "path": "_posts/Math/Probability/2024-06-17-Regularized minimal-norm solution in multiple linear regression.md"
+    },
+    {
       "basename": "LQR for continuous system",
       "path": "_posts/Control/Model Predict Control/LQR for continuous system.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Writing a New Post",
       "path": "_posts/Blog/Writing a New Post.md"
-    },
-    {
-      "basename": "tags",
-      "path": "_tabs/tags.md"
-    },
-    {
-      "basename": "categories",
-      "path": "_tabs/categories.md"
-    },
-    {
-      "basename": "archives",
-      "path": "_tabs/archives.md"
-    },
-    {
-      "basename": "2023-04-20-2.Sampling",
-      "path": "SystemIdentification/Main/2023-04-20-2.Sampling.md"
     }
   ],
   "omittedPaths": [],
