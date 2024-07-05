@@ -63,7 +63,7 @@ image:
 
 ![](/src/math/triangle/2025-07-05-triangle.png)
 
-点$(x,y)$が三角形内部にある時，三つの外積外積の符号が同じではありません。
+点$(x,y)$が三角形内部にある時，三つの外積の符号が同じではありません。
 
 ![](/src/math/triangle/2025-07-05-triangle2.png)
 
