@@ -1,15 +1,17 @@
 ---
-title: Regularized minimal-norm solution in multiple linear regression
+title: 正則化ミニマムノルム解(Regularized minimal-norm solution)
 date: 2024-06-17 11:03 +0900
 categories: [Probability Theory, Linear regression]
 tags: [Probability, Linear regression, Regularized minimal-norm solution, JP]
 author: Youkoutaku
 math: true
 img_path: /src/math/msB1/
+image:
+  path: output_26_1.png
+  alt: 
 ---
 
 Home Page:[Youkoutaku](https://youkoutaku.github.io/)
-
 
 ```python
 import numpy as np

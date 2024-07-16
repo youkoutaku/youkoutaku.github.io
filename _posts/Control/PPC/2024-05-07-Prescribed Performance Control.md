@@ -8,9 +8,9 @@ math: true
 mermaid: true
 #pin:
 #img_path:
-#image:
-#  path: /src/PPC/Graphical-representation-of-constraint-boundary-2.png
-#  alt: Graphical representation of constraint boundary
+image:
+  path: https://i.redd.it/tga2ckx15wcd1.png
+  alt: 
 ---
 
 > As to control systems, transient performance is as important as steady-state performance. For some special dynamic systems, transient performance is a more prior index in comparison with the steady-state one. Prescribed performance control (PPC) has been proved to be a powerful tool that guarantees control system outputs/errors with desired transient performance as well as steady-state performance.[^1]

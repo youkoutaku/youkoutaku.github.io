@@ -1,11 +1,14 @@
 ---
-title: Central Limit Theorem
+title: 中心極限定理(Central Limit Theorem)
 date: 2024-04-26 14:03 +0900
 categories: [Probability Theory]
 tags: [Probability, Python, Central Limit Theorem]
 author: Youkoutaku
 math: true
 img_path: /src/math/Probability2/
+image:
+  path: output_4_1.png
+  alt: 
 ---
 
 Made by [Youkoutaku](https://github.com/youkoutaku)

@@ -10,6 +10,9 @@ tags:
 author: Youkoutaku
 math: true
 mermaid: true
+image:
+  path: https://th.bing.com/th?id=OSK.HEROemvCqZG4t6CTfwiuQrQSn1CMVPnxWezRLUVR0MFHKZc&w=472&h=280&c=13&rs=2&o=6&pid=SANGAM
+  alt:
 ---
 
 ## Docker login

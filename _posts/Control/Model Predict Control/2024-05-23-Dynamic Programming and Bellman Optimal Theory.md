@@ -13,9 +13,9 @@ math: true
 mermaid: true
 #pin:
 #img_path:
-#image:
-#  path: 
-#  alt: 
+image:
+  path: src/MPC/State-space-discretization.png
+  alt: 
 ---
 
 ## Bellman optimal theory

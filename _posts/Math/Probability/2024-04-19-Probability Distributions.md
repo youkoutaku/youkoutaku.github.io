@@ -1,11 +1,14 @@
 ---
-title: Probability Distributions
+title: 確率分布(Probability Distributions)
 date: 2024-04-19 14:03 +0900
 categories: [Probability Theory]
 tags: [Probability, Python]
 author: Youkoutaku
 math: true
 img_path: /src/math/Probability1/
+image:
+  path: output_74_0.png
+  alt: 
 ---
 
 Made by [Youkoutaku](https://github.com/youkoutaku)

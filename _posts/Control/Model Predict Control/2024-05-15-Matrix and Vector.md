@@ -8,9 +8,9 @@ math: true
 mermaid: true
 #pin:
 #img_path:
-#image:
-#  path:
-#  alt:
+image:
+  path: https://pbs.twimg.com/media/GSnWcDWacAANv6i?format=png&name=360x360
+  alt:
 ---
 
 ## 1. The derivatives of scalar function by vector

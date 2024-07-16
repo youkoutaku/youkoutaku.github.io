@@ -14,7 +14,7 @@ mermaid: true
 #pin:
 #img_path:
 image:
-  path: src/MPC/Unicycle_model.svg
+  path: src/MPC/Avoidence.png
   alt: Unicycle model
 ---
 
