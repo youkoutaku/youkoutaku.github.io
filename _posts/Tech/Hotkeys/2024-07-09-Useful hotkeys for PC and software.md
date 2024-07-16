@@ -6,8 +6,8 @@ tags: [Hotkeys, Windows, Ubuntu, Browser]
 author: Youkoutaku
 math: true
 image:
-  path: https://preview.redd.it/8qa9qyc21gbd1.jpeg?auto=webp&s=6114787a96589893d0e57d533ef69c8a8d0d1611
-  alt: Created by Copilot
+  path: https://preview.redd.it/j0nfrokj8wcd1.png?auto=webp&s=0cb6c441156b86324690d664eb02e258b45ebb78
+  alt: 
 ---
 
 Hotkeys are helpful for working efficiently. However, checking the official documentation that introduces the hotkeys is not always practical because it often includes many unnecessary hotkeys. Here are some useful hotkeys based on my experience. I made this page to review and also hope it can help you. I will update the content regularly. 

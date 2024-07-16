@@ -7,9 +7,9 @@ author: Youkoutaku
 math: true #Mathematical
 pin: true
 #img_path:
-image:
-  path: https://pbs.twimg.com/media/GSBzwOOagAA7LkZ?format=jpg&name=large
-  alt: workspace
+#image:
+#  path: 
+#  alt: 
 ---
 
 
