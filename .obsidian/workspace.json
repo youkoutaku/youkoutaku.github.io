@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "62b80bad2fbc8bbb",
+        "id": "eb1838f29fdb44f3",
         "type": "tabs",
         "children": [
           {
-            "id": "95220819a876847f",
+            "id": "3d8ba17fa457040c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/Math/2025-07-05-Check if a point is inside a triangle.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9330e267bb7c59b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/Math/Probability/2024-04-19-Probability Distributions.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -105,9 +89,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/Math/2025-07-05-Check if a point is inside a triangle.md"
-              }
+              "state": {}
             }
           },
           {
@@ -127,7 +109,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/Math/2025-07-05-Check if a point is inside a triangle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +125,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/Math/2025-07-05-Check if a point is inside a triangle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +160,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "95220819a876847f",
+  "active": "3d8ba17fa457040c",
   "lastOpenFiles": [
     "_posts/Math/2025-07-05-Check if a point is inside a triangle.md",
     "_site/posts/Check-if-a-point-is-inside-a-triangle/index.html",
