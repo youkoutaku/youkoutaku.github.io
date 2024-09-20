@@ -56,15 +56,24 @@ order: 4
   - ★★★★★
 
 ## Favorite
-
-- [VScode](https://code.visualstudio.com/)
+### Software
 - [Readwise](https://readwise.io/)
-- [Notion](https://www.notion.so/)
-- [Obsidian](https://obsidian.md/)
+- Editor
+  - [VScode](https://code.visualstudio.com/)
+- Notes
+  - [Notion](https://www.notion.so/)
+- Markdown Editor
+  - [Obsidian](https://obsidian.md/)
+- Paper Reader
+  - [Zotero](https://www.zotero.org/)
+- EBook Reader
+  - [Calibre](https://calibre-ebook.com/ja/download)
+- LaTex
+  - [Overleaf](https://www.overleaf.com/)
+
+
+### Device
 - Kindle
-- [Zotero](https://www.zotero.org/)
-- [Overleaf](https://www.overleaf.com/)
-- [Calibre](https://calibre-ebook.com/ja/download)
 
 ## Link
 - Github
