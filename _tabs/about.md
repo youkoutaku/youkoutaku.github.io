@@ -10,37 +10,36 @@ order: 4
 
 ### This is Young!
 -  EN: Young / JP: 楊広沢(YouKoutaku) / CN: 杨广泽(Guang-Ze Yang)
-- 🎓 I'm a learning student in [Ibaraki University](https://www.ibaraki.ac.jp).  My major is Mechanical Systems Engineering.
-- 🔥 Interested in working with Control System, Robotics, Code and want to try new things. 
-- ⭐ I'm keen to share some of my learning notes and learn from those who are outstanding.
-- 🔭 I’m currently working on my graduation research about Collision-free problem for multi-agent system.
-- 🌱 I’m currently learning Formation Control and MPC.
+- 🎓 I'm a learning master's student at [Ibaraki University](https://www.ibaraki.ac.jp).  My major is Mechanical Systems Engineering.
+- 🔥 Interested in working with Control Systems, Robotics, and Programming.
+- ⭐ I'm keen to share some of my learning and learn from outstanding ones.
+- 🔭 I’m working on my graduation research about the Collision-free problem for multi-agent systems.
+- 🌱 I’m currently learning Optimal Control and MPC.
 - 😄 Hobby:
   - 💪 Training or running 2~3 times a week
   - 🏀 Basketball once a week
-  - 📚 Reading with Kindle (Biography, History, Philosophy, Time Management, Study Skills, etc.)
-  - 🎮 Video games on Nintendo Switch (The Legend of Zelda: Breath of the Wild, Fire Emblem, Monster Hunter Rise, etc.)
-  - 🎧 Music
+  - 📚 Reading (Biography, History, Philosophy, Time Management, Study Skills, ...) 
+  - 🎮 Video games(The Legend of Zelda: Breath of the Wild, Fire Emblem, Monster Hunter Rise, ...)
+  - 🎧 Music (Jpop, English songs, ...)
 
 ---
 ## Languages
-- MATLAB
-- Python
-- C/C++
-- HTML5&CSS3
-- JavaScript
-- Java
-- LaTex
-- Markdown
+- MATLAB ★★★★★
+- Python ★★★★
+- C/C++ ★★★★
+- HTML5&CSS3 ★★★
+- JavaScript ★★★
+- Java ★★
 
 ## Tools
-- Git
-- Simulink
-- ROS1&2
-- Docker
-- AirSim
-- SolidWorks
-- Arduino
+- Simulink ★★★★★
+- Git ★★★★
+- ROS1&2 ★★★
+- Docker ★★★
+- SolidWorks ★★★★
+- Arduino ★★★★★
+- LaTex ★★★★★
+- Markdown ★★★★★
 
 ## Favorite
 
@@ -59,14 +58,7 @@ order: 4
 - Linkedin
 - Facebook
 - Discord
-- Quora
-- Stack Overflow
-- Medium
 - 知乎
-- Qiita
-- LeetCode
-- GeeksforGeeks
-- Kaggle
-- AtCoder
+
 
 ---
