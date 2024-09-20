@@ -73,7 +73,11 @@ order: 4
 
 
 ### Device
+- ROG X13
 - Kindle
+- Nintendo Switch
+- iPhone 15 Pro
+- AirPods 3
 
 ## Link
 - Github
