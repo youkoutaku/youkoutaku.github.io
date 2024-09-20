@@ -23,6 +23,9 @@ order: 4
   - 🎧 Music (Jpop, English songs, ...)
 
 ---
+## Skill
+- 
+
 ## Languages
 - MATLAB
   - ★★★★★
@@ -55,6 +58,7 @@ order: 4
 - Markdown
   - ★★★★★
 
+---
 ## Favorite
 ### Software
 - [Readwise](https://readwise.io/)
@@ -79,6 +83,7 @@ order: 4
 - iPhone 15 Pro
 - AirPods 3
 
+---
 ## Link
 - Github
 - X
