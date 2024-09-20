@@ -24,22 +24,36 @@ order: 4
 
 ---
 ## Languages
-- MATLAB ★★★★★
-- Python ★★★★
-- C/C++ ★★★★
-- HTML5&CSS3 ★★★
-- JavaScript ★★★
-- Java ★★
+- MATLAB
+  - ★★★★★
+- Python
+  - ★★★★
+- C/C++
+  - ★★★★
+- HTML5&CSS3
+  - ★★★
+- JavaScript
+  - ★★★
+- Java
+  - ★★
 
 ## Tools
-- Simulink ★★★★★
-- Git ★★★★
-- ROS1&2 ★★★
-- Docker ★★★
-- SolidWorks ★★★★
-- Arduino ★★★★★
-- LaTex ★★★★★
-- Markdown ★★★★★
+- Simulink
+  - ★★★★★
+- Git
+  - ★★★★
+- ROS1&2
+  - ★★★
+- Docker
+  - ★★★
+- SolidWorks
+  - ★★★★
+- Arduino
+  - ★★★★★
+- LaTex
+  - ★★★★★
+- Markdown
+  - ★★★★★
 
 ## Favorite
 
