@@ -1,7 +1,7 @@
 ---
 title: 中心極限定理(Central Limit Theorem)
 date: 2024-04-26 14:03 +0900
-categories: [Probability Theory]
+categories: [Math, Probability Theory]
 tags: [Probability, Python, Central Limit Theorem]
 author: Youkoutaku
 math: true

@@ -1,7 +1,7 @@
 ---
 title: 正則化ミニマムノルム解(Regularized minimal-norm solution)
 date: 2024-06-17 11:03 +0900
-categories: [Probability Theory, Linear regression]
+categories: [Math, Probability Theory]
 tags: [Probability, Linear regression, Regularized minimal-norm solution, JP]
 author: Youkoutaku
 math: true

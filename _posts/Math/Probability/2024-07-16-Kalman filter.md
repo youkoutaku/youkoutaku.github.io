@@ -1,7 +1,7 @@
 ---
 title: カルマンフィルタ(Kalman filter)
 date: 2024-07-16 15:03 +0900
-categories: [Probability Theory]
+categories: [Math, Probability Theory]
 tags: [Probability, Kalman filter, JP]
 author: Youkoutaku
 math: true

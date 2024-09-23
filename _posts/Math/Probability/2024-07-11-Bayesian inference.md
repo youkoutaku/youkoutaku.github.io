@@ -1,7 +1,7 @@
 ---
 title: ベイズ推定(Bayesian inference)
 date: 2024-07-11 14:03 +0900
-categories: [Probability Theory, Linear regression]
+categories: [Math, Probability Theory]
 tags: [Probability, Linear regression, Bayesian inference, JP]
 author: Youkoutaku
 math: true

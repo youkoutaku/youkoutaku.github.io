@@ -1,7 +1,7 @@
 ---
 title: 確率分布(Probability Distributions)
 date: 2024-04-19 14:03 +0900
-categories: [Probability Theory]
+categories: [Math, Probability Theory]
 tags: [Probability, Python]
 author: Youkoutaku
 math: true

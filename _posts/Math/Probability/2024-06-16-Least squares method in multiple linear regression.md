@@ -1,7 +1,7 @@
 ---
 title: 線形回帰モデルにおける最小二乗法(Least squares method in multiple linear regression)
 date: 2024-06-16 14:03 +0900
-categories: [Probability Theory, Linear regression]
+categories: [Math, Probability Theory]
 tags: [Probability, Linear regression, Least squares method, JP]
 author: Youkoutaku
 math: true
