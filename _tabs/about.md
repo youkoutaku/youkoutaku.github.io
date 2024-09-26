@@ -62,7 +62,7 @@ order: 4
 - [Zotero](https://www.zotero.org/)
   - Science paper management
 - [Raindrop](https://raindrop.io/)
-  - Great bookmark
+  - Great bookmark management
 - [Calibre](https://calibre-ebook.com/ja/download)
   - EBook reader
 - [Overleaf](https://www.overleaf.com/)
