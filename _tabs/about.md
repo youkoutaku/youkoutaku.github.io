@@ -7,10 +7,10 @@ order: 4
 ## Hi there 👋
 
 ### This is Young!
-- 🌈 Name: 
-   -  EN: Young 
-   -  JP: 楊 広沢(You Koutaku) 
-   -  CN: 杨 广泽(Yang Guang-Ze)
+- 🌈 Name:
+   -  EN: Young
+   -  JP: 楊 広沢 (You Koutaku)
+   -  CN: 杨 广泽 (Yang Guang-Ze)
 - 🎓 I'm a learning master's student at [Ibaraki University](https://www.ibaraki.ac.jp).  My major is Mechanical Systems Engineering.
 - 🔥 Interested in working with Control Systems, Robotics, and Programming.
 - ✨ I'm keen to share some of my learning and learn from outstanding ones.
