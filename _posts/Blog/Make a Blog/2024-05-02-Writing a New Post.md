@@ -102,14 +102,37 @@ pin: true
 
 ## Promptis
 `prompt-{type}`
-- `tip`
-- `info`
-- `warning`
-- `danger`
+
+> Example line for prompt.
+{: .prompt-tip }
+
+```markdown
+> Example line for prompt.
+{: .prompt-tip }
+```
+
+> Example line for prompt.
+{: .prompt-info }
 
 ```markdown
 > Example line for prompt.
 {: .prompt-info }
+```
+
+> Example line for prompt.
+{: .prompt-warning }
+
+```markdown
+> Example line for prompt.
+{: .prompt-warning }
+```
+
+> Example line for prompt.
+{: .prompt-danger }
+
+```markdown
+> Example line for prompt.
+{: .prompt-danger }
 ```
 
 ## Videos

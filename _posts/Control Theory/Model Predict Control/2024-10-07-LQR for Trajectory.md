@@ -96,6 +96,7 @@ where
 $$F_{[N-k]}=(B^{T}P_{[k-1]}B+R)^{-1}B^{T}P_{[k-1]}A$$
 
 > Notice that **the increase of input** is optimized.
+{: .prompt-info }
 
 $$P_{[k]}=(A-BF_{[N-k]})^TP_{[k-1]}(A-BF_{[N-k]})+F_{[N-k]}^TRF_{[N-k]}+Q$$
 
@@ -278,7 +279,8 @@ xlim([0 k_steps]);
 ![](/src/MPC/LQR-T.png)
 
 
-LQR, a feedback control, selects the optimal feedback gain by dynamic programming. However, it can not solve the optimal problem for constraint.
+>LQR, a feedback control, selects the optimal feedback gain by dynamic programming. However, it can not solve the optimal problem for constraint.
+{: .prompt-tip }
 
 ---
 ## Reference
