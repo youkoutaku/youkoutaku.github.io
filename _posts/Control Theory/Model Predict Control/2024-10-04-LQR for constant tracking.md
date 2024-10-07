@@ -13,18 +13,15 @@ mermaid: true
 ---
 
 ## Problem Formulation
-Consider a discrete-time linear system, the state-space equation is as
+Consider a discrete-time linear system, the state-space equation is as 
 
-$$
-x_{[k+1]}=f(x_{[k]},u_{[k]})=A_{[k]}x_{[k]}+B_{[k]}u_{[k]}$$
+$$x_{[k+1]}=f(x_{[k]},u_{[k]})=Ax_{[k]}+Bu_{[k]}$$
 
 where $x_{[k]}\in\mathbb{R}^n,u_{[k]}\in\mathbb{R}^p$ are system state and input, $A_{[k]}\in\mathbb{R}^{n\times n}$, $B_{[k]}\in\mathbb{R}^{n\times p}$ are state matrices for system.
 
 The constant reference is as
 
-$$
-x^r_{[k+1]}=A_rx^r_{[k]}$$
-
+$$x^r_{[k+1]}=A_rx^r_{[k]}$$
 - $A_r=I$
 
 Define the augmented states as
@@ -51,71 +48,56 @@ B\\0
 
 Then, we have
 
-$$
-z_{[k+1]}=A_zz_{[k]}+B_zu_{[k]}$$
+$$z_{[k+1]}=A_zz_{[k]}+B_zu_{[k]}$$
 
 Define the tracking error as
 
-$$
-e_{[k]}=x_{[k]}-x^r_{[k]}$$
+$$e_{[k]}=x_{[k]}-x^r_{[k]}$$
 
-$$
-e_{[k]}=[I_{n\times n}\;-I_{n\times n}]z_{[k]}=C_zz_{[k]}$$
+$$e_{[k]}=[I_{n\times n}\;-I_{n\times n}]z_{[k]}=C_zz_{[k]}$$
 
 Define the quadratic performance function as
 
-$$
-J=h\left(e_{[N]}\right)+\sum_{k=0}^{N-1}g\left(e_{[k]},u_{[k]}\right)$$
+$$J=h\left(e_{[N]}\right)+\sum_{k=0}^{N-1}g\left(e_{[k]},u_{[k]}\right)$$
 
 where
 
-$$
-\begin{aligned}&h\left(e_{[N]}\right)=\frac{1}{2}e_{[N]}^{T}Se_{[N]}\\&g\left(e_{[k]},u_{[k]}\right)=\frac{1}{2}\sum_{k=0}^{N-1}[e_{[k]}^{T}Q_{[k]}e_{[k]}+u_{[k]}^{T}R_{[k]}u_{[k]}]\end{aligned}$$
+$$\begin{aligned}&h\left(e_{[N]}\right)=\frac{1}{2}e_{[N]}^TSe_{[N]}\\&g\left(e_{[k]},u_{[k]}\right)=\frac{1}{2}\sum_{k=0}^{N-1}[e_{[k]}^TQ_{[k]}e_{[k]}+u_{[k]}^TR_{[k]}u_{[k]}]\end{aligned}$$
 
 ---
 
-## Solving 
+## Solving
 
-$$
-J= \frac{1}{2}e_{[N]}^{T}Se_{[N]} +\frac{1}{2}\sum_{k=0}^{N-1}[e_{[k]}^{T}Q_{[k]}e_{[k]}+u_{[k]}^{T}R_{[k]}u_{[k]}]$$
+$$J= \frac{1}{2}e_{[N]}^TSe_{[N]} +\frac{1}{2}\sum_{k=0}^{N-1}[e_{[k]}^TQ_{[k]}e_{[k]}+u_{[k]}^TR_{[k]}u_{[k]}]$$
 
-$$
-J= \frac{1}{2}(C_zz_{[N]}) ^{T}S(C_zz_{[N]}) +\frac{1}{2}\sum_{k=0}^{N-1}[(C_zz_{[k]})^{T}Q_{[k]}C_zz_{[k]}+u_{[k]}^{T}R_{[k]}u_{[k]}]$$
+$$J= \frac{1}{2}(C_zz_{[N]}) ^TS(C_zz_{[N]}) +\frac{1}{2}\sum_{k=0}^{N-1}[(C_zz_{[k]})^TQ_{[k]}C_zz_{[k]}+u_{[k]}^TR_{[k]}u_{[k]}]$$
 
-$$
-J= \frac{1}{2}z_{[N]}^{T}(C_z^TSC_z)z_{[N]} +\frac{1}{2}\sum_{k=0}^{N-1}[z_{[k]}^T(C_z^{T}Q_{[k]}C_z)z_{[k]}+u_{[k]}^{T}R_{[k]}u_{[k]}]$$
+$$J= \frac{1}{2}z_{[N]}^{T}(C_z^TSC_z)z_{[N]} +\frac{1}{2}\sum_{k=0}^{N-1}[z_{[k]}^T(C_z^TQ_{[k]}C_z)z_{[k]}+u_{[k]}^TR_{[k]}u_{[k]}]$$
 
 - $S^z=C_z^TSC_z$
 - $Q^z=C_z^TQC_z$
 
-$$
-J= \frac{1}{2}z_{[N]}^{T}(S^z)z_{[N]} +\frac{1}{2}\sum_{k=0}^{N-1}[z_{[k]}^TQ^z_{[k]}z_{[k]}+u_{[k]}^{T}R_{[k]}u_{[k]}]$$
+$$J= \frac{1}{2}z_{[N]}^{T}(S^z)z_{[N]} +\frac{1}{2}\sum_{k=0}^{N-1}[z_{[k]}^TQ^z_{[k]}z_{[k]}+u_{[k]}^TR_{[k]}u_{[k]}]$$
 
-According to [LQR Gain](https://youkoutaku.github.io/posts/LQR-for-Discrete-time-Systems/#n-k-to-n) ($x \to z$),  the optimal control input:
+According to LQR Gain ($x \to z$),  the optimal control input:
 
-$$
-u^*_{[N-k]}=-F_{[N-k]}z_{[N-k]}$$
+$$u^*_{[N-k]}=-F_{[N-k]}z_{[N-k]}$$
 
 where
 
-$$
-F_{[N-k]}=(B_{[N-k]}^{T}P_{[k-1]}B_{[N-k]}+R_{[N-k]})^{-1}B_{[N-k]}^{T}P_{[k-1]}A_{[N-k]}$$
+$$F_{[N-k]}=(B^{T}P_{[k-1]}B+R)^{-1}B^{T}P_{[k-1]}A$$
 
 > Notice that the optimal control input is to regular the error $e$, not the augmented states $z$.
-{: .prompt-warning }
 
 The optimal cost to go:
 
-$$
-J_{N-k\to N}^{*}(z_{[N-k]})=\frac{1}{2}z_{[N-k]}^{ T}P_{[k]}z_{[N-k]}$$
+$$J_{N-k\to N}^{*}(z_{[N-k]})=\frac{1}{2}z_{[N-k]}^TP_{[k]}z_{[N-k]}$$
 
 where
 
-$$
-P_{[k]}=(A_{[N-k]}-B_{[N-k]}F_{[N-k]})^TP_{[k-1]}(A_{[N-k]}-B_{[N-k]}F_{[N-k]})+F_{[N-k]}^TR_{[N-k]}F_{[N-k]}+Q_{[N-k]}$$
+$$P_{[k]}=(A-BF_{[N-k]})^TP_{[k-1]}(A-BF_{[N-k]})+F_{[N-k]}^TRF_{[N-k]}+Q$$
 
-$$
-P_{[0]}=S^z\implies P_{[1]}, u^*_{[N-1]}\implies \cdots P_{[k]}, u^*_{[N-k]} \cdots \implies  P_{[N]}, u^*_{[0]}$$
+$$P_{[0]}=S^z\implies P_{[1]}, u^*_{[N-1]}\implies \cdots P_{[k]}, u^*_{[N-k]} \cdots \implies  P_{[N]}, u^*_{[0]}$$
 
 ---
 
@@ -137,23 +119,13 @@ $$x^r(t)=\begin{bmatrix}
 0\\
 \end{bmatrix}$$
 
-(1)
+- weight matrix
 
-$$Q_1=\begin{bmatrix}
-100 & 0 \\ 0 & 1
-\end{bmatrix}, R_1=1$$
-
-(2)
-
-$$Q_2=\begin{bmatrix}
-1 & 0 \\ 0 & 100
-\end{bmatrix}, R_2=1$$
-
-(3)
-
-$$Q_1=\begin{bmatrix}
+$$Q=\begin{bmatrix}
 1 & 0 \\ 0 & 1
-\end{bmatrix}, R_3=100$$
+\end{bmatrix}, S=\begin{bmatrix}
+1 & 0 \\ 0 & 1
+\end{bmatrix}, R=0.1$$
 
 ## Simulation
 
