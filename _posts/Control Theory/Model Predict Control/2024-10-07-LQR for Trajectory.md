@@ -101,7 +101,7 @@ $$P_{[k]}=(A-BF_{[N-k]})^TP_{[k-1]}(A-BF_{[N-k]})+F_{[N-k]}^TRF_{[N-k]}+Q$$
 
 $$P_{[0]}=S^z\implies P_{[1]}, \Delta u^*_{[N-1]}\implies \cdots P_{[k]}, \Delta u^*_{[N-k]} \cdots \implies  P_{[N]}, \Delta u^*_{[0]}$$
 
-The optimal input is 
+The optimal input is
 
 $$
 u_{[k]}^*=\Delta u^*_{[k]}+u^*_{[k-1]}$$
@@ -165,7 +165,7 @@ end
 ```matlab
 %% LQR for Trajectory
 %-----------------------------------------------%
-% Youkoutaku:  https://youkoutaku.github.io/    %
+% Youkoutaku: https://youkoutaku.github.io/     %
 %-----------------------------------------------%
 % [Az,Bz,Qz,Rz,Sz] = Augmented_System_Input(A,B,Q,R,S,Ar) creates the augmented system for the increase of input.
 
@@ -176,7 +176,7 @@ set(0, 'DefaultAxesFontName', 'Times New Roman')
 set(0, 'DefaultAxesFontSize', 14)
 
 %% System Model
-A = [0 1; 0  0];
+A = [0 1; 0 0];
 n = size(A, 1);
 B = [0; 1];
 p = size(B, 2);
@@ -248,7 +248,7 @@ for k = 1:k_steps
 end
 
 %% Figure
-subplot  (3, 1, 1);
+subplot (3, 1, 1);
 hold;
 plot (0:length(x_h)-1,x_h(1,:));
 plot (0:length(xr_h)-1,xr_h(1,:),'--');
@@ -258,7 +258,7 @@ hold off;
 xlim([0 k_steps]);
 grid on
 
-subplot  (3, 1, 2);
+subplot (3, 1, 2);
 hold;
 plot (0:length(x_h)-1,x_h(2,:));
 plot (0:length(xr_h)-1,xr_h(2,:),'--');
