@@ -1,8 +1,8 @@
 ---
 title: Be an essentialist
 date: 2023-01-21 10:30:00 +0900
-categories: [Blog, Journal]
-tags: [Blog, CN]
+categories: [Journal]
+tags: [Journal, CN]
 author: Youkoutaku
 math: true #Mathematical
 #img_path:

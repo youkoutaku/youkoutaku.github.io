@@ -1,8 +1,8 @@
 ---
 title: My study experience since I came to Japan
 date: 2023-04-13 1:30:00 +0900
-categories: [Blog, Journal]
-tags: [Blog, CN]
+categories: [Journal]
+tags: [Journal, CN]
 author: Youkoutaku
 math: true #Mathematical
 #img_path:

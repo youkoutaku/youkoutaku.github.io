@@ -1,8 +1,8 @@
 ---
 title: The Power of Effort Over Talent
 date: 2023-01-31 20:30:00 +0900
-categories: [Blog, Journal]
-tags: [Blog, CN]
+categories: [Journal]
+tags: [Journal, CN]
 author: Youkoutaku
 math: true #Mathematical
 #img_path:

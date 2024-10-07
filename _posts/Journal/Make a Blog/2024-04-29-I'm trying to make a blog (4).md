@@ -1,8 +1,8 @@
 ---
 title: I'm trying to make a blog (4)
 date: 2024-04-29 15:33:00 +0900
-categories: [Blog, Make a Blog]
-tags: [Blog]
+categories: [Journal]
+tags: [Journal]
 author: Youkoutaku
 math: true
 image:

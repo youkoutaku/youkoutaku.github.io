@@ -1,11 +1,8 @@
 ---
 title: Internship
 date: 2024-09-18 21:09:46 +0900
-categories:
-  - Blog
-  - Journal
-tags:
-  - JP
+categories: [Journal]
+tags: [Journal, JP]
 author: Youkoutaku
 math: true
 mermaid: true

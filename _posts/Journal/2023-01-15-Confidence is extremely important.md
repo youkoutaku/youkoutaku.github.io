@@ -1,8 +1,8 @@
 ---
 title: Confidence is extremely important!
 date: 2023-01-15 21:05:14 +0900 #Tokyo
-categories: [Blog, Journal]
-tags: [Blog, CN, JP]
+categories: [Journal]
+tags: [Journal, CN, JP]
 author: Youkoutaku
 math: true #Mathematical
 mermaid: true

@@ -1,8 +1,8 @@
 ---
 title: My Notion Pages
 date: 2023-04-04 9:30:00 +0900
-categories: [Blog, Journal]
-tags: [Blog, Notion]
+categories: [Journal]
+tags: [Journal, Notion]
 author: Youkoutaku
 math: true #Mathematical
 pin: true

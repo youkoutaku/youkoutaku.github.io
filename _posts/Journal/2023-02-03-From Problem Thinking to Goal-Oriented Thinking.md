@@ -1,8 +1,8 @@
 ---
 title: From Problem Thinking to Goal-Oriented Thinking
 date: 2023-02-03 20:30:00 +0900
-categories: [Blog, Journal]
-tags: [Blog, CN]
+categories: [Journal]
+tags: [Journal, CN]
 author: Youkoutaku
 math: true #Mathematical
 #img_path:

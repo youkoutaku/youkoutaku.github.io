@@ -1,8 +1,8 @@
 ---
 title: Like and dislike
 date: 2023-01-26 19:30:00 +0900
-categories: [Blog, Journal]
-tags: [Blog, JP]
+categories: [Journal]
+tags: [Journal, JP]
 author: Youkoutaku
 math: true #Mathematical
 #img_path:

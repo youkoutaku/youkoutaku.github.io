@@ -1,8 +1,8 @@
 ---
 title: I'm trying to make a blog (2)
 date: 2023-03-13 10:05:20 +0900
-categories: [Blog, Make a Blog]
-tags: [Blog]
+categories: [Journal]
+tags: [Journal]
 author: Youkoutaku
 math: true
 mermaid: true
