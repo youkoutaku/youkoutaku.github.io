@@ -219,7 +219,17 @@ In real-time system, we use the optimal control input $$u^*_{[0]},\cdots,u^*_{[N
 ## Code
 ### Matlab
 ```matlab
-function [F] = LQR(A,B,Q,R,S)
+%% Function LQR by dynamic programming
+%----------------------------------------------------------%
+% Youkoutaku:  https://youkoutaku.github.io/               %
+%----------------------------------------------------------%
+% This function is used to solve the LQR problem by dynamic programming.
+function [F] = F1_LQR(A,B,Q,R,S)
+% A: State matrix
+% B: Input matrix
+% Q: State cost matrix
+% R: Input cost matrix
+% S: Terminal cost matrix
 % P_[0]
 P0 = S;
 % Maximum number of step
@@ -232,13 +242,13 @@ diff = Inf;
 F_N_min_k = Inf;
 k = 1;
 while diff > mini
-	% F_[N-(k-1)]
-	F_N_min_k_pre = F_N_min_k;
-	% F_[N-k]
-	F_N_min_k = (R+B'*P_k_min_1*B)\B'*P_k_min_1*A;
-	% P_[k]
+    % F_[N-(k-1)] ←
+    F_N_min_k_pre = F_N_min_k;
+    % F_[N-k] := (B^T PB + R)^{-1} B^T PA
+    F_N_min_k = (R+B'*P_k_min_1*B)\B'*P_k_min_1*A;
+	% P_[k] := (A-BF)^T P(A-BF) + F^T RF + Q
 	P_k = (A-B*F_N_min_k)'*P_k_min_1*(A-B*F_N_min_k)+(F_N_min_k)'*R*(F_N_min_k)+Q;
-	% P_[k-1]
+	% P_[k-1] ←
 	P_k_min_1 = P_k;
 	% F_[N-k] - F_[N-(k-1)]
 	diff = abs(max(F_N_min_k - F_N_min_k_pre));
@@ -247,7 +257,7 @@ while diff > mini
 		error('Maximum Number of Iterations Exceeded');
 	end
 end
-fprintf('No. of Interation is %d \n', k);
+fprintf('No. of Iteration is %d \n', k);
 F=F_N_min_k;
 end
 ```
