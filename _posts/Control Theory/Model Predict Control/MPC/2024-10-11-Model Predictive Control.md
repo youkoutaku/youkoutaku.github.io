@@ -81,7 +81,7 @@ $$
 
 ### B. Equality Constraints
 #### Lagrange multiplier
-When there are equality constraints $A_{eq}x= b_{eq}$, [Lagrange multiplier - Wikipedia](https://en.wikipedia.org/wiki/Lagrange_multiplier)can solve it.
+When there are equality constraints $A_{eq}x= b_{eq}$, [Lagrange multiplier - Wikipedia](https://en.wikipedia.org/wiki/Lagrange_multiplier) can solve it.
 
 $$J=\frac{1}{2}x^TQx+R^Tx, \; A_{eq}x=b_{eq}$$
 
