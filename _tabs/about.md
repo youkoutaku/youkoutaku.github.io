@@ -23,6 +23,10 @@ order: 4
   - 🎮 Video games(The Legend of Zelda: Breath of the Wild, Fire Emblem, Monster Hunter Rise, ...)
   - 🎧 Music (J-pop, R&B, ...)
 
+### Coding Activity
+
+<figure><embed src="https://wakatime.com/share/@Youkoutaku/7f82bcd3-0198-4e74-82ac-545c391a8a8a.svg"></embed></figure>
+
 ---
 ## ⭐ Skill
 
