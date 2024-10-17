@@ -17,13 +17,13 @@ mermaid: true
 
 ## 0. Delete Ubuntu
 
-- [CSDN 双系统删除ubuntu](https://blog.csdn.net/ZChen1996/article/details/115436436?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165694741616782184622934%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=165694741616782184622934&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-2-115436436-null-null.142%5Ev30%5Econtrol,185%5Ev2%5Econtrol&utm_term=%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%8D%B8%E8%BD%BDubuntu&spm=1018.2226.3001.4187)
+[CSDN 双系统删除ubuntu](https://blog.csdn.net/ZChen1996/article/details/115436436?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165694741616782184622934%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=165694741616782184622934&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-2-115436436-null-null.142%5Ev30%5Econtrol,185%5Ev2%5Econtrol&utm_term=%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%8D%B8%E8%BD%BDubuntu&spm=1018.2226.3001.4187)
 
-- Run Diskpart
+- Run Diskpart 
 	- win+R: `diskpart`
-- Check disk
+- Check disk 
 	- `list disk`
-- Select the disk saved system files of Ubuntu
+- Select the disk saved system files of ubuntu 
 	- `select disk disk_number`
 - Check partition
 	- `list  partition`
@@ -38,11 +38,12 @@ mermaid: true
 	- delete the disk volume of ubuntu storage.
 
 ## 1. Install Ubuntu
-- [双系统安装+环境配置](https://zhuanlan.zhihu.com/p/583545639)
+- [Rufus](https://github.com/pbatard/rufus)
+- [Ubuntu Download](https://jp.ubuntu.com/download)
 
 ## 2. Install Anaconda3
 ### 2.1 Download
-[Download](https://www.anaconda.com/download#download-section)
+[Anaconda3](https://www.anaconda.com/download#download-section)
 
 ```bash
 cd Downloads
@@ -119,6 +120,7 @@ sudo apt-get install nvidia-driver-535
 ```
 
 - hardware key
+
 ```bash
 Enroll MOK 
 ```
@@ -191,7 +193,6 @@ https://pytorch.org/get-started/previous-versions/
 ## 9.Docker 
 >Do not install docker-desktop!
 
-- ## [Install using the apt repository](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
-
+-  [Install using the apt repository](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
 
 ---
