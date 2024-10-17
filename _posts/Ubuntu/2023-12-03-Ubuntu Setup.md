@@ -1,5 +1,5 @@
 ---
-title: Ubuntu
+title: Ubuntu Setup
 date: 2023-12-03 15:06:03 +0900
 categories:
   - Ubuntu
