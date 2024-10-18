@@ -1,5 +1,5 @@
 ---
-title: LQR for constant tracking
+title: LQR for Tracking
 date: 2024-10-04 16:05:28 +0900
 categories:
   - Control Theory

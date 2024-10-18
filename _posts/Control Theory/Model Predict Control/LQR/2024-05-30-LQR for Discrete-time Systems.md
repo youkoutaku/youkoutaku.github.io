@@ -1,5 +1,5 @@
 ---
-title: LQR for Discrete-time System
+title: LQR for Discrete-time Systems
 date: 2024-05-30 12:20:28 +0900
 categories: [Control Theory, Model Predict Control]
 tags:

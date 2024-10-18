@@ -12,6 +12,9 @@ tags:
 author: Youkoutaku
 math: true
 mermaid: true
+image:
+  path: /src/mpc/MPCvsLQR_Q1.png
+  alt: MPC VS. LQR 
 ---
 
 ## System Modeling
@@ -277,7 +280,7 @@ $$Q=Q_f=\begin{bmatrix}
 10 & 0 \\ 0 & 1
 \end{bmatrix}, R=1$$
 
-![](src/mpc/MPCvsLQR_Q10.png)
+![](/src/mpc/MPCvsLQR_Q10.png)
 
 (3)
 
@@ -285,7 +288,7 @@ $$Q=Q_f=\begin{bmatrix}
 1 & 0 \\ 0 & 1
 \end{bmatrix}, R=1$$
 
-![](src/mpc/MPCvsLQR_Q1.png)
+![](/src/mpc/MPCvsLQR_Q1.png)
 
 (4)
 
@@ -293,7 +296,7 @@ $$Q=Q_F=\begin{bmatrix}
 1 & 0 \\ 0 & 1
 \end{bmatrix}, R=100$$
 
-![](src/mpc/MPCvsLQR_R100.png)
+![](/src/mpc/MPCvsLQR_R100.png)
 
 ### Code
 
