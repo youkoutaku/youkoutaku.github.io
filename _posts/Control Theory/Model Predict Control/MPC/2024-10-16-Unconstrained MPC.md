@@ -262,7 +262,7 @@ x_1 \\ x_2
 \end{bmatrix}+\begin{bmatrix}0\\ 1
 \end{bmatrix}u(t)$$
 
-We using the different weight matrix. 
+We using the different weight matrix.
 
 The following figures are showing the $x_1,x_2,u$.
 
