@@ -1,5 +1,5 @@
 ---
-title: LQR simulation for simple test
+title: LQR simulation
 date: 2024-06-14 15:05:28 +0900
 categories: [Control Theory, Model Predict Control]
 tags:

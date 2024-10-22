@@ -33,7 +33,7 @@ $$J=h\left(x_{[N]}\right)+\sum_{k=0}^{N-1}g\left(x_{[k]},u_{[k]}\right)$$
 
 where
 
-$$\begin{aligned}&h\left(x_{[N]}\right)=\frac{1}{2}x_{[N]}^TSx_{[N]}\\&g\left(x_{[k]},u_{[k]}\right)=\frac{1}{2}\sum_{k=0}^{N-1}[x_{[k]}^TQ_{[k]}x_{[k]}+u_{[k]}^TR_{[k]}u_{[k]}]\end{aligned}$$
+$$\begin{aligned}&h\left(x_{[N]}\right)=\frac{1}{2}x_{[N]}^{T}Sx_{[N]}\\&g\left(x_{[k]},u_{[k]}\right)=\frac{1}{2}[x_{[k]}^{T}Q_{[k]}x_{[k]}+u_{[k]}^{T}R_{[k]}u_{[k]}]\end{aligned}$$
 
 and the constant $\frac{1}{2}$ is used to simplify calculations when taking derivatives. 
 

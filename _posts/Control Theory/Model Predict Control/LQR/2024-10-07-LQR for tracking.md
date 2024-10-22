@@ -1,5 +1,5 @@
 ---
-title: LQR for Trajectory
+title: LQR for tracking
 date: 2024-10-07 12:00:00 +0900
 categories:
   - Control Theory
@@ -19,7 +19,7 @@ $$x_{[k+1]}=f(x_{[k]},u_{[k]})=Ax_{[k]}+Bu_{[k]}$$
 
 where $x_{[k]}\in\mathbb{R}^n,u_{[k]}\in\mathbb{R}^p$ are system state and input, $A_{[k]}\in\mathbb{R}^{n\times n}$, $B_{[k]}\in\mathbb{R}^{n\times p}$ are state matrices for system.
 
-The trajectory reference is as
+The tracking reference is as
 
 $$x^r_{[k+1]}=A_rx^r_{[k]}$$
 
@@ -70,7 +70,7 @@ $$J=h\left(e_{[N]}\right)+\sum_{k=0}^{N-1}g\left(e_{[k]},u_{[k]}\right)$$
 
 where
 
-$$\begin{aligned}&h\left(e_{[N]}\right)=\frac{1}{2}e_{[N]}^{T}Se_{[N]}\\&g\left(e_{[k]},u_{[k]}\right)=\frac{1}{2}\sum_{k=0}^{N-1}[e_{[k]}^{T}Qe_{[k]}+\Delta u_{[k]}^{T}R\Delta u_{[k]}]\end{aligned}$$
+$$\begin{aligned}&h\left(e_{[N]}\right)=\frac{1}{2}e_{[N]}^{T}Se_{[N]}\\&g\left(e_{[k]},u_{[k]}\right)=\frac{1}{2}[e_{[k]}^{T}Qe_{[k]}+\Delta u_{[k]}^{T}R\Delta u_{[k]}]\end{aligned}$$
 
 
 ---

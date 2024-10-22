@@ -1,5 +1,5 @@
 ---
-title: LQR for Tracking
+title: LQR for set-point regulation
 date: 2024-10-04 16:05:28 +0900
 categories:
   - Control Theory
@@ -62,7 +62,7 @@ $$J=h\left(e_{[N]}\right)+\sum_{k=0}^{N-1}g\left(e_{[k]},u_{[k]}\right)$$
 
 where
 
-$$\begin{aligned}&h\left(e_{[N]}\right)=\frac{1}{2}e_{[N]}^TSe_{[N]}\\&g\left(e_{[k]},u_{[k]}\right)=\frac{1}{2}\sum_{k=0}^{N-1}[e_{[k]}^TQ_{[k]}e_{[k]}+u_{[k]}^TR_{[k]}u_{[k]}]\end{aligned}$$
+$$\begin{aligned}&h\left(e_{[N]}\right)=\frac{1}{2}e_{[N]}^TSe_{[N]}\\&g\left(e_{[k]},u_{[k]}\right)=\frac{1}{2}[e_{[k]}^TQ_{[k]}e_{[k]}+u_{[k]}^TR_{[k]}u_{[k]}]\end{aligned}$$
 
 ---
 

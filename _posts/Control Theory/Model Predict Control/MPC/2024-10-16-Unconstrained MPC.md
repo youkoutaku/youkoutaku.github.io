@@ -302,225 +302,129 @@ $$Q=Q_F=\begin{bmatrix}
 
 ```matlab
 %% MPC vs LQR
-
 %----------------------------------------------------------%
-
 % Youkoutaku:  https://youkoutaku.github.io/               %
-
 %----------------------------------------------------------%
-
 % This script is used to compare the performance of MPC and LQR.
-
 clear;
-
 close all;
-
 clc;
-
 set(0, 'DefaultAxesFontName', 'Times New Roman')
-
 set(0, 'DefaultAxesFontSize', 14)
 
 %% System Model
-
 A = [0 1; 0.5 0];
-
 n= size(A,1);
-
 B = [0; 1];
-
 p = size(B,2);
-
 C = [1, 0];
-
 D = 0;
 
 % the simulation time
-
 Time = 3;
 
 % the sampling time
-
 ts = 0.1;
 
 % the number of the simulation steps
-
 k_steps = Time/ts;
 
 %% Weight matrix
-
 Q = [1 0; 0 1]; % 100, 10, 1
-
 Qf= [1 0; 0 1]; % 100, 10, 1
-
 R = 1; % 1, 100
 
 %% Initialization
-
 % the number of the prediction horizon
-
 Np = 5;
-
 % the state of the system
-
 x0 = [10; 5];
-
 % the state of the system by LQR
-
 x_lqr = x0;
-
 % the state of the system by MPC
-
 x_mpc = x0;
 
 % the history of the state by LQR
-
 xh_lqr = zeros(n,k_steps);
-
 % the history of the state by MPC
-
 xh_mpc = zeros(n,k_steps);
-
 % the history of the input by LQR
-
 uh_lqr = zeros(p,k_steps);
-
 % the history of the input by MPC
-
 uh_mpc = zeros(p,k_steps);
 
 xh_lqr(:,1) = x_lqr;
-
 xh_mpc(:,1) = x_mpc;
 
 %% Riccati equation for LQR
-
 K_lqr = lqr(A,B,Q,R);
 
 %% Transform into QP form for MPC
-
 [Ap, Bp, Qp, Rp, F, H] = QP_Transform(A, B, Q, R, Qf,Np);
 
 %%  Simulation - discrete time system
-
 for k = 1 : k_steps
-
     %% MPC
-
     % Calculate the input - MPC
-
     options = optimset('MaxIter', 200);
-
     % Solve the QP problem
-
     [U, fval, exitflag, output, lambda] = quadprog(H, F*x_mpc, [], [], [], [], [], [], [], options);
-
     % u(k) = [I 0 ... 0] * U(k)
-
     u_mpc = U(1:p, 1);
-
     % Calculate the system response - MPC
-
     x_mpc = A * x_mpc + B * u_mpc * ts;
-
     % Save the system state - MPC
-
-    xh_mpc(:,k+1) =  x_mpc;
-
+    xh_mpc(:,k+1) = x_mpc;
     % Save the system input - MPC
-
-    uh_mpc(:,k) =  u_mpc;
+    uh_mpc(:,k) = u_mpc;
 
     %% LQR
-
     % Calculate the input - LQR
-
     u_lqr = -K_lqr * x_lqr;
-
     % Calculate the system response - LQR
-
     x_lqr = A * x_lqr + B * u_lqr * ts;
-
     % Save the system state - LQR
-
-    xh_lqr(:,k+1) =  x_lqr;
-
+    xh_lqr(:,k+1) = x_lqr;
     % Save the system input - LQR
-
-    uh_lqr(:,k) =  u_lqr;
-
+    uh_lqr(:,k) = u_lqr;
 end
 
 %% Plot
-
 % Plot the state x1
-
 figure()
-
-subplot  (3, 1, 1);
-
+subplot (3, 1, 1);
 hold;
-
 plot (0:length(xh_lqr(1,:))-1,xh_lqr(1,:));
-
 plot (0:length(xh_lqr(1,:))-1,xh_mpc(1,:),'--');
-
 grid on
-
 legend("LQR","MPC")
-
 hold off;
-
 %xlim([0 30]);
-
 ylim([-10 10]);
 
-  
-
 % Plot the state x2
-
-subplot  (3, 1, 2);
-
+subplot (3, 1, 2);
 hold;
-
 plot (0:length(xh_lqr(2,:))-1,xh_lqr(2,:));
-
 plot (0:length(xh_lqr(2,:))-1,xh_mpc(2,:),'--');
-
 grid on
-
 legend("LQR","MPC")
-
 hold off;
-
 %xlim([0 30]);
-
 ylim([-10 10]);
 
 % Plot the input
-
 subplot (3, 1, 3);
-
 hold;
-
 plot (0:length(uh_lqr)-1, uh_lqr(1,:));
-
 plot (0:length(uh_mpc)-1, uh_mpc(1,:),'--');
-
 grid on
-
 legend("LQR","MPC")
-
 hold off;
-
 %xlim([0 30]);
-
 %ylim([-20 20]);
-
 set(findobj('Type','Axes'),'FontSize',20);
-
 set(findobj('Type','Line'),'LineWidth',2);
-
 axesHandles = findobj('Type','Axes');
 ```
 
