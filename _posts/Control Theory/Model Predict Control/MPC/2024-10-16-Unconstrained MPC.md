@@ -142,7 +142,7 @@ $$J_k=(Fx_{[k\mid k]})^TU_{[k]}+\frac{1}{2}U^T_{[k]}HU_{[k]}+C$$
 
 where 
 
-$$F:=B_p^TQ_p^TA_p\in\mathbb{R}^{n\times ph}$$
+$$F:=B_p^TQ_p^TA_p\in\mathbb{R}^{ph\times n}$$
 
 $$H:=R_p+B_p^TQ_pB_p\in\mathbb{R}^{ph\times ph}$$
 
