@@ -23,18 +23,23 @@ order: 4
   - 🎮 Video games(The Legend of Zelda: Breath of the Wild, Fire Emblem, Monster Hunter Rise, ...)
   - 🎧 Music (J-pop, R&B, ...)
 
-### Coding Activity
+### [Coding Activity](https://wakatime.com/@YouKoutaku)
+
+<a href="https://wakatime.com/@YouKoutaku">
+  <img align="Youkoutaku's WakaTime stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=Youkoutaku&theme=radical&custom_title=Youkoutaku's_Coding_Stats&disable_animations=1&hide=other,Text"/>
+</a>
 
 <figure><embed src="https://wakatime.com/share/@Youkoutaku/7f82bcd3-0198-4e74-82ac-545c391a8a8a.svg"></figure>
 
 ---
 ## ⭐ Skill
 
-💻 Programming Language
+💻 [Programming Language](https://wakatime.com/@YouKoutaku)
 
 | MATLAB | Python | C/C++ | HTML5&CSS3 | JavaScript | Java  |
 | :----: | :----: | :---: | :--------: | :--------: | :---: |
 | ★★★★★  |  ★★★★  | ★★★★  |    ★★★     |    ★★★     |  ★★   |
+
 
 ## 📋 Experience
 
