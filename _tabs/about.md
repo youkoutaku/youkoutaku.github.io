@@ -6,7 +6,7 @@ order: 4
 
 ## Hi there 👋
 
-### This is Young!
+### This is Grayson Young!
 - 🌈 Name:
    -  EN: Grayson Young / Guang-Ze Yang
    -  JP: 楊 広沢 (ヨウ コウタク)
