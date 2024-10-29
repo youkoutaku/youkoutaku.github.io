@@ -8,8 +8,8 @@ order: 4
 
 ### This is Young!
 - 🌈 Name:
-   -  EN: Young
-   -  JP: 楊 広沢 (You Koutaku)
+   -  EN: Grayson Young / Guang-Ze Yang
+   -  JP: 楊 広沢 (ヨウ コウタク)
    -  CN: 杨 广泽 (Yang Guang-Ze)
 - 🎓 I'm a learning master's student at [Ibaraki University](https://www.ibaraki.ac.jp).  My major is Mechanical Systems Engineering.
 - 🔥 Interested in working with Robotics and Control Systems.
