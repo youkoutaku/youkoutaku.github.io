@@ -12,17 +12,18 @@ order: 4
    -  JP: 楊 広沢 (You Koutaku)
    -  CN: 杨 广泽 (Yang Guang-Ze)
 - 🎓 I'm a learning master's student at [Ibaraki University](https://www.ibaraki.ac.jp).  My major is Mechanical Systems Engineering.
-- 🔥 Interested in working with Control Systems, Robotics, and Programming.
+- 🔥 Interested in working with Robotics and Control Systems.
 - ✨ I'm keen to share some of my learning and learn from outstanding ones.
-- 🔭 I’m working on my graduation research about the Collision-free problem for multi-agent systems.
-- 🌱 I’m currently learning Optimal Control and MPC. (2024/06)
+- 🔭 I'm working on my graduation research about the Collision-free problem for multi-agent systems.
+- 🌱 I'm currently learning Optimal Control and Optimization. (2024/10)
 - 😄 Hobby:
   - 💪 Training or running 2~3 times a week
   - 🏀 Basketball once a week
-  - 📚 Reading (Biography, History, Philosophy, Time Management, Study Skills, ...)
+  - 📚 Reading (Biography, History, Philosophy, Time Management ...)
   - 🎮 Video games(The Legend of Zelda: Breath of the Wild, Fire Emblem, Monster Hunter Rise, ...)
   - 🎧 Music (J-pop, R&B, ...)
 
+---
 ### [Coding Activity](https://wakatime.com/@YouKoutaku)
 
 <a href="https://wakatime.com/@YouKoutaku">
@@ -32,6 +33,17 @@ order: 4
 <figure><embed src="https://wakatime.com/share/@Youkoutaku/7f82bcd3-0198-4e74-82ac-545c391a8a8a.svg"></figure>
 
 ---
+
+## 📋 Experience
+
+|                  Education                   |      Date       |
+| :------------------------------------------: | :-------------: |
+|              Xiuyan High School              | 2015/09-2018/06 |
+|       TOKYO LANGUAGE EDUCATION ACADEMY       | 2019/04-2020/03 |
+| Ibaraki University (Bachelor of Engineering) | 2020/04-2024/03 |
+|  Ibaraki University (Master of Engineering)  | 2024/04-2026/03 |
+
+
 ## ⭐ Skill
 
 💻 [Programming Language](https://wakatime.com/@YouKoutaku)
@@ -39,16 +51,6 @@ order: 4
 | MATLAB | Python | C/C++ | HTML5&CSS3 | JavaScript | Java  |
 | :----: | :----: | :---: | :--------: | :--------: | :---: |
 | ★★★★★  |  ★★★★  | ★★★★  |    ★★★     |    ★★★     |  ★★   |
-
-
-## 📋 Experience
-
-|           Organization           |      Date       |
-| :------------------------------: | :-------------: |
-|       High School (China)        | 2015/09-2018/06 |
-| Japanese Language School (Tokyo) | 2019/04-2020/03 |
-|  Ibaraki University (Bachelor)   | 2020/04-2024/03 |
-|   Ibaraki University (Master )   | 2024/04-2026/03 |
 
 ## 🛠️ Tool
 
@@ -60,38 +62,27 @@ order: 4
 ## ❤️ Favorite
 
 ### 🧑‍💻 Software & App & Website
-- [Readwise](https://readwise.io/)
-  - Revisit ebook & article highlights.
-- [VScode](https://code.visualstudio.com/)
-  - The best editor.
-- [Notion](https://www.notion.so/)
-  - Notes & Personal management
-- [Obsidian](https://obsidian.md/)
-  - Markdown editor
-- [Zotero](https://www.zotero.org/)
-  - Science paper management
-- [Raindrop](https://raindrop.io/)
-  - Great bookmark management
-- [Calibre](https://calibre-ebook.com/ja/download)
-  - EBook reader
-- [Overleaf](https://www.overleaf.com/)
-  - Online LaTex
-- [AlternativeTo](https://alternativeto.net/)
-  - Find better apps and services
 
-### 📱 My Device
-- ROG Flow X13
-- iPhone 15 Pro
-- AirPods 3
-- Kindle
-- Nintendo Switch
-- Xbox Wireless Controller
+|                  Software                   |                  Comment                   |
+| :-----------------------------------------: | :----------------------------------------: |
+|       [ChatGPT](https://openai.com/)        |              What can I say ?              |
+|      [Readwise](https://readwise.io/)       |     Revisit ebook & article highlights     |
+|  [VScode](https://code.visualstudio.com/)   |              The best editor               |
+|      [Notion](https://www.notion.so/)       |    The best notes & personal management    |
+|      [Obsidian](https://obsidian.md/)       |          The best markdown editor          |
+|      [Zotero](https://www.zotero.org/)      |     The best paper reader & management     |
+|    [Calibre](https://calibre-ebook.com/)    |        A eBook reader & management         |
+|    [Overleaf](https://www.overleaf.com/)    |                Online LaTex                |
+|  [Perplexity](https://www.perplexity.ai/)   |         Better than Google search          |
+| [AlternativeTo](https://alternativeto.net/) | A Website to find better apps and services |
+|      [wakaTime](https://wakatime.com/)      |         Code stats for developers          |
+|      [Raindrop](https://raindrop.io/)       |        A great bookmark management         |
 
-### 🎵 [My Music](https://youkoutaku.notion.site/My-Music-d21e63fdf152499283410c2d78ccd674)
-
-### 🎬 [My Video](https://youkoutaku.notion.site/Video-7bd889568add4d6fb952fe4973c715da?pvs=4)
-
-### 🎮 [My Game](https://youkoutaku.notion.site/Game-85453a6f8846423e9964d52239f7064d?pvs=4)
+## More about me
+- 📱 [My Device](https://youkoutaku.notion.site/bd8f65544ac242c38f88871f73af8c1e?v=a39853e6d8b9473c8156a0df89248054)
+- 🎬 [My Video](https://youkoutaku.notion.site/Video-7bd889568add4d6fb952fe4973c715da?pvs=4)
+- 🎵 [My Music](https://youkoutaku.notion.site/My-Music-d21e63fdf152499283410c2d78ccd674)
+- 🎮 [My Game](https://youkoutaku.notion.site/Game-85453a6f8846423e9964d52239f7064d?pvs=4)
 
 ---
 ## 📬 Contact
