@@ -14,7 +14,7 @@ math: true
 mermaid: true
 image:
   path: /src/MPC/MPCvsLQR_Q1.png
-  alt: MPC VS. LQR 
+  alt: MPC VS. LQR
 ---
 
 ## System Modeling
@@ -84,7 +84,7 @@ u^*_{[k\mid k]}\\u^*_{[k+1\mid k]}\\\vdots\\u^*_{[k+h-1\mid k]}
 
 which minimizes the performance function $J_k$ .
 
-What we should do is to express the performance function $J_k$ in terms of the control input sequence $U_{[k]}$ so that it forms a standard quadratic programming (QP) problem. 
+What we should do is to express the performance function $J_k$ in terms of the control input sequence $U_{[k]}$ so that it forms a standard quadratic programming (QP) problem.
 
 Because solvers for QP problems are well-developed, it is important for MPC to transform the problem into a QP form so that these solvers can effectively solve it.
 
@@ -116,7 +116,7 @@ R&\dots&0_{n\times n}\\\vdots&R&\vdots\\0_{n\times n}&\cdots&R
 
 $$J_k=\frac{1}{2}x^T_{[k\mid k]}Qx_{[k\mid k]}+\frac{1}{2}X^T_{[k]}Q_pX_{[k]}+\frac{1}{2}U^T_{[k]}R_pU_{[k]}$$
 
-> $x_{[k\mid k]}$ , the initial states for time step $k$, is known. 
+> $x_{[k\mid k]}$ , the initial states for time step $k$, is known.
 
 4. According to the prediction horizon,  we can express the $X_{[k]}$ in terms of the $U_{[k]}$.
 
@@ -140,7 +140,7 @@ $$J_k=\frac{1}{2}x^T_{[k\mid k]}(Q+A_p^TQ_pA_p)x_{[k\mid k]}+x^T_{[k\mid k]}A_p^
 
 $$J_k=(Fx_{[k\mid k]})^TU_{[k]}+\frac{1}{2}U^T_{[k]}HU_{[k]}+C$$
 
-where 
+where
 
 $$F:=B_p^TQ_p^TA_p\in\mathbb{R}^{ph\times n}$$
 
@@ -173,7 +173,7 @@ I_{p\times p}&0_{p\times p}&\cdots& 0_{p\times p}
 
 %----------------------------------------------------------%
 
-% Youkoutaku:  https://youkoutaku.github.io/               %
+% Youkoutaku:  https://youkoutaku.github.io/               %
 
 %----------------------------------------------------------%
 
@@ -201,39 +201,39 @@ Bp = zeros(Np*n, Np*p);
 
 for i = 1:Np
 
-    % Ap = [A^1; A^2; ...; A^Np]
+    % Ap = [A^1; A^2; ...; A^Np]
 
-    Ap(1+(i-1)*n:i*n,:) = A^i;
+    Ap(1+(i-1)*n:i*n,:) = A^i;
 
-    % Bp = [ B          0_{n×p}   0_{n×p}   ...  0_{n×p}
+    % Bp = [ B          0_{n×p}   0_{n×p}   ...  0_{n×p}
 
-    %        AB         B         0_{n×p}   ...  0_{n×p}
+    %        AB         B         0_{n×p}   ...  0_{n×p}
 
-    %        A^2*B       A*B      B         ...  0_{n×p}
+    %        A^2*B       A*B      B         ...  0_{n×p}
 
-    %        ...        ...       ...       ...  ...
+    %        ...        ...       ...       ...  ...
 
-    %        A^(h-1)*B  A^(h-2)*B A^(h-3)*B ...  B ]
+    %        A^(h-1)*B  A^(h-2)*B A^(h-3)*B ...  B ]
 
-    Bp(1+(i-1)*n:i*n, 1:p) = A^(i-1)*B;
+    Bp(1+(i-1)*n:i*n, 1:p) = A^(i-1)*B;
 
-    for j = 2:Np
+    for j = 2:Np
 
-        Bp(1+(j-1)*n:j*n, 1+(j-1)*p:j*p) = Bp(1+(i-1)*n:i*n, 1+(i-1)*p:i*p);
+        Bp(1+(j-1)*n:j*n, 1+(j-1)*p:j*p) = Bp(1+(i-1)*n:i*n, 1+(i-1)*p:i*p);
 
-    end
+    end
 
 end
 
 % Calculate Qp and Rp for QP
 
-% Qp = diag(Q  Q  ...  Qf)
+% Qp = diag(Q  Q  ...  Qf)
 
 Qp = kron(eye(Np-1), Q);
 
 Qp = blkdiag(Qp, Qf);
 
-% Rp = diag(R  R  ...  R)
+% Rp = diag(R  R  ...  R)
 
 Rp = kron(eye(Np), R);
 
@@ -248,7 +248,7 @@ H = Bp'*Qp*Bp + Rp;
 end
 ```
 
-- MPC vs LQR 
+- MPC vs LQR
 
 ### Problem
 Consider a simple discrete time system:
@@ -303,7 +303,7 @@ $$Q=Q_F=\begin{bmatrix}
 ```matlab
 %% MPC vs LQR
 %----------------------------------------------------------%
-% Youkoutaku:  https://youkoutaku.github.io/               %
+% Youkoutaku:  https://youkoutaku.github.io/               %
 %----------------------------------------------------------%
 % This script is used to compare the performance of MPC and LQR.
 clear;
@@ -362,37 +362,37 @@ K_lqr = lqr(A,B,Q,R);
 %% Transform into QP form for MPC
 [Ap, Bp, Qp, Rp, F, H] = QP_Transform(A, B, Q, R, Qf,Np);
 
-%%  Simulation - discrete time system
+%%  Simulation - discrete time system
 for k = 1 : k_steps
-    %% MPC
-    % Calculate the input - MPC
-    options = optimset('MaxIter', 200);
-    % Solve the QP problem
-    [U, fval, exitflag, output, lambda] = quadprog(H, F*x_mpc, [], [], [], [], [], [], [], options);
-    % u(k) = [I 0 ... 0] * U(k)
-    u_mpc = U(1:p, 1);
-    % Calculate the system response - MPC
-    x_mpc = A * x_mpc + B * u_mpc * ts;
-    % Save the system state - MPC
-    xh_mpc(:,k+1) = x_mpc;
-    % Save the system input - MPC
-    uh_mpc(:,k) = u_mpc;
+    %% MPC
+    % Calculate the input - MPC
+    options = optimset('MaxIter', 200);
+    % Solve the QP problem
+    [U, fval, exitflag, output, lambda] = quadprog(H, F*x_mpc, [], [], [], [], [], [], [], options);
+    % u(k) = [I 0 ... 0] * U(k)
+    u_mpc = U(1:p, 1);
+    % Calculate the system response - MPC
+    x_mpc = A * x_mpc + B * u_mpc * ts;
+    % Save the system state - MPC
+    xh_mpc(:,k+1) = x_mpc;
+    % Save the system input - MPC
+    uh_mpc(:,k) = u_mpc;
 
-    %% LQR
-    % Calculate the input - LQR
-    u_lqr = -K_lqr * x_lqr;
-    % Calculate the system response - LQR
-    x_lqr = A * x_lqr + B * u_lqr * ts;
-    % Save the system state - LQR
-    xh_lqr(:,k+1) = x_lqr;
-    % Save the system input - LQR
-    uh_lqr(:,k) = u_lqr;
+    %% LQR
+    % Calculate the input - LQR
+    u_lqr = -K_lqr * x_lqr;
+    % Calculate the system response - LQR
+    x_lqr = A * x_lqr + B * u_lqr * ts;
+    % Save the system state - LQR
+    xh_lqr(:,k+1) = x_lqr;
+    % Save the system input - LQR
+    uh_lqr(:,k) = u_lqr;
 end
 
 %% Plot
 % Plot the state x1
 figure()
-subplot (3, 1, 1);
+subplot (3, 1, 1);
 hold;
 plot (0:length(xh_lqr(1,:))-1,xh_lqr(1,:));
 plot (0:length(xh_lqr(1,:))-1,xh_mpc(1,:),'--');
