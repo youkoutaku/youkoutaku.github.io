@@ -13,12 +13,13 @@
 cd C:\Users\ygz19\OneDrive\Github\youkoutaku.github.io
 ```
 
-### Running Local Server
-
+### Local Building
+Running
 ```cmd
 bundle exec jekyll s
 ```
 
+Building
 ```cmd
 bundle exec jekyll b
 ```
