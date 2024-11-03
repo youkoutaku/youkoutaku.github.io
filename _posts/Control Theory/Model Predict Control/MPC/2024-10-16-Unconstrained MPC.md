@@ -94,6 +94,7 @@ Because solvers for QP problems are well-developed, it is important for MPC to t
 $$J_k=\frac{1}{2}x^T_{[k+h\mid k]}Q_fx_{[k+h\mid k]}+\frac{1}{2}\sum^{h-1}_{i=0}\left(x_{[k+i\mid k]}^TQx_{[k+i\mid k]}+u^T_{[k+i\mid k]}Ru_{[k+i\mid k]}\right)$$
 
 1. Take out the initial cost $x^T_{[k\mid k]}Qx_{[k\mid k]}$ from the sum.
+
 $$J_k=\frac{1}{2}x^T_{[k\mid k]}Qx_{[k\mid k]}+\frac{1}{2}x^T_{[k+h\mid k]}Q_fx_{[k+h\mid k]}+\frac{1}{2}\sum^{h-1}_{i=1}x_{[k+i\mid k]}^TQx_{[k+i\mid k]}+\frac{1}{2}\sum^{h-1}_{i=0}u^T_{[k+i\mid k]}Ru_{[k+i\mid k]}$$
 
 2. Rewrite by the compact expression.
