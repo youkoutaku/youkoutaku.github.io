@@ -6,12 +6,7 @@
 - [Writing a New Post](https://chirpy.cotes.page/posts/write-a-new-post/)
 - [Text and Typography](https://chirpy.cotes.page/posts/text-and-typography/#fnref:footnote)
 - [My Note](https://youkoutaku.github.io/posts/Writing/)
-
-### Repository Path
-
-```cmd
-cd C:\Users\ygz19\OneDrive\Github\youkoutaku.github.io
-```
+- [Upgrade Guide](https://github.com/cotes2020/jekyll-theme-chirpy/wiki/Upgrade-Guide)
 
 ### Local Building
 Running
