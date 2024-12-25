@@ -1,8 +1,8 @@
 ---
 title: Docker for ROS
 date: 2023-12-20 15:06:03 +0900 #Tokyo
-categories: [Ubuntu, Docker]
-tags: [Docker, ROS, Ubuntu]
+categories: [Docker]
+tags: [Docker, ROS, Ubuntu, WSL]
 author: Youkoutaku
 math: true #Mathematical
 mermaid: true
@@ -17,10 +17,6 @@ image:
 [Install using the apt repository](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
 
 - Get apt
-
-```bash
-udo docker run -it -v /home/youkoutaku/noetic_data:/data --device=/dev/dri --group-add video --volume=/tmp/.X11-unix:/tmp/.X11-unix  --env="DISPLAY=$DISPLAY" --env="QT_X11_NO_MITSHM=1" --name=noetic_ros osrf/ros:noetic-desktop-full  /bin/bash
-```
 
 ```bash
 # Add Docker's official GPG key:

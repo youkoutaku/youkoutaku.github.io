@@ -1,5 +1,5 @@
 ---
-title: ToDo List
+title: ToDo for Blog Update
 date: 2024-05-06 15:33:00 +0900
 categories: [Journal]
 tags: [Journal]
@@ -11,7 +11,19 @@ math: true
 pin: true
 ---
 
-## ToDo List made on 2024-09-24
+## ToDo List (2024-12-25)
+### Journal
+- [ ] Internship summary
+
+### Learning
+- [ ] MPC
+- [ ] Nonlinear Programming
+
+### Project
+- [ ] RAG for LLM
+
+---
+## ToDo List (2024-09-24)
 
 ### Journal
 
@@ -34,7 +46,7 @@ pin: true
 
 ---
 
-## ToDo List made on 2024-05-05
+## ToDo List (2024-05-05)
 ### Blog
 
 - [x] [Lab Journal](https://youkoutaku.notion.site/Lab-Journal-cde43795142d448ab96cb0233225cf6b?pvs=4)
@@ -46,7 +58,7 @@ pin: true
 - [x] [Machine Learning](https://github.com/youkoutaku/Machine-Learning)
 - [x] [old_blog](https://github.com/youkoutaku/youkoutaku_ole_blog)
 
-### Notes
+### Learning
 
 #### Control Theory
 
@@ -64,7 +76,7 @@ pin: true
 - [ ] Liner algebra
 - [ ] Statistics
 
-#### Paper Reading
+### Paper
 
 - [ ] Formation control for MAS
 - [ ] States estimation for MAS

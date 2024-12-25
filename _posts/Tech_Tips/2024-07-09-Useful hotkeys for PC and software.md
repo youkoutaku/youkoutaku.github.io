@@ -1,7 +1,7 @@
 ---
 title: Useful hotkeys for PC and software
 date: 2024-07-09 15:07:14 +0900
-categories: [Tech]
+categories: [Tech-Tips]
 tags: [Hotkeys, Windows, Ubuntu, Browser]
 author: Youkoutaku
 math: true
@@ -31,16 +31,16 @@ Hotkeys are helpful for working efficiently. However, checking the official docu
 In Ubuntu, there is a key called the `super key`. It functions the same as the `Windows key`. Most PC keyboards are designed for Windows, so that you should know `super key` = `Windows key` .
 
 
-|                            Hotkeys                             |            Function            |
-| :------------------------------------------------------------: | :----------------------------: |
-|                        `CTRL`+`ALT`+`T`                        |        Open a Terminal         |
-|                       `super key` + `D`                        |   Show and hide the desktop    |
-|                       `super key` + `A`                        |   Show the application menu    |
-|                       `super key` + `Q`                        |     Close the application      |
-|                      `super key` + `TAB`                       | Switch the running application |
-|                   `super key` + `arrow key`                    |        Snap the windows        |
-|                  `CTRL` + `ALT` + `arrow key`                  |      Switch the workspace      |
-|                        `SHIFT` + `ALT`                         |     Switch input keyboard      |
+|                       Hotkeys                       |            Function            |
+| :-------------------------------------------------: | :----------------------------: |
+|                  `CTRL`+`ALT`+`T`                   |        Open a Terminal         |
+|                  `super key` + `D`                  |   Show and hide the desktop    |
+|                  `super key` + `A`                  |   Show the application menu    |
+|                  `super key` + `Q`                  |     Close the application      |
+|                 `super key` + `TAB`                 | Switch the running application |
+|              `super key` + `arrow key`              |        Snap the windows        |
+|            `CTRL` + `ALT` + `arrow key`             |      Switch the workspace      |
+|                   `SHIFT` + `ALT`                   |     Switch input keyboard      |
 | `setting > keyboard > keyboard hotkey > screenshot` |           Screenshot           |
 
 ---
@@ -61,8 +61,8 @@ In Ubuntu, there is a key called the `super key`. It functions the same as the `
 
 |        Hotkeys        |    Function    |
 | :-------------------: | :------------: |
-|      `super`+`T`      |    New Tab     |
-|     `super` + `W`     |   Close Tab    |
+|      `CTRL`+`T`       |    New Tab     |
+|     `CTRL` + `W`      |   Close Tab    |
 | `ALT` + `right arrow` |    Forward     |
 | `ALT` + `left arrow`  |      Back      |
 |    `CTRL` + `TAB`     | Switch the Tab |

@@ -2,11 +2,11 @@
 title: Docker hub
 date: 2023-12-07 16:06:03 +0900
 categories:
-  - Ubuntu
   - Docker
 tags:
   - Ubuntu
   - Docker
+  - WSL
 author: Youkoutaku
 math: true
 mermaid: true

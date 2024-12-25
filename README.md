@@ -2,6 +2,7 @@
 
 ## Workspace Notes
 
+- [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
 - [Getting Started](https://chirpy.cotes.page/posts/getting-started/)
 - [Writing a New Post](https://chirpy.cotes.page/posts/write-a-new-post/)
 - [Text and Typography](https://chirpy.cotes.page/posts/text-and-typography/#fnref:footnote)
@@ -17,6 +18,29 @@ bundle exec jekyll s
 Building
 ```cmd
 bundle exec jekyll b
+```
+
+### Update
+[Upgrading](https://github.com/cotes2020/jekyll-theme-chirpy/wiki/Upgrade-Guide#upgrading-from-starter)
+
+The operations mentioned in this section only need to be performed once after cloning your repository locally.
+Adding Upstream
+
+```
+git remote add chirpy https://github.com/cotes2020/chirpy-starter.git
+```
+
+Verify the remote was added successfully:
+
+```
+git remote -v
+```
+
+The output should include:
+
+```
+chirpy  https://github.com/cotes2020/chirpy-starter.git (fetch)
+chirpy  https://github.com/cotes2020/chirpy-starter.git (push)
 ```
 
 ### Images
