@@ -4,26 +4,28 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-## Hi there 👋
+## This is [Guang-Ze Yang](https://youkoutaku.github.io/)
+EN: Grayson Young / JP: 楊 広沢 (よう こうたく, You Koutaku) / 杨 广泽 (Yang Guang-Ze)
 
-### This is Grayson Young!
-- 🌈 Name:
-   -  EN: Grayson Young / Guang-Ze Yang / YouKoutaku
-   -  JP: 楊 広沢 (ヨウ コウタク/You Koutaku)
-   -  CN: 杨 广泽 (Yang Guang-Ze)
-- 🎓 I'm a learning master's student at [Ibaraki University](https://www.ibaraki.ac.jp).  My major is Mechanical Systems Engineering.
-- 🔥 Interested in working with Robotics and Control Systems.
-- ✨ I'm keen to share some of my learning and learn from outstanding ones.
-- 🔭 I'm working on my graduation research about the Collision-free problem for multi-agent systems.
-- 🌱 I'm currently learning Optimal Control and Optimization. (2024/10)
-- 😄 Hobby:
-  - 💪 Training or running 2~3 times a week
-  - 🏀 Basketball once a week
-  - 📚 Reading (Biography, History, Philosophy, Time Management ...)
-  - 🎮 Video games(The Legend of Zelda: Breath of the Wild, Fire Emblem, Monster Hunter Rise, ...)
-  - 🎧 Music (J-pop, R&B, ...)
+I'm currently learning MPC and Nonlinear programming. (2024/12)
+
+### Master student
+Mechanical Systems Engineering, [Ibaraki University](https://www.ibaraki.ac.jp).
+
+## Education
+- 2024/04-(2026/03): Ibaraki University (Master of Engineering)
+- 2020/04-2024/03: Ibaraki University (Bachelor of Engineering)
+
+## Research Interests
+- Path planning and motion control
+- Distributed control for multi-agent systems
+- Optimal control
+
+## Publications
+- **G. -Z. Yang** and Z. -J. Yang, "Distributed Robust Time-Varying Formation Control of Multi-Agent Systems Under Disturbances," 2024 SICE Festival with Annual Conference (SICE FES), Kochi City, Japan, 2024, pp. 1000-1005. [[IEEE Xplore]](https://ieeexplore.ieee.org/document/10805135) [[Code]](https://github.com/youkoutaku/DR-TVFC)
 
 ---
+
 ### [Coding Activity](https://wakatime.com/@YouKoutaku)
 
 <a href="https://wakatime.com/@YouKoutaku">
@@ -34,32 +36,28 @@ order: 4
 
 ---
 
-## 📋 Experience
-
-|                  Education                   |      Date       |
-| :------------------------------------------: | :-------------: |
-|              Xiuyan High School              | 2015/09-2018/06 |
-|       TOKYO LANGUAGE EDUCATION ACADEMY       | 2019/04-2020/03 |
-| Ibaraki University (Bachelor of Engineering) | 2020/04-2024/03 |
-|  Ibaraki University (Master of Engineering)  | 2024/04-2026/03 |
-
-
-## ⭐ Skill
+## ⭐ Skills
 
 💻 [Programming Language](https://wakatime.com/@YouKoutaku)
 
 | MATLAB | Python | C/C++ | HTML5&CSS3 | JavaScript | Java  |
 | :----: | :----: | :---: | :--------: | :--------: | :---: |
-| ★★★★★ | ★★★★★ | ★★★★★ |  ★★★★     |    ★★★     |  ★★   |
+| ★★★★★  | ★★★★★  | ★★★★★ |    ★★★★    |    ★★★     |  ★★   |
 
-## 🛠️ Tool
+## 🛠️ Tools
 
 | Simulink |  Git  | ROS1&2 | Docker | SolidWorks | Arduino | LaTex | Markdown |
 | :------: | :---: | :----: | :----: | :--------: | :-----: | :---: | :------: |
-|  ★★★★★   | ★★★★  | ★★★★ |  ★★★   | ★★★★★ |  ★★★★★  | ★★★★★ |  ★★★★★   |
+|  ★★★★★   | ★★★★  |  ★★★★  |  ★★★   |   ★★★★★    |  ★★★★★  | ★★★★★ |  ★★★★★   |
 
 ---
 ## ❤️ Favorite
+- 😄 Hobby:
+  - 💪 Training or running 2~3 times a week
+  - 🏀 Basketball once a week
+  - 📚 Reading (Biography, History, Philosophy, Time Management ...)
+  - 🎮 Video games(Zelda, Fire Emblem, Monster Hunter, FF7, P5, ...)
+  - 🎧 Music (J-pop, R&B, ...)
 
 ### 🧑‍💻 Software & App & Website
 
