@@ -1,7 +1,208 @@
 {
-    "folders": [
-        {
-            "path": "."
-        }
-    ]
+  //bash Setting
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.list.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.mouseWheelZoom": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.suggestSelection": "first",
+  "window.dialogStyle": "custom",
+
+  //RUN
+  "code-runner.runInTerminal": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.saveFileBeforeRun": true,
+
+  //windows-vibrancy
+  "vscode_vibrancy.opacity": 0.25,
+  "vscode_vibrancy.refreshInterval": 5000,
+  "vscode_vibrancy.theme": "Solarized Dark+",
+
+  //markdown
+  "markdown-preview-enhanced.alwaysShowBacklinksInPreview": true,
+  "python.condaPath": "",
+  "python.defaultInterpreterPath": "",
+  "jupyter.kernels.excludePythonEnvironments": [""],
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "vsintellicode.modelDownloadPath": "",
+  "vsintellicode.features.python.deepLearning": "enabled",
+  "python.autoComplete.addBrackets": true,
+  "python.autoComplete.extraPaths": [""],
+  "python.analysis.autoFormatStrings": true,
+  "python.analysis.extraPaths": [""],
+  "python.analysis.completeFunctionParens": true,
+  "python.languageServer": "Pylance",
+
+  //AI suggestion
+  "tabnine.experimentalAutoImports": true,
+  "vscode-edge-devtools.webhint": false,
+  "window.titleBarStyle": "custom",
+  "remote.autoForwardPortsSource": "hybrid",
+  "cmake.configureOnOpen": true,
+  "git.openRepositoryInParentFolders": "never",
+
+  //todo
+  "todo-tree.regex.regex": "(\\{\\{--|//|#|%|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "text-and-comment",
+    "foreground": "black",
+    "background": "white",
+    "opacity": 50,
+    "iconColour": "blue",
+    "gutterIcon": true
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "checkbox",
+      "foreground": "black",
+      "background": "yellow",
+      "iconColour": "yellow"
+    },
+    "NOTE": {
+      "icon": "note",
+      "foreground": "white",
+      "background": "cornflowerblue",
+      "iconColour": "cornflowerblue"
+    },
+    "USEFUL": {
+      "icon": "verified",
+      "foreground": "black",
+      "background": "mediumaquamarine",
+      "iconColour": "mediumaquamarine"
+    },
+    "COMMENT": {
+      "icon": "comment",
+      "foreground": "white",
+      "background": "gray",
+      "iconColour": "white"
+    },
+    "LEARN": {
+      "icon": "bookmark",
+      "foreground": "white",
+      "background": "hotpink",
+      "iconColour": "hotpink"
+    },
+    "FIXME": {
+      "icon": "tools",
+      "foreground": "crimson",
+      "background": "burlywood",
+      "iconColour": "burlywood"
+    },
+    "RECHECK": {
+      "icon": "codescan",
+      "foreground": "white",
+      "background": "chocolate",
+      "iconColour": "chocolate"
+    },
+    "INCOMPLETE": {
+      "icon": "alert",
+      "foreground": "white",
+      "background": "mediumvioletred",
+      "iconColour": "mediumvioletred"
+    },
+    "BUG": {
+      "icon": "bug",
+      "foreground": "white",
+      "background": "crimson",
+      "iconColour": "crimson"
+    },
+    "SEE NOTES": {
+      "icon": "note",
+      "foreground": "white",
+      "background": "teal",
+      "iconColour": "teal"
+    },
+    "POST": {
+      "icon": "share",
+      "foreground": "white",
+      "background": "green",
+      "iconColour": "green"
+    },
+    "[ ]": {
+      "icon": "check",
+      "foreground": "black",
+      "background": "white",
+      "iconColour": "yellow"
+    },
+    "[x]": {
+      "icon": "check",
+      "foreground": "white",
+      "background": "green",
+      "iconColour": "green"
+    }
+  },
+  "todo-tree.general.tags": [
+    "BUG",
+    "SEE NOTES",
+    "HACK",
+    "FIXME",
+    "RECHECK",
+    "INCOMPLETE",
+    "TODO",
+    "NOTE",
+    "POST",
+    "USEFUL",
+    "LEARN",
+    "COMMENT",
+    "[ ]",
+    "[x]"
+  ],
+
+  //Japanese-proofreading
+  "japanese-proofreading.textlint.ピリオドとカンマの使用（全角）": false,
+  "japanese-proofreading.textlint.ピリオドとカンマの使用（半角）": false,
+  "japanese-proofreading.textlint.丸かっこ（）": false,
+  "japanese-proofreading.textlint.外来語カタカナ表記": false,
+  "japanese-proofreading.textlint.大かっこ［］": false,
+  "japanese-proofreading.textlint.ゼロ幅スペース": false,
+  "japanese-proofreading.textlint.ハイフン(-)": false,
+  "japanese-proofreading.textlint.ダッシュ(-)": false,
+
+  "files.autoGuessEncoding": true,
+  "editor.fontFamily": "Consolas, 'ＭＳ 明朝', 'Courier New', monospace",
+
+  //matlab
+  "terminal.integrated.commandsToSkipShell": ["matlab.interrupt"],
+  "MATLAB.installPath": "C:\\Program Files\\MATLAB\\R2024a",
+  //git
+  "git.ignoreMissingGitWarning": true,
+  //words
+  "cSpell.userWords": [
+    "bmatrix",
+    "fprintf",
+    "Guang",
+    "Guangze",
+    "Ibaraki",
+    "infty",
+    "Kaggle",
+    "Koutaku",
+    "mathbb",
+    "pageviews",
+    "Readwise",
+    "Riccati",
+    "Simulink",
+    "SMFC",
+    "Youkoutaku",
+    "Zotero"
+  ],
+  "explorer.confirmDelete": false,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "explorer.confirmDragAndDrop": false,
+  "git.confirmSync": false,
+  "editor.largeFileOptimizations": false,
+
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

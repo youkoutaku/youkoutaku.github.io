@@ -1,7 +1,7 @@
 ---
 title: Environment manager for Python
 date: 2024-12-24 12:00:00 +0900
-categories: [Python]
+categories: [Programming Language, Python]
 tags: [Python, venv, Anaconda, uv]
 author: Youkoutaku
 math: true
