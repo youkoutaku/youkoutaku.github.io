@@ -33,8 +33,15 @@ source myenv/bin/activate
 deactivate
 ```
 
-## Conda
-[Conda](https://docs.conda.io/projects/conda/en/stable/index.html) provides package, dependency, and environment management for any language.
+## Anaconda
+[Anaconda](https://www.anaconda.com/download) provides package, dependency, and environment management for any language.
+
+- Windows: setting system environment variables path
+  - C:\ProgramData\anaconda3
+  - C:\ProgramData\anaconda3\Library\bin
+  - C:\ProgramData\anaconda3\Scripts
+  - C:\ProgramData\anaconda3\Lib\site-packages
+> restart pc
 
 ```bash
 # Create new environment
