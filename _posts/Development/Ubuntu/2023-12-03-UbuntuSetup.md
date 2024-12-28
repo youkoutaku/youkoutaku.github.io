@@ -17,9 +17,7 @@ mermaid: true
 
 ## 0. Delete Ubuntu
 
-[CSDN 双系统删除ubuntu](https://blog.csdn.net/ZChen1996/article/details/115436436?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165694741616782184622934%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=165694741616782184622934&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-2-115436436-null-null.142%5Ev30%5Econtrol,185%5Ev2%5Econtrol&utm_term=%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%8D%B8%E8%BD%BDubuntu&spm=1018.2226.3001.4187)
-
-- Run Diskpart 
+- Run Diskpart
 	- win+R: `diskpart`
 - Check disk 
 	- `list disk`
