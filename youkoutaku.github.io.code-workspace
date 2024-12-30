@@ -1,208 +1,229 @@
 {
-  //bash Setting
-  "workbench.colorTheme": "One Dark Pro",
-  "workbench.list.smoothScrolling": true,
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.smoothScrolling": true,
-  "editor.cursorBlinking": "smooth",
-  "editor.mouseWheelZoom": true,
-  "editor.formatOnPaste": true,
-  "editor.formatOnType": true,
-  "editor.formatOnSave": true,
-  "editor.wordWrap": "on",
-  "editor.acceptSuggestionOnEnter": "smart",
-  "editor.suggestSelection": "first",
-  "window.dialogStyle": "custom",
-
-  //RUN
-  "code-runner.runInTerminal": true,
-  "code-runner.saveAllFilesBeforeRun": true,
-  "code-runner.saveFileBeforeRun": true,
-
-  //windows-vibrancy
-  "vscode_vibrancy.opacity": 0.25,
-  "vscode_vibrancy.refreshInterval": 5000,
-  "vscode_vibrancy.theme": "Solarized Dark+",
-
-  //markdown
-  "markdown-preview-enhanced.alwaysShowBacklinksInPreview": true,
-  "python.condaPath": "",
-  "python.defaultInterpreterPath": "",
-  "jupyter.kernels.excludePythonEnvironments": [""],
-  "editor.suggest.snippetsPreventQuickSuggestions": true,
-  "vsintellicode.modelDownloadPath": "",
-  "vsintellicode.features.python.deepLearning": "enabled",
-  "python.autoComplete.addBrackets": true,
-  "python.autoComplete.extraPaths": [""],
-  "python.analysis.autoFormatStrings": true,
-  "python.analysis.extraPaths": [""],
-  "python.analysis.completeFunctionParens": true,
-  "python.languageServer": "Pylance",
-
-  //AI suggestion
-  "tabnine.experimentalAutoImports": true,
-  "vscode-edge-devtools.webhint": false,
-  "window.titleBarStyle": "custom",
-  "remote.autoForwardPortsSource": "hybrid",
-  "cmake.configureOnOpen": true,
-  "git.openRepositoryInParentFolders": "never",
-
-  //todo
-  "todo-tree.regex.regex": "(\\{\\{--|//|#|%|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
-  "todo-tree.highlights.defaultHighlight": {
-    "icon": "alert",
-    "type": "text-and-comment",
-    "foreground": "black",
-    "background": "white",
-    "opacity": 50,
-    "iconColour": "blue",
-    "gutterIcon": true
-  },
-  "todo-tree.highlights.customHighlight": {
-    "TODO": {
-      "icon": "checkbox",
-      "foreground": "black",
-      "background": "yellow",
-      "iconColour": "yellow"
-    },
-    "NOTE": {
-      "icon": "note",
-      "foreground": "white",
-      "background": "cornflowerblue",
-      "iconColour": "cornflowerblue"
-    },
-    "USEFUL": {
-      "icon": "verified",
-      "foreground": "black",
-      "background": "mediumaquamarine",
-      "iconColour": "mediumaquamarine"
-    },
-    "COMMENT": {
-      "icon": "comment",
-      "foreground": "white",
-      "background": "gray",
-      "iconColour": "white"
-    },
-    "LEARN": {
-      "icon": "bookmark",
-      "foreground": "white",
-      "background": "hotpink",
-      "iconColour": "hotpink"
-    },
-    "FIXME": {
-      "icon": "tools",
-      "foreground": "crimson",
-      "background": "burlywood",
-      "iconColour": "burlywood"
-    },
-    "RECHECK": {
-      "icon": "codescan",
-      "foreground": "white",
-      "background": "chocolate",
-      "iconColour": "chocolate"
-    },
-    "INCOMPLETE": {
-      "icon": "alert",
-      "foreground": "white",
-      "background": "mediumvioletred",
-      "iconColour": "mediumvioletred"
-    },
-    "BUG": {
-      "icon": "bug",
-      "foreground": "white",
-      "background": "crimson",
-      "iconColour": "crimson"
-    },
-    "SEE NOTES": {
-      "icon": "note",
-      "foreground": "white",
-      "background": "teal",
-      "iconColour": "teal"
-    },
-    "POST": {
-      "icon": "share",
-      "foreground": "white",
-      "background": "green",
-      "iconColour": "green"
-    },
-    "[ ]": {
-      "icon": "check",
-      "foreground": "black",
-      "background": "white",
-      "iconColour": "yellow"
-    },
-    "[x]": {
-      "icon": "check",
-      "foreground": "white",
-      "background": "green",
-      "iconColour": "green"
+  "folders": [
+    {
+      "path": "."
     }
-  },
-  "todo-tree.general.tags": [
-    "BUG",
-    "SEE NOTES",
-    "HACK",
-    "FIXME",
-    "RECHECK",
-    "INCOMPLETE",
-    "TODO",
-    "NOTE",
-    "POST",
-    "USEFUL",
-    "LEARN",
-    "COMMENT",
-    "[ ]",
-    "[x]"
   ],
+  "settings": {
+    // Theme and appearance settings
+    "workbench.colorTheme": "One Dark Pro", // One Dark Pro theme
+    "workbench.list.smoothScrolling": true,
+    "window.dialogStyle": "custom",
+    "window.titleBarStyle": "custom",
+    "vscode_vibrancy.opacity": 0.25,
+    "vscode_vibrancy.refreshInterval": 5000,
+    "vscode_vibrancy.theme": "Solarized Dark+",
 
-  //Japanese-proofreading
-  "japanese-proofreading.textlint.ピリオドとカンマの使用（全角）": false,
-  "japanese-proofreading.textlint.ピリオドとカンマの使用（半角）": false,
-  "japanese-proofreading.textlint.丸かっこ（）": false,
-  "japanese-proofreading.textlint.外来語カタカナ表記": false,
-  "japanese-proofreading.textlint.大かっこ［］": false,
-  "japanese-proofreading.textlint.ゼロ幅スペース": false,
-  "japanese-proofreading.textlint.ハイフン(-)": false,
-  "japanese-proofreading.textlint.ダッシュ(-)": false,
+    // Editor settings
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.mouseWheelZoom": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.suggestSelection": "first",
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "editor.fontFamily": "Consolas, 'ＭＳ 明朝', 'Courier New', monospace",
+    "editor.largeFileOptimizations": false,
 
-  "files.autoGuessEncoding": true,
-  "editor.fontFamily": "Consolas, 'ＭＳ 明朝', 'Courier New', monospace",
+    // File settings
+    "files.autoGuessEncoding": true,
 
-  //matlab
-  "terminal.integrated.commandsToSkipShell": ["matlab.interrupt"],
-  "MATLAB.installPath": "C:\\Program Files\\MATLAB\\R2024a",
-  //git
-  "git.ignoreMissingGitWarning": true,
-  //words
-  "cSpell.userWords": [
-    "bmatrix",
-    "fprintf",
-    "Guang",
-    "Guangze",
-    "Ibaraki",
-    "infty",
-    "Kaggle",
-    "Koutaku",
-    "mathbb",
-    "pageviews",
-    "Readwise",
-    "Riccati",
-    "Simulink",
-    "SMFC",
-    "Youkoutaku",
-    "Zotero"
-  ],
-  "explorer.confirmDelete": false,
-  "git.enableSmartCommit": true,
-  "git.autofetch": true,
-  "explorer.confirmDragAndDrop": false,
-  "git.confirmSync": false,
-  "editor.largeFileOptimizations": false,
+    // Terminal settings
+    "terminal.integrated.commandsToSkipShell": ["matlab.interrupt"],
 
-  "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // Git settings
+    "git.ignoreMissingGitWarning": true,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.openRepositoryInParentFolders": "never",
+
+    // Code Runner extension settings
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": true,
+
+    // Markdown Preview Enhanced extension settings
+    "markdown-preview-enhanced.alwaysShowBacklinksInPreview": true,
+
+    // Python extension settings
+    "python.condaPath": "",
+    "python.defaultInterpreterPath": "",
+    "python.autoComplete.addBrackets": true,
+    "python.autoComplete.extraPaths": [""],
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.extraPaths": [""],
+    "python.analysis.completeFunctionParens": true,
+    "python.languageServer": "Pylance",
+    "jupyter.kernels.excludePythonEnvironments": [""],
+    "vsintellicode.modelDownloadPath": "",
+    "vsintellicode.features.python.deepLearning": "enabled",
+
+    // AI suggestion settings
+    "tabnine.experimentalAutoImports": true,
+    "vscode-edge-devtools.webhint": false,
+
+    // Remote settings
+    "remote.autoForwardPortsSource": "hybrid",
+
+    // CMake settings
+    "cmake.configureOnOpen": true,
+
+    // Todo Tree extension settings
+    "todo-tree.regex.regex": "(\\{\\{--|//|#|%|<!--|;|/\\*|^|^[ \\t]*(-|\\d+.))\\s*($TAGS)",
+    "todo-tree.highlights.defaultHighlight": {
+      "icon": "alert",
+      "type": "text-and-comment",
+      "foreground": "#000000",
+      "background": "#FFFFFF",
+      "opacity": 50,
+      "iconColour": "#6495ED",
+      "gutterIcon": true
+    },
+    "todo-tree.highlights.customHighlight": {
+      "TODO": {
+        "icon": "checkbox",
+        "foreground": "#000000",
+        "background": "#FFFF00",
+        "iconColor": "#FFFF00"
+      },
+      "NOTE": {
+        "icon": "note",
+        "foreground": "#FFFFFF",
+        "background": "#6495ED",
+        "iconColor": "#6495ED"
+      },
+      "USEFUL": {
+        "icon": "verified",
+        "foreground": "#000000",
+        "background": "#66CDAA",
+        "iconColor": "#66CDAA"
+      },
+      "COMMENT": {
+        "icon": "comment",
+        "foreground": "#FFFFFF",
+        "background": "#808080",
+        "iconColor": "#FFFFFF"
+      },
+      "LEARN": {
+        "icon": "bookmark",
+        "foreground": "#FFFFFF",
+        "background": "#FF69B4",
+        "iconColor": "#FF69B4"
+      },
+      "FIXME": {
+        "icon": "tools",
+        "foreground": "#DC143C",
+        "background": "#DEB887",
+        "iconColor": "#DEB887"
+      },
+      "RECHECK": {
+        "icon": "codescan",
+        "foreground": "#FFFFFF",
+        "background": "#D2691E",
+        "iconColor": "#D2691E"
+      },
+      "INCOMPLETE": {
+        "icon": "alert",
+        "foreground": "#FFFFFF",
+        "background": "#C71585",
+        "iconColor": "#C71585"
+      },
+      "BUG": {
+        "icon": "bug",
+        "foreground": "#FFFFFF",
+        "background": "#DC143C",
+        "iconColor": "#DC143C"
+      },
+      "SEE NOTES": {
+        "icon": "note",
+        "foreground": "#FFFFFF",
+        "background": "#008080",
+        "iconColor": "#008080"
+      },
+      "POST": {
+        "icon": "share",
+        "foreground": "#FFFFFF",
+        "background": "#008000",
+        "iconColor": "#008000"
+      },
+      "[ ]": {
+        "icon": "check",
+        "foreground": "#000000",
+        "background": "#FFFFFF",
+        "iconColor": "#FFFF00"
+      },
+      "[x]": {
+        "icon": "check",
+        "foreground": "#FFFFFF",
+        "background": "#008000",
+        "iconColor": "#008000"
+      }
+    },
+    "todo-tree.general.tags": [
+      "BUG",
+      "SEE NOTES",
+      "HACK",
+      "FIXME",
+      "RECHECK",
+      "INCOMPLETE",
+      "TODO",
+      "NOTE",
+      "POST",
+      "USEFUL",
+      "LEARN",
+      "COMMENT",
+      "[ ]",
+      "[x]"
+    ],
+
+    // Japanese Proofreading extension settings
+    "japanese-proofreading.textlint.ピリオドとカンマの使用（全角）": false,
+    "japanese-proofreading.textlint.ピリオドとカンマの使用（半角）": false,
+    "japanese-proofreading.textlint.丸かっこ（）": false,
+    "japanese-proofreading.textlint.外来語カタカナ表記": false,
+    "japanese-proofreading.textlint.大かっこ［］": false,
+    "japanese-proofreading.textlint.ゼロ幅スペース": false,
+    "japanese-proofreading.textlint.ハイフン(-)": false,
+    "japanese-proofreading.textlint.ダッシュ(-)": false,
+
+    // MATLAB extension settings
+    "MATLAB.installPath": "C:\\Program Files\\MATLAB\\R2024a",
+
+    // Spell checker settings
+    "cSpell.userWords": [
+      "bmatrix",
+      "fprintf",
+      "Guang",
+      "Guangze",
+      "Ibaraki",
+      "infty",
+      "Kaggle",
+      "Koutaku",
+      "mathbb",
+      "pageviews",
+      "Readwise",
+      "Riccati",
+      "Simulink",
+      "SMFC",
+      "Youkoutaku",
+      "Zotero"
+    ],
+
+    // Explorer settings
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+
+    // Default formatters for specific languages
+    "[markdown]": {
+      "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
   }
 }
