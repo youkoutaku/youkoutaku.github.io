@@ -84,11 +84,7 @@ Mechanical Systems Engineering, [Ibaraki University](https://www.ibaraki.ac.jp).
 
 ---
 ## 📬 Contact
-- [Github](https://github.com/youkoutaku)
-- [X](https://x.com/You_Koutaku)
 - [Linkedin](https://www.linkedin.com/in/youkoutaku)
-- [Facebook](https://www.facebook.com/Youkoutaku/)
-- [Instagram](https://www.instagram.com/youkoutaku/)
 - [知乎](https://www.zhihu.com/people/a-a-47-74-28)
 
 ---
