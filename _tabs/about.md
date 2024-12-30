@@ -7,10 +7,9 @@ order: 4
 ## This is [Guang-Ze Yang](https://youkoutaku.github.io/)
 EN: Grayson Young / JP: 楊 広沢 (よう こうたく, You Koutaku) / 杨 广泽 (Yang Guang-Ze)
 
-I'm currently learning MPC and Nonlinear programming. (2024/12)
+A master's student at Mechanical Systems Engineering, Ibaraki University.
 
-### Master student
-Mechanical Systems Engineering, [Ibaraki University](https://www.ibaraki.ac.jp).
+I'm currently learning MPC and Nonlinear programming. (2024/12)
 
 ## Education
 - 2024/04-(2026/03): Ibaraki University (Master of Engineering)
