@@ -8,7 +8,7 @@ math: true
 #image:
 #  path:
 #  alt:
-#pin: 
+pin: true
 ---
 
 ## ToDo List (2024-12-25)
