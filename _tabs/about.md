@@ -28,10 +28,8 @@ I'm currently learning MPC and Nonlinear programming. (2024/12)
 ### [Coding Activity](https://wakatime.com/@YouKoutaku)
 
 <a href="https://wakatime.com/@YouKoutaku">
-  <img align="Youkoutaku's WakaTime stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=Youkoutaku&theme=radical&custom_title=Youkoutaku's_Coding_Stats&disable_animations=1&hide=other,Text" alt="Youkoutaku's WakaTime stats"/>
+  <img align="Harlok's WakaTime stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=Youkoutaku&theme=radical&custom_title=Youkoutaku's_Coding_Stats&hide=Markdown,other,Text&layout=compact&show_icons=true"/>
 </a>
-
-<figure><embed src="https://wakatime.com/share/@Youkoutaku/7f82bcd3-0198-4e74-82ac-545c391a8a8a.svg"></figure>
 
 ---
 
