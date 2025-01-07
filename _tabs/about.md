@@ -31,7 +31,7 @@ I'm currently learning MPC and Nonlinear programming. (2024/12)
   <a href="https://wakatime.com/@YouKoutaku">
     <img align="Youkoutaku's WakaTime stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=Youkoutaku&theme=radical&hide=Markdown,other,Text&layout=compact&show_icons=true" alt="Youkoutaku's WakaTime stats"/>
   </a>
-<p>
+<p/>
 
 ---
 
