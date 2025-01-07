@@ -29,7 +29,7 @@ I'm currently learning MPC and Nonlinear programming. (2024/12)
 
 <p>
   <a href="https://wakatime.com/@YouKoutaku">
-    <img align="Youkoutaku's WakaTime stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=Youkoutaku&theme=radical&custom_title=Youkoutaku's_Coding_Stats&hide=Markdown,other,Text&layout=compact&show_icons=true"/>
+    <img align="Youkoutaku's WakaTime stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=Youkoutaku&theme=radical&hide=Markdown,other,Text&layout=compact&show_icons=true"/>
   </a>
 <p>
 
