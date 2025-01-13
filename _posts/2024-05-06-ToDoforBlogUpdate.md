@@ -13,7 +13,7 @@ pin: true
 
 ## ToDo List (2024-12-25)
 ### Journal
-- [ ] Internship summary
+- [x] Internship summary
 
 ### Learning
 - [ ] MPC
