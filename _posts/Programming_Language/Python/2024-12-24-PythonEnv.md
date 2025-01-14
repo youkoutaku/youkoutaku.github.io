@@ -59,6 +59,13 @@ conda update conda
 conda update anaconda
 ```
 
+####  Disable Automatic Activation
+To prevent Conda from being automatically activated as the default terminal environment when you open a terminal, you can run the following command in terminal:
+
+```bash
+conda config --set auto_activate_base false
+```
+
 ### Environment Management
 ```bash
 # Create new environment

@@ -35,7 +35,7 @@ pin: true
 
 ### Project
 - [x] My C
-- [x] [Mobile Robot] 
+- [x] [Mobile Robot]
 - [x] [OpenGL Manipulator]
 - [ ] Robomaster TT drone
 
