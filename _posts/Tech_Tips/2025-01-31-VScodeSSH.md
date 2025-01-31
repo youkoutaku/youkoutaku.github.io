@@ -6,7 +6,7 @@ tags: [VSCode, SSH, Raspberry Pi]
 author: Youkoutaku
 math: true
 image:
-  path: https://pbs.twimg.com/media/GimzZM8bYAAuGe_?format=jpg&name=medium
+  path: https://preview.redd.it/i-just-set-up-visual-studio-code-for-remote-development-on-v0-ieh7oacw9bge1.png?width=640&crop=smart&auto=webp&s=93192dc0f9df66059316a00358c91303cde7c64a
   alt: VScode on Raspberry
 ---
 
@@ -101,4 +101,4 @@ Host raspberrypi
 
 ### 6. **Start Editing on Raspberry Pi**
 
-![](https://pbs.twimg.com/media/GimzZM8bYAAuGe_?format=jpg&name=medium)
+![](https://preview.redd.it/i-just-set-up-visual-studio-code-for-remote-development-on-v0-ieh7oacw9bge1.png?width=640&crop=smart&auto=webp&s=93192dc0f9df66059316a00358c91303cde7c64a)
