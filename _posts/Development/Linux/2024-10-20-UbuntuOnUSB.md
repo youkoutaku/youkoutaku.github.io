@@ -2,7 +2,7 @@
 title: Install Ubuntu on a USB drive
 date: 2024-10-20 11:06:03 +0900
 categories:
-  - Ubuntu
+  - Linux
 tags:
   - Linux
   - Ubuntu
