@@ -2,8 +2,9 @@
 title: Ubuntu Setup
 date: 2023-12-03 15:06:03 +0900
 categories:
-  - Ubuntu
+  - Linux
 tags:
+  - Linux
   - Pycharm
   - ROS
   - CUDA
@@ -17,23 +18,52 @@ mermaid: true
 
 ## 0. Delete Ubuntu
 
-- Run Diskpart
-	- win+R: `diskpart`
-- Check disk 
-	- `list disk`
-- Select the disk saved system files of ubuntu 
-	- `select disk disk_number`
-- Check partition
-	- `list  partition`
-- Select the system partition
-	- `select partition 1`
-- `assign letter=p`
-- Run notepad as administrator
-	- Go to the disk p and delete the ubuntu folder
-- Back to the Diskpart
-	- `romove letter=p`
-- Run Disk manager
-	- delete the disk volume of ubuntu storage.
+[双系统删除ubuntu](https://blog.csdn.net/ZChen1996/article/details/115436436?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165694741616782184622934%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=165694741616782184622934&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-2-115436436-null-null.142%5Ev30%5Econtrol,185%5Ev2%5Econtrol&utm_term=%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%8D%B8%E8%BD%BDubuntu&spm=1018.2226.3001.4187)
+
+### 0.1 Open Diskpart
+- win+R: `diskpart`
+
+### 0.2 Commands in Diskpart
+- Check available disks:
+```sh
+  list disk
+```
+
+- Select the disk where Ubuntu is installed (e.g., Disk 1):
+```sh
+select disk <disk_number>
+```
+
+- Check partitions on the selected disk:
+```sh
+list partition
+```
+
+- Select the partitio(System)n containing Ubuntu system files (e.g., Partition 1):
+```sh
+select partition 1
+```
+
+- Assign a drive letter (P:):
+```sh
+assign letter=P
+```
+
+### 0.3  Delete Ubuntu System Files
+- Run Notepad as Administrator.
+- Navigate to `P:` in File Explorer and delete the Ubuntu folder in EFI folder.
+
+### 0.4. Remove Assigned Drive Letter
+- Return to Diskpart and run the following command:
+```sh
+remove letter=P
+```
+
+### 0.5 Delete Ubuntu Partition Using Disk Management
+- Open `Disk Management` (`Win + X` → `Disk Management`).
+- Locate the partition containing Ubuntu.
+- Right-click and select "Delete Volume".
+- (**Optional**) Extend another partition into the unallocated space.
 
 ## 1. Install Ubuntu
 - [Rufus](https://github.com/pbatard/rufus)
