@@ -11,13 +11,24 @@ math: true
 pin: true
 ---
 
+## ToDo List (2025-02-24)
+### Journal
+- [ ] Spring Internship
+- [ ] Striving for something is a kind of talent
+- [ ] How to make a lot of money
+
+### Learning
+- [ ] Nonlinear Programming
+
+### Project
+- [ ] MicroROS-Car-Pi5
+
 ## ToDo List (2024-12-25)
 ### Journal
-- [x] Internship summary
+- [x] Winter Internship
 
 ### Learning
 - [ ] MPC
-- [ ] Nonlinear Programming
 
 ### Project
 - [ ] RAG for LLM
@@ -28,7 +39,7 @@ pin: true
 ### Journal
 
 - [x] SICE FES 2024
-- [x] Internship in Omron
+- [x] Summer Internship
 - [ ] Trip to Kouchi
 - [ ] Trip to Kyoto
 
