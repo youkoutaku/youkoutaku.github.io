@@ -55,23 +55,6 @@ I'm currently learning MPC and Nonlinear programming. (2024/12)
   - 🎮 Video games(Zelda, Fire Emblem, Monster Hunter, FF7, P5, ...)
   - 🎧 Music (J-pop, R&B, ...)
 
-### 🧑‍💻 Software & App & Website
-
-|                  Software                   |                  Comment                   |
-| :-----------------------------------------: | :----------------------------------------: |
-|       [ChatGPT](https://openai.com/)        |              What can I say ?              |
-|      [Readwise](https://readwise.io/)       |     Revisit ebook & article highlights     |
-|  [VScode](https://code.visualstudio.com/)   |              The best editor               |
-|      [Notion](https://www.notion.so/)       |    The best notes & personal management    |
-|      [Obsidian](https://obsidian.md/)       |          The best markdown editor          |
-|      [Zotero](https://www.zotero.org/)      |     The best paper reader & management     |
-|    [Calibre](https://calibre-ebook.com/)    |        A eBook reader & management         |
-|    [Overleaf](https://www.overleaf.com/)    |                Online LaTex                |
-|  [Perplexity](https://www.perplexity.ai/)   |         Better than Google search          |
-| [AlternativeTo](https://alternativeto.net/) | A Website to find better apps and services |
-|      [wakaTime](https://wakatime.com/)      |         Code stats for developers          |
-|      [Raindrop](https://raindrop.io/)       |        A great bookmark management         |
-
 ## More about me
 - 📱 [My Device](https://youkoutaku.notion.site/bd8f65544ac242c38f88871f73af8c1e?v=a39853e6d8b9473c8156a0df89248054)
 - 🎬 [My Video](https://youkoutaku.notion.site/Video-7bd889568add4d6fb952fe4973c715da?pvs=4)
