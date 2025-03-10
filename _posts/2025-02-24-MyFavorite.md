@@ -12,7 +12,7 @@ pin: true
 #  alt: 
 ---
 
-I created this blog to save and quickly access my favorite websites and software. Here’s a categorized list of useful sites!
+I created this blog to save and quickly access my favorite websites and software. Here’s a categorized list of useful sites and tools that I frequently use and recommend.
 
 ## 🤖 Chat AI
 
@@ -97,7 +97,8 @@ I created this blog to save and quickly access my favorite websites and software
 
 ---
 
-## YouTube Channels
+## 📺 YouTube Channels
+
 - [3Blue1Brown](https://www.youtube.com/c/3blue1brown) — Math and science videos.
 - [Veritasium](https://www.youtube.com/user/1veritasium) — Science and engineering videos.
 - [Lex Fridman](https://www.youtube.com/c/lexfridman) — AI researcher and podcast host.
