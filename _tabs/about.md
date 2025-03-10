@@ -12,8 +12,8 @@ A master's student at Mechanical Systems Engineering, Ibaraki University.
 I'm currently learning MPC and Nonlinear programming. (2024/12)
 
 ## Education
-- 2024/04-(2026/03): Ibaraki University (Master of Engineering)
-- 2020/04-2024/03: Ibaraki University (Bachelor of Engineering)
+- 2024/04 - 2026/03: Ibaraki University (Master of Engineering)
+- 2020/04 - 2024/03: Ibaraki University (Bachelor of Engineering)
 
 ## Research Interests
 - Path planning and motion control
@@ -25,7 +25,7 @@ I'm currently learning MPC and Nonlinear programming. (2024/12)
 
 ---
 
-## [Coding Activity](https://wakatime.com/@YouKoutaku)
+## [Coding Activity](https://wakatime.com/@YouKoutaku) (SINCE OCT 14 2024)
 
 <a href="https://wakatime.com/@YouKoutaku">
     <img align="Youkoutaku's WakaTime stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=Youkoutaku&theme=radical&hide=Markdown,other,Text&layout=compact&show_icons=true" alt="Youkoutaku's WakaTime stats"/>
