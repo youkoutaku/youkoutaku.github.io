@@ -74,7 +74,7 @@ $$
 \frac{\partial J}{\partial x}=0$$
 
 $$
-\implies Qx+R=0\implies x^*=-Q^{-1}R$$
+\implies Qx+R=0\implies x^\ast=-Q^{-1}R$$
 
 $$
 \frac{\partial^2 J}{\partial^2 x}=Q>0$$
@@ -109,7 +109,7 @@ x\\\lambda
 If there is the inverse matrix, we can calculate the results as
 
 $$\begin{bmatrix}
-x^*\\ \lambda^*
+x^\ast\\ \lambda^\ast
 \end{bmatrix}=\begin{bmatrix}
 Q & A_{eq}^T\\ A_{eq} & 0
 \end{bmatrix}^{-1}\begin{bmatrix}

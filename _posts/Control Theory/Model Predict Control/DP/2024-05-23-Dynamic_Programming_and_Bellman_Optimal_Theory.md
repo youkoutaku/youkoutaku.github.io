@@ -142,17 +142,17 @@ $$
 u_{[5_4\to6]}= \frac{x_{2_{[6]}}^{2}-x_{2_{[5_4]}}^{2}}{2\Delta x_{1}}=\frac{0-9}{4}=- \frac{9}{4}
 $$
 
-Then, We obtain the cost ot go $J^*$, means the minimum cost from a node to end node.
+Then, We obtain the cost ot go $J^\ast$, means the minimum cost from a node to end node.
 
 $$\begin{aligned}
-J_{[5_1\to6]}^*&=\Delta t_{[5_1\to6]}=\infty \\ J_{[5_2\to6]}^*&=\Delta t_{[5_2\to6]}=4\\
+J_{[5_1\to6]}^\ast&=\Delta t_{[5_1\to6]}=\infty \\ J_{[5_2\to6]}^\ast&=\Delta t_{[5_2\to6]}=4\\
 J_{[5_3\to6]}^{*}&=\Delta t_{[5_3\to6]}=2\\
 J_{[5_4\to6]}^{*}&=\Delta t_{[5_4\to6]}=\frac{4}{3}
 \end{aligned}$$
 
 $$\begin{aligned}
-u_{[5_1]}^*&=u_{[5_1\to6]}=0 \\
-u_{[5_2]}^*&=u_{[5_2\to6]}=-1/4\\
+u_{[5_1]}^\ast&=u_{[5_1\to6]}=0 \\
+u_{[5_2]}^\ast&=u_{[5_2\to6]}=-1/4\\
 u_{[5_3]}^{*}&=u_{[5_3\to6]}=-1\\
 u_{[5_4]}^{*}&=u_{[5_4\to6]}=-9/4
 \end{aligned}$$
@@ -194,18 +194,18 @@ However, the input $$u_{ [4_1\to 5_4] }>2$$ is not satisfied constraint conditio
 Therefor, the minimum cost to go for $$x_{[4_1]}$$ is 
 
 $$
-J^*_{[4_1\to5_3\to6]}=\Delta t_{4_1\to5_3}+J^*_{[5_3\to6]}=4$$
+J^\ast_{[4_1\to5_3\to6]}=\Delta t_{4_1\to5_3}+J^\ast_{[5_3\to6]}=4$$
 
 The optimal control is
 
 $$
-u^*_{[4_1]}=u_{[4_1\to5_3]}=1$$
+u^\ast_{[4_1]}=u_{[4_1\to5_3]}=1$$
 
 ![](src/MPC/drone41.png)
 
 > We calculated 4 paths for the $$x_{[4_{1}]}$$ , But only one optimal result $$\Delta t_{[4_{1}\to5]}$$ is retained to the node $$x_{[4_{1}]}$$ which be used by the state for $k<4$.
 
-Same as above , consider the constraint condition, we can calculate the cost to go $J^*$ for the others node.
+Same as above , consider the constraint condition, we can calculate the cost to go $J^\ast$ for the others node.
 
 **The table of cost to go**:
 

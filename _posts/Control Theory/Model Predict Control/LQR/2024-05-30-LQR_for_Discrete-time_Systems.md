@@ -50,7 +50,7 @@ $$J_{N\to N}(x_{[N]})=\frac{1}{2}x_{[N]}^TSx_{[N]}$$
 
 And it also is the optimal cost for $N\to N$. 
 
-$$J_{N\to N}^*(x_{[N]})=\frac{1}{2}x_{[N]}^TP_{[0]}x_{[N]}$$
+$$J_{N\to N}^\ast(x_{[N]})=\frac{1}{2}x_{[N]}^TP_{[0]}x_{[N]}$$
 
 >Define $P_{[0]}\triangleq S$. 
 
@@ -99,7 +99,7 @@ $$B_{[N-1]}^{T}P_{[0]}\left[A_{[N-1]}x_{[N-1]}+B_{[N-1]}u_{[N-1]}\right]+R_{[N-1
 
 Then, we can obtain the following optimal control input 
 
-$$u_{[N-1]}^*=-F_{[N-1]}x_{[N-1]}$$
+$$u_{[N-1]}^\ast=-F_{[N-1]}x_{[N-1]}$$
 
 where
 
@@ -113,13 +113,13 @@ $$\begin{aligned}
 &=B_{[N-1]}^TP_{[0]}B_{[N-1]}+R_{[N-1]}>0
 \end{aligned}$$
 
-Therefor, The $J_{N-1\to N}\left(x_{[N-1]},u_{[N-1]}\right)$ has a minimum for $$u_{[N-1]}=u^*_{[N-1]}$$
+Therefor, The $J_{N-1\to N}\left(x_{[N-1]},u_{[N-1]}\right)$ has a minimum for $$u_{[N-1]}=u^\ast_{[N-1]}$$
 .
 
 The optimal cost to go:
 
 $$\begin{aligned}
-J_{N-1\to N}^*(x_{[N-1]})=&\frac{1}{2}[A_{[N-1]}x_{[N-1]}-B_{[N-1]}F_{[N-1]}x_{[N-1]}]^TP_{[0]}[A_{[N-1]}x_{[N-1]}-B_{[N-1]}F_{[N-1]}x_{[N-1]}]\\&+\frac{1}{2}\Big[x_{[N-1]}^{T}Q_{[N-1]}x_{[N-1]}+ (-F_{[N-1]}x_{[N-1]})^TR_{[N-1]}(-F_{[N-1]}x_{[N-1]})\Big]
+J_{N-1\to N}^\ast(x_{[N-1]})=&\frac{1}{2}[A_{[N-1]}x_{[N-1]}-B_{[N-1]}F_{[N-1]}x_{[N-1]}]^TP_{[0]}[A_{[N-1]}x_{[N-1]}-B_{[N-1]}F_{[N-1]}x_{[N-1]}]\\&+\frac{1}{2}\Big[x_{[N-1]}^{T}Q_{[N-1]}x_{[N-1]}+ (-F_{[N-1]}x_{[N-1]})^TR_{[N-1]}(-F_{[N-1]}x_{[N-1]})\Big]
 \end{aligned}$$
 
 $\implies$
@@ -164,7 +164,7 @@ $$B_{[N-2]}^{T}P_{[1]}\left[A_{[N-2]}x_{[N-2]}+B_{[N-2]}u_{[N-2]}\right]+R_{[N-2
 
 Therefor,  the optimal control input is
 
-$$u^*_{[N-2]}=-F_{[N-2]}x_{[N-2]}$$
+$$u^\ast_{[N-2]}=-F_{[N-2]}x_{[N-2]}$$
 
 where
 
@@ -184,7 +184,7 @@ $$P_{[2]}\triangleq (A_{[N-2]}-B_{[N-2]}F_{[N-2]})^TP_{[1]}(A_{[N-2]}-B_{[N-2]}F
 The optimal control input:
 
 
-$$u^*_{[N-k]}=-F_{[N-k]}x_{[N-k]}$$
+$$u^\ast_{[N-k]}=-F_{[N-k]}x_{[N-k]}$$
 
 where
 
@@ -211,9 +211,9 @@ $$N\to\infty\implies F_{[N-k]}\to F$$
 
 Therefor, the solving for optimal control can off-line. 
 
-$$P_{[0]}=S\implies P_{[1]}, u^*_{[N-1]}\implies \cdots P_{[k]}, u^*_{[N-k]} \cdots \implies  P_{[N]}, u^*_{[0]}$$
+$$P_{[0]}=S\implies P_{[1]}, u^\ast_{[N-1]}\implies \cdots P_{[k]}, u^\ast_{[N-k]} \cdots \implies  P_{[N]}, u^\ast_{[0]}$$
 
-In real-time system, we use the optimal control input $$u^*_{[0]},\cdots,u^*_{[N-k]},\cdots,u^*_{[N-1]}$$ for the system states $$x_{[0]}\implies \cdots x_{[N-k]} \cdots \implies x_{[N]}$$.
+In real-time system, we use the optimal control input $$u^\ast_{[0]},\cdots,u^\ast_{[N-k]},\cdots,u^\ast_{[N-1]}$$ for the system states $$x_{[0]}\implies \cdots x_{[N-k]} \cdots \implies x_{[N]}$$.
 
 ---
 ## Code

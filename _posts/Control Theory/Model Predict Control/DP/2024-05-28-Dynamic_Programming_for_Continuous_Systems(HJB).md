@@ -36,16 +36,16 @@ $$J_{t\to t_f}(x(t),t,u(r))=h(x(t_f),t_f)+\int^{t_f}_{t}g(x(r),u(r),r)dr,\;(t\le
 - $g():$ the running cost
 
 ## Control Task
-Find the optimal input $$u(r)^*,\; r\in[t,t_f]$$ that results minimum performance function
+Find the optimal input $u(r)^\ast,\; r\in[t,t_f]$ that results minimum performance function
 
-$$J^*_{t\to t_f}(x(t),t)=\min_{u(r)}\left\{h(x(t_f),t_f)+\int^{t_f}_{t}g(x(r),u(r),r)dr\right\},t\le r\le t_f$$
+$$J^\ast_{t\to t_f}(x(t),t)=\min_{u(r)}\left\{h(x(t_f),t_f)+\int^{t_f}_{t}g(x(r),u(r),r)dr\right\},t\le r\le t_f$$
 
 ---
 ## Backward multi stages
 Divide time $[t,t_f]$ into $[t,t+\Delta t]$ and $[t+\Delta t,t_f]$.
 
 $$\begin{aligned}
-J^*_{t\to t_f}(x(t),t)&=\min_{u(r)}\Big\{h(x(t_f),t_f)+\int^{t_f}_{t+\Delta t}g(x(r),u(r),r)dr\\ & \int^{t+\Delta t}_{t}g(x(r),u(r),r)dr\Big\},\;t\le r\le t_f
+J^\ast_{t\to t_f}(x(t),t)&=\min_{u(r)}\Big\{h(x(t_f),t_f)+\int^{t_f}_{t+\Delta t}g(x(r),u(r),r)dr\\ & \int^{t+\Delta t}_{t}g(x(r),u(r),r)dr\Big\},\;t\le r\le t_f
 \end{aligned}
 $$
 
@@ -59,25 +59,25 @@ $$
 
 - $J_{t+\Delta t\to t_f}:$ the performance function from $t+\Delta t$ to $t_f$.
 
-For the $J_{t+\Delta t\to t_f}$, by the Bellman optimal theory , $$J^*_{t+\Delta t\to t_f}\left(x(t+\Delta t) ,t+\Delta t\right)$$ is the optimal cost for $$J_{t+\Delta t\to t_f}(x(t),t,u(r))$$. Then, we can obtain following equation
+For the $J_{t+\Delta t\to t_f}$, by the Bellman optimal theory , $$J^\ast_{t+\Delta t\to t_f}\left(x(t+\Delta t) ,t+\Delta t\right)$$ is the optimal cost for $$J_{t+\Delta t\to t_f}(x(t),t,u(r))$$. Then, we can obtain following equation
 
 $$
 \begin{aligned}
-J^*_{t\to t_f}(x(t),t)=\min_{u(r)}\Big\{J^*_{t+\Delta t\to t_f}\left(x(t+\Delta t),t+\Delta t\right) + \\ \int^{t+\Delta t}_{t}g(x(r),u(r),r)dr\Big\},\;t \le r\le t+\Delta t
+J^\ast_{t\to t_f}(x(t),t)=\min_{u(r)}\Big\{J^\ast_{t+\Delta t\to t_f}\left(x(t+\Delta t),t+\Delta t\right) + \\ \int^{t+\Delta t}_{t}g(x(r),u(r),r)dr\Big\},\;t \le r\le t+\Delta t
 \end{aligned}$$
 
 where it contains two terms, the optimal cost to go for  $r\in[t+\Delta t, t_f]$ and the cost for $[t,t+\Delta t]$.
 
-Assuming that the second-order partial derivative of $$J^*_{t+\Delta t\to t_f}\left(x(t+\Delta t),t+\Delta t\right)$$ exists and is bounded,  the Taylor series expansion at $(x(t),t)$ as
+Assuming that the second-order partial derivative of $$J^\ast_{t+\Delta t\to t_f}\left(x(t+\Delta t),t+\Delta t\right)$$ exists and is bounded,  the Taylor series expansion at $(x(t),t)$ as
 
 $$\begin{aligned}
-J^*_{t+\Delta t\to t_f}\left(x(t+\Delta t),t+\Delta t\right)&=J^*_{t\to t_f}(x(t),t)+\left[\frac{\partial J^*_{t+\Delta t\to t_f}(x(t),t)}{\partial t}\right]\Delta t\\ &+\left[\frac{\partial J^*_{t+\Delta t\to t_f}(x(t),t)}{\partial x}\right]^T\left(x(t+\Delta t)-x(t)\right)\\&+\text{Higher-order terms}
+J^\ast_{t+\Delta t\to t_f}\left(x(t+\Delta t),t+\Delta t\right)&=J^\ast_{t\to t_f}(x(t),t)+\left[\frac{\partial J^\ast_{t+\Delta t\to t_f}(x(t),t)}{\partial t}\right]\Delta t\\ &+\left[\frac{\partial J^\ast_{t+\Delta t\to t_f}(x(t),t)}{\partial x}\right]^T\left(x(t+\Delta t)-x(t)\right)\\&+\text{Higher-order terms}
 \end{aligned}
 $$
 
 >Notes 
 >
->$$\frac{\partial J^*_{t+\Delta t\to t_f}\left(x(t),t\right)}{\partial x}=\begin{bmatrix}\frac{\partial J_{t+\Delta t\to t_f}^{*}(x_{(t)},t)}{\partial x_{1}}\\\vdots\\\frac{\partial J_{t+\Delta t\to t_f}^{*}\left(x(t),t\right)}{\partial x_{n}}\end{bmatrix}$$
+>$$\frac{\partial J^\ast_{t+\Delta t\to t_f}\left(x(t),t\right)}{\partial x}=\begin{bmatrix}\frac{\partial J_{t+\Delta t\to t_f}^{*}(x_{(t)},t)}{\partial x_{1}}\\\vdots\\\frac{\partial J_{t+\Delta t\to t_f}^{*}\left(x(t),t\right)}{\partial x_{n}}\end{bmatrix}$$
 >
 >and
 >
@@ -100,13 +100,13 @@ $$
 $$
 0=J_{t}^{*}(x_{(t)},t)+\min_{u_{(t)}}\Big\{J_{x}^{*}\left(x_{(t)},t\right)^Tf(x_{(t)},u_{(t)},t)+g\left(x_{(t)},u_{(t)},t\right)\Big\}$$
 
-> Notes that $$J^*_{t_f\to t_f}(x_{(t_f)},t_f)=h(x_{(t_f)},t_f)$$ for $t=t_f$.
+> Notes that $$J^\ast_{t_f\to t_f}(x_{(t_f)},t_f)=h(x_{(t_f)},t_f)$$ for $t=t_f$.
 
 Then, we obtain the **Hamiltonian-Jacobi-Bellman equation** called **HJB** equation as 
 
 $$\begin{cases}
 0=J_{t}^{*}(x_{(t)},t)+\min_{u_{(t)}}\Big\{J_{x}^{*}\left(x_{(t)},t\right)^Tf(x_{(t)},u_{(t)},t)+g\left(x_{(t)},u_{(t)},t\right)\Big\}\\
-J^*_{t_f\to t_f}(x_{(t_f)},t_f)=h(x_{(t_f)},t_f)
+J^\ast_{t_f\to t_f}(x_{(t_f)},t_f)=h(x_{(t_f)},t_f)
 \end{cases}
 $$
 
@@ -115,7 +115,7 @@ The solution of the equation is the result of the optimal control strategy. And 
 $$
 \mathcal{H}(x_{(t)},u_{(t)},J_{x}^{*},t)\triangleq J_{x}^{*}(x_{(t)},t)^Tf(x_{(t)},u_{(t)},t)+g(x_{(t)},u_{(t)},t)$$
 
-For the optimal control $$u^*_{(t)}$$, the Hamiltonian is minimum as 
+For the optimal control $$u^\ast_{(t)}$$, the Hamiltonian is minimum as 
 
 $$\mathcal{H}(x_{(t)},u^{*}(x_{(t)},J_{x}^{*},t),J_{x}^{*},t)=\min_{u_{(t)}}\mathcal{H}(x_{(t)},u_{(t)},J_{x}^{*},t)$$
 

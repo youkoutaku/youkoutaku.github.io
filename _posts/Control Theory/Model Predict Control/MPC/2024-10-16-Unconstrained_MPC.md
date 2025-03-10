@@ -78,8 +78,8 @@ B&0_{n\times p}&\dots&0_{n\times p}\\AB&B&\dots&0_{n\times p}\\ \vdots&\vdots &\
 
 The task is to find the optimal control input sequence:
 
-$$U^*_{[k]}:=\begin{bmatrix}
-u^*_{[k\mid k]}\\u^*_{[k+1\mid k]}\\\vdots\\u^*_{[k+h-1\mid k]}
+$$U^\ast_{[k]}:=\begin{bmatrix}
+u^\ast_{[k\mid k]}\\u^\ast_{[k+1\mid k]}\\\vdots\\u^\ast_{[k+h-1\mid k]}
 \end{bmatrix}\in\mathbb{R}^{ph}$$
 
 which minimizes the performance function $J_k$ .
@@ -153,9 +153,9 @@ $$C:=\frac{1}{2}x^T_{[k\mid k]}(Q+A_p^TQ_pA_p)x_{[k\mid k]}$$
 
 ### Analytical solution
 
-$$ U_{[k\mid k]}^*=-H^{-1}Fx_{[x\mid x]}$$
+$$ U_{[k\mid k]}^\ast=-H^{-1}Fx_{[x\mid x]}$$
 
-$$ u_{[k\mid k]}^*=-k_{mpc}x_{[x\mid x]}$$
+$$ u_{[k\mid k]}^\ast=-k_{mpc}x_{[x\mid x]}$$
 
 where
 

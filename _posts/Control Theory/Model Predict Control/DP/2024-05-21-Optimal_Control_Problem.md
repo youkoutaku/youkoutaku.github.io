@@ -146,9 +146,9 @@ $J$ is also called **cost function**.
 
 Optimal input:
 
-- $u^*\in\Omega$: input in the set of Admissible Control
+- $u^\ast\in\Omega$: input in the set of Admissible Control
 
-$$u^*=[u[0],u[1],\dots,u[N-1]]\implies  \text{argmin}[J]$$
+$$u^\ast=[u[0],u[1],\dots,u[N-1]]\implies  \text{argmin}[J]$$
 
 #### Weight matrix
 

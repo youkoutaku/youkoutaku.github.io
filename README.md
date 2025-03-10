@@ -56,5 +56,6 @@ chirpy  https://github.com/cotes2020/chirpy-starter.git (push)
 ```markdown
 Remark error:
 $x_{1_2}$
-$x^*$
+$x^*$ → $x^\ast$
 ```
+s

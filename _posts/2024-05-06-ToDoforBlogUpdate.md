@@ -13,7 +13,7 @@ pin: true
 
 ## ToDo List (2025-02-24)
 ### Journal
-- [ ] Spring Internship
+- [x] Spring Internship
 - [ ] Striving for something is a kind of talent
 - [ ] How to make a lot of money
 

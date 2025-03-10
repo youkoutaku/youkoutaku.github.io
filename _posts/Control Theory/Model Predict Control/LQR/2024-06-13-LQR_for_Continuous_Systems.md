@@ -51,16 +51,16 @@ J_{t+\Delta t\to t_f}(x_{(t+\Delta t)},t+\Delta t,u_{(\tau)}) &= h(x_{(t_{f})},t
 \end{aligned}$$
 
 ---
-**Fact**: the optimal cost $J_{t\to t_f}^*\left(x_{(t)}\right)$ is quadratic, as
+**Fact**: the optimal cost $J_{t\to t_f}^\ast\left(x_{(t)}\right)$ is quadratic, as
 
-$$J_{t\to t_f}^*(x_{(t)})=\frac{1}{2}x_{(t)}^TP_{(t)}x_{(t)}$$
+$$J_{t\to t_f}^\ast(x_{(t)})=\frac{1}{2}x_{(t)}^TP_{(t)}x_{(t)}$$
 
 where $P_{(t)}=P_{(t)}^T>0$. 
 
 Then, We can also obtain the cost for $t+\Delta t\to t_f$ as
 
 $$\begin{aligned}
-J^*_{t+\Delta t\to t_f}(x_{(t+\Delta t)})&=\frac{1}{2}x_{(t+\Delta t)}^TP_{(t+\Delta t)}x_{(t+\Delta t)}
+J^\ast_{t+\Delta t\to t_f}(x_{(t+\Delta t)})&=\frac{1}{2}x_{(t+\Delta t)}^TP_{(t+\Delta t)}x_{(t+\Delta t)}
 \\&=\frac{1}{2}\left(x_{(t)}+\Delta t(Ax(t)+Bu(t))\right)^T(P_{(t)}+\Delta t \dot P_{(t)} )\left(x_{(t)}+\Delta t(Ax(t)+Bu(t))\right)
 \end{aligned}$$
 
@@ -74,19 +74,19 @@ $$\begin{aligned}
 Then, we can rewrite the optimal cost for $t\to t_f$ as
 
 $$\begin{aligned}
-	J_{t\to t_f}^*(x_{(t)})&=J_{t\to t+\Delta t}+J^*_{t+\Delta t\to t_f}(x_{(t+\Delta t)})\\&=\frac{1}{2}\left[ x_{(t)}^TP_{(t)}x_{(t)}+\right.\Delta t\left(x_{(t)}^TQ_{(t)}x_{(t)}+u_{(t)}^TR_{(t)}u_{(t)} \right.
+	J_{t\to t_f}^\ast(x_{(t)})&=J_{t\to t+\Delta t}+J^\ast_{t+\Delta t\to t_f}(x_{(t+\Delta t)})\\&=\frac{1}{2}\left[ x_{(t)}^TP_{(t)}x_{(t)}+\right.\Delta t\left(x_{(t)}^TQ_{(t)}x_{(t)}+u_{(t)}^TR_{(t)}u_{(t)} \right.
 	\\&\left.\left. +(Ax_{(t)}+Bu_{(t)})^TP_{(t)}x_{(t)}+x_{(t)}^TP_{(t)}(Ax_{(t)}+Bu_{(t)})+x_{(t)}^TP_{(t)}x_{(t)}\right) \right]
 \end{aligned}$$
 
 To the minimum of cost
-$$\frac{\partial J^*_{t\to t_f}(x_{(t)})}{\partial u_{(t)}}=0$$
+$$\frac{\partial J^\ast_{t\to t_f}(x_{(t)})}{\partial u_{(t)}}=0$$
 , we obtain the equation to get optimal $u_{(t)}$ as 
 
 $$\Delta t \left(u_{(t)}^TR_{(t)}+x_{(t)}^TP_{(t)}B\right)=0$$
 
 Then, we have the optimal input:
 
-$$u^*_{(t)}=-R_{(t)}^{-1}B^TP_{(t)}x_{(t)}$$
+$$u^\ast_{(t)}=-R_{(t)}^{-1}B^TP_{(t)}x_{(t)}$$
 
 The linear state feedback:
 
@@ -97,12 +97,12 @@ $$u(t)=K_{(t)}x_{(t)}, \; K_{(t)}=-R_{(t)}^{-1}B^TP_{(t)}$$
 using the optimal input to the the cost for $t\to t_f$ as 
 
 $$\begin{aligned}
-J^*_{t\to t_f}(x_{(t)})&=\frac{1}{2}x_{(t)}^TP_{(t)}x_{(t)} +\frac{1}{2}\left(x_{(t)}+\Delta t(Ax(t)+Bu^*(t))\right)^T(P_{(t)}+\Delta t \dot P_{(t)} )\left(x_{(t)}+\Delta t(Ax(t)+Bu^*(t))\right)
+J^\ast_{t\to t_f}(x_{(t)})&=\frac{1}{2}x_{(t)}^TP_{(t)}x_{(t)} +\frac{1}{2}\left(x_{(t)}+\Delta t(Ax(t)+Bu^\ast(t))\right)^T(P_{(t)}+\Delta t \dot P_{(t)} )\left(x_{(t)}+\Delta t(Ax(t)+Bu^\ast(t))\right)
 \end{aligned}$$
 
-According to the $$J_{t\to t_f}^*(x_{(t)})=\frac{1}{2}x_{(t)}^TP_{(t)}x_{(t)}$$, we have the following equation:
+According to the $$J_{t\to t_f}^\ast(x_{(t)})=\frac{1}{2}x_{(t)}^TP_{(t)}x_{(t)}$$, we have the following equation:
 
-$$\frac{1}{2}x_{(t)}^TP_{(t)}x_{(t)}=\frac{1}{2}x_{(t)}^TP_{(t)}x_{(t)} +\frac{1}{2}\left(x_{(t)}+\Delta t(Ax(t)+Bu^*(t))\right)^T(P_{(t)}+\Delta t \dot P_{(t)} )\left(x_{(t)}+\Delta t(Ax(t)+Bu^*(t))\right)$$
+$$\frac{1}{2}x_{(t)}^TP_{(t)}x_{(t)}=\frac{1}{2}x_{(t)}^TP_{(t)}x_{(t)} +\frac{1}{2}\left(x_{(t)}+\Delta t(Ax(t)+Bu^\ast(t))\right)^T(P_{(t)}+\Delta t \dot P_{(t)} )\left(x_{(t)}+\Delta t(Ax(t)+Bu^\ast(t))\right)$$
 
 Then, the equation can be simplified as 
 

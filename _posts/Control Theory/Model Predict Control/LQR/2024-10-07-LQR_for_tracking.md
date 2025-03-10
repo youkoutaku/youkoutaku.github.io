@@ -89,7 +89,7 @@ $$J= \frac{1}{2}z_{[N]}^{T}(S^z)z_{[N]} +\frac{1}{2}\sum_{k=0}^{N-1}[z_{[k]}^TQ^
 
 According to LQR Gain ($x \to z$),  the optimal increase of input:
 
-$$\Delta u^*_{[N-k]}=-F_{[N-k]}z_{[N-k]}$$
+$$\Delta u^\ast_{[N-k]}=-F_{[N-k]}z_{[N-k]}$$
 
 where
 
@@ -100,12 +100,12 @@ $$F_{[N-k]}=(B^{T}P_{[k-1]}B+R)^{-1}B^{T}P_{[k-1]}A$$
 
 $$P_{[k]}=(A-BF_{[N-k]})^TP_{[k-1]}(A-BF_{[N-k]})+F_{[N-k]}^TRF_{[N-k]}+Q$$
 
-$$P_{[0]}=S^z\implies P_{[1]}, \Delta u^*_{[N-1]}\implies \cdots P_{[k]}, \Delta u^*_{[N-k]} \cdots \implies  P_{[N]}, \Delta u^*_{[0]}$$
+$$P_{[0]}=S^z\implies P_{[1]}, \Delta u^\ast_{[N-1]}\implies \cdots P_{[k]}, \Delta u^\ast_{[N-k]} \cdots \implies  P_{[N]}, \Delta u^\ast_{[0]}$$
 
 The optimal input is
 
 $$
-u_{[k]}^*=\Delta u^*_{[k]}+u^*_{[k-1]}$$
+u_{[k]}^\ast=\Delta u^\ast_{[k]}+u^\ast_{[k-1]}$$
 
 ---
 ## Simulation
