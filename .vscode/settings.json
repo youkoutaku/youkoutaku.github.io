@@ -1,3 +1,12 @@
 {
-    "ipynb.pasteImagesAsAttachments.enabled": true
+  "ipynb.pasteImagesAsAttachments.enabled": true,
+  "cSpell.words": [
+    "Bilibili",
+    "Colab",
+    "Deepseek",
+    "Eudic",
+    "inoreader",
+    "Quora",
+    "Waka"
+  ]
 }
