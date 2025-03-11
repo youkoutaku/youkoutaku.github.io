@@ -8,9 +8,7 @@ tags:
 author: Youkoutaku
 math: true
 mermaid: true
-image:
-  path: https://upload.wikimedia.org/wikipedia/commons/9/9c/Obsidian_desktop_demo_workflow.jpg
-  alt: Wiki - Obsidian
+image: https://upload.wikimedia.org/wikipedia/commons/9/9c/Obsidian_desktop_demo_workflow.jpg
 ---
 
 ## Sync Obsidian on All Platforms (Windows, Mac, Android, iOS) and Multiple Devices

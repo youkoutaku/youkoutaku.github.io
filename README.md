@@ -2,9 +2,9 @@
 
 ## Workspace Notes
 
-- [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
+- GitHub: [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
 - [Getting Started](https://chirpy.cotes.page/posts/getting-started/)
-- [Writing a New Post](https://chirpy.cotes.page/posts/write-a-new-post/)
+- ❤️ [Writing a New Post](https://chirpy.cotes.page/posts/write-a-new-post/)
 - [Text and Typography](https://chirpy.cotes.page/posts/text-and-typography/#fnref:footnote)
 - [My Note](https://youkoutaku.github.io/posts/Writing/)
 - [Upgrade Guide](https://github.com/cotes2020/jekyll-theme-chirpy/wiki/Upgrade-Guide)
@@ -43,6 +43,12 @@ chirpy  https://github.com/cotes2020/chirpy-starter.git (fetch)
 chirpy  https://github.com/cotes2020/chirpy-starter.git (push)
 ```
 
+### Preview
+
+```
+image: https://image.jpg
+```
+
 ### Images
 
 ```markdown
@@ -58,4 +64,3 @@ Remark error:
 $x_{1_2}$
 $x^*$ → $x^\ast$
 ```
-s
