@@ -10,8 +10,6 @@ mermaid: true
 #pin: 
 #img_path: 
 #image:
-#  path: 
-#  alt: 
 ---
 
 ## TITLE
