@@ -2,7 +2,6 @@
 title: WindowsでUbuntuを削除する
 date: 2023-12-04 13:00:00 +0900
 categories:
-  - Development
   - Linux
 tags:
   - Linux

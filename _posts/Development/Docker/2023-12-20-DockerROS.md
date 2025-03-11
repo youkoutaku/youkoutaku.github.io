@@ -1,9 +1,7 @@
 ---
 title: Docker for ROS
 date: 2023-12-20 15:06:03 +0900 #Tokyo
-categories:
-  - Development
-  - Docker
+categories: [Docker]
 tags: [Docker, ROS, Ubuntu, WSL]
 author: Youkoutaku
 math: true #Mathematical

@@ -2,7 +2,6 @@
 title: Start Container by Docker
 date: 2023-12-05 16:06:03 +0900
 categories:
-  - Development
   - Docker
 tags:
   - Ubuntu
