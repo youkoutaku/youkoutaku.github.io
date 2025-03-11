@@ -1,7 +1,7 @@
 ---
 title: How to Set Up Visual Studio Code for Remote Development on Raspberry Pi via SSH
 date: 2025-01-31 17:03:00 +0900
-categories: [Tech-Tips]
+categories: [Journal, Tech-Tips]
 tags: [VSCode, SSH, Raspberry Pi]
 author: Youkoutaku
 math: true

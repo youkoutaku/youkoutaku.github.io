@@ -1,7 +1,7 @@
 ---
 title: My Favorites
 date: 2025-02-24 20:30 +0900
-categories: [Tech-Tips]
+categories: [Journal, Tech-Tips]
 tags: [Tech, Web]
 author: Youkoutaku
 math: true
