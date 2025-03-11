@@ -2,6 +2,7 @@
 title: Delete Ubuntu System on Windows
 date: 2023-12-04 13:0:00 +0900
 categories:
+  - Development
   - Linux
 tags:
   - Linux
