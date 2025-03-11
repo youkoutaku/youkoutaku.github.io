@@ -14,8 +14,8 @@ pin: true
 ## ToDo List (2025-02-24)
 ### Journal
 - [x] Spring Internship
-- [ ] Striving for something is a kind of talent
-- [ ] How to make a lot of money
+- [ ] Striving for excellence is a form of talent
+- [ ] How to achieve financial success
 
 ### Learning
 - [ ] Nonlinear Programming
@@ -34,22 +34,19 @@ pin: true
 - [ ] RAG for LLM
 
 ---
+
 ## ToDo List (2024-09-24)
-
 ### Journal
-
 - [x] SICE FES 2024
 - [x] Summer Internship
 - [ ] Trip to Kouchi
 - [ ] Trip to Kyoto
-
 
 ### Project
 - [x] My C
 - [x] [Mobile Robot]
 - [x] [OpenGL Manipulator]
 - [ ] Robomaster TT drone
-
 
 ### Tech Tips
 - [ ] Zotero sync with WebDev
@@ -59,20 +56,17 @@ pin: true
 
 ## ToDo List (2024-05-05)
 ### Blog
-
 - [x] [Lab Journal](https://youkoutaku.notion.site/Lab-Journal-cde43795142d448ab96cb0233225cf6b?pvs=4)
 - [x] Make a Blog
 - [x] Journal
 
 ### Project
-
 - [x] [Machine Learning](https://github.com/youkoutaku/Machine-Learning)
 - [x] [old_blog](https://github.com/youkoutaku/youkoutaku_ole_blog)
 
 ### Learning
 
 #### Control Theory
-
 - [ ] Classical Control
 - [ ] Modern Control
 - [x] Digital Signal Processing
@@ -83,13 +77,9 @@ pin: true
 - [x] Prescribed performance control
 
 #### Math
-
-- [ ] Liner algebra
+- [ ] Linear algebra
 - [ ] Statistics
 
 ### Paper
-
 - [ ] Formation control for MAS
 - [ ] States estimation for MAS
-
----
