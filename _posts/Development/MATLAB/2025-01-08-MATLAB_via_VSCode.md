@@ -1,7 +1,7 @@
 ---
 title: VSCodeによるMATLABの使用
 date: 2025-01-08 20:00:00 +0900
-categories: [Journal, Tech-Tips]
+categories: [Development, MATLAB]
 tags: [MATLAB, VSCode, JP]
 author: Youkoutaku
 math: true
