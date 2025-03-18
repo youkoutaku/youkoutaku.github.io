@@ -1,5 +1,5 @@
 ---
-title: 三角形内部の点の判別  Check if a point is inside a triangle
+title: 三角形内部の点の判別
 date: 2024-07-04 22:03 +0900
 categories: [Math]
 tags: [Math, Image Processing, C, JP]
