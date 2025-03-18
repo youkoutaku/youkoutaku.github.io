@@ -2,7 +2,7 @@
 title: 非線形計画問題
 date: 2024-11-27 13:00 +0900
 categories: [Math, Optimization]
-tags: [Math, Optimization]
+tags: [Math, Optimization, JP]
 author: Youkoutaku
 math: true
 #img_path:

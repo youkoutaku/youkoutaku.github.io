@@ -7,6 +7,7 @@ categories:
 tags:
   - Gradient Descent
   - Optimization
+  - JP
 author: Youkoutaku
 math: true
 mermaid: true

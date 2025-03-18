@@ -7,6 +7,7 @@ categories:
 tags:
   - Penalty Method
   - Optimization
+  - JP
 author: Youkoutaku
 math: true
 mermaid: true
@@ -34,14 +35,15 @@ $$
 
 ## 2. ペナルティ関数の定義
 ペナルティ法では，制約違反にペナルティを課すことで，以下の **ペナルティ関数** を最小化する．
-$$P(\mathbf{x})=\begin{cases}
-0 & (\mathbf x \in S)\\
->0 & (x \notin S)
-\end{cases}$$
+
+$$
+P(\mathbf{x})=\begin{cases} 0 & (\mathbf x \in S) \\ >0 & (x \notin S) \end{cases}
+$$
 
 - $S$：拘束条件を考慮した許容領域
 
 ### (a) 不等式制約のペナルティ
+
 $$
 P_I(\mathbf{x}) = \sum_{i=1}^{m} \max(0, g_i(\mathbf{x}))^2
 $$
@@ -49,6 +51,7 @@ $$
 制約 $g_i(\mathbf{x}) \leq 0$ を満たさない場合にペナルティが発生．
 
 ### (b) 等式制約のペナルティ
+
 $$
 P_E(\mathbf{x}) = \sum_{j=1}^{p} h_j(\mathbf{x})^2
 $$
@@ -77,11 +80,13 @@ $$
 - 初期ペナルティ係数 $r_0 > 0$ を設定
 
 ### Step 2: ペナルティ関数の最適化
+
 $$
 \mathbf{x}^{(k+1)} = \arg \min_{\mathbf{x}} \phi(\mathbf{x}, r_k)
 $$
 
 ### Step 3: ペナルティ係数の更新
+
 $$
 r_{k+1} = \beta \cdot r_k, \quad \beta > 1
 $$
