@@ -12,6 +12,7 @@ author: Youkoutaku
 math: true
 mermaid: true
 ---
+
 ## ペナルティ法
 
 ペナルティ法は，**制約付き最適化問題（constrained optimization problem）** を **制約なし最適化問題（unconstrained optimization problem）** に変換して解く方法の一つである．
