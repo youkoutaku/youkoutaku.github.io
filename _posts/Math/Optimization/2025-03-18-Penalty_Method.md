@@ -22,6 +22,7 @@ mermaid: true
 ## 1. 問題の形式
 
 ### 制約付き最適化問題
+
 $$
 \min_{\mathbf{x}} f(\mathbf{x}) \quad \text{subject to} \quad g_i(\mathbf{x}) \leq 0, \, i = 1, \ldots, m \quad h_j(\mathbf{x}) = 0, \, j = 1, \ldots, p
 $$
@@ -37,10 +38,14 @@ $$
 ペナルティ法では，制約違反にペナルティを課すことで，以下の **ペナルティ関数** を最小化する．
 
 $$
-P(\mathbf{x})=\begin{cases} 0 & (\mathbf x \in S) \\ >0 & (x \notin S) \end{cases}
+P(\mathbf{x})=\begin{cases} 0 & (\mathbf{x} \in S) \\ >0 & (\mathbf{x} \notin S) \end{cases}
 $$
 
 - $S$：拘束条件を考慮した許容領域
+
+$$
+S=\{\mathbf{x}\in\mathbb{R}^n:g_i(\mathbf{x})\leq 0, h_j(\mathbf{x})=0\}
+$$
 
 ### (a) 不等式制約のペナルティ
 
