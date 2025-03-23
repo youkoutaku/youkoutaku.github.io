@@ -37,7 +37,7 @@ I'm currently learning MPC and Nonlinear programming. (2024/12)
 
 | MATLAB | Python | C/C++ | HTML5&CSS3 | JavaScript | Java  |
 | :----: | :----: | :---: | :--------: | :--------: | :---: |
-| ★★★★★  | ★★★★★  | ★★★★★ |    ★★★★    |    ★★★     |  ★★   |
+| ★★★★★  | ★★★★★  | ★★★★ |    ★★★★    |    ★★★     |  ★★   |
 
 ## 🛠️ Tools
 

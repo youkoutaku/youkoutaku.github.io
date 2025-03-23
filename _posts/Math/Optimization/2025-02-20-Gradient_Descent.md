@@ -1,5 +1,5 @@
 ---
-title: 勾配法の導出過程
+title: 勾配法(Gradient Descent)
 date: 2025-02-20 11:03:00 +0900
 categories:
   - Math
