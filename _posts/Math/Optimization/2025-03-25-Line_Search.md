@@ -62,22 +62,22 @@ f'(\alpha_k)=\frac{\partial f(x_k+\alpha_kd_k)}{\partial\alpha_k}=\frac{\partial
 #### 黄金分割法(golden-section search method)
 - 概要: 目的関数が単一の極小点を持つ関数である場合，**黄金比 $\varphi=\frac{1+\sqrt{5}}{2} \approx 1.618, \frac{1}{\varphi}=\frac{\sqrt{5}-1}{2} \approx 0.618$** を利用して極小点範囲を効率的に狭める．
 - アルゴリズム:
-1. $\alpha$の極小区間 $[a, b]$ を与える．
-2. 区間の内部点 $\alpha_1$ と $\alpha_2$ を設定($a < \alpha_1 < \alpha_2 < b$)：
+- $\alpha$の極小区間 $[a, b]$ を与える．
+- 区間の内部点 $\alpha_1$ と $\alpha_2$ を設定($a < \alpha_1 < \alpha_2 < b$)：
 
 $$\alpha_1 = b - \frac{b - a}{\varphi}, \quad \alpha_2 = a + \frac{b - a}{\varphi}$$
 
-3. if $f(\alpha_1)<f(\alpha_2)$, 極小区間は$[a, \alpha_1]$となる．
+- if $f(\alpha_1)<f(\alpha_2)$, 極小区間は$[a, \alpha_1]$となる．
     1. 更新 $b=\alpha_2,\;\alpha_2=\alpha_1$
 
 $$\alpha_1 = b - \frac{b - a}{\varphi}$$
 
-4. $f(\alpha_1)>f(\alpha_2)$, 極小区間は$[\alpha_2, b]$となる．
+- $f(\alpha_1)>f(\alpha_2)$, 極小区間は$[\alpha_2, b]$となる．
 	1. 更新 $a=\alpha_1,\;\alpha_1=\alpha_2$
 
 $$\alpha_2 = a + \frac{b - a}{\varphi}$$
 
-5. 収束条件 $\vert b - a \vert < \epsilon$ で終了．
+- 収束条件 $\vert b - a \vert < \epsilon$ で終了．
 
 
 [Golden-section search - Wikipedia](https://en.wikipedia.org/wiki/Golden-section_search):
@@ -125,13 +125,15 @@ def gss(f, a, b, tolerance=1e-5):
 - 概要: $\alpha_k$ に対して，目的関数 $f(x_k + \alpha d_k)$ が十分に減少するため，$0<c_1<1$倍傾きの直線で課す.
 - 条件：
 
-$$f(x_k+\alpha_kd_k)\le f(x_k)+c_1\nabla f(x_k)^Td_k\alpha_k \quad (\text{with}\;0<c_1<1)$$
+$$
+f(x_k+\alpha_kd_k)\le f(x_k)+c_1\nabla f(x_k)^Td_k\alpha_k \quad (\text{with}\;0<c_1<1)$$
 
 #### Curvature condition (曲率条件)
 - 概要: $\alpha_k$ が小さすぎて非効率にならないように，導関数の情報を用いて制約する
 - 条件：
 
-$$\nabla f(x_k+\alpha_kd_k)^Td_k \ge c_2\nabla f(x_k)^Td_k \quad (\text{with}\;0<c_1<c_2<1)$$
+$$
+\nabla f(x_k+\alpha_kd_k)^Td_k \ge c_2\nabla f(x_k)^Td_k \quad (\text{with}\;0<c_1<c_2<1)$$
 
 #### Wolfe Conditions
 - 概要: Armijo条件と曲率条件を組み合わせたもの．
