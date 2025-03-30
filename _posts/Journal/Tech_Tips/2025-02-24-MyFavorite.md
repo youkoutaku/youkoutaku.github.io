@@ -5,7 +5,6 @@ categories: [Journal, Tech-Tips]
 tags: [Tech, Web]
 author: Youkoutaku
 math: true
-pin: true
 ---
 
 I created this blog to save and quickly access my favorite websites and software. Here’s a categorized list of useful sites and tools that I frequently use and recommend.
