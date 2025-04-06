@@ -4,21 +4,24 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-## This is [Guang-Ze Yang](https://youkoutaku.github.io/)
-EN: Grayson Young / JP: 楊 広沢 (よう こうたく, You Koutaku) / 杨 广泽 (Yang Guang-Ze)
+## 👋 Hi, I'm Guang-Ze Yang!
 
-A master's student at Mechanical Systems Engineering, Ibaraki University.
+Also known as EN: Grayson Young, JP: 楊 広沢 (よう こうたく, You Koutaku), CN: 杨 广泽 (Yang Guang-Ze).
 
-I'm currently learning MPC and Nonlinear programming. (2024/12)
+- I’m currently a master’s student in Mechanical Systems Engineering at Ibaraki University.
+- I also run a blog — [Young’s Notebook](https://youkoutaku.github.io/) — where I share insights on robotics, control theory, programming, and personal growth.
+- My current focus:
+  - Job hunting (Graduating in March 2026)
+  - learning in MPC, nonlinear programming, and distributed control
 
 ## Education
-- 2024/04 - 2026/03: Ibaraki University (Master of Engineering)
-- 2020/04 - 2024/03: Ibaraki University (Bachelor of Engineering)
+- 2024.04 – 2026.03: Ibaraki University, M.Eng. in Mechanical Systems Engineering
+- 2020.04 – 2024.03: Ibaraki University, B.Eng. in Mechanical Systems Engineering
 
 ## Research Interests
-- Path planning and motion control
-- Distributed control for multi-agent systems
-- Optimal control
+- Motion control & path planning
+- Distributed control of multi-robot systems
+- Optimal & robust control
 
 ## Publications
 - **G. -Z. Yang** and Z. -J. Yang, "Distributed Robust Time-Varying Formation Control of Multi-Agent Systems Under Disturbances," 2024 SICE Festival with Annual Conference (SICE FES), Kochi City, Japan, 2024, pp. 1000-1005. [[IEEE Xplore]](https://ieeexplore.ieee.org/document/10805135) [[Code]](https://github.com/youkoutaku/DR-TVFC)
