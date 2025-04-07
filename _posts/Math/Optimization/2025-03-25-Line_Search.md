@@ -2,15 +2,15 @@
 title: 直線探索(Line Search)
 date: 2025-03-25 14:16:00 +0900
 categories:
-  - Optimal Control
+  - Math
   - Optimization
 tags:
-  - Line Search
+  - Line search
   - Golden-section search
   - Bracketing
-  - Armijo
-  - Curvature
-  - Wolfe
+  - Armijo condition
+  - Curvature condition
+  - Wolfe conditions
   - JP
 author: Youkoutaku
 math: true

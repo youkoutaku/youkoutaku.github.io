@@ -1,10 +1,10 @@
 ---
 title: Dynamic Programming and Bellman Optimal Theory
 date: 2024-05-23 11:05:21 +0900
-categories: [Control Theory, Model Predict Control]
+categories: [Control Theory, Optimal Control]
 tags:
   - Optimal Control
-  - Control
+  - DP
   - Dynamic Programming
 author: Youkoutaku
 math: true

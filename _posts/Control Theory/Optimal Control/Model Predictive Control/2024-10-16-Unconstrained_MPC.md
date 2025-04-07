@@ -3,7 +3,7 @@ title: Unconstrained MPC
 date: 2024-10-16 16:00:00 +0900
 categories:
   - Control Theory
-  - Model Predict Control
+  - Optimal Control
 tags:
   - Optimal
   - MPC

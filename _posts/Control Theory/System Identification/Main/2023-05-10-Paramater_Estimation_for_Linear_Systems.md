@@ -1,5 +1,5 @@
 ---
-title: Paramater Estimation for Linear Systems
+title: Parameter estimation for linear systems
 date: 2023-05-10 15:33:00 +0900
 categories: [Control Theory, System Identification]
 tags: [System Identification, Control, Least squares method, RLS, JP]

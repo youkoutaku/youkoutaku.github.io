@@ -3,10 +3,12 @@ title: LQR for tracking
 date: 2024-10-07 12:00:00 +0900
 categories:
   - Control Theory
-  - Model Predict Control
+  - Optimal Control
 tags:
   - Optimal Control
   - LQR
+  - Linear Quadratic Regulators
+  - MATLAB
 author: Youkoutaku
 math: true
 mermaid: true
@@ -120,7 +122,7 @@ x_1 \\ x_2
 \end{bmatrix}+\begin{bmatrix}0\\ 1
 \end{bmatrix}u(t)$$
 
-$$x^r(t)=\begin{bmatrix}
+$$x^r(0)=\begin{bmatrix}
 0\\
 0.2\\
 \end{bmatrix}$$
@@ -131,43 +133,16 @@ $$Q=\begin{bmatrix}
 1 & 0 \\ 0 & 1
 \end{bmatrix}, S=\begin{bmatrix}
 1 & 0 \\ 0 & 1
-\end{bmatrix}, R=1$$
+\end{bmatrix}, R=0.1$$
 
 ```matlab
-%% Function Augmented System Input
-%----------------------------------------------------------%
-% Youkoutaku:  https://youkoutaku.github.io/               %
-%----------------------------------------------------------%
-% This function is used to create the augmented system for the increase of input.
-function [Az,Bz,Qz,Rz,Sz] = Augmented_System_Input(A,B,Q,R,S,Ar)
-% A: State matrix
-% B: Input matrix
-% Q: State cost matrix
-% R: Input cost matrix
-% S: Terminal cost matrix
-% Ar: Reference matrix
-n=size(A,1);
-p=size(B,2);
-% Ca = [I -I 0]
-Ca =[eye(n) -eye(n) zeros(n,p)];
-% Az = [A 0 B;0 Ar 0;0 0 I]
-Az = [A zeros(n) B;zeros(n) Ar zeros(n,p);zeros(p,n) zeros(p,n) eye(p,p)];
-% Bz = [B; 0; I]
-Bz = [B;zeros(n,p);eye(p)];
-% Qz = Ca^T Q Ca
-Qz = Ca.'*Q*Ca;
-% Sz = Ca^T S Ca
-Sz = Ca.'*S*Ca;
-% Rz = R
-Rz = R;
-end
-```
-
-```matlab
-%% LQR for Trajectory
+%% LQR for Tracking problem
 %-----------------------------------------------%
-% Youkoutaku: https://youkoutaku.github.io/     %
+% Youkoutaku:  https://youkoutaku.github.io/
+% Date: 2024/01/16
+% Description: LQR for tracking problem. The reference signal is time-varying.
 %-----------------------------------------------%
+% Augmented_System_Input.m is a function to create the augmented system for the increase of input.
 % [Az,Bz,Qz,Rz,Sz] = Augmented_System_Input(A,B,Q,R,S,Ar) creates the augmented system for the increase of input.
 
 clear;
@@ -175,7 +150,7 @@ close all;
 clc;
 set(0, 'DefaultAxesFontName', 'Times New Roman')
 set(0, 'DefaultAxesFontSize', 14)
-
+  
 %% System Model
 A = [0 1; 0 0];
 n = size(A, 1);
@@ -191,9 +166,9 @@ A = sys_d.a; %discretized system matrix A
 B = sys_d.b; %discretized input matrix B
 
 %% Weight matrix
-Q = [10 0; 0 1]; %R^(n x n) tracking error weight
-S = [10 0; 0 1]; %R^(n x n) reference weight
-R = 1; %R^(p x p) input weight
+Q = [1 0; 0 1]; %R^(n x n) tracking error weight
+S = [1 0; 0 1]; %R^(n x n) reference weight
+R = 0.1; %R^(p x p) input weight
 
 %% Initial state
 x0 = [0; 0];
@@ -225,6 +200,7 @@ xr_h(:, 1) = xr;
 
 for k = 1:k_steps
     % Reference Signal
+    %xr = [sin(0.05 * k); 0.05*cos(0.05 * k)];
     if (k==50)
         xr = [xr(1) ; -0.2];
     elseif (k==100)
@@ -234,53 +210,61 @@ for k = 1:k_steps
     elseif (k==200)
         xr = [xr(1) ; 0.2];
     end
+
     % Increase of input
     Delta_u = -F * z;
+
     % Input
     u = Delta_u + u;
+
     % Update System
     x = A * x + B * u;
     xr = Ar * xr;
     z = [x; xr; u];
+
     % Save data
     x_h(:, k + 1) = x;
     u_h(:, k + 1) = u;
     xr_h(:, k + 1) = xr;
 end
 
-%% Figure
+%% figure
 subplot (3, 1, 1);
-hold;
 plot (0:length(x_h)-1,x_h(1,:));
+hold;
 plot (0:length(xr_h)-1,xr_h(1,:),'--');
-grid on
-legend("x1","x1r")
 hold off;
+legend("x1","x1_r");
+xlabel("step");
+ylabel("position");
 xlim([0 k_steps]);
-grid on
+grid on;
 
 subplot (3, 1, 2);
-hold;
 plot (0:length(x_h)-1,x_h(2,:));
+hold;
 plot (0:length(xr_h)-1,xr_h(2,:),'--');
-grid on
-legend("x2","x2r")
 hold off;
+legend("x2","x2_r");
+xlabel("step");
+ylabel("velocity");
 xlim([0 k_steps]);
-grid on
+grid on;
 
 subplot (3, 1, 3);
+hold;
 stairs (0:length(u_h)-1,u_h(1,:));
-legend("u")
-grid on
+hold off;
+legend("u");
+xlabel("step");
+ylabel("input");
 xlim([0 k_steps]);
+grid on;
 ```
 
 ![](/src/MPC/LQR-T.png)
 
-
->LQR, a feedback control, selects the optimal feedback gain by dynamic programming. However, it can not solve the optimal problem for constraint.
-{: .prompt-tip }
+LQR, a feedback control, selects the optimal feedback gain by dynamic programming. However, it can not solve the optimal problem for constraint.
 
 ---
 ## Reference

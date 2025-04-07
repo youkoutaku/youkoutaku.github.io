@@ -1,12 +1,12 @@
 ---
 title: Dynamic Programming for Discrete-time System
 date: 2024-05-24 11:05:21 +0900
-categories: [Control Theory, Model Predict Control]
+categories: [Control Theory, Optimal Control]
 tags:
   - Optimal Control
-  - Control
+  - DP
   - Dynamic Programming
-  - Discrete-time
+  - Discrete-time systems
 author: Youkoutaku
 math: true
 mermaid: true

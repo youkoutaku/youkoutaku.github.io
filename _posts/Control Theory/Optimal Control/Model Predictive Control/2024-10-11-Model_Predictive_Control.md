@@ -3,7 +3,7 @@ title: Model Predictive Control
 date: 2024-10-11 13:00:00 +0900
 categories:
   - Control Theory
-  - Model Predict Control
+  - Optimal Control
 tags:
   - Optimal
   - MPC

@@ -1,10 +1,9 @@
 ---
 title: Optimal Control Problem
 date: 2024-05-21 11:05:21 +0900
-categories: [Control Theory, Model Predict Control]
+categories: [Control Theory, Optimal Control]
 tags:
   - Optimal Control
-  - Control
   - Unicycle model
 author: Youkoutaku
 math: true

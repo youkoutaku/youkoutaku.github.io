@@ -1,22 +1,17 @@
 ---
-title: Dynamic Programming for Continuous System (HJB)
+title: Dynamic Programming for continuous time systems (HJB)
 date: 2024-05-28 11:05:21 +0900
-categories: [Control Theory, Model Predict Control]
+categories: [Control Theory, Optimal Control]
 tags:
   - Optimal Control
-  - Control
+  - DP
   - Dynamic Programming
-  - Continuous
+  - Continuous time systems
   - HJB
   - Hamiltonian
 author: Youkoutaku
 math: true
 mermaid: true
-#pin:
-#img_path:
-#image:
-#  path: 
-#  alt: 
 ---
 
 ## Continuous System

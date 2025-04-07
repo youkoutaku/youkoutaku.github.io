@@ -7,7 +7,6 @@ tags:
     Linear System,
     Control,
     Nyquist–Shannon sampling theorem,
-    Dirac delta function,
     Fourier transform,
     Fourier series,
     Z-transform,
@@ -15,7 +14,6 @@ tags:
     Bilinear transform,
     Forward difference,
     Backward difference,
-    Discrete-time,
     JP,
   ]
 author: Youkoutaku

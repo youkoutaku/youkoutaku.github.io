@@ -1,8 +1,8 @@
 ---
 title: Matrix and Vector
 date: 2024-05-15 12:34:07 +0900
-categories: [Control Theory, Model Predict Control]
-tags: [Derivatives, Matrix, Vector]
+categories: [Control Theory, Optimal Control]
+tags: [Matrix, Vector]
 author: Youkoutaku
 math: true
 mermaid: true

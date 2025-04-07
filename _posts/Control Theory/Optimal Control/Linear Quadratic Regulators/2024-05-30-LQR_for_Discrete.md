@@ -1,13 +1,14 @@
 ---
-title: LQR for Discrete-time Systems
+title: LQR for Discrete-time systems
 date: 2024-05-30 12:20:28 +0900
-categories: [Control Theory, Model Predict Control]
+categories: [Control Theory, Optimal Control]
 tags:
   - Optimal Control
-  - Control
+  - DP
   - Dynamic Programming
   - LQR
-  - Discrete-time
+  - Linear Quadratic Regulators
+  - Discrete-time systems
 author: Youkoutaku
 math: true
 mermaid: true
@@ -85,7 +86,7 @@ $$\frac{\partial J_{N-1\to N}(x_{[N-1]},u_{[N-1]})}{\partial u_{[N-1]}}=0$$
 >$$\frac{\partial \boxed{\frac{1}{2}(x_{[N-1]}^TQ_{[N-1]}x_{[N-1]}+u_{[N-1]}^TR_{[N-1]}u_{[N-1]})}}{\partial  u_{[N-1]}}=R_{[N-1]}u_{[N-1]}$$
 >
 
-Therefor, we have 
+Therefor, we have
 
 $$\frac{\partial J_{N-1\to N}(x_{[N-1]},u_{[N-1]})}{\partial u_{[N-1]}}=B_{[N-1]}^{T}P_{[0]}\left[A_{[N-1]}x_{[N-1]}+B_{[N-1]}u_{[N-1]}\right]+R_{[N-1]}u_{[N-1]}$$
 
@@ -209,7 +210,7 @@ If the system is linear time-invariant and fully controllable, we have a constan
 
 $$N\to\infty\implies F_{[N-k]}\to F$$
 
-Therefor, the solving for optimal control can off-line. 
+Therefor, the solving for optimal control can off-line.
 
 $$P_{[0]}=S\implies P_{[1]}, u^\ast_{[N-1]}\implies \cdots P_{[k]}, u^\ast_{[N-k]} \cdots \implies  P_{[N]}, u^\ast_{[0]}$$
 

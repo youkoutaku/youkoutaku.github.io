@@ -1,7 +1,7 @@
 ---
-title: Linear Time-invariant System
+title: Linear time-invariant System
 date: 2024-05-09 13:05:09 +0900
-categories: [Control Theory, Model Predict Control]
+categories: [Control Theory, Optimal Control]
 tags: [Linear System, State-space equation, Laplace transform]
 author: Youkoutaku
 math: true

@@ -1,26 +1,25 @@
 ---
-title: LQR for Continuous Systems
+title: LQR for continuous time systems
 date: 2024-06-13 10:20:28 +0900
-categories: [Control Theory, Model Predict Control]
+categories: [Control Theory, Optimal Control]
 tags:
   - Optimal Control
-  - Control
+  - DP
   - Dynamic Programming
   - LQR
-  - Continuous
+  - Continuous time systems
+  - Linear Quadratic Regulators
   - Riccati
+  - Hamilton–Jacobi–Bellman equation
   - HJB
 author: Youkoutaku
 math: true
 mermaid: true
 #pin:
-#img_path:
 #image:
-#  path: 
-#  alt: 
 ---
 
-By the HJB equation, we discuss the linear quadratic regulators (LQR) for continuous systems. 
+By the HJB equation, we discuss the linear quadratic regulators (LQR) for continuous systems.
 
 ## Continuous systems
 Consider a continuous system as the following equation.
@@ -34,7 +33,7 @@ Similar the discrete-time system, we define the quadratic cost function as
 
 $$J=h(x_{(t_{f})},t_{f})+\int_{0}^{t_{f}}g(x_{(\tau)},u_{(\tau)},\tau)\mathrm{d}\tau$$
 
-where the $t_f$ is the terminal time, 
+where the $t_f$ is the terminal time,
 
 $$\begin{aligned}&h(x_{(t_{f})},t_{t})=\frac{1}{2}x_{(t_{f})}^{T}Sx_{(t_{f})},\\&g(x_{(t)},u_{(t)},t)=\frac{1}{2}(x_{(t)}^{T}Q_{(t)}x_{(t)}+u_{(t)}^{T}R_{(t)}u_{(t)}).\end{aligned}$$
 
@@ -55,7 +54,7 @@ J_{t+\Delta t\to t_f}(x_{(t+\Delta t)},t+\Delta t,u_{(\tau)}) &= h(x_{(t_{f})},t
 
 $$J_{t\to t_f}^\ast(x_{(t)})=\frac{1}{2}x_{(t)}^TP_{(t)}x_{(t)}$$
 
-where $P_{(t)}=P_{(t)}^T>0$. 
+where $P_{(t)}=P_{(t)}^T>0$.
 
 Then, We can also obtain the cost for $t+\Delta t\to t_f$ as
 
@@ -79,8 +78,8 @@ $$\begin{aligned}
 \end{aligned}$$
 
 To the minimum of cost
-$$\frac{\partial J^\ast_{t\to t_f}(x_{(t)})}{\partial u_{(t)}}=0$$
-, we obtain the equation to get optimal $u_{(t)}$ as 
+$\frac{\partial J^\ast_{t\to t_f}(x_{(t)})}{\partial u_{(t)}}=0$
+, we obtain the equation to get optimal $u_{(t)}$ as
 
 $$\Delta t \left(u_{(t)}^TR_{(t)}+x_{(t)}^TP_{(t)}B\right)=0$$
 
@@ -94,31 +93,36 @@ $$u(t)=K_{(t)}x_{(t)}, \; K_{(t)}=-R_{(t)}^{-1}B^TP_{(t)}$$
 
 ---
 ## HJB equation
-using the optimal input to the the cost for $t\to t_f$ as 
+using the optimal input to the the cost for $t\to t_f$ as
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 J^\ast_{t\to t_f}(x_{(t)})&=\frac{1}{2}x_{(t)}^TP_{(t)}x_{(t)} +\frac{1}{2}\left(x_{(t)}+\Delta t(Ax(t)+Bu^\ast(t))\right)^T(P_{(t)}+\Delta t \dot P_{(t)} )\left(x_{(t)}+\Delta t(Ax(t)+Bu^\ast(t))\right)
 \end{aligned}$$
 
-According to the $$J_{t\to t_f}^\ast(x_{(t)})=\frac{1}{2}x_{(t)}^TP_{(t)}x_{(t)}$$, we have the following equation:
+According to the $J_{t\to t_f}^\ast(x_{(t)})=\frac{1}{2}x_{(t)}^TP_{(t)}x_{(t)}$, we have the following equation:
 
-$$\frac{1}{2}x_{(t)}^TP_{(t)}x_{(t)}=\frac{1}{2}x_{(t)}^TP_{(t)}x_{(t)} +\frac{1}{2}\left(x_{(t)}+\Delta t(Ax(t)+Bu^\ast(t))\right)^T(P_{(t)}+\Delta t \dot P_{(t)} )\left(x_{(t)}+\Delta t(Ax(t)+Bu^\ast(t))\right)$$
+$$
+\frac{1}{2}x_{(t)}^TP_{(t)}x_{(t)}=\frac{1}{2}x_{(t)}^TP_{(t)}x_{(t)} +\frac{1}{2}\left(x_{(t)}+\Delta t(Ax(t)+Bu^\ast(t))\right)^T(P_{(t)}+\Delta t \dot P_{(t)} )\left(x_{(t)}+\Delta t(Ax(t)+Bu^\ast(t))\right)$$
 
-Then, the equation can be simplified as 
+Then, the equation can be simplified as
 
-$$-\dot P_{(t)}=A^TP_{(t)}+P_{(t)}A-P_{(t)}BR_{(t)}^{-1}B^TP_{(t)}+Q$$
+$$
+-\dot P_{(t)}=A^TP_{(t)}+P_{(t)}A-P_{(t)}BR_{(t)}^{-1}B^TP_{(t)}+Q$$
 
 which is the **Riccati differential equation** for the LQR problem.
 
 In additional, for linear time-invariant systems, the $\dot P_{(t)}=0$ for $t\to\infty$.
 
-Then, we have the **algebraic Riccati equation** as 
+Then, we have the **algebraic Riccati equation** as
 
-$$0=A^TP+PA-PBR^{-1}B^TP+Q$$
+$$
+0=A^TP+PA-PBR^{-1}B^TP+Q$$
 
 Using the condition from systems, we solve it to get the $P_{(t)}$. Then, We have the optimal input. 
 
+---
 ## Reference
 1. [clqr.dvi (stanford.edu)](https://web.stanford.edu/class/ee363/lectures/clqr.pdf)
 2. 王天威. 控制之美(卷2). 清华大学出版社. 2023.
-3. Rakovic, S. V., & Levine, W. S. Handbook of model predictive control. 2018. 
+3. Rakovic, S. V., & Levine, W. S. Handbook of model predictive control. 2018.
