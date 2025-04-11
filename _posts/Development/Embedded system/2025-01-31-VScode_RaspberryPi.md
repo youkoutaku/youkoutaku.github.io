@@ -22,38 +22,38 @@ image:
 ### 2. **Enable SSH on Your Raspberry Pi**
 - SSH should be enabled on your Raspberry Pi by default. If it's not, enable SSH using the following steps:
     1. Open a terminal on your Raspberry Pi.
-    2. Run the command on Paspberry Pi:
+    2. Run the command:
         `sudo raspi-config`
     3. Navigate to **Interfacing Options** > **SSH** > **Enable**.
 
 ### 3. **Find Your Raspberry Pi's IP Address**
-- On your Raspberry Pi, run the following command on Paspberry Pi to get the IP address:
+- On your Raspberry Pi, run the following command to get the IP address:
     `hostname -I`
 - Take note of the IP address shown (e.g., `192.168.x.x`).
 
 ### 4. **Configure SSH on Your Local Machine**
-- If you haven’t already, generate an SSH key pair on your local machine (if you don’t have one):
-    1. Open a terminal/command prompt on your local machine(PC).
+- If you haven’t already, generate an SSH key pair on your local machine:
+    1. Open a terminal/command prompt on your local machine.
     2. Run on Local Machine(PC) :
         `ssh-keygen`
-	3. terminal: 
+	3. Terminal:
 		1. `Enter file in which to save the key:` Enter(default)
-	    1. `Enter passphrase (empty for no passphrase):` Enter
-	    2. `Enter same passphrase again:` Enter
-    1. Follow the prompts to generate the key. The default location for storing the key is fine
-	    1. Linux: usually `~/.ssh/id_rsa`
-	    2. Windows: usually `C:\Users\<username>\.ssh\ir_rsa`
+	    2. `Enter passphrase (empty for no passphrase):` Enter
+	    3. `Enter same passphrase again:` Enter
+    4. Follow the prompts to generate the key. The default location for storing the key is fine
+	    1. Linux: usually `~/.ssh/<id_name>`
+	    2. Windows: usually `C:\Users\<username>\.ssh\<ir_name>`
 - (Linux): Copy your SSH public key to the Raspberry Pi.
     1. Run:
-        `ssh-copy-id pi@<raspberry_pi_ip>`
+        `ssh-copy-id <raspberry_pi_username>@<raspberry_pi_ip>`
     2. Replace `<raspberry_pi_ip>` with the IP address of your Raspberry Pi.
     3. Enter the password when prompted.
 - (Windows): There is no command to copy the public key directly.
 	1. Open the public key and copy it on PC terminal
-	2. Run: 
-		`type C:\Users\<Username>\.ssh\id_rsa.pub`
+	2. Run: Show the public key
+		`type C:\Users\<Username>\.ssh\<id_name>.pub`
 	3. Access Raspberry Pi's SSH :
-		`ssh pi@<raspberry_pi_ip>`
+		`ssh <raspberry_pi_username>@<raspberry_pi_ip>`
 	4. Create `.ssh` Folder on Raspberry Pi and paste the public key
 
 ```shell
@@ -61,19 +61,19 @@ mkdir -p ~/.ssh
 nano ~/.ssh/authorized_keys
 ```
 
+> `authorized_keys` is a fixed filename. If you have many keys, please save all of them in this file.
+
 - Test SSH Access:
-	- Able to SSH into your Raspberry Pi from your Windows machine without a password:
-		`ssh pi@<raspberry_pi_ip>
+	- Able to SSH into your Raspberry Pi from your machine without a password:
+		`ssh <raspberry_pi_username>@<raspberry_pi_ip>
 
 ### 5. **Configure VSCode to Connect via SSH**
 
 - Open VSCode.
 - Press `Ctrl + Shift + P` to open the Command Palette.
 - Type and select **Remote-SSH: Connect to Host...**.
-- Enter the following: `pi@<raspberry_pi_ip>`
+- Enter the following: `<raspberry_pi_username>@<raspberry_pi_ip>`
 - Replace `<raspberry_pi_ip>` with the IP address of your Raspberry Pi.
-
-
 
 ### Optional: **Save Connection**
 
@@ -84,20 +84,20 @@ nano ~/.ssh/authorized_keys
 
 ```bash
 # For Linux
-Host raspberrypi
-	HostName <raspberry_pi_ip>   
-	User pi   
+Host raspberry_pi
+	HostName <raspberry_pi_ip>
+	User <raspberry_pi_username>
 	IdentityFile ~/.ssh/id_rsa`
 ```
 ```bash
 # For Windows
-Host raspberrypi
-	HostName <raspberry_pi_ip>   
-	User pi   
+Host raspberry_pi
+	HostName <raspberry_pi_ip>
+	User <raspberry_pi_username>
 	IdentityFile C:\Users\<username>\.ssh\config
 ```
 
-- This way, you can simply type `raspberrypi` in the **Remote-SSH: Connect to Host** command.
+- This way, you can simply type `raspberry_pi` in the **Remote-SSH: Connect to Host** command.
 
 ### 6. **Start Editing on Raspberry Pi**
 
