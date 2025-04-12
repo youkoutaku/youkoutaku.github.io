@@ -18,7 +18,7 @@ mermaid: true
 ```
 xhost +
 ```
->Setting to enable to  use vscode. rviz ... in docker
+>Setting to enable to  use VSCode. rviz ... in docker
 
 ## Make Container 
 ```bash

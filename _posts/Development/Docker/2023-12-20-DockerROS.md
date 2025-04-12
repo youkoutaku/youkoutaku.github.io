@@ -71,7 +71,7 @@ sudo docker pull osrf/ros:humble-desktop-full
 ---
 ## 3.Make Container for Docker
 ### 3.1 host open
-Setting to enable to  use vscode. rviz ... in docker
+Setting to enable to  use VSCode. rviz ... in docker
 
 ```bash
 xhost +

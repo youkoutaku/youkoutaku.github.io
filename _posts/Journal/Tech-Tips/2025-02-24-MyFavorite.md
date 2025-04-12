@@ -40,7 +40,7 @@ I created this blog to save and quickly access my favorite websites and software
 ## 🛠️ Development & Coding
 
 - [GitHub](https://github.com) — Code hosting and version control.
-- [VScode](https://code.visualstudio.com) — Source-code editor.
+- [VSCode](https://code.visualstudio.com) — Source-code editor.
 - [Google Colab](https://colab.research.google.com) — Online Jupyter notebook environment.
 - [Anaconda](https://www.anaconda.com) — Distribution of Python and R for scientific computing.
 - [MATLAB](https://www.mathworks.com/products/matlab.html) — Numerical computing environment.

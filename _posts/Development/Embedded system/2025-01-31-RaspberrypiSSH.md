@@ -1,5 +1,5 @@
 ---
-title: How to Set Up Visual Studio Code for Remote Development on Raspberry Pi via SSH
+title: How to Set Up VSCode for Remote Development on Raspberry Pi via SSH
 date: 2025-01-31 17:03:00 +0900
 categories: [Development, Embedded system]
 tags: [VSCode, SSH, Raspberry Pi]
@@ -7,7 +7,7 @@ author: Youkoutaku
 math: true
 image:
   path: https://preview.redd.it/i-just-set-up-visual-studio-code-for-remote-development-on-v0-ieh7oacw9bge1.png?width=640&crop=smart&auto=webp&s=93192dc0f9df66059316a00358c91303cde7c64a
-  alt: VScode on Raspberry
+  alt: VSCode on Raspberry
 ---
 
 
@@ -19,6 +19,7 @@ image:
     2. Clicking on the **Extensions** view icon on the sidebar.
     3. Searching for **Remote - SSH** and installing it.
 
+---
 ### 2. **Enable SSH on Your Raspberry Pi**
 - SSH should be enabled on your Raspberry Pi by default. If it's not, enable SSH using the following steps:
     1. Open a terminal on your Raspberry Pi.
@@ -26,11 +27,13 @@ image:
         `sudo raspi-config`
     3. Navigate to **Interfacing Options** > **SSH** > **Enable**.
 
+---
 ### 3. **Find Your Raspberry Pi's IP Address**
 - On your Raspberry Pi, run the following command to get the IP address:
     `hostname -I`
 - Take note of the IP address shown (e.g., `192.168.x.x`).
 
+---
 ### 4. **Configure SSH on Your Local Machine**
 - If you haven’t already, generate an SSH key pair on your local machine:
     1. Open a terminal/command prompt on your local machine.
@@ -62,11 +65,13 @@ nano ~/.ssh/authorized_keys
 ```
 
 > `authorized_keys` is a fixed filename. If you have many keys, please save all of them in this file.
+{: .prompt-warning }
 
 - Test SSH Access:
 	- Able to SSH into your Raspberry Pi from your machine without a password:
 		`ssh <raspberry_pi_username>@<raspberry_pi_ip>
 
+---
 ### 5. **Configure VSCode to Connect via SSH**
 
 - Open VSCode.
@@ -75,6 +80,7 @@ nano ~/.ssh/authorized_keys
 - Enter the following: `<raspberry_pi_username>@<raspberry_pi_ip>`
 - Replace `<raspberry_pi_ip>` with the IP address of your Raspberry Pi.
 
+---
 ### Optional: **Save Connection**
 
 - You can save this SSH connection for easier access in the future:
@@ -82,14 +88,15 @@ nano ~/.ssh/authorized_keys
     2. Search for **Remote.SSH: Config File**.
     3. Edit the (Linux):`~/.ssh/config` or (Windows): `C:\Users\<username>\.ssh\config` file to add config:
 
-```bash
+```
 # For Linux
 Host raspberry_pi
 	HostName <raspberry_pi_ip>
 	User <raspberry_pi_username>
 	IdentityFile ~/.ssh/id_rsa`
 ```
-```bash
+
+```
 # For Windows
 Host raspberry_pi
 	HostName <raspberry_pi_ip>
@@ -99,6 +106,7 @@ Host raspberry_pi
 
 - This way, you can simply type `raspberry_pi` in the **Remote-SSH: Connect to Host** command.
 
+---
 ### 6. **Start Editing on Raspberry Pi**
 
 ![](https://preview.redd.it/i-just-set-up-visual-studio-code-for-remote-development-on-v0-ieh7oacw9bge1.png?width=640&crop=smart&auto=webp&s=93192dc0f9df66059316a00358c91303cde7c64a)

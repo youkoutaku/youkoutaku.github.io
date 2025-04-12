@@ -20,7 +20,7 @@ image:
 
 [Ubuntu](https://ubuntu.com/) is a popular [Linux](https://www.linux.org/) operating system, often used for embedded development. It's possible to install both Ubuntu and Windows OS on the same machine, with Ubuntu files stored on a USB drive, managed by the [GRUB](https://www.gnu.org/software/grub/) bootloader.
 
-However, in the current setup, the GRUB system and Ubuntu’s EFI files are stored on the PC’s internal disk. 
+However, in the current setup, the GRUB system and Ubuntu’s EFI files are stored on the PC’s internal disk.
 
 > Even when the USB drive is not plugged in, the GRUB system runs every time the computer restarts, allowing you to select the operating system.
 {: .prompt-warning }
