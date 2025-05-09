@@ -1,7 +1,7 @@
 ---
 title: How to Set Up VSCode for Remote Development on Raspberry Pi via SSH
 date: 2025-01-31 17:03:00 +0900
-categories: [Development, Embedded system]
+categories: [Development]
 tags: [VSCode, SSH, Raspberry Pi]
 author: Youkoutaku
 math: true

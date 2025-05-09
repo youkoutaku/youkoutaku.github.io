@@ -1,5 +1,5 @@
 ---
-title: Docker hub
+title: Docker Hub
 date: 2023-12-07 16:06:03 +0900
 categories:
   - Development
@@ -7,7 +7,6 @@ categories:
 tags:
   - Ubuntu
   - Docker
-  - WSL
 author: Youkoutaku
 math: true
 mermaid: true
