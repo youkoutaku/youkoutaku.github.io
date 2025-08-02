@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shareGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fd7e14;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b35;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="200" fill="#f8f9fa"/>
+  
+  <!-- Central Hub -->
+  <circle cx="150" cy="100" r="30" fill="url(#shareGrad)"/>
+  <text x="140" y="108" font-family="Arial" font-size="20" fill="#fff">🌐</text>
+  
+  <!-- Connected Nodes -->
+  <circle cx="80" cy="60" r="20" fill="#3578e5"/>
+  <text x="72" y="68" font-family="Arial" font-size="16" fill="#fff">👨‍🎓</text>
+  
+  <circle cx="220" cy="60" r="20" fill="#28a745"/>
+  <text x="212" y="68" font-family="Arial" font-size="16" fill="#fff">🏭</text>
+  
+  <circle cx="80" cy="140" r="20" fill="#6f42c1"/>
+  <text x="72" y="148" font-family="Arial" font-size="16" fill="#fff">📚</text>
+  
+  <circle cx="220" cy="140" r="20" fill="#dc3545"/>
+  <text x="212" y="148" font-family="Arial" font-size="16" fill="#fff">🛠️</text>
+  
+  <!-- Connection Lines -->
+  <line x1="130" y1="80" x2="100" y2="70" stroke="#666" stroke-width="3"/>
+  <line x1="170" y1="80" x2="200" y2="70" stroke="#666" stroke-width="3"/>
+  <line x1="130" y1="120" x2="100" y2="130" stroke="#666" stroke-width="3"/>
+  <line x1="170" y1="120" x2="200" y2="130" stroke="#666" stroke-width="3"/>
+  
+  <!-- Data Flow Indicators -->
+  <path d="M 105 65 Q 120 75 125 85" stroke="#fd7e14" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 195 65 Q 180 75 175 85" stroke="#fd7e14" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 105 135 Q 120 125 125 115" stroke="#fd7e14" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 195 135 Q 180 125 175 115" stroke="#fd7e14" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Labels -->
+  <text x="65" y="45" font-family="Arial" font-size="10" fill="#666">Academia</text>
+  <text x="205" y="45" font-family="Arial" font-size="10" fill="#666">Industry</text>
+  <text x="60" y="160" font-family="Arial" font-size="10" fill="#666">Knowledge</text>
+  <text x="210" y="160" font-family="Arial" font-size="10" fill="#666">Tools</text>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#fd7e14"/>
+    </marker>
+  </defs>
+  
+  <!-- GitHub/Open Source Symbol -->
+  <circle cx="150" cy="170" r="8" fill="#333"/>
+  <text x="146" y="176" font-family="Arial" font-size="10" fill="#fff">🐙</text>
+  <text x="130" y="190" font-family="Arial" font-size="10" fill="#666">Open Source</text>
+</svg>
