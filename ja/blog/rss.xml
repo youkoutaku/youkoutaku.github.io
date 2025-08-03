@@ -3,11 +3,12 @@
     <channel>
         <title>Youkoutaku Blog</title>
         <link>https://youkoutaku.github.io/ja/blog</link>
-        <description>Youkoutaku Blog</description>
+        <description>Technical insights and research updates by Guangze Yang</description>
         <lastBuildDate>Sat, 02 Aug 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <copyright>Copyright © 2025 Guangze Yang</copyright>
         <item>
             <title><![CDATA[Hello Docusaurus - Building My Personal Blog]]></title>
             <link>https://youkoutaku.github.io/ja/blog/hello-docusaurus</link>

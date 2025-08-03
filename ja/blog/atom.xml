@@ -5,8 +5,9 @@
     <updated>2025-08-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://youkoutaku.github.io/ja/blog"/>
-    <subtitle>Youkoutaku Blog</subtitle>
+    <subtitle>Technical insights and research updates by Guangze Yang</subtitle>
     <icon>https://youkoutaku.github.io/ja/img/favicon.ico</icon>
+    <rights>Copyright © 2025 Guangze Yang</rights>
     <entry>
         <title type="html"><![CDATA[Hello Docusaurus - Building My Personal Blog]]></title>
         <id>https://youkoutaku.github.io/ja/blog/hello-docusaurus</id>
