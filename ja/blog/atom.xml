@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://youkoutaku.github.io/ja/blog"/>
     <subtitle>Technical insights and research updates by Guangze Yang</subtitle>
-    <icon>https://youkoutaku.github.io/ja/img/favicon.ico</icon>
+    <icon>https://youkoutaku.github.io/ja/img/icon/favicon.ico</icon>
     <rights>Copyright © 2025 Guangze Yang</rights>
     <entry>
         <title type="html"><![CDATA[Docusaurus Pro - Advanced Features for My Personal Blog]]></title>
@@ -45,7 +45,7 @@ y &amp;= Cx + Du
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="setup">Setup<a href="https://youkoutaku.github.io/ja/blog/docusaurus-pro#setup" class="hash-link" aria-label="Setup への直接リンク" title="Setup への直接リンク">​</a></h3>
 <div class="language-javascript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-javascript codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic">// docusaurus.config.js</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token literal-property property" style="color:#36acaa">themeConfig</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token literal-property property" style="color:#36acaa">mermaid</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token literal-property property" style="color:#36acaa">theme</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token literal-property property" style="color:#36acaa">light</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">'neutral'</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token literal-property property" style="color:#36acaa">dark</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">'forest'</span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="example-usage">Example Usage<a href="https://youkoutaku.github.io/ja/blog/docusaurus-pro#example-usage" class="hash-link" aria-label="Example Usage への直接リンク" title="Example Usage への直接リンク">​</a></h3>
-<div class="language-mermaid codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-mermaid codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">graph TD</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    A[User Request] --&gt; B{Authentication}</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    B --&gt;|Valid| C[Process Request]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    B --&gt;|Invalid| D[Return Error]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    C --&gt; E[Generate Response]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    E --&gt; F[Send to User]</span><br></span></code></pre></div></div>
+<!-- -->
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="enhanced-syntax-highlighting">Enhanced Syntax Highlighting<a href="https://youkoutaku.github.io/ja/blog/docusaurus-pro#enhanced-syntax-highlighting" class="hash-link" aria-label="Enhanced Syntax Highlighting への直接リンク" title="Enhanced Syntax Highlighting への直接リンク">​</a></h2>
 <p>As someone who works with multiple programming languages and MATLAB, having proper syntax highlighting is crucial.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="prism-configuration">Prism Configuration<a href="https://youkoutaku.github.io/ja/blog/docusaurus-pro#prism-configuration" class="hash-link" aria-label="Prism Configuration への直接リンク" title="Prism Configuration への直接リンク">​</a></h3>
@@ -160,7 +160,6 @@ y &amp;= Cx + Du
 <li>Customizing Docusaurus themes and components</li>
 <li>Transform my old blog content to here</li>
 <li>My current research project in control systems</li>
-<li>Tools and techniques</li>
 </ol>
 <p>Stay tuned, and thank you for joining me on this journey!</p>
 <hr>
@@ -174,45 +173,52 @@ y &amp;= Cx + Du
         <category label="Web Development" term="Web Development"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Work & Life Framework]]></title>
+        <title type="html"><![CDATA[A Minimalist Work & Life Framework]]></title>
         <id>https://youkoutaku.github.io/ja/blog/work-and-life-framework</id>
         <link href="https://youkoutaku.github.io/ja/blog/work-and-life-framework"/>
         <updated>2025-04-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[A simple framework for managing work and life - cycles of reading, writing, building, and self-care]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="work-framework-read--write--build">Work Framework: Read → Write → Build<a href="https://youkoutaku.github.io/ja/blog/work-and-life-framework#work-framework-read--write--build" class="hash-link" aria-label="Work Framework: Read → Write → Build への直接リンク" title="Work Framework: Read → Write → Build への直接リンク">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="work-framework">Work Framework:<a href="https://youkoutaku.github.io/ja/blog/work-and-life-framework#work-framework" class="hash-link" aria-label="Work Framework: への直接リンク" title="Work Framework: への直接リンク">​</a></h2>
+<!-- -->
 <p>A simple cycle for productive work:</p>
 <ul>
-<li><strong>If you have no ideas</strong> → <strong>Read</strong> <em>(Get new information or inspiration)</em></li>
-<li><strong>If you have ideas but can't express them</strong> → <strong>Write</strong> <em>(Organize your thoughts and find your own voice)</em></li>
-<li><strong>If you have ideas and know how to act on them</strong> → <strong>Build</strong> <em>(Create something)</em></li>
+<li><strong>If you have no ideas</strong> → <strong>Read</strong>
+<ul>
+<li><em>(Get new information or inspiration)</em></li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="life-framework-sleep--eat--workoutfocus--sleep">Life Framework: Sleep → Eat → Workout/Focus → Sleep<a href="https://youkoutaku.github.io/ja/blog/work-and-life-framework#life-framework-sleep--eat--workoutfocus--sleep" class="hash-link" aria-label="Life Framework: Sleep → Eat → Workout/Focus → Sleep への直接リンク" title="Life Framework: Sleep → Eat → Workout/Focus → Sleep への直接リンク">​</a></h2>
+</li>
+<li><strong>If you have ideas but can't express them</strong> → <strong>Write</strong>
+<ul>
+<li><em>(Organize your thoughts and find your own voice)</em></li>
+</ul>
+</li>
+<li><strong>If you have ideas and know how to act on them</strong> → <strong>Build</strong>
+<ul>
+<li><em>(Create something)</em></li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="life-framework">Life Framework:<a href="https://youkoutaku.github.io/ja/blog/work-and-life-framework#life-framework" class="hash-link" aria-label="Life Framework: への直接リンク" title="Life Framework: への直接リンク">​</a></h2>
+<!-- -->
 <p>A fundamental cycle for healthy living:</p>
 <ul>
-<li><strong>If your body feels tired</strong> → <strong>Sleep</strong> <em>(Restore your energy)</em></li>
-<li><strong>If your mind feels tired</strong> → <strong>Work out</strong> <em>(Refresh your brain)</em> / <strong>Focus</strong> <em>(Reduce mental clutter)</em></li>
-<li><strong>If you feel physically unwell</strong> → <strong>Eat healthy and sleep well</strong> <em>(see a doctor if needed)</em></li>
+<li><strong>If your body feels tired</strong> → <strong>Sleep over 8h</strong>
+<ul>
+<li><em>(Restore your energy)</em></li>
+</ul>
+</li>
+<li><strong>If your mind feels tired</strong> → <strong>Work out</strong> / <strong>Focus</strong>
+<ul>
+<li><em>(Refresh your brain)</em> /  <em>(Reduce mental clutter)</em></li>
+</ul>
+</li>
+<li><strong>If you feel physically unwell</strong> → <strong>Eat healthy</strong>
+<ul>
+<li><em>(see a doctor if needed)</em></li>
+</ul>
+</li>
 </ul>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="framework-benefits">Framework Benefits<a href="https://youkoutaku.github.io/ja/blog/work-and-life-framework#framework-benefits" class="hash-link" aria-label="Framework Benefits への直接リンク" title="Framework Benefits への直接リンク">​</a></h2>
-<p><strong>Work Cycle Advantages:</strong></p>
-<ul>
-<li><strong>Reading</strong> builds knowledge and sparks creativity</li>
-<li><strong>Writing</strong> clarifies thinking and develops communication skills</li>
-<li><strong>Building</strong> transforms ideas into tangible results</li>
-</ul>
-<p><strong>Life Cycle Advantages:</strong></p>
-<ul>
-<li><strong>Sleep</strong> provides physical and mental restoration</li>
-<li><strong>Nutrition</strong> fuels both body and brain performance</li>
-<li><strong>Exercise/Focus</strong> maintains mental clarity and physical health</li>
-</ul>
-<p><strong>Integration:</strong></p>
-<ul>
-<li>These cycles complement each other naturally</li>
-<li>Simple decision-making: identify your current state and take the appropriate action</li>
-<li>Sustainable approach that prevents burnout while maintaining productivity</li>
-</ul>
 <p><em>A minimalist approach to managing the essential elements of work and life.</em></p>]]></content>
         <author>
             <name>Guangze Yang</name>
@@ -222,7 +228,6 @@ y &amp;= Cx + Du
         <category label="Productivity" term="Productivity"/>
         <category label="Life Philosophy" term="Life Philosophy"/>
         <category label="Work-Life Balance" term="Work-Life Balance"/>
-        <category label="Framework" term="Framework"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[努力本身就是一种天赋 (Effort Itself is a Form of Talent)]]></title>
