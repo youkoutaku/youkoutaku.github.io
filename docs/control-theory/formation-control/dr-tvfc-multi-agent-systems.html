@@ -2,7 +2,7 @@
 <html lang="en-US" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-control-theory/formation-control/dr-tvfc-multi-agent-systems" data-has-hydrated="false">
 <head>
 <meta charset="UTF-8">
-<meta name="generator" content="Docusaurus v3.9.1">
+<meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">DR-TVFC of Multi-Agent Systems under Disturbances | Youkoutaku</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" property="og:image" content="https://youkoutaku.github.io/img/icon/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://youkoutaku.github.io/img/icon/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://youkoutaku.github.io/docs/control-theory/formation-control/dr-tvfc-multi-agent-systems"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="google-site-verification" content="HCXqhjDsqF4bYQA_qxZVX8VtMEz6xEcqAwMOrRM7Ihg"><meta data-rh="true" name="algolia-site-verification" content="10A4733720C1464B"><meta data-rh="true" property="og:type" content="website"><meta data-rh="true" property="og:site_name" content="Youkoutaku - Control Systems &amp; Robotics"><meta data-rh="true" property="og:locale" content="en_US"><meta data-rh="true" property="og:locale:alternate" content="zh_CN"><meta data-rh="true" property="og:locale:alternate" content="ja_JP"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" name="twitter:site" content="@You_Koutaku"><meta data-rh="true" name="twitter:creator" content="@You_Koutaku"><meta data-rh="true" name="author" content="Guangze Yang (Youkoutaku)"><meta data-rh="true" name="robots" content="index, follow"><meta data-rh="true" name="theme-color" content="#404040"><meta data-rh="true" name="msapplication-TileColor" content="#404040"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="DR-TVFC of Multi-Agent Systems under Disturbances | Youkoutaku"><meta data-rh="true" name="description" content="Distributed Robust Time-Varying Formation Control for multi-agent systems under disturbances, featuring finite-time estimators and sliding mode controllers."><meta data-rh="true" property="og:description" content="Distributed Robust Time-Varying Formation Control for multi-agent systems under disturbances, featuring finite-time estimators and sliding mode controllers."><link data-rh="true" rel="icon" href="/img/icon/favicon.ico"><link data-rh="true" rel="canonical" href="https://youkoutaku.github.io/docs/control-theory/formation-control/dr-tvfc-multi-agent-systems"><link data-rh="true" rel="alternate" href="https://youkoutaku.github.io/docs/control-theory/formation-control/dr-tvfc-multi-agent-systems" hreflang="en-US"><link data-rh="true" rel="alternate" href="https://youkoutaku.github.io/docs/control-theory/formation-control/dr-tvfc-multi-agent-systems" hreflang="x-default"><link data-rh="true" rel="preconnect" href="https://QG5ORQVRCA-dsn.algolia.net" crossorigin="anonymous"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Control Theory","item":"https://youkoutaku.github.io/docs/category/control-theory"},{"@type":"ListItem","position":2,"name":"Formation Control","item":"https://youkoutaku.github.io/docs/category/formation-control"},{"@type":"ListItem","position":3,"name":"DR-TVFC of Multi-Agent Systems under Disturbances","item":"https://youkoutaku.github.io/docs/control-theory/formation-control/dr-tvfc-multi-agent-systems"}]}</script><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Youkoutaku Blog RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Youkoutaku Blog Atom Feed">
 
@@ -24,9 +24,9 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap">
-<script src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;e39af5c6fb3b4534a35f8630b30f420e&quot;}" defer="defer"></script><link rel="stylesheet" href="/assets/css/styles.1703185e.css">
-<script src="/assets/js/runtime~main.22ee86f2.js" defer="defer"></script>
-<script src="/assets/js/main.c78a9e1d.js" defer="defer"></script>
+<script src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;e39af5c6fb3b4534a35f8630b30f420e&quot;}" defer="defer"></script><link rel="stylesheet" href="/assets/css/styles.a2765df5.css">
+<script src="/assets/js/runtime~main.8ee283d0.js" defer="defer"></script>
+<script src="/assets/js/main.81f278d0.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg style="display: none;"><defs>
@@ -36,165 +36,165 @@
 <p><strong>Distributed Robust Time-Varying Formation Control for Multi-Agent Systems under Disturbances</strong></p>
 <p><strong>Authors:</strong> Guang-Ze Yang¹ and Zi-Jiang Yang²</p>
 <p><img decoding="async" loading="lazy" src="https://github.com/youkoutaku/DR-TVFC/blob/main/Image/Framework.png?raw=true" alt="DR-TVFC Framework" class="img_ev3q"></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="abstract">Abstract<a href="#abstract" class="hash-link" aria-label="Direct link to Abstract" title="Direct link to Abstract" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="abstract">Abstract<a href="#abstract" class="hash-link" aria-label="Direct link to Abstract" title="Direct link to Abstract" translate="no">​</a></h2>
 <p>This work considers the problem of time-varying formation tracking control of second-order multi-agent systems under disturbances. The DR-TVFC (Distributed Robust Time-Varying Formation Control) approach is proposed, including distributed finite-time estimators of the leader&#x27;s states and sliding mode time-varying formation controllers.</p>
 <p><strong>Key Contributions:</strong></p>
 <ol>
-<li>
+<li class="">
 <p><strong>Distributed Finite-Time Estimation</strong>: Each agent can quickly estimate the leader&#x27;s states through the communication network using distributed finite-time estimators based on sliding mode estimation.</p>
 </li>
-<li>
+<li class="">
 <p><strong>Sliding Mode Formation Controller</strong>: Utilizing the estimates of the leader&#x27;s states, a sliding mode time-varying formation controller is designed using the prescribed time modification function.</p>
 </li>
-<li>
+<li class="">
 <p><strong>Enhanced Robustness</strong>: Unlike traditional distributed control laws relying on the exchange of agents&#x27; states, the proposed control design achieves great robustness and stability of the overall system by exchanging the estimates of the leader&#x27;s states.</p>
 </li>
-<li>
+<li class="">
 <p><strong>Theoretical Guarantees</strong>: According to Lyapunov stability analysis, we prove that the proposed approach enables the sliding variables to achieve fast finite-time convergence.</p>
 </li>
 </ol>
 <div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Publication Status</div><div class="admonitionContent_BuS1"><p>This work has been <strong>accepted</strong> by the <strong>2024 63rd Annual Conference of SICE</strong>.</p></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="research-framework">Research Framework<a href="#research-framework" class="hash-link" aria-label="Direct link to Research Framework" title="Direct link to Research Framework" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="research-framework">Research Framework<a href="#research-framework" class="hash-link" aria-label="Direct link to Research Framework" title="Direct link to Research Framework" translate="no">​</a></h2>
 <p><img decoding="async" loading="lazy" src="https://github.com/youkoutaku/DR-TVFC/blob/main/Conclusion.png?raw=true" alt="Research Conclusion" class="img_ev3q"></p>
 <p>The framework demonstrates the integration of distributed estimation and robust control techniques for achieving time-varying formation control in multi-agent systems.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="source-code-and-implementation">Source Code and Implementation<a href="#source-code-and-implementation" class="hash-link" aria-label="Direct link to Source Code and Implementation" title="Direct link to Source Code and Implementation" translate="no">​</a></h2>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>GitHub Repository</div><div class="admonitionContent_BuS1"><p><strong>Source Code</strong>: <a href="https://github.com/youkoutaku/DR-TVFC" target="_blank" rel="noopener noreferrer">https://github.com/youkoutaku/DR-TVFC</a></p><p>The complete implementation includes MATLAB simulation code, documentation, and visualization tools.</p></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="program-structure">Program Structure<a href="#program-structure" class="hash-link" aria-label="Direct link to Program Structure" title="Direct link to Program Structure" translate="no">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="core-configuration">Core Configuration<a href="#core-configuration" class="hash-link" aria-label="Direct link to Core Configuration" title="Direct link to Core Configuration" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="source-code-and-implementation">Source Code and Implementation<a href="#source-code-and-implementation" class="hash-link" aria-label="Direct link to Source Code and Implementation" title="Direct link to Source Code and Implementation" translate="no">​</a></h2>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>GitHub Repository</div><div class="admonitionContent_BuS1"><p><strong>Source Code</strong>: <a href="https://github.com/youkoutaku/DR-TVFC" target="_blank" rel="noopener noreferrer" class="">https://github.com/youkoutaku/DR-TVFC</a></p><p>The complete implementation includes MATLAB simulation code, documentation, and visualization tools.</p></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="program-structure">Program Structure<a href="#program-structure" class="hash-link" aria-label="Direct link to Program Structure" title="Direct link to Program Structure" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="core-configuration">Core Configuration<a href="#core-configuration" class="hash-link" aria-label="Direct link to Core Configuration" title="Direct link to Core Configuration" translate="no">​</a></h3>
 <ul>
-<li><strong><code>config.m</code></strong>: System parameters and control parameters configuration</li>
+<li class=""><strong><code>config.m</code></strong>: System parameters and control parameters configuration</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="signal-generation">Signal Generation<a href="#signal-generation" class="hash-link" aria-label="Direct link to Signal Generation" title="Direct link to Signal Generation" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="signal-generation">Signal Generation<a href="#signal-generation" class="hash-link" aria-label="Direct link to Signal Generation" title="Direct link to Signal Generation" translate="no">​</a></h3>
 <ul>
-<li><strong><code>Leader_state.m</code></strong>: Generate reference signal (trajectory) and plot figures</li>
-<li><strong><code>Formation_shape.m</code></strong>: Generate time-varying formation shape and plot figures</li>
+<li class=""><strong><code>Leader_state.m</code></strong>: Generate reference signal (trajectory) and plot figures</li>
+<li class=""><strong><code>Formation_shape.m</code></strong>: Generate time-varying formation shape and plot figures</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="main-implementation">Main Implementation<a href="#main-implementation" class="hash-link" aria-label="Direct link to Main Implementation" title="Direct link to Main Implementation" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="main-implementation">Main Implementation<a href="#main-implementation" class="hash-link" aria-label="Direct link to Main Implementation" title="Direct link to Main Implementation" translate="no">​</a></h3>
 <ul>
-<li><strong><code>main.m</code></strong>: Main simulation file containing:<!-- -->
+<li class=""><strong><code>main.m</code></strong>: Main simulation file containing:<!-- -->
 <ul>
-<li>Distributed finite-time estimator implementation</li>
-<li>Prescribed time modification functions</li>
-<li>Sliding mode formation controller</li>
-<li>Complete system simulation</li>
+<li class="">Distributed finite-time estimator implementation</li>
+<li class="">Prescribed time modification functions</li>
+<li class="">Sliding mode formation controller</li>
+<li class="">Complete system simulation</li>
 </ul>
 </li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="visualization-programs-plot-directory">Visualization Programs (<code>Plot/</code> directory)<a href="#visualization-programs-plot-directory" class="hash-link" aria-label="Direct link to visualization-programs-plot-directory" title="Direct link to visualization-programs-plot-directory" translate="no">​</a></h3>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="main-figures">Main Figures<a href="#main-figures" class="hash-link" aria-label="Direct link to Main Figures" title="Direct link to Main Figures" translate="no">​</a></h4>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="visualization-programs-plot-directory">Visualization Programs (<code>Plot/</code> directory)<a href="#visualization-programs-plot-directory" class="hash-link" aria-label="Direct link to visualization-programs-plot-directory" title="Direct link to visualization-programs-plot-directory" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="main-figures">Main Figures<a href="#main-figures" class="hash-link" aria-label="Direct link to Main Figures" title="Direct link to Main Figures" translate="no">​</a></h4>
 <ol>
-<li><strong><code>fig_motion.m</code></strong>: 3D plotting of agents&#x27; movement trajectories</li>
-<li><strong><code>fig_error_e.m</code></strong>: Estimation errors of the distributed estimator</li>
-<li><strong><code>fig_states.m</code></strong>: State evolution of all agents</li>
-<li><strong><code>fig_error_pro.m</code></strong>: Formation controller tracking errors</li>
-<li><strong><code>fig_input.m</code></strong>: Control input signals</li>
-<li><strong><code>Animation.m</code></strong>: Real-time animation of agents&#x27; movement (run after <code>fig_states.m</code>)</li>
+<li class=""><strong><code>fig_motion.m</code></strong>: 3D plotting of agents&#x27; movement trajectories</li>
+<li class=""><strong><code>fig_error_e.m</code></strong>: Estimation errors of the distributed estimator</li>
+<li class=""><strong><code>fig_states.m</code></strong>: State evolution of all agents</li>
+<li class=""><strong><code>fig_error_pro.m</code></strong>: Formation controller tracking errors</li>
+<li class=""><strong><code>fig_input.m</code></strong>: Control input signals</li>
+<li class=""><strong><code>Animation.m</code></strong>: Real-time animation of agents&#x27; movement (run after <code>fig_states.m</code>)</li>
 </ol>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="additional-analysis-figures">Additional Analysis Figures<a href="#additional-analysis-figures" class="hash-link" aria-label="Direct link to Additional Analysis Figures" title="Direct link to Additional Analysis Figures" translate="no">​</a></h4>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="additional-analysis-figures">Additional Analysis Figures<a href="#additional-analysis-figures" class="hash-link" aria-label="Direct link to Additional Analysis Figures" title="Direct link to Additional Analysis Figures" translate="no">​</a></h4>
 <ol>
-<li><strong><code>fig_states_e.m</code></strong>: Estimator state evolution</li>
-<li><strong><code>fig_vinput.m</code></strong>: Virtual input signals of the estimator</li>
-<li><strong><code>fig_em.m</code></strong>: Modified formation tracking errors</li>
-<li><strong><code>fig_xi.m</code></strong>: Prescribed time modification function visualization</li>
-<li><strong><code>fig_sliding.m</code></strong>: Sliding variable evolution</li>
+<li class=""><strong><code>fig_states_e.m</code></strong>: Estimator state evolution</li>
+<li class=""><strong><code>fig_vinput.m</code></strong>: Virtual input signals of the estimator</li>
+<li class=""><strong><code>fig_em.m</code></strong>: Modified formation tracking errors</li>
+<li class=""><strong><code>fig_xi.m</code></strong>: Prescribed time modification function visualization</li>
+<li class=""><strong><code>fig_sliding.m</code></strong>: Sliding variable evolution</li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="running-the-simulation">Running the Simulation<a href="#running-the-simulation" class="hash-link" aria-label="Direct link to Running the Simulation" title="Direct link to Running the Simulation" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="running-the-simulation">Running the Simulation<a href="#running-the-simulation" class="hash-link" aria-label="Direct link to Running the Simulation" title="Direct link to Running the Simulation" translate="no">​</a></h2>
 <p>To execute the complete simulation and analysis:</p>
 <div class="language-matlab codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-matlab codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">build</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">m</span><br></span></code></pre></div></div>
 <p>This script will run the entire simulation pipeline and generate all visualization results.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="key-technical-features">Key Technical Features<a href="#key-technical-features" class="hash-link" aria-label="Direct link to Key Technical Features" title="Direct link to Key Technical Features" translate="no">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-distributed-finite-time-estimation">1. Distributed Finite-Time Estimation<a href="#1-distributed-finite-time-estimation" class="hash-link" aria-label="Direct link to 1. Distributed Finite-Time Estimation" title="Direct link to 1. Distributed Finite-Time Estimation" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="key-technical-features">Key Technical Features<a href="#key-technical-features" class="hash-link" aria-label="Direct link to Key Technical Features" title="Direct link to Key Technical Features" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-distributed-finite-time-estimation">1. Distributed Finite-Time Estimation<a href="#1-distributed-finite-time-estimation" class="hash-link" aria-label="Direct link to 1. Distributed Finite-Time Estimation" title="Direct link to 1. Distributed Finite-Time Estimation" translate="no">​</a></h3>
 <ul>
-<li><strong>Sliding Mode Based</strong>: Robust estimation against disturbances</li>
-<li><strong>Finite-Time Convergence</strong>: Fast convergence to true leader states</li>
-<li><strong>Network Communication</strong>: Efficient information exchange protocol</li>
+<li class=""><strong>Sliding Mode Based</strong>: Robust estimation against disturbances</li>
+<li class=""><strong>Finite-Time Convergence</strong>: Fast convergence to true leader states</li>
+<li class=""><strong>Network Communication</strong>: Efficient information exchange protocol</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-prescribed-time-modification">2. Prescribed Time Modification<a href="#2-prescribed-time-modification" class="hash-link" aria-label="Direct link to 2. Prescribed Time Modification" title="Direct link to 2. Prescribed Time Modification" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-prescribed-time-modification">2. Prescribed Time Modification<a href="#2-prescribed-time-modification" class="hash-link" aria-label="Direct link to 2. Prescribed Time Modification" title="Direct link to 2. Prescribed Time Modification" translate="no">​</a></h3>
 <ul>
-<li><strong>Time-Varying Formation</strong>: Dynamic formation shape changes</li>
-<li><strong>Prescribed Convergence</strong>: Guaranteed convergence within specified time</li>
-<li><strong>Disturbance Rejection</strong>: Robust performance under external disturbances</li>
+<li class=""><strong>Time-Varying Formation</strong>: Dynamic formation shape changes</li>
+<li class=""><strong>Prescribed Convergence</strong>: Guaranteed convergence within specified time</li>
+<li class=""><strong>Disturbance Rejection</strong>: Robust performance under external disturbances</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-sliding-mode-control">3. Sliding Mode Control<a href="#3-sliding-mode-control" class="hash-link" aria-label="Direct link to 3. Sliding Mode Control" title="Direct link to 3. Sliding Mode Control" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-sliding-mode-control">3. Sliding Mode Control<a href="#3-sliding-mode-control" class="hash-link" aria-label="Direct link to 3. Sliding Mode Control" title="Direct link to 3. Sliding Mode Control" translate="no">​</a></h3>
 <ul>
-<li><strong>Robust Control</strong>: Inherent robustness to uncertainties and disturbances</li>
-<li><strong>Finite-Time Convergence</strong>: Fast system response</li>
-<li><strong>Chattering Reduction</strong>: Advanced techniques to minimize control chattering</li>
+<li class=""><strong>Robust Control</strong>: Inherent robustness to uncertainties and disturbances</li>
+<li class=""><strong>Finite-Time Convergence</strong>: Fast system response</li>
+<li class=""><strong>Chattering Reduction</strong>: Advanced techniques to minimize control chattering</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="development-history-and-updates">Development History and Updates<a href="#development-history-and-updates" class="hash-link" aria-label="Direct link to Development History and Updates" title="Direct link to Development History and Updates" translate="no">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="recent-updates">Recent Updates<a href="#recent-updates" class="hash-link" aria-label="Direct link to Recent Updates" title="Direct link to Recent Updates" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="development-history-and-updates">Development History and Updates<a href="#development-history-and-updates" class="hash-link" aria-label="Direct link to Development History and Updates" title="Direct link to Development History and Updates" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="recent-updates">Recent Updates<a href="#recent-updates" class="hash-link" aria-label="Direct link to Recent Updates" title="Direct link to Recent Updates" translate="no">​</a></h3>
 <p><strong>2024-08-01</strong></p>
 <ul>
-<li>Enhanced <code>Animation.m</code> program for improved presentation capabilities</li>
+<li class="">Enhanced <code>Animation.m</code> program for improved presentation capabilities</li>
 </ul>
 <p><strong>2024-06-25</strong></p>
 <ul>
-<li>Globalized agent states to utilize matrix computation instead of iterative loops</li>
-<li>Improved computational efficiency</li>
+<li class="">Globalized agent states to utilize matrix computation instead of iterative loops</li>
+<li class="">Improved computational efficiency</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="major-milestones">Major Milestones<a href="#major-milestones" class="hash-link" aria-label="Direct link to Major Milestones" title="Direct link to Major Milestones" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="major-milestones">Major Milestones<a href="#major-milestones" class="hash-link" aria-label="Direct link to Major Milestones" title="Direct link to Major Milestones" translate="no">​</a></h3>
 <p><strong>2024-01-21</strong></p>
 <ul>
-<li>Implemented time-varying formation shape using SMFC algorithm</li>
+<li class="">Implemented time-varying formation shape using SMFC algorithm</li>
 </ul>
 <p><strong>2023-11-26</strong></p>
 <ul>
-<li>Introduced distributed state estimation for consensus tracking control</li>
-<li>Enhanced leader state estimation capabilities</li>
+<li class="">Introduced distributed state estimation for consensus tracking control</li>
+<li class="">Enhanced leader state estimation capabilities</li>
 </ul>
 <p><strong>2023-09-08</strong></p>
 <ul>
-<li>Integrated prescribed time modification function to formation tracking errors in SMFC</li>
+<li class="">Integrated prescribed time modification function to formation tracking errors in SMFC</li>
 </ul>
 <p><strong>2023-07-30</strong></p>
 <ul>
-<li>Developed sliding mode formation controller (SMFC) for centralized leader-follower architecture</li>
+<li class="">Developed sliding mode formation controller (SMFC) for centralized leader-follower architecture</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ongoing-research">Ongoing Research<a href="#ongoing-research" class="hash-link" aria-label="Direct link to Ongoing Research" title="Direct link to Ongoing Research" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ongoing-research">Ongoing Research<a href="#ongoing-research" class="hash-link" aria-label="Direct link to Ongoing Research" title="Direct link to Ongoing Research" translate="no">​</a></h3>
 <p><strong>2023-03-11</strong></p>
 <ul>
-<li>Collision avoidance for multi-agent systems (ongoing development)</li>
+<li class="">Collision avoidance for multi-agent systems (ongoing development)</li>
 </ul>
 <p><strong>2023-11-06</strong></p>
 <ul>
-<li>Neural network integration for disturbance handling (experimental phase)</li>
+<li class="">Neural network integration for disturbance handling (experimental phase)</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="applications-and-impact">Applications and Impact<a href="#applications-and-impact" class="hash-link" aria-label="Direct link to Applications and Impact" title="Direct link to Applications and Impact" translate="no">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="robotics-applications">Robotics Applications<a href="#robotics-applications" class="hash-link" aria-label="Direct link to Robotics Applications" title="Direct link to Robotics Applications" translate="no">​</a></h3>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="applications-and-impact">Applications and Impact<a href="#applications-and-impact" class="hash-link" aria-label="Direct link to Applications and Impact" title="Direct link to Applications and Impact" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="robotics-applications">Robotics Applications<a href="#robotics-applications" class="hash-link" aria-label="Direct link to Robotics Applications" title="Direct link to Robotics Applications" translate="no">​</a></h3>
 <ul>
-<li><strong>Autonomous Vehicle Formation</strong>: Coordinated movement of autonomous vehicles</li>
-<li><strong>Drone Swarms</strong>: Formation flying and collaborative missions</li>
-<li><strong>Mobile Robot Teams</strong>: Warehouse automation and logistics</li>
+<li class=""><strong>Autonomous Vehicle Formation</strong>: Coordinated movement of autonomous vehicles</li>
+<li class=""><strong>Drone Swarms</strong>: Formation flying and collaborative missions</li>
+<li class=""><strong>Mobile Robot Teams</strong>: Warehouse automation and logistics</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="industrial-applications">Industrial Applications<a href="#industrial-applications" class="hash-link" aria-label="Direct link to Industrial Applications" title="Direct link to Industrial Applications" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="industrial-applications">Industrial Applications<a href="#industrial-applications" class="hash-link" aria-label="Direct link to Industrial Applications" title="Direct link to Industrial Applications" translate="no">​</a></h3>
 <ul>
-<li><strong>Manufacturing Systems</strong>: Coordinated robotic assembly lines</li>
-<li><strong>Process Control</strong>: Multi-unit chemical process coordination</li>
-<li><strong>Smart Grid</strong>: Distributed energy system coordination</li>
+<li class=""><strong>Manufacturing Systems</strong>: Coordinated robotic assembly lines</li>
+<li class=""><strong>Process Control</strong>: Multi-unit chemical process coordination</li>
+<li class=""><strong>Smart Grid</strong>: Distributed energy system coordination</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="research-significance">Research Significance<a href="#research-significance" class="hash-link" aria-label="Direct link to Research Significance" title="Direct link to Research Significance" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="research-significance">Research Significance<a href="#research-significance" class="hash-link" aria-label="Direct link to Research Significance" title="Direct link to Research Significance" translate="no">​</a></h3>
 <ul>
-<li><strong>Theoretical Advancement</strong>: Novel approach to distributed robust control</li>
-<li><strong>Practical Implementation</strong>: MATLAB-based tools for research and education</li>
-<li><strong>Community Contribution</strong>: Open-source implementation for reproducible research</li>
+<li class=""><strong>Theoretical Advancement</strong>: Novel approach to distributed robust control</li>
+<li class=""><strong>Practical Implementation</strong>: MATLAB-based tools for research and education</li>
+<li class=""><strong>Community Contribution</strong>: Open-source implementation for reproducible research</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="future-directions">Future Directions<a href="#future-directions" class="hash-link" aria-label="Direct link to Future Directions" title="Direct link to Future Directions" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="future-directions">Future Directions<a href="#future-directions" class="hash-link" aria-label="Direct link to Future Directions" title="Direct link to Future Directions" translate="no">​</a></h2>
 <ol>
-<li><strong>Enhanced Collision Avoidance</strong>: Integration of sophisticated obstacle avoidance algorithms</li>
-<li><strong>Machine Learning Integration</strong>: Neural network-based disturbance estimation and compensation</li>
-<li><strong>Experimental Validation</strong>: Hardware implementation and real-world testing</li>
-<li><strong>Scalability Studies</strong>: Performance analysis with larger agent populations</li>
+<li class=""><strong>Enhanced Collision Avoidance</strong>: Integration of sophisticated obstacle avoidance algorithms</li>
+<li class=""><strong>Machine Learning Integration</strong>: Neural network-based disturbance estimation and compensation</li>
+<li class=""><strong>Experimental Validation</strong>: Hardware implementation and real-world testing</li>
+<li class=""><strong>Scalability Studies</strong>: Performance analysis with larger agent populations</li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="author-information">Author Information<a href="#author-information" class="hash-link" aria-label="Direct link to Author Information" title="Direct link to Author Information" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="author-information">Author Information<a href="#author-information" class="hash-link" aria-label="Direct link to Author Information" title="Direct link to Author Information" translate="no">​</a></h2>
 <p>¹ <strong>Guang-Ze Yang</strong><br>
 <!-- -->Department of Mechanical Systems Engineering, Ibaraki University, Hitachi, Japan<br>
 <!-- -->Tel: +81-294-38-5205<br>
-<!-- -->Email: <a href="mailto:24nm499s@vc.ibaraki.ac.jp" target="_blank" rel="noopener noreferrer">24nm499s@vc.ibaraki.ac.jp</a></p>
+<!-- -->Email: <a href="mailto:24nm499s@vc.ibaraki.ac.jp" target="_blank" rel="noopener noreferrer" class="">24nm499s@vc.ibaraki.ac.jp</a></p>
 <p>² <strong>Zi-Jiang Yang</strong><br>
 <!-- -->Department of Mechanical Systems Engineering, Ibaraki University, Hitachi, Japan<br>
 <!-- -->Tel: +81-294-38-5205<br>
-<!-- -->Email: <a href="mailto:shikoh.yoh.zijiang@vc.ibaraki.ac.jp" target="_blank" rel="noopener noreferrer">shikoh.yoh.zijiang@vc.ibaraki.ac.jp</a></p>
+<!-- -->Email: <a href="mailto:shikoh.yoh.zijiang@vc.ibaraki.ac.jp" target="_blank" rel="noopener noreferrer" class="">shikoh.yoh.zijiang@vc.ibaraki.ac.jp</a></p>
 <hr>
-<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Research Impact</div><div class="admonitionContent_BuS1"><p>This research contributes to the advancement of distributed control theory and provides practical tools for multi-agent system formation control applications. The open-source implementation facilitates further research and development in the field.</p></div></div></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-tags-row"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/docs/tags/formation-control">Formation Control</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/docs/tags/robust-control">Robust Control</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/docs/tags/distributed-control">Distributed Control</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/docs/tags/multi-agent-systems">Multi-Agent Systems</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/docs/tags/sliding-mode-control">Sliding Mode Control</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/docs/tags/matlab">MATLAB</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/docs/tags/research">Research</a></li></ul></div></div><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/youkoutaku/docusaurus-youkoutaku/tree/main/docs/3-control-theory/formation-control/dr-tvfc-multi-agent-systems.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/category/formation-control"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Formation Control</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/category/prescribed-performance-control"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Prescribed Performance Control</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#abstract" class="table-of-contents__link toc-highlight">Abstract</a></li><li><a href="#research-framework" class="table-of-contents__link toc-highlight">Research Framework</a></li><li><a href="#source-code-and-implementation" class="table-of-contents__link toc-highlight">Source Code and Implementation</a></li><li><a href="#program-structure" class="table-of-contents__link toc-highlight">Program Structure</a><ul><li><a href="#core-configuration" class="table-of-contents__link toc-highlight">Core Configuration</a></li><li><a href="#signal-generation" class="table-of-contents__link toc-highlight">Signal Generation</a></li><li><a href="#main-implementation" class="table-of-contents__link toc-highlight">Main Implementation</a></li><li><a href="#visualization-programs-plot-directory" class="table-of-contents__link toc-highlight">Visualization Programs (<code>Plot/</code> directory)</a></li></ul></li><li><a href="#running-the-simulation" class="table-of-contents__link toc-highlight">Running the Simulation</a></li><li><a href="#key-technical-features" class="table-of-contents__link toc-highlight">Key Technical Features</a><ul><li><a href="#1-distributed-finite-time-estimation" class="table-of-contents__link toc-highlight">1. Distributed Finite-Time Estimation</a></li><li><a href="#2-prescribed-time-modification" class="table-of-contents__link toc-highlight">2. Prescribed Time Modification</a></li><li><a href="#3-sliding-mode-control" class="table-of-contents__link toc-highlight">3. Sliding Mode Control</a></li></ul></li><li><a href="#development-history-and-updates" class="table-of-contents__link toc-highlight">Development History and Updates</a><ul><li><a href="#recent-updates" class="table-of-contents__link toc-highlight">Recent Updates</a></li><li><a href="#major-milestones" class="table-of-contents__link toc-highlight">Major Milestones</a></li><li><a href="#ongoing-research" class="table-of-contents__link toc-highlight">Ongoing Research</a></li></ul></li><li><a href="#applications-and-impact" class="table-of-contents__link toc-highlight">Applications and Impact</a><ul><li><a href="#robotics-applications" class="table-of-contents__link toc-highlight">Robotics Applications</a></li><li><a href="#industrial-applications" class="table-of-contents__link toc-highlight">Industrial Applications</a></li><li><a href="#research-significance" class="table-of-contents__link toc-highlight">Research Significance</a></li></ul></li><li><a href="#future-directions" class="table-of-contents__link toc-highlight">Future Directions</a></li><li><a href="#author-information" class="table-of-contents__link toc-highlight">Author Information</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Youkoutaku. Built with Docusaurus.</div></div></div></footer><audio src="/music/Track1.m4a"></audio></div>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Research Impact</div><div class="admonitionContent_BuS1"><p>This research contributes to the advancement of distributed control theory and provides practical tools for multi-agent system formation control applications. The open-source implementation facilitates further research and development in the field.</p></div></div></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-tags-row"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/docs/tags/formation-control">Formation Control</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/docs/tags/robust-control">Robust Control</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/docs/tags/distributed-control">Distributed Control</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/docs/tags/multi-agent-systems">Multi-Agent Systems</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/docs/tags/sliding-mode-control">Sliding Mode Control</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/docs/tags/matlab">MATLAB</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/docs/tags/research">Research</a></li></ul></div></div><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/youkoutaku/docusaurus-youkoutaku/tree/main/docs/3-control-theory/formation-control/dr-tvfc-multi-agent-systems.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/category/formation-control"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Formation Control</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/category/prescribed-performance-control"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Prescribed Performance Control</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#abstract" class="table-of-contents__link toc-highlight">Abstract</a></li><li><a href="#research-framework" class="table-of-contents__link toc-highlight">Research Framework</a></li><li><a href="#source-code-and-implementation" class="table-of-contents__link toc-highlight">Source Code and Implementation</a></li><li><a href="#program-structure" class="table-of-contents__link toc-highlight">Program Structure</a><ul><li><a href="#core-configuration" class="table-of-contents__link toc-highlight">Core Configuration</a></li><li><a href="#signal-generation" class="table-of-contents__link toc-highlight">Signal Generation</a></li><li><a href="#main-implementation" class="table-of-contents__link toc-highlight">Main Implementation</a></li><li><a href="#visualization-programs-plot-directory" class="table-of-contents__link toc-highlight">Visualization Programs (<code>Plot/</code> directory)</a></li></ul></li><li><a href="#running-the-simulation" class="table-of-contents__link toc-highlight">Running the Simulation</a></li><li><a href="#key-technical-features" class="table-of-contents__link toc-highlight">Key Technical Features</a><ul><li><a href="#1-distributed-finite-time-estimation" class="table-of-contents__link toc-highlight">1. Distributed Finite-Time Estimation</a></li><li><a href="#2-prescribed-time-modification" class="table-of-contents__link toc-highlight">2. Prescribed Time Modification</a></li><li><a href="#3-sliding-mode-control" class="table-of-contents__link toc-highlight">3. Sliding Mode Control</a></li></ul></li><li><a href="#development-history-and-updates" class="table-of-contents__link toc-highlight">Development History and Updates</a><ul><li><a href="#recent-updates" class="table-of-contents__link toc-highlight">Recent Updates</a></li><li><a href="#major-milestones" class="table-of-contents__link toc-highlight">Major Milestones</a></li><li><a href="#ongoing-research" class="table-of-contents__link toc-highlight">Ongoing Research</a></li></ul></li><li><a href="#applications-and-impact" class="table-of-contents__link toc-highlight">Applications and Impact</a><ul><li><a href="#robotics-applications" class="table-of-contents__link toc-highlight">Robotics Applications</a></li><li><a href="#industrial-applications" class="table-of-contents__link toc-highlight">Industrial Applications</a></li><li><a href="#research-significance" class="table-of-contents__link toc-highlight">Research Significance</a></li></ul></li><li><a href="#future-directions" class="table-of-contents__link toc-highlight">Future Directions</a></li><li><a href="#author-information" class="table-of-contents__link toc-highlight">Author Information</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Youkoutaku. Built with Docusaurus.</div></div></div></footer><audio src="/music/Track1.m4a"></audio></div>
 </body>
 </html>
