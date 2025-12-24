@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7472],{55513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Controllability & Observability: Matrix vs Gramian","permalink":"/blog/controllability-observability-matrix-gramian","unlisted":false,"date":"2025-09-14T00:00:00.000Z"}]}')}}]);
