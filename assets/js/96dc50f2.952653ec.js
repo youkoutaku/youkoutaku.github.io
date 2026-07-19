@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([["6347"],{79683(e){e.exports=JSON.parse('{"metadata":{"permalink":"/project","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Research and Engineering Projects","blogTitle":"Projects"}}')}}]);
