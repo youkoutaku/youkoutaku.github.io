@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://youkoutaku.github.io/blog</id>
-    <title>Youkoutaku | Control Systems &amp; Robotics</title>
+    <title>Guang-Ze Yang | Robotics &amp; Control R&amp;D</title>
     <updated>2024-10-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://youkoutaku.github.io/blog"/>
-    <subtitle>Technical insights, tutorials, and research on Control Systems and Robotics by Guangze Yang.</subtitle>
+    <subtitle>Technical insights, tutorials, and research on Control Systems and Robotics by Guang-Ze Yang.</subtitle>
     <icon>https://youkoutaku.github.io/img/icon/favicon.ico</icon>
-    <rights>Copyright © 2026 Guangze Yang</rights>
+    <rights>Copyright © 2026 Guang-Ze Yang</rights>
     <entry>
         <title type="html"><![CDATA[Raspberry Pi Remote Development with VS Code & SSH]]></title>
         <id>https://youkoutaku.github.io/blog/raspberry-pi-ssh-setup</id>
@@ -267,7 +267,7 @@
 </ul></div></div>
 <div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Performance Note</div><div class="admonitionContent_BuS1"><p>Raspberry Pi 4 with 4GB+ RAM provides the best experience for VS Code remote development. Older models may be slower but still functional.</p></div></div>]]></content>
         <author>
-            <name>Guangze Yang</name>
+            <name>Guang-Ze Yang</name>
             <uri>https://linkedin.com/in/youkoutaku</uri>
         </author>
         <category label="Raspberry Pi" term="Raspberry Pi"/>
@@ -415,7 +415,7 @@
 <li class="">Use .dockerignore files to reduce build time</li>
 </ul></div></div>]]></content>
         <author>
-            <name>Guangze Yang</name>
+            <name>Guang-Ze Yang</name>
             <uri>https://linkedin.com/in/youkoutaku</uri>
         </author>
         <category label="Docker" term="Docker"/>
@@ -510,7 +510,7 @@
 <li class="">Use .dockerignore files to reduce build time</li>
 </ul></div></div>]]></content>
         <author>
-            <name>Guangze Yang</name>
+            <name>Guang-Ze Yang</name>
             <uri>https://linkedin.com/in/youkoutaku</uri>
         </author>
         <category label="Docker" term="Docker"/>
@@ -610,7 +610,7 @@
 <li class=""><a href="https://askubuntu.com/questions/477551/how-can-i-use-docker-without-sudo" target="_blank" rel="noopener noreferrer" class="">Ask Ubuntu - How can I use docker without sudo?</a></li>
 </ul>]]></content>
         <author>
-            <name>Guangze Yang</name>
+            <name>Guang-Ze Yang</name>
             <uri>https://linkedin.com/in/youkoutaku</uri>
         </author>
         <category label="Docker" term="Docker"/>
@@ -709,7 +709,7 @@
 <li class=""><a href="https://docs.docker.com/engine/reference/commandline/" target="_blank" rel="noopener noreferrer" class="">Docker CLI Reference</a></li>
 </ul></div></div>]]></content>
         <author>
-            <name>Guangze Yang</name>
+            <name>Guang-Ze Yang</name>
             <uri>https://linkedin.com/in/youkoutaku</uri>
         </author>
         <category label="Docker" term="Docker"/>
@@ -870,7 +870,7 @@
 <li class="">Reattach: <code>tmux attach -t mysession</code></li>
 </ol></div></div>]]></content>
         <author>
-            <name>Guangze Yang</name>
+            <name>Guang-Ze Yang</name>
             <uri>https://linkedin.com/in/youkoutaku</uri>
         </author>
         <category label="Terminal" term="Terminal"/>
@@ -1232,7 +1232,7 @@
 <li class="">Restore from system backup if available</li>
 </ol></div></div>]]></content>
         <author>
-            <name>Guangze Yang</name>
+            <name>Guang-Ze Yang</name>
             <uri>https://linkedin.com/in/youkoutaku</uri>
         </author>
         <category label="Ubuntu" term="Ubuntu"/>
@@ -1426,7 +1426,7 @@
 </ul></div></div>
 <div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Performance Note</div><div class="admonitionContent_BuS1"><p>For intensive GUI applications, consider using VNC or Remote Desktop solutions instead of X11 forwarding for better performance.</p></div></div>]]></content>
         <author>
-            <name>Guangze Yang</name>
+            <name>Guang-Ze Yang</name>
             <uri>https://linkedin.com/in/youkoutaku</uri>
         </author>
         <category label="Linux" term="Linux"/>
@@ -1649,7 +1649,7 @@
 </ul></div></div>
 <div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Security Note</div><div class="admonitionContent_BuS1"><p>Static IP addresses are more visible on the network. Ensure proper firewall configuration and security hardening for systems with static IPs.</p></div></div>]]></content>
         <author>
-            <name>Guangze Yang</name>
+            <name>Guang-Ze Yang</name>
             <uri>https://linkedin.com/in/youkoutaku</uri>
         </author>
         <category label="Ubuntu" term="Ubuntu"/>
@@ -1664,6 +1664,7 @@
         <updated>2024-06-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[この文書では、逐次最小二乗法（Recursive Least Squares, RLS）を用いたシステム同定のシミュレーションについて詳しく説明します。2次線形システムのパラメータ推定、時変システム、および補助変数法を含む包括的な分析を行います。]]></summary>
         <content type="html"><![CDATA[<p>この文書では、逐次最小二乗法（Recursive Least Squares, RLS）を用いたシステム同定のシミュレーションについて詳しく説明します。2次線形システムのパラメータ推定、時変システム、および補助変数法を含む包括的な分析を行います。</p>
+<!-- -->
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="351-同定対象システム">3.5.1 同定対象システム<a href="https://youkoutaku.github.io/blog/simulation-recursive-least-squares#351-%E5%90%8C%E5%AE%9A%E5%AF%BE%E8%B1%A1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0" class="hash-link" aria-label="Direct link to 3.5.1 同定対象システム" title="Direct link to 3.5.1 同定対象システム" translate="no">​</a></h2>
 <p>2次の線形離散時間システムを考えます：</p>
 <span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable rowspacing="0.25em" columnalign="right left" columnspacing="0em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><msub><mi>x</mi><mi>t</mi></msub></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mo>−</mo><msub><mi>a</mi><mn>1</mn></msub><msub><mi>x</mi><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>−</mo><msub><mi>a</mi><mn>2</mn></msub><msub><mi>x</mi><mrow><mi>t</mi><mo>−</mo><mn>2</mn></mrow></msub><mo>+</mo><msub><mi>b</mi><mn>1</mn></msub><msub><mi>u</mi><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><msub><mi>b</mi><mn>2</mn></msub><msub><mi>u</mi><mrow><mi>t</mi><mo>−</mo><mn>2</mn></mrow></msub></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><msub><mi>y</mi><mi>t</mi></msub></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><msub><mi>x</mi><mi>t</mi></msub><mo>+</mo><msub><mi>v</mi><mi>t</mi></msub></mrow></mstyle></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{aligned}
@@ -1758,7 +1759,7 @@ b_{2,t} &amp;= 0.5+0.4\cos(2\pi t/2000)
 <p>逐次最小二乗法とその拡張である補助変数法は、システム同定において強力な手法です。雑音レベル、システムの時変性、計算資源などを総合的に考慮して最適な手法を選択することが重要です。</p>
 <p>実際の応用では、複数の手法を組み合わせたハイブリッドアプローチや、適応的に手法を切り替える戦略も有効です。</p>]]></content>
         <author>
-            <name>Guangze Yang</name>
+            <name>Guang-Ze Yang</name>
             <uri>https://linkedin.com/in/youkoutaku</uri>
         </author>
         <category label="MATLAB" term="MATLAB"/>
@@ -1770,7 +1771,8 @@ b_{2,t} &amp;= 0.5+0.4\cos(2\pi t/2000)
         <link href="https://youkoutaku.github.io/blog/simulation-pid-control"/>
         <updated>2024-05-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[前進差分、後退差分、双一次変換を用いたPID制御器の離散化とMATLABによる数値シミュレーション]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="制御対象">制御対象<a href="https://youkoutaku.github.io/blog/simulation-pid-control#%E5%88%B6%E5%BE%A1%E5%AF%BE%E8%B1%A1" class="hash-link" aria-label="Direct link to 制御対象" title="Direct link to 制御対象" translate="no">​</a></h2>
+        <content type="html"><![CDATA[
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="制御対象">制御対象<a href="https://youkoutaku.github.io/blog/simulation-pid-control#%E5%88%B6%E5%BE%A1%E5%AF%BE%E8%B1%A1" class="hash-link" aria-label="Direct link to 制御対象" title="Direct link to 制御対象" translate="no">​</a></h2>
 <p>4次の伝達関数で表される制御対象を考える：</p>
 <span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>G</mi><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo><mo>=</mo><mfrac><mrow><mn>12</mn><mi>s</mi><mo>+</mo><mn>8</mn></mrow><mrow><mn>20</mn><msup><mi>s</mi><mn>4</mn></msup><mo>+</mo><mn>112</mn><msup><mi>s</mi><mn>3</mn></msup><mo>+</mo><mn>147</mn><msup><mi>s</mi><mn>2</mn></msup><mo>+</mo><mn>62</mn><mi>s</mi><mo>+</mo><mn>8</mn></mrow></mfrac></mrow><annotation encoding="application/x-tex">G(s)=\frac{12s+8}{20s^4+112s^3+147s^2+62s+8}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mord mathnormal">G</span><span class="mopen">(</span><span class="mord mathnormal">s</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em"></span></span><span class="base"><span class="strut" style="height:2.0908em;vertical-align:-0.7693em"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em"><span style="top:-2.314em"><span class="pstrut" style="height:3em"></span><span class="mord"><span class="mord">20</span><span class="mord"><span class="mord mathnormal">s</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em"><span style="top:-2.989em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em"></span><span class="mord">112</span><span class="mord"><span class="mord mathnormal">s</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em"><span style="top:-2.989em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em"></span><span class="mord">147</span><span class="mord"><span class="mord mathnormal">s</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7401em"><span style="top:-2.989em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em"></span><span class="mord">62</span><span class="mord mathnormal">s</span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em"></span><span class="mord">8</span></span></span><span style="top:-3.23em"><span class="pstrut" style="height:3em"></span><span class="frac-line" style="border-bottom-width:0.04em"></span></span><span style="top:-3.677em"><span class="pstrut" style="height:3em"></span><span class="mord"><span class="mord">12</span><span class="mord mathnormal">s</span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em"></span><span class="mord">8</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7693em"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="状態空間表現への変換">状態空間表現への変換<a href="https://youkoutaku.github.io/blog/simulation-pid-control#%E7%8A%B6%E6%85%8B%E7%A9%BA%E9%96%93%E8%A1%A8%E7%8F%BE%E3%81%B8%E3%81%AE%E5%A4%89%E6%8F%9B" class="hash-link" aria-label="Direct link to 状態空間表現への変換" title="Direct link to 状態空間表現への変換" translate="no">​</a></h3>
@@ -1894,7 +1896,7 @@ C(z)&amp;=c_p+c_i\frac{T}{2}\frac{1+z^{-1}}{1-z^{-1}}+c_d\frac{1}{\gamma+\frac{T
 </ol>
 <p>これらの知識は、実際の制御系設計における重要な基盤となる。特に、離散化手法の選択は制御性能に大きく影響するため、システムの特性と要求性能に応じた適切な選択が重要である。</p>]]></content>
         <author>
-            <name>Guangze Yang</name>
+            <name>Guang-Ze Yang</name>
             <uri>https://linkedin.com/in/youkoutaku</uri>
         </author>
         <category label="PID制御" term="PID制御"/>
@@ -2141,7 +2143,7 @@ C(z)&amp;=c_p+c_i\frac{T}{2}\frac{1+z^{-1}}{1-z^{-1}}+c_d\frac{1}{\gamma+\frac{T
 </ul></div></div>
 <div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Security Reminder</div><div class="admonitionContent_BuS1"><p>Always follow security best practices when setting up remote access. Use strong authentication, keep systems updated, and monitor access logs regularly.</p></div></div>]]></content>
         <author>
-            <name>Guangze Yang</name>
+            <name>Guang-Ze Yang</name>
             <uri>https://linkedin.com/in/youkoutaku</uri>
         </author>
         <category label="Linux" term="Linux"/>
@@ -2361,7 +2363,7 @@ C(z)&amp;=c_p+c_i\frac{T}{2}\frac{1+z^{-1}}{1-z^{-1}}+c_d\frac{1}{\gamma+\frac{T
 <li class=""><a href="https://docs.docker.com/" target="_blank" rel="noopener noreferrer" class="">Docker Documentation</a></li>
 </ul>]]></content>
         <author>
-            <name>Guangze Yang</name>
+            <name>Guang-Ze Yang</name>
             <uri>https://linkedin.com/in/youkoutaku</uri>
         </author>
         <category label="Ubuntu" term="Ubuntu"/>
@@ -2703,7 +2705,7 @@ C(z)&amp;=c_p+c_i\frac{T}{2}\frac{1+z^{-1}}{1-z^{-1}}+c_d\frac{1}{\gamma+\frac{T
 <li class="">Performance will be slower than internal SSD installations</li>
 </ul></div></div>]]></content>
         <author>
-            <name>Guangze Yang</name>
+            <name>Guang-Ze Yang</name>
             <uri>https://linkedin.com/in/youkoutaku</uri>
         </author>
         <category label="Ubuntu" term="Ubuntu"/>
@@ -2719,6 +2721,7 @@ C(z)&amp;=c_p+c_i\frac{T}{2}\frac{1+z^{-1}}{1-z^{-1}}+c_d\frac{1}{\gamma+\frac{T
         <updated>2024-04-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[前進差分、後退差分、双一次変換を用いたRL回路のステップ応答数値計算とその比較]]></summary>
         <content type="html"><![CDATA[<p>前進差分、後退差分、双一次変換をそれぞれ用いて、例題1.2.1の電気回路のステップ応答を数値計算で求め、数値計算の結果と真の応答をプロットし、比較する。</p>
+<!-- -->
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="電気回路モデル">電気回路モデル<a href="https://youkoutaku.github.io/blog/simulation-numerical-integration-methods#%E9%9B%BB%E6%B0%97%E5%9B%9E%E8%B7%AF%E3%83%A2%E3%83%87%E3%83%AB" class="hash-link" aria-label="Direct link to 電気回路モデル" title="Direct link to 電気回路モデル" translate="no">​</a></h2>
 <p>RL回路の微分方程式：</p>
 <span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>L</mi><mfrac><mrow><mi>d</mi><mi>i</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>+</mo><mi>R</mi><mi>i</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mo>=</mo><mi>u</mi><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">L\frac{di(t)}{dt} + Ri(t) = u(t)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.113em;vertical-align:-0.686em"></span><span class="mord mathnormal">L</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.427em"><span style="top:-2.314em"><span class="pstrut" style="height:3em"></span><span class="mord"><span class="mord mathnormal">d</span><span class="mord mathnormal">t</span></span></span><span style="top:-3.23em"><span class="pstrut" style="height:3em"></span><span class="frac-line" style="border-bottom-width:0.04em"></span></span><span style="top:-3.677em"><span class="pstrut" style="height:3em"></span><span class="mord"><span class="mord mathnormal">d</span><span class="mord mathnormal">i</span><span class="mopen">(</span><span class="mord mathnormal">t</span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mord mathnormal" style="margin-right:0.00773em">R</span><span class="mord mathnormal">i</span><span class="mopen">(</span><span class="mord mathnormal">t</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mord mathnormal">u</span><span class="mopen">(</span><span class="mord mathnormal">t</span><span class="mclose">)</span></span></span></span></span>
@@ -2836,7 +2839,7 @@ C(z)&amp;=c_p+c_i\frac{T}{2}\frac{1+z^{-1}}{1-z^{-1}}+c_d\frac{1}{\gamma+\frac{T
 </ul></div></div>
 <p>これらの数値積分手法の理解は、システム同定や制御系設計において重要な基礎知識となる。</p>]]></content>
         <author>
-            <name>Guangze Yang</name>
+            <name>Guang-Ze Yang</name>
             <uri>https://linkedin.com/in/youkoutaku</uri>
         </author>
         <category label="MATLAB" term="MATLAB"/>
@@ -2852,7 +2855,8 @@ C(z)&amp;=c_p+c_i\frac{T}{2}\frac{1+z^{-1}}{1-z^{-1}}+c_d\frac{1}{\gamma+\frac{T
         <link href="https://youkoutaku.github.io/blog/simulation-linear-discrete-time-system"/>
         <updated>2024-04-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[MATLABを用いた線形離散時間システムの数値シミュレーション実装例]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="システムモデル">システムモデル<a href="https://youkoutaku.github.io/blog/simulation-linear-discrete-time-system#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%83%A2%E3%83%87%E3%83%AB" class="hash-link" aria-label="Direct link to システムモデル" title="Direct link to システムモデル" translate="no">​</a></h2>
+        <content type="html"><![CDATA[
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="システムモデル">システムモデル<a href="https://youkoutaku.github.io/blog/simulation-linear-discrete-time-system#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%83%A2%E3%83%87%E3%83%AB" class="hash-link" aria-label="Direct link to システムモデル" title="Direct link to システムモデル" translate="no">​</a></h2>
 <p>2次の線形離散時間システムを考える：</p>
 <span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>x</mi><mi>t</mi></msub><mo>=</mo><mo>−</mo><msub><mi>a</mi><mn>1</mn></msub><msub><mi>x</mi><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>−</mo><msub><mi>a</mi><mn>2</mn></msub><msub><mi>x</mi><mrow><mi>t</mi><mo>−</mo><mn>2</mn></mrow></msub><mo>+</mo><msub><mi>b</mi><mn>1</mn></msub><msub><mi>u</mi><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>+</mo><msub><mi>b</mi><mn>2</mn></msub><msub><mi>u</mi><mrow><mi>t</mi><mo>−</mo><mn>2</mn></mrow></msub></mrow><annotation encoding="application/x-tex">x_t=-a_1x_{t-1}-a_2x_{t-2}+b_1u_{t-1}+b_2u_{t-2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em"></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.2806em"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">t</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em"></span></span><span class="base"><span class="strut" style="height:0.7917em;vertical-align:-0.2083em"></span><span class="mord">−</span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">t</span><span class="mbin mtight">−</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2083em"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em"></span></span><span class="base"><span class="strut" style="height:0.7917em;vertical-align:-0.2083em"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathnormal">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">t</span><span class="mbin mtight">−</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2083em"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em"></span></span><span class="base"><span class="strut" style="height:0.9028em;vertical-align:-0.2083em"></span><span class="mord"><span class="mord mathnormal">b</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathnormal">u</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">t</span><span class="mbin mtight">−</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2083em"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em"></span></span><span class="base"><span class="strut" style="height:0.9028em;vertical-align:-0.2083em"></span><span class="mord"><span class="mord mathnormal">b</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathnormal">u</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">t</span><span class="mbin mtight">−</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2083em"><span></span></span></span></span></span></span></span></span></span></span>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="z変換による表現">Z変換による表現<a href="https://youkoutaku.github.io/blog/simulation-linear-discrete-time-system#z%E5%A4%89%E6%8F%9B%E3%81%AB%E3%82%88%E3%82%8B%E8%A1%A8%E7%8F%BE" class="hash-link" aria-label="Direct link to Z変換による表現" title="Direct link to Z変換による表現" translate="no">​</a></h3>
@@ -2972,7 +2976,7 @@ M834 80h400000v40h-400000z"></path></svg></span></span></span><span class="vlist
 </ol>
 <p>これらの要素は、システム同定や制御系設計における基本的な数値実験の基盤となる。</p>]]></content>
         <author>
-            <name>Guangze Yang</name>
+            <name>Guang-Ze Yang</name>
             <uri>https://linkedin.com/in/youkoutaku</uri>
         </author>
         <category label="MATLAB" term="MATLAB"/>
@@ -2988,6 +2992,7 @@ M834 80h400000v40h-400000z"></path></svg></span></span></span><span class="vlist
         <updated>2024-01-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Visual Studio CodeでMATLABコードを編集・実行する方法]]></summary>
         <content type="html"><![CDATA[<p>MATLABは、科学技術計算やデータ分析、アルゴリズム開発などに利用される強力なツールですが、専用のMATLABエディタ以外で作業したい場合もあります。VSCodeは、とても人気なエディタであり、たくさんの開発環境に適用できます。例え、MATLAB、LaTex, Python, Cなどがあります。VSCode (Visual Studio Code) を使用してMATLABコードを編集、実行する方法について解説します。</p>
+<!-- -->
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-必要な準備">1. 必要な準備<a href="https://youkoutaku.github.io/blog/vscode-matlab-setup#1-%E5%BF%85%E8%A6%81%E3%81%AA%E6%BA%96%E5%82%99" class="hash-link" aria-label="Direct link to 1. 必要な準備" title="Direct link to 1. 必要な準備" translate="no">​</a></h2>
 <p>VSCodeでMATLABを使用するためには、以下の手順を行う必要があります。</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="必要なソフトウェア">必要なソフトウェア<a href="https://youkoutaku.github.io/blog/vscode-matlab-setup#%E5%BF%85%E8%A6%81%E3%81%AA%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2" class="hash-link" aria-label="Direct link to 必要なソフトウェア" title="Direct link to 必要なソフトウェア" translate="no">​</a></h3>
@@ -3076,11 +3081,11 @@ M834 80h400000v40h-400000z"></path></svg></span></span></span><span class="vlist
 <li class=""><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner" target="_blank" rel="noopener noreferrer" class="">Code Runner Extension</a></li>
 </ul>]]></content>
         <author>
-            <name>Guangze Yang</name>
+            <name>Guang-Ze Yang</name>
             <uri>https://linkedin.com/in/youkoutaku</uri>
         </author>
         <category label="MATLAB" term="MATLAB"/>
-        <category label="VSCode" term="VSCode"/>
+        <category label="VS Code" term="VS Code"/>
         <category label="開発環境" term="開発環境"/>
     </entry>
 </feed>

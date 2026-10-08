@@ -1,12 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://youkoutaku.github.io/project</id>
-    <title>Youkoutaku Blog</title>
-    <updated>2024-12-21T00:00:00.000Z</updated>
+    <title>Guang-Ze Yang Blog</title>
+    <updated>2026-10-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://youkoutaku.github.io/project"/>
-    <subtitle>Youkoutaku Blog</subtitle>
+    <subtitle>Guang-Ze Yang Blog</subtitle>
     <icon>https://youkoutaku.github.io/img/icon/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Control Theory Cookbook]]></title>
+        <id>https://youkoutaku.github.io/project/control-theory-cookbook</id>
+        <link href="https://youkoutaku.github.io/project/control-theory-cookbook"/>
+        <updated>2026-10-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A developing control theory reference connecting mathematical explanations with Python and MATLAB implementations.]]></summary>
+        <content type="html"><![CDATA[<p><strong>Open Source · Educational Resource</strong></p>
+<p>A growing reference that puts mathematical explanations, code, and learning resources alongside each other.</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="purpose">Purpose<a href="https://youkoutaku.github.io/project/control-theory-cookbook#purpose" class="hash-link" aria-label="Direct link to Purpose" title="Direct link to Purpose" translate="no">​</a></h2>
+<p>The Cookbook connects control theory with practical implementation. It is a public educational resource and engineering reference, rather than a separate research contribution.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="currently-available">Currently Available<a href="https://youkoutaku.github.io/project/control-theory-cookbook#currently-available" class="hash-link" aria-label="Direct link to Currently Available" title="Direct link to Currently Available" translate="no">​</a></h2>
+<p>The public repository includes:</p>
+<ul>
+<li class="">Classical PID control implementations in Python and MATLAB.</li>
+<li class="">Modern state-space examples in Python and MATLAB.</li>
+<li class="">Shared Python utilities.</li>
+<li class="">Learning resources and mathematical reference material.</li>
+</ul>
+<p>The broader method collection remains in development. Repository presence is not a claim that every planned method is implemented or evaluated.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="explore-the-code">Explore the Code<a href="https://youkoutaku.github.io/project/control-theory-cookbook#explore-the-code" class="hash-link" aria-label="Direct link to Explore the Code" title="Direct link to Explore the Code" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="https://github.com/youkoutaku/Control-Theory-Cookbook" target="_blank" rel="noopener noreferrer" class="">Control Theory Cookbook</a></li>
+<li class=""><a href="https://github.com/youkoutaku/Control-Theory-Cookbook/tree/main/control_methods/Classical_Control/PID_Control" target="_blank" rel="noopener noreferrer" class="">PID implementations</a></li>
+<li class=""><a href="https://github.com/youkoutaku/Control-Theory-Cookbook/tree/main/control_methods/Modern_Control/State_Space" target="_blank" rel="noopener noreferrer" class="">State-space examples</a></li>
+<li class=""><a class="" href="https://youkoutaku.github.io/docs">Related technical notes</a></li>
+</ul>]]></content>
+        <author>
+            <name>Guang-Ze Yang</name>
+            <uri>https://linkedin.com/in/youkoutaku</uri>
+        </author>
+        <category label="python" term="python"/>
+        <category label="matlab" term="matlab"/>
+        <category label="control-theory" term="control-theory"/>
+        <category label="open-source" term="open-source"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MPC MATLAB Examples]]></title>
+        <id>https://youkoutaku.github.io/project/mpc-matlab-examples</id>
+        <link href="https://youkoutaku.github.io/project/mpc-matlab-examples"/>
+        <updated>2025-12-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Educational MATLAB implementations of constrained MPC, trajectory tracking, and MPC versus LQR comparisons for double-integrator systems.]]></summary>
+        <content type="html"><![CDATA[<p><strong>Engineering · Educational Implementation</strong></p>
+<p>A collection of MATLAB implementations that connect model predictive control theory to quadratic-program formulations and constrained trajectory tracking.</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="scope">Scope<a href="https://youkoutaku.github.io/project/mpc-matlab-examples#scope" class="hash-link" aria-label="Direct link to Scope" title="Direct link to Scope" translate="no">​</a></h2>
+<p>The examples use a double-integrator model to study trajectory tracking, input and state constraints, and comparisons between MPC and LQR. This is an educational engineering implementation.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="public-implementations">Public Implementations<a href="https://youkoutaku.github.io/project/mpc-matlab-examples#public-implementations" class="hash-link" aria-label="Direct link to Public Implementations" title="Direct link to Public Implementations" translate="no">​</a></h2>
+<ul>
+<li class=""><code>MPC_trajectory_main.m</code>: tracking a time-varying reference.</li>
+<li class=""><code>MPC_con_main.m</code>: constrained model predictive control.</li>
+<li class=""><code>MPCvsLQR_QP_main.m</code>: MPC and LQR comparison.</li>
+<li class=""><code>MPC_Toolbox.m</code>: a MATLAB MPC Toolbox comparison.</li>
+<li class=""><code>test/Check_Constraints.m</code>: inspecting constraint satisfaction.</li>
+<li class=""><code>test/Check_QP_Transform.m</code>: checking the QP transformation.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="run-an-example">Run an Example<a href="https://youkoutaku.github.io/project/mpc-matlab-examples#run-an-example" class="hash-link" aria-label="Direct link to Run an Example" title="Direct link to Run an Example" translate="no">​</a></h2>
+<p>The repository documents MATLAB R2020b or later and Optimization Toolbox as requirements. Control System Toolbox is used for system analysis / LQR, and MPC Toolbox is optional for the toolbox comparison.</p>
+<div class="language-matlab codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-matlab codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic">% From the repository root:</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token function" style="color:#d73a49">addpath</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'lib'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token function" style="color:#d73a49">addpath</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'test'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token function" style="color:#d73a49">run</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'MPC_con_main.m'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token function" style="color:#d73a49">run</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'test/Check_Constraints.m'</span><span class="token punctuation" style="color:#393A34">)</span><br></div></code></pre></div></div>
+<p>The scripts expose tracking and constraint behavior for inspection. The website describes the public implementation; it does not report a new benchmark run or hardware experiment.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="source-and-documentation">Source and Documentation<a href="https://youkoutaku.github.io/project/mpc-matlab-examples#source-and-documentation" class="hash-link" aria-label="Direct link to Source and Documentation" title="Direct link to Source and Documentation" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="https://github.com/youkoutaku/MPC-MATLAB-Examples" target="_blank" rel="noopener noreferrer" class="">Source repository</a></li>
+<li class=""><a href="https://github.com/youkoutaku/MPC-MATLAB-Examples/blob/main/README_EN.md" target="_blank" rel="noopener noreferrer" class="">English setup and examples</a></li>
+<li class=""><a href="https://github.com/youkoutaku/MPC-MATLAB-Examples/blob/main/docs/docs_en.md" target="_blank" rel="noopener noreferrer" class="">Detailed English documentation</a></li>
+</ul>]]></content>
+        <author>
+            <name>Guang-Ze Yang</name>
+            <uri>https://linkedin.com/in/youkoutaku</uri>
+        </author>
+        <category label="matlab" term="matlab"/>
+        <category label="optimal-control" term="optimal-control"/>
+        <category label="optimization" term="optimization"/>
+        <category label="engineering" term="engineering"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HF-CLF-CBF-QP — Safety-Critical Formation Tracking]]></title>
+        <id>https://youkoutaku.github.io/project/hf-clf-cbf-qp</id>
+        <link href="https://youkoutaku.github.io/project/hf-clf-cbf-qp"/>
+        <updated>2025-09-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hierarchical fallback optimization for safety-critical multi-robot formation tracking, balancing tracking objectives with barrier constraints.]]></summary>
+        <content type="html"><![CDATA[<p><strong>Research · Publication</strong></p>
+<p>Safety-critical formation tracking asks how a multi-robot controller should respond when performance objectives and safety constraints become difficult to satisfy together.</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="problem">Problem<a href="https://youkoutaku.github.io/project/hf-clf-cbf-qp#problem" class="hash-link" aria-label="Direct link to Problem" title="Direct link to Problem" translate="no">​</a></h2>
+<p>Formation tracking requires coordinated motion while respecting safety and physical constraints. A quadratic-program controller must manage conflicts between these requirements, including infeasible optimization problems.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="method-and-contribution">Method and Contribution<a href="https://youkoutaku.github.io/project/hf-clf-cbf-qp#method-and-contribution" class="hash-link" aria-label="Direct link to Method and Contribution" title="Direct link to Method and Contribution" translate="no">​</a></h2>
+<p>Hierarchical Fallback CLF-CBF-QP combines control Lyapunov functions for tracking performance with high-order control barrier functions for safety and physical constraints. A three-stage fallback strategy prioritizes safety when constraints conflict.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="publication-and-evaluation">Publication and Evaluation<a href="https://youkoutaku.github.io/project/hf-clf-cbf-qp#publication-and-evaluation" class="hash-link" aria-label="Direct link to Publication and Evaluation" title="Direct link to Publication and Evaluation" translate="no">​</a></h2>
+<p><strong>Guang-Ze Yang and Zi-Jiang Yang.</strong> “Safety-Critical Formation Tracking Control of Multi-Robot Systems via CLF-CBF-QP.” <em>2025 International Conference on Advanced Mechatronic Systems (ICAMechS)</em>, pp. 78–83, 2025.</p>
+<ul>
+<li class=""><a href="https://ieeexplore.ieee.org/document/11180981" target="_blank" rel="noopener noreferrer" class="">Conference paper on IEEE Xplore</a></li>
+<li class=""><a href="https://doi.org/10.1109/ICAMechS68051.2025.11180981" target="_blank" rel="noopener noreferrer" class="">DOI</a></li>
+<li class=""><a class="" href="https://youkoutaku.github.io/research#publications">Publication list and BibTeX</a></li>
+</ul>
+<p>Consult the paper for the method's assumptions, evaluation, and results.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="public-materials">Public Materials<a href="https://youkoutaku.github.io/project/hf-clf-cbf-qp#public-materials" class="hash-link" aria-label="Direct link to Public Materials" title="Direct link to Public Materials" translate="no">​</a></h2>
+<p>The <a href="https://github.com/youkoutaku/hf-clf-cbf-qp" target="_blank" rel="noopener noreferrer" class="">public project repository</a> currently contains a framework overview and a license. Implementation code is not yet available there; this page does not claim a publicly runnable reproduction.</p>]]></content>
+        <author>
+            <name>Guang-Ze Yang</name>
+            <uri>https://linkedin.com/in/youkoutaku</uri>
+        </author>
+        <category label="research" term="research"/>
+        <category label="formation-control" term="formation-control"/>
+        <category label="safety-control" term="safety-control"/>
+        <category label="optimization" term="optimization"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Distributed Robust Formation Control for Multi-Agent Systems - SICE 2024 Paper]]></title>
         <id>https://youkoutaku.github.io/project/dr-tvfc-multi-agent-systems</id>
@@ -167,7 +274,7 @@ This work has been <strong>accepted</strong> by the <strong>2024 63rd Annual Con
 <!-- -->Email: <a href="mailto:shikoh.yoh.zijiang@vc.ibaraki.ac.jp" target="_blank" rel="noopener noreferrer" class="">shikoh.yoh.zijiang@vc.ibaraki.ac.jp</a></p>
 <hr>]]></content>
         <author>
-            <name>Guangze Yang</name>
+            <name>Guang-Ze Yang</name>
             <uri>https://linkedin.com/in/youkoutaku</uri>
         </author>
         <category label="formation-control" term="formation-control"/>
@@ -545,7 +652,7 @@ Name: Family, Length: 1309, dtype: int32</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="handle-name">Handle Name<a href="https://youkoutaku.github.io/project/titanic-machine-learning#handle-name" class="hash-link" aria-label="Direct link to Handle Name" title="Direct link to Handle Name" translate="no">​</a></h3>
 <p>koutaku young</p>]]></content>
         <author>
-            <name>Guangze Yang</name>
+            <name>Guang-Ze Yang</name>
             <uri>https://linkedin.com/in/youkoutaku</uri>
         </author>
         <category label="python" term="python"/>
